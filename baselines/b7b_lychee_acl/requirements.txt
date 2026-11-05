@@ -1,0 +1,1 @@
+# B7b needs its own venv (.venv_lychee): see tools/setup_env.ps1. The main venv needs nothing extra.

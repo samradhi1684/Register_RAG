@@ -1,0 +1,1227 @@
+##### b3diag 2wiki attempt 1 Wed, Nov  4, 2026 11:52:22 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4393.44it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4177.12it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 3.4s
+run dir: runs_diag/b3_prior005\georag_2wiki_5cf03c8ada
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 371, 'n_docs': 353, 'units_fingerprint': 'c5ec694a483c488e83c7382020195ae24da42399c599be1d4903829357419eca'}
+  [10/40] last EM=1  latency=5.4s
+  [20/40] last EM=0  latency=3.8s
+  [30/40] last EM=0  latency=4.1s
+  [40/40] last EM=1  latency=3.7s
+{
+  "n": 40,
+  "em": 0.3,
+  "em_ci95": [
+    0.175,
+    0.45
+  ],
+  "f1": 0.4208152958152958,
+  "sent_recall@10": 0.95625,
+  "doc_recall@10": 0.95625,
+  "ctx_all_gold_rate": 0.675,
+  "peak_prompt_tokens_max": 1469,
+  "total_tokens_mean": 1357.0,
+  "latency_p50": 3.741630200000145,
+  "latency_p95": 5.135924500000328,
+  "failure_counts": {
+    "GENERATION_FAILURE": 18,
+    "RERANKING_FAILURE": 9,
+    "CORRECT": 12,
+    "RETRIEVAL_FAILURE": 1
+  }
+}
+##### b3diag musique attempt 1 Wed, Nov  4, 2026 11:55:26 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4895.20it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6522.93it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00003944 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00003100 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00002e00 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1567 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 2 Wed, Nov  4, 2026 11:56:09 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4891.73it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4155.87it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00000c98 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00005c18 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x0000154c (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1574 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 3 Wed, Nov  4, 2026 11:56:26 AM
+Windows fatal exception: access violation
+
+Current thread 0x000028bc (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1309 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1357 in op_overloads
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 82 in _add_op_to_registry
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 71 in register
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\utils\_pytree.py", line 1617 in tree_map_
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 73 in wrapper
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 8990 in _create_binary_float_meta_func
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 9011 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\__init__.py", line 3329 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_rope_utils.py", line 28 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\configuration_utils.py", line 38 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\load.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\__init__.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1579 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 4 Wed, Nov  4, 2026 11:56:33 AM
+Windows fatal exception: access violation
+
+Current thread 0x000045f4 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\tokenize.py", line 582 in _generate_tokens_from_c_tokenizer
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\tokenize.py", line 492 in tokenize
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\utils\_config_module.py", line 279 in get_assignments_with_compile_ignored_comments
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\utils\_config_module.py", line 248 in install_config_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_inductor\config.py", line 3178 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_inductor\cpp_builder.py", line 30 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_inductor\standalone_compile.py", line 20 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_inductor\__init__.py", line 12 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_dynamo\trace_rules.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_dynamo\symbolic_convert.py", line 65 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_dynamo\convert_frame.py", line 62 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_dynamo\aot_compile.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_dynamo\__init__.py", line 13 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\compiler\__init__.py", line 352 in disable
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\generation\continuous_batching\cache.py", line 392 in PagedAttentionCache
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\generation\continuous_batching\cache.py", line 70 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\generation\continuous_batching\__init__.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\integrations\flash_attention.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\integrations\hub_kernels.py", line 40 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2704 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1412 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_utils.py", line 65 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+./runs_diag/b3_diag.sh: line 7:  1582 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 5 Wed, Nov  4, 2026 11:56:41 AM
+Windows fatal exception: code 0x80000003
+
+Current thread 0x00002afc (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1309 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1357 in op_overloads
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_prims\__init__.py", line 352 in _make_prim
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_prims\__init__.py", line 2335 in _make_reduction_prim
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_prims\__init__.py", line 2355 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\decompositions.py", line 17 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 301 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 12 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\__init__.py", line 3329 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_rope_utils.py", line 28 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\configuration_utils.py", line 38 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\load.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\__init__.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+##### b3diag musique attempt 6 Wed, Nov  4, 2026 11:56:47 AM
+Windows fatal exception: access violation
+
+Current thread 0x00003a5c (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1280 in _schemas
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1255 in __init__
+  File "__init__", line ??? in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1474 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 561 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\__init__.py", line 3329 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_rope_utils.py", line 28 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\configuration_utils.py", line 38 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\load.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\__init__.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1590 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 7 Wed, Nov  4, 2026 11:56:54 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5016.57it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4592.16it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+  [10/40] last EM=1  latency=5.1s
+Windows fatal exception: access violation
+
+Thread 0x00001424 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00004240 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00005dcc (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1593 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 8 Wed, Nov  4, 2026 11:57:35 AM
+Windows fatal exception: access violation
+
+Current thread 0x00003244 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1309 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_ops.py", line 1357 in op_overloads
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 82 in _add_op_to_registry
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 237 in register
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\utils\_pytree.py", line 1617 in tree_map_
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 240 in decomposition_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_refs\__init__.py", line 5633 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_decomp\__init__.py", line 302 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\_meta_registrations.py", line 12 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\__init__.py", line 3329 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_rope_utils.py", line 28 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\configuration_utils.py", line 38 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\load.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\__init__.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1602 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 9 Wed, Nov  4, 2026 11:57:42 AM
+Windows fatal exception: code 0xc000001d
+
+Current thread 0x00002728 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208 in sub
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\utils.py", line 35 in apply
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\punctuation_replacer.py", line 33 in replace_punctuation
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208 in sub
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 65 in sub_punctuation_between_parens
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 58 in sub_punctuation_between_quotes_and_parens
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 51 in replace
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 189 in between_punctuation
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 160 in process_text
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 150 in check_for_punctuation
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 78 in split_into_segments
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 41 in process
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\segmenter.py", line 87 in segment
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\units.py", line 77 in split
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\units.py", line 87 in doc_from_text
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\data.py", line 105 in parse_musique_record
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\data.py", line 143 in load_examples
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 52 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Fatal Python error: Illegal instruction
+
+Current thread 0x00002728 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208 in sub
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\utils.py", line 35 in apply
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\punctuation_replacer.py", line 33 in replace_punctuation
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 208 in sub
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 65 in sub_punctuation_between_parens
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 58 in sub_punctuation_between_quotes_and_parens
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\between_punctuation.py", line 51 in replace
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 189 in between_punctuation
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 160 in process_text
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 150 in check_for_punctuation
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 78 in split_into_segments
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\processor.py", line 41 in process
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\pysbd\segmenter.py", line 87 in segment
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\units.py", line 77 in split
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\units.py", line 87 in doc_from_text
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\data.py", line 105 in parse_musique_record
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\data.py", line 143 in load_examples
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 52 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg (total: 2)
+##### b3diag musique attempt 10 Wed, Nov  4, 2026 11:57:46 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4832.90it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4759.20it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.5s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+  [20/40] last EM=0  latency=3.7s
+  [30/40] last EM=0  latency=2.9s
+Windows fatal exception: access violation
+
+Thread 0x0000635c (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00003558 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00004460 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1608 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 11 Wed, Nov  4, 2026 11:59:21 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5323.30it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4557.42it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00003c98 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x0000081c (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00004410 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1621 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 12 Wed, Nov  4, 2026 11:59:37 AM
+Windows fatal exception: code 0xc000001d
+
+Current thread 0x00006190 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2968 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4122 in _process_parameters_section
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4436 in auto_method_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4631 in auto_class_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4856 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\umt5\configuration_umt5.py", line 22 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1412 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\__init__.py", line 4 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 15 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Fatal Python error: Illegal instruction
+
+Current thread 0x00006190 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2968 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4122 in _process_parameters_section
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4436 in auto_method_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4631 in auto_class_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4856 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\umt5\configuration_umt5.py", line 22 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1412 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\__init__.py", line 4 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 15 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, regex._regex, markupsafe._speedups, yaml._yaml, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.sparse._sparsetools, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, charset_normalizer.md, charset_normalizer.cd, _csparsetools, scipy.sparse._csparsetools, sklearn.__check_build._check_build, scipy.special._ufuncs_cxx, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg._batched_linalg, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._internal_matfuncs, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg.cython_lapack, scipy.linalg._decomp_update, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.spatial._ckdtree, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.interpolate._fitpack, scipy.interpolate._dierckx, scipy.interpolate._ppoly, scipy.interpolate._interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy.stats._ansari_swilk_statistics, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._rcont.rcont, scipy.stats._qmvnt_cy, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, sklearn._cyutility, sklearn.utils._isfinite, sklearn.utils.sparsefuncs_fast, sklearn.utils.murmurhash, sklearn.utils._openmp_helpers, sklearn.metrics.cluster._expected_mutual_info_fast, sklearn.metrics._dist_metrics, sklearn.metrics._pairwise_distances_reduction._datasets_pair, sklearn.utils._cython_blas, sklearn.metrics._pairwise_distances_reduction._base, sklearn.metrics._pairwise_distances_reduction._middle_term_computer, sklearn.utils._heap, sklearn.utils._sorting, sklearn.metrics._pairwise_distances_reduction._argkmin, sklearn.metrics._pairwise_distances_reduction._argkmin_classmode, sklearn.utils._vector_sentinel, sklearn.metrics._pairwise_distances_reduction._radius_neighbors, sklearn.metrics._pairwise_distances_reduction._radius_neighbors_classmode, sklearn.metrics._pairwise_fast, sklearn.preprocessing._csr_polynomial_expansion, sklearn.preprocessing._target_encoder_fast (total: 128)
+##### b3diag musique attempt 13 Wed, Nov  4, 2026 11:59:46 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4623.93it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 3909.99it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00004a78 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00000970 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00006364 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1629 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 14 Wed, Nov  4, 2026 12:00:10 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4788.98it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4531.77it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x0000210c (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x000045a4 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x0000199c (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1634 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 15 Wed, Nov  4, 2026 12:00:37 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4992.56it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 5033.97it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00005894 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00002e58 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x000055a0 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1641 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 16 Wed, Nov  4, 2026 12:01:01 PM
+Windows fatal exception: access violation
+
+Current thread 0x00005378 (most recent call first):
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1320 in create_module
+  File "<frozen importlib._bootstrap>", line 813 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 921 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\torch\__init__.py", line 496 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\modeling_rope_utils.py", line 28 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\configuration_utils.py", line 38 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\load.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\backend\__init__.py", line 3 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1646 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 17 Wed, Nov  4, 2026 12:01:07 PM
+Windows fatal exception: code 0xc000001d
+
+Current thread 0x00004bc0 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2972 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4190 in _prepare_return_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4295 in _process_returns_section
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4449 in auto_method_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4852 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4859 in auto_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 994 in BertForNextSentencePrediction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 983 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 532 in getattribute_from_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 622 in _load_attr_from_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 608 in __getitem__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 178 in _get_model_class
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 360 in from_pretrained
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 2343 in _load_model
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 855 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 92 in wrapper
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 2641 in load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 1431 in _load_config_modules
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 1211 in _load_modules
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 256 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 193 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 46 in wrapper
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 40 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Fatal Python error: Illegal instruction
+
+Current thread 0x00004bc0 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2972 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4190 in _prepare_return_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4295 in _process_returns_section
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4449 in auto_method_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4852 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4859 in auto_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 994 in BertForNextSentencePrediction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 983 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 532 in getattribute_from_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 622 in _load_attr_from_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 608 in __getitem__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 178 in _get_model_class
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 360 in from_pretrained
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 2343 in _load_model
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 855 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 92 in wrapper
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 2641 in load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 1431 in _load_config_modules
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 1211 in _load_modules
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 256 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 193 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 46 in wrapper
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 40 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, regex._regex, markupsafe._speedups, yaml._yaml, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.sparse._sparsetools, charset_normalizer.md, charset_normalizer.cd, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, _csparsetools, scipy.sparse._csparsetools, sklearn.__check_build._check_build, scipy.special._ufuncs_cxx, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg._batched_linalg, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._internal_matfuncs, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg.cython_lapack, scipy.linalg._decomp_update, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.spatial._ckdtree, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.interpolate._fitpack, scipy.interpolate._dierckx, scipy.interpolate._ppoly, scipy.interpolate._interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy.stats._ansari_swilk_statistics, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._rcont.rcont, scipy.stats._qmvnt_cy, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, sklearn._cyutility, sklearn.utils._isfinite, sklearn.utils.sparsefuncs_fast, sklearn.utils.murmurhash, sklearn.utils._openmp_helpers, sklearn.metrics.cluster._expected_mutual_info_fast, sklearn.metrics._dist_metrics, sklearn.metrics._pairwise_distances_reduction._datasets_pair, sklearn.utils._cython_blas, sklearn.metrics._pairwise_distances_reduction._base, sklearn.metrics._pairwise_distances_reduction._middle_term_computer, sklearn.utils._heap, sklearn.utils._sorting, sklearn.metrics._pairwise_distances_reduction._argkmin, sklearn.metrics._pairwise_distances_reduction._argkmin_classmode, sklearn.utils._vector_sentinel, sklearn.metrics._pairwise_distances_reduction._radius_neighbors, sklearn.metrics._pairwise_distances_reduction._radius_neighbors_classmode, sklearn.metrics._pairwise_fast, sklearn.preprocessing._csr_polynomial_expansion, sklearn.preprocessing._target_encoder_fast (total: 128)
+##### b3diag musique attempt 18 Wed, Nov  4, 2026 12:01:16 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5383.42it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 5304.71it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.6s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00002ccc (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00006340 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00000a94 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1654 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 19 Wed, Nov  4, 2026 12:01:32 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5166.77it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 7042.71it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x000041bc (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00003cc0 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00001624 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1657 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 20 Wed, Nov  4, 2026 12:01:48 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5109.31it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4828.60it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00003984 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x000043c8 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x0000406c (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1662 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 21 Wed, Nov  4, 2026 12:02:04 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5956.37it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6474.69it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00000ec0 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00001784 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x0000412c (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1667 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 22 Wed, Nov  4, 2026 12:02:20 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4943.95it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4572.99it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+Windows fatal exception: access violation
+
+Thread 0x00000fd0 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Thread 0x00002980 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x00002ddc (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 83 in _wrapreduction
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2463 in sum
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 42 in _lse
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 54 in sinkhorn_cost
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 75 in greedy_select
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\baselines\b3_georag\georag.py", line 179 in run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\runner.py", line 88 in run_system
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 87 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./runs_diag/b3_diag.sh: line 7:  1672 Segmentation fault      $PY -m registerrag.cli run --system georag --dataset $ds --data "$data" --out runs_diag/b3_prior005 --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --limit 40 --method-arg prior_temp=0.05
+##### b3diag musique attempt 23 Wed, Nov  4, 2026 12:02:36 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5115.91it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4533.82it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.3s
+run dir: runs_diag/b3_prior005\georag_musique_d271d86aa7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 754, 'n_docs': 750, 'units_fingerprint': 'a2b1820fcc3e8ff4fa19d548975d38a91e328ce8c069be04202a09a37d90f880'}
+  [40/40] last EM=0  latency=3.0s
+{
+  "n": 40,
+  "em": 0.075,
+  "em_ci95": [
+    0.0,
+    0.175
+  ],
+  "f1": 0.16773809523809524,
+  "sent_recall@10": null,
+  "doc_recall@10": 0.725,
+  "ctx_all_gold_rate": 0.1,
+  "peak_prompt_tokens_max": 1151,
+  "total_tokens_mean": 1390.15,
+  "latency_p50": 3.941585299999133,
+  "latency_p95": 5.232309400000304,
+  "failure_counts": {
+    "RERANKING_FAILURE": 31,
+    "RETRIEVAL_FAILURE": 3,
+    "CORRECT": 3,
+    "GENERATION_FAILURE": 3
+  }
+}
+##### B3DIAG DONE Wed, Nov  4, 2026 12:02:50 PM

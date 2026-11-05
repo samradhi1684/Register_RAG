@@ -1,0 +1,4898 @@
+[
+ {
+  "qid": "3hop1__28527_42197_18397",
+  "dataset": "musique",
+  "question": "Where did the arguer that the country in control of Estonia before the Germans had become an imperialist power declare he would intervene in the Korean conflict?",
+  "answers": [
+   "the Politburo",
+   "Politburo"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who was in control of Estonia before the Germans?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8632c6471b06"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the USSR",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Who argued that the the answer to R1 had itself become an imperialist power?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dceb7ac0c8bce"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mao Zedong",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Where did the answer to R2 declare that he would intervene in the Korean conflict?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Df103eb0df0cb"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Politburo",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__567955_503371_21711",
+  "dataset": "musique",
+  "question": "When was the Palau de la Generalitat constructed in the city where Martin of the region where Layana is located died?",
+  "answers": [
+   "built in the 15th century",
+   "15th century"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Layana >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcf5ed86ef33e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aragon",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Martin of the answer to R1 >> place of death",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D6c9aae8c1e8f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Barcelona",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "When was the Palau de la Generalitat in the answer to R2 constructed?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "De300efdaab3e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "built in the 15th century",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__135794_87694_64412",
+  "dataset": "musique",
+  "question": "When did the city where the Basilica that is named after the same saint as the one in San Pietro in Montorio located in become a country?",
+  "answers": [
+   "11 February 1929"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who is the San Pietro in Montorio named after?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D15da10eeb056"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Peter",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "st. the answer to R1 \u2019s basilica the head of the catholic religion is located in",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df92e362a6ffc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Vatican City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 become its own country",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D71fc5b812c35"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "11 February 1929",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__35137_22943",
+  "dataset": "musique",
+  "question": "Where did the author of The Canon of Medicine think Venus was in relation to the sun?",
+  "answers": [
+   "below the Sun",
+   "the Sun",
+   "Sol",
+   "Sun"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who wrote The Canon of Medicine?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D11809ece8ffc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Avicenna",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where did the answer to R1 think Venus was in relation to the sun?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D917630caf578"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "below the Sun",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__23297_23366",
+  "dataset": "musique",
+  "question": "Why did the leader who broke the Molotov\u2013Ribbentrop Pact by invading Bukovina first sign it?",
+  "answers": [
+   "reinforce a public affection for Germany",
+   "Germany",
+   "de",
+   "GER"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who broke the agreement with the invasion of Bukovina?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D254fe8b436fa"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Stalin",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Why did the answer to R1 sign the pact?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da89fe792625f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "reinforce a public affection for Germany",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__354635_174222",
+  "dataset": "musique",
+  "question": "What company succeeded the owner of Empire Sports Network?",
+  "answers": [
+   "Time Warner Cable",
+   "Time Warner"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Empire Sports Network >> owned by",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3f85594eedc2"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Adelphia Communications Corporation",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> followed by",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D42fea505bd1d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Time Warner Cable",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__433767_32392_823060_610794",
+  "dataset": "musique",
+  "question": "In what county is located the city that shares a border with the capital of the state where Mike Dow was born?",
+  "answers": [
+   "Richland County",
+   "Richland County, South Carolina"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Mike Dow >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dacf233d1aafd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "South Carolina",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city became the state capital of the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df48a0d225df8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Columbia",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> shares border with",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D72b18297aefc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Forest Acres",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Dd52132abaf01"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Richland County",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__813358_24325_125104_10557",
+  "dataset": "musique",
+  "question": "The carnival in the town where Jean Mathonet died is rooted in a European culture. In Rotrude's father's era, the language of that culture was later known by what name?",
+  "answers": [
+   "Medieval Latin"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Jean Mathonet >> place of death",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4edf043d0531"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Malmedy",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Despite being located in East Belgium, the answer to R1 's Carnival harks purely to what area?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D3e7c44745e0e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Latin",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Who was Rotrude's father?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D952447ed7bac"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Charlemagne",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "What was the the answer to R2 of the answer to R3 's era later known as?",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D0e135733d68a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Medieval Latin",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__16632_110014",
+  "dataset": "musique",
+  "question": "What year was the person who described the use of bitumen and pitch to tar ships born?",
+  "answers": [
+   "1517"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who described the use of bitumen and pitch to tar ships?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D51ad46958d41"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Pierre Belon",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "The date of birth for the answer to R1 is what?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dfd65aa167ea8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1517",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__445963_6098",
+  "dataset": "musique",
+  "question": "Over how many slaves ended up getting emancipated on the birth place of Francis Watson?",
+  "answers": [
+   "800"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Francis Watson >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2f743beee47b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Saint Helena",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Over how many slaves ended up getting emancipated on the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D1713ad5a951d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "800",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__342858_131850_33952_34099",
+  "dataset": "musique",
+  "question": "How long are the city council terms in the second largest city in the state where Yuma is located?",
+  "answers": [
+   "four-year"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Yuma >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dab22b4aacb1e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Yuma County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Which state is the answer to R1 Library District located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D22606e39fb80"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Arizona",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What is the second largest city in the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Daab7c877660d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Tucson",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "How long are the answer to R3 's city council terms?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Db2d8a46c15ab"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "four-year",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__604991_339990_54675",
+  "dataset": "musique",
+  "question": "What mountain can you see from Portland in the state where Frozen Run's county is located?",
+  "answers": [
+   "Tualatin Mountains"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Frozen Run >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6e3c8ed48203"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Columbia County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dad5f9756a26f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Oregon",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what mountain can you see from portland the answer to R2",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D7d5b5d119bb9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Tualatin Mountains",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__119402_102039_158266",
+  "dataset": "musique",
+  "question": "What is the leading ballet company in the country where the discoverer of C/2014 Q2 (Lovejoy) is a citizen?",
+  "answers": [
+   "The Australian Ballet"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who found C/2014 Q2 (Lovejoy)?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D67bf98edbc20"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Terry Lovejoy",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Of what country is the answer to R1 a citizen?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D44eac305b3f5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Australia",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Name one ballet company in the answer to R2 .",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dd7ebe74aea3f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The Australian Ballet",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__256336_714772",
+  "dataset": "musique",
+  "question": "Who is the spouse of a cast member from King of the Mountain?",
+  "answers": [
+   "Lisa Rinna"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "King of the Mountain >> cast member",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddd4e13d42e0c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Harry Hamlin",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> spouse",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D99b7089cc178"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Lisa Rinna",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__132957_222979_40768",
+  "dataset": "musique",
+  "question": "When did Nissan, the Acura Legend maker and the Scion owner open US assembly plants?",
+  "answers": [
+   "1981"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who made Acura Legend?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D15143a1eaa54"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Honda",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Scion >> owned by",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D399aa40c1f91"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Toyota",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "When did the answer to R1 , the answer to R2 and Nissan open US assembly plants?",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D91fdad99287e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1981",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__152146_5274_458768_33637",
+  "dataset": "musique",
+  "question": "How many ethnic minorities were looked at differently in the city where the headquarters of the only group larger than L\u00e5nga n\u00e4tter's record label is located?",
+  "answers": [
+   "two"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What was the record label of L\u00e5nga n\u00e4tter?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D88ffe07b5663"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sony Music Entertainment",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What company is the only group larger than the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Ddd5771102cc9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Universal Music Group.",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> headquarters location",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D9bb7fc532718"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Santa Monica",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "How many ethnic minorities were looked at differently in the answer to R3 ?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D1a1bf933e46e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "two",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__44259_747874",
+  "dataset": "musique",
+  "question": "Who is the sibling of the player who won the 2012 U.S. Open Men's Singles final?",
+  "answers": [
+   "Jamie Murray"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who won men's us open tennis 2012",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2b53a97c980c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Andy Murray",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> sibling",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D6b003d7fbe74"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Jamie Murray",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__107601_110222",
+  "dataset": "musique",
+  "question": "When is the birthday of the creator of Le ruisseau noir?",
+  "answers": [
+   "10 June 1819"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "The Le ruisseau noir was made by whom?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D906ea4242386"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Gustave Courbet",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "The date of birth of the answer to R1 is?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D5c64f57cac1e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "10 June 1819",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__129721_40482",
+  "dataset": "musique",
+  "question": "From whom did the Huguenots in the state encompassing Zubly Cemetery purchase land from?",
+  "answers": [
+   "Edmund Bellinger"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "In which state is Zubly Cemetery located?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dedd94f302fc9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "South Carolina",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "From whom did the Huguenots in the answer to R1 purchase land from?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dfd6b90e3c792"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Edmund Bellinger",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__92991_73181_68042",
+  "dataset": "musique",
+  "question": "When did the majority party in the body which determines rules of the US House and US Senate gain control of the House?",
+  "answers": [
+   "the 2010 election"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who determines the rules of the us house and us senate",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da6ef33a291b2"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The Senate",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "what is the majority political party in the the answer to R1 now",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D7186d164829d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Republicans",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the the answer to R2 gain control of the house",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D775ab2cd6647"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the 2010 election",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__140994_2053_5289",
+  "dataset": "musique",
+  "question": "What UK label was bought by the company which, along with ABC and the network which broadcasted Hello, Larry, is the other major broadcaster based in NY?",
+  "answers": [
+   "Oriole Records.",
+   "Oriole Records"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Which channel broadcast Hello, Larry?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da9784eaab4da"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "NBC",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Along with ABC and the answer to R1 , what other major broadcaster is based in New York?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D158ba1e74086"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "CBS",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What lable was bought by the answer to R2 in the UK?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D60ea8ead9f93"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Oriole Records.",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__406043_831637_91775",
+  "dataset": "musique",
+  "question": "What does seal stand for in the seals of the service operating list of destroyer classes of the operator of USS Peril?",
+  "answers": [
+   "Sea, Air, and Land"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "USS Peril >> operator",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db5a7381a009b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "United States Navy",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "list of destroyer classes of the answer to R1 >> operator",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df3dad04276bc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "U.S. Navy",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what does seal stand for in the answer to R2 seals",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D8034e60d1fc7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sea, Air, and Land",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__39063_593388",
+  "dataset": "musique",
+  "question": "Who is the father of the person who came up with the concept of the \"new\" police?",
+  "answers": [
+   "Sir Robert Peel, 1st Baronet"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who came up with the concept of the 'new' police?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6b054bdb4e98"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Robert Peel",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> father",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da2cd320e301c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sir Robert Peel, 1st Baronet",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__622497_160088_49779",
+  "dataset": "musique",
+  "question": "Who is the host of Who Wants to be a Millionaire in the country that the producer of The Wild Women of Chastity Gulch is from?",
+  "answers": [
+   "Chris Harrison"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "The Wild Women of Chastity Gulch >> producer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D13ac24c753bf"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aaron Spelling",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What nationality was the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D65f0effb9f2f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "an American",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 who wants to be a millionaire host",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D1715d4136c1d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Chris Harrison",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__370911_589237",
+  "dataset": "musique",
+  "question": "Who is the spouse of the Redcap cast member?",
+  "answers": [
+   "Sheila Hancock"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Redcap >> cast member",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D019b1798c6ad"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "John Thaw",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> spouse",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dcd158949e626"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sheila Hancock",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__571599_49925_13759_736921",
+  "dataset": "musique",
+  "question": "Where is the district that the person who wanted to reform and address Medardo Joseph Mazombwe's religion preached a sermon on Marian devotion before his death located?",
+  "answers": [
+   "Saxony-Anhalt"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Medardo Joseph Mazombwe >> religion",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5999e28843d6"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Catholic Church",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who wanted the answer to R1 to reform and address",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D312f5a148d06"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Martin Luther",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Where did the answer to R2 preach a sermon on Marian devotion a month before his death?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D35ed1d15cae5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Wittenberg",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D2bd864fb8801"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Saxony-Anhalt",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__595371_40769_64047",
+  "dataset": "musique",
+  "question": "When did the RX 350 from the Scion xB manufacturer's luxury division change body style?",
+  "answers": [
+   "Sales began worldwide in April 2012"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Scion xB >> manufacturer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbdf0637309d9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Toyota",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Name a luxury division of the answer to R1 .",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D91fdad99287e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Lexus",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 rx 350 change body style",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D56231a18b2b3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sales began worldwide in April 2012",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__765847_831637_91775",
+  "dataset": "musique",
+  "question": "What does SEAL stand for in the branch of military that operates USS Mahan?",
+  "answers": [
+   "Sea, Air, and Land"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "USS Mahan >> operator",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfc5cd6025e1d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "United States Navy",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "list of destroyer classes of the answer to R1 >> operator",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df3dad04276bc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "U.S. Navy",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what does seal stand for in the answer to R2 seals",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D8034e60d1fc7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sea, Air, and Land",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__131002_53706_795904_580996",
+  "dataset": "musique",
+  "question": "What city shares a border with the city where a person went to work during the gold rush in the state where the Shakespeare Bridge is located?",
+  "answers": [
+   "Rio Linda"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What state is Shakespeare Bridge located?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D031bbbea518b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "California",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "someone who went to the answer to R1 during the gold rush",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dcf464570f287"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Samuel Brannan",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> work location",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Db431db326723"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sacramento",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> shares border with",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D6b7fbb30d453"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Rio Linda",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__91667_67223",
+  "dataset": "musique",
+  "question": "Who married the person telling the story in how i met your mother?",
+  "answers": [
+   "Tracy Mosby"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who is telling the story in how i met your mother",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db1d28860d00f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Ted Mosby",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who married the answer to R1 in how i met your mother",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Db30483f6c726"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Tracy Mosby",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__160230_470287_862998_72134",
+  "dataset": "musique",
+  "question": "When did the city where Hillcrest High School is located become capitol of the state in which a statue of a Latin mother goddess is located?",
+  "answers": [
+   "1839"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "what was the title of the various Latin Mother goddess?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D71acf0903f5a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "alma mater",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D4fccab490752"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Illinois",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Hillcrest High School >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D99fd45fb25dd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Springfield",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when did the answer to R3 become the capital of the answer to R2",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Df095b9050f07"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1839",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__152880_131926_90707",
+  "dataset": "musique",
+  "question": "Where does the body of water by the city Astronautalis is from and the Ohio River meet?",
+  "answers": [
+   "at the city of Cairo, Illinois"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What city is Astronautalis from?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4a7f95694181"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Minneapolis",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Which is the body of water by the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D6325312f070b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mississippi River",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "where does the answer to R2 and ohio river meet",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D6748ee079538"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "at the city of Cairo, Illinois",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__6956_192417",
+  "dataset": "musique",
+  "question": "The league the New England Patriots belongs to is an example of what?",
+  "answers": [
+   "sports league",
+   "Sports league",
+   "league"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What league do the new England patriots belong to?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D29f6ef2e19e5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the National Football League",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> instance of",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da05ca3cd7a40"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "sports league",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__9174_9237",
+  "dataset": "musique",
+  "question": "When did the first mosque in the capital of the Marshall Islands open?",
+  "answers": [
+   "September 2012",
+   "2012"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What is the capital of the Marshall Islands?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De5ecf7f168ca"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Majuro",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "When did the first mosque in the answer to R1 open?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D39fdf6bbbabc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "September 2012",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__131818_161450",
+  "dataset": "musique",
+  "question": "Where is the Voshmgir District located?",
+  "answers": [
+   "in the north-east of the country south of the Caspian Sea",
+   "Caspian Sea"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Which state is Voshmgir District located?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De355c20ac0c5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Golestan Province",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where is the answer to R1 located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "De81f97925474"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "in the north-east of the country south of the Caspian Sea",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__222979_133099_40768",
+  "dataset": "musique",
+  "question": "When did Nissan along with the company that makes the Comstar wheel and the company that makes the Scion open US assembly plants?",
+  "answers": [
+   "1981"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Scion >> owned by",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D399aa40c1f91"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Toyota",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What company makes Comstar wheel?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D104587e1a851"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Honda",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "When did the answer to R2 , the answer to R1 and Nissan open US assembly plants?",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D91fdad99287e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1981",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__726675_508773_85832_745702",
+  "dataset": "musique",
+  "question": "Who is the child of the Italian navigator who explored the eastern coast of the continent C\u00e9sar Gaytan was born in for the English?",
+  "answers": [
+   "Sebastian Cabot"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "C\u00e9sar Gaytan >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0d73897e9b59"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Guadalajara",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> continent",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D18f326575ce6"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "North America",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "who was the italian navigator sailing for england that explored the eastern coast of the answer to R2",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dd73be40535bf"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "John Cabot",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> child",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D4c25ce78978e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sebastian Cabot",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__813171_153080_159767_81096",
+  "dataset": "musique",
+  "question": "Who won the Indy car race in the largest city and capitol of the state where the Changes Two performer is from?",
+  "answers": [
+   "Mario Andretti"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Changes Two >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0e6dab1256fc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Charles Mingus",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city is the answer to R1 from?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D37cd227b47e4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Arizona",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what city is both the largest city and the state capital of the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da290c66b797a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Phoenix",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "who won the indy car race in the answer to R3",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "De65ae60b5c09"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mario Andretti",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__46196_497223_15840_36014",
+  "dataset": "musique",
+  "question": "What was Nintendo's limit on games per developer per year for the platform supporting the video game named after the sports organisation in charge of the Super Bowl halftime show?",
+  "answers": [
+   "five"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who is in charge of the super bowl halftime show",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De2c3f04412f7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The NFL",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> platform",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D75a2520e304f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Nintendo Entertainment System",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What is the abbreviation of the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da2596ef2d8da"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "NES",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "What was Nintendo's limit on games per developer per year on the the answer to R3 ?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D9f14b070c948"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "five",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__668178_765799_282674_759393",
+  "dataset": "musique",
+  "question": "What is the seat of the county sharing a border with the county where Don Werner was born?",
+  "answers": [
+   "Green Bay"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Don Werner >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D37354ac63394"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Appleton",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> capital of",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da772d7439976"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Outagamie County",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> shares border with",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D94cfc2a89d87"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Brown County",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> capital",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D5d424256b3dd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Green Bay",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__53433_59035",
+  "dataset": "musique",
+  "question": "The beautiful country used as a backdrop for the movie The Lord of the Rings was founded on what date?",
+  "answers": [
+   "6 February 1840"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "where did lord of the rings get filmed",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D15fb6ad8018f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "New Zealand",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "when was the answer to R1 founded as a country",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D6b40a9faee82"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "6 February 1840",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__358853_339990_15538",
+  "dataset": "musique",
+  "question": "When did the state, that contains the county where Raven Creek is located, reinstate the death penalty?",
+  "answers": [
+   "1984"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Raven Creek >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db2b6a0a473c0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Columbia County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dad5f9756a26f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Oregon",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "When did the answer to R2 reinstate the death penalty?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Ddaecd25af2ae"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1984",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__443274_17130_70784_61381",
+  "dataset": "musique",
+  "question": "When was the region that lies to the north of the country where Sar-El is located and the Persian Gulf established?",
+  "answers": [
+   "1932"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Sar-El >> country",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D67a863832fcb"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Israel",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where is the answer to R1 located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D30a85a16dc40"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Middle East",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what region lies immediately to the north of the answer to R2 and the persian gulf",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Db51e844a8fd4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Kingdom of Saudi Arabia",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when was the answer to R3 established",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D84006802c24b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1932",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__53937_92673",
+  "dataset": "musique",
+  "question": "Where is the place where Rudolph the red-nosed reindeer lives on the world map?",
+  "answers": [
+   "latitude 90 \u00b0 North"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "where does rudolph the red nosed reindeer live",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd57a24b21449"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the North Pole",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "where is the answer to R1 on the world map",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D03b2b89cfa8a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "latitude 90 \u00b0 North",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__665660_135481",
+  "dataset": "musique",
+  "question": "The 1967 Federation Cup is an instance of this tournament which is named after what organization?",
+  "answers": [
+   "International Tennis Federation",
+   "ITF"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "1967 Federation Cup >> instance of",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6426f6076c3f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Fed Cup",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What is the answer to R1 named after?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D75bc7184e84c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "International Tennis Federation",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__151650_5274_458768_33637",
+  "dataset": "musique",
+  "question": "How many ethnic minorities were looked at differently in the city where the headquarters of the only group larger than Desde El Principio's record label is located?",
+  "answers": [
+   "two"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What was the record label of Desde El Principio?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9735e6ff7fd6"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sony Music Entertainment",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What company is the only group larger than the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Ddd5771102cc9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Universal Music Group.",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> headquarters location",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D9bb7fc532718"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Santa Monica",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "How many ethnic minorities were looked at differently in the answer to R3 ?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D1a1bf933e46e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "two",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop2__71753_158279_70784_61381",
+  "dataset": "musique",
+  "question": "When was the region immediately north of the region where Israel is located and the final destination for the export crops established?",
+  "answers": [
+   "1932"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "what region of the world is israel located",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D31f3cc5946eb"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Middle East,",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where was the final destination for the export crops ?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D58580ab80543"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Persian Gulf",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what region lies immediately to the north of the answer to R1 and the answer to R2",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Db51e844a8fd4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Kingdom of Saudi Arabia",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when was the answer to R3 established",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D84006802c24b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1932",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__39836_29339_508306_70744",
+  "dataset": "musique",
+  "question": "Who won more national championships between the university featuring Fort Hill and the university of the state where Edwards won the primary besides the state where the Richmond Braves moved?",
+  "answers": [
+   "University of South Carolina",
+   "SC"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Where did the Richmond Braves move to?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dce00707a45f3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Georgia",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Besides the answer to R1 , what other state primary did Edwards win?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D96b9f9d94f0d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "South Carolina",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Fort Hill >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D29dd4c9b1044"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Clemson",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "who has more national championships the answer to R3 or the answer to R2",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D053e68797bc4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "University of South Carolina",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__66167_72467",
+  "dataset": "musique",
+  "question": "Where did the player who scored the most points in a NBA season go in the NBA Draft?",
+  "answers": [
+   "Seattle SuperSonics",
+   "Sonics"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who has the most points in a nba season",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db28eb90e0903"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Kevin Durant",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "where did the answer to R1 go in the nba draft",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df15a43a0e3f2"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Seattle SuperSonics",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__90327_89854_76291",
+  "dataset": "musique",
+  "question": "When did the party that holds the majority in the House of Representatives take control of the organization that approves the members of the U.S. cabinet before their appointment?",
+  "answers": [
+   "January 2015"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "the members of american cabinet are appointed after the approval of",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D90e15a187622"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Senate",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who hold the majority in the house of representatives",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8aa9d35259db"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Republicans",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 take control of the the answer to R1",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D5bdaa69edf4b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "January 2015",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__344155_378185_282674_759393",
+  "dataset": "musique",
+  "question": "What is the seat of the county sharing a border with the county with a town to which KRSU is licensed to broadcast?",
+  "answers": [
+   "Green Bay"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "KRSU >> licensed to broadcast to",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D166b0c70797e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Appleton",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da772d7439976"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Outagamie County",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> shares border with",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D94cfc2a89d87"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Brown County",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> capital",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D5d424256b3dd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Green Bay",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__257340_88460_30152_20999",
+  "dataset": "musique",
+  "question": "How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country where Khong Island is found?",
+  "answers": [
+   "The dynasty regrouped and defeated the Portuguese"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Khong Island >> country",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5bb22ae1e26a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Laos",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "what natural boundary lies between thailand and the answer to R1",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D776fd1e9007f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Myanmar",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "New coins were a proclamation of independence by the Somali Muslim Ajuran Empire from whom?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcf1f7f0ac3a8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Portuguese",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "How were the the answer to R3 expelled from the answer to R2 ?",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D1059c68ee4b4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The dynasty regrouped and defeated the Portuguese",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__76377_40769_64047",
+  "dataset": "musique",
+  "question": "When did the luxury division of the top selling car brand change the body style of the rx 350?",
+  "answers": [
+   "Sales began worldwide in April 2012"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "what is the top selling brand of car",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6b9991d75db4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Toyota",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Name a luxury division of the answer to R1 .",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D91fdad99287e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Lexus",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 rx 350 change body style",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D56231a18b2b3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sales began worldwide in April 2012",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__622497_160088_821792",
+  "dataset": "musique",
+  "question": "Who wrote a book about growing up in the same nationality as the man who produced The Wild Women of Chastity Gulch?",
+  "answers": [
+   "Min Zhou",
+   "Carl L. Bankston"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "The Wild Women of Chastity Gulch >> producer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D13ac24c753bf"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aaron Spelling",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What nationality was the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D65f0effb9f2f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "an American",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Growing Up the answer to R2 >> author",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Df012055a013c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Min Zhou",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__38326_92991_76291",
+  "dataset": "musique",
+  "question": "When did the political party of Stewart and Harlan take control of the body that has Standing Rules derived from Article One that do not apply to the House?",
+  "answers": [
+   "January 2015"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What were Harlan and Stewart's party affiliations?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De2f98cc64806"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Republicans",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who determines the rules of the us house and us senate",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da6ef33a291b2"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The Senate",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R1 take control of the the answer to R2",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D5bdaa69edf4b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "January 2015",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__82910_75184",
+  "dataset": "musique",
+  "question": "Who played the girlfriend of Alex P. Keaton's actor on Family Ties in Back to the Future?",
+  "answers": [
+   "Claudia Wells"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who played alex p keaton on family ties",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6dcc2d86f16b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Michael J. Fox",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who played the answer to R1 girlfriend in back to the future",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dd4bd4157380f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Claudia Wells",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__129456_29339_508306_70744",
+  "dataset": "musique",
+  "question": "Between the state university in the state without North Point Mall and where Edwards won the primary and the university in Fort Hill's town which has the more national championships?",
+  "answers": [
+   "University of South Carolina",
+   "SC"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "In which state is North Point Mall located?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Deed7040cb172"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Georgia",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Besides the answer to R1 , what other state primary did Edwards win?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D96b9f9d94f0d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "South Carolina",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Fort Hill >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D29dd4c9b1044"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Clemson",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "who has more national championships the answer to R3 or the answer to R2",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D053e68797bc4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "University of South Carolina",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__857_846_7887",
+  "dataset": "musique",
+  "question": "How many tourists does visit annually the city where the Yongle Emperor greeted the one seen addressed on an preserved edict.",
+  "answers": [
+   "thousands"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who was the edict addressed to?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5a29f1bf164c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Karmapa",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where did the Yongle Emperor greet the the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D687623cb1471"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Nanjing",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "How many tourists does the answer to R2 receive each year?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D21bce80658c4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "thousands",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__198650_84856",
+  "dataset": "musique",
+  "question": "When does the new season start for the show starring the author of True Story: A Novel?",
+  "answers": [
+   "January 20, 2017"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "True Story: A Novel >> author",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db94d62ff7a4a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Bill Maher",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "when does the new season of the answer to R1 start",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "De27c33aa9ee0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "January 20, 2017",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__132798_40769_64047",
+  "dataset": "musique",
+  "question": "When did the luxury division of the maker of the Toyopet Master change the body style of the rx 350?",
+  "answers": [
+   "Sales began worldwide in April 2012"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What company made Toyopet Master?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7821c0004dfe"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Toyota",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Name a luxury division of the answer to R1 .",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D91fdad99287e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Lexus",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 rx 350 change body style",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D56231a18b2b3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Sales began worldwide in April 2012",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__140786_2053_5289",
+  "dataset": "musique",
+  "question": "What UK label was bought by the major broadcaster that, along with ABC and the network of the show Just Men!?, is based in New York?",
+  "answers": [
+   "Oriole Records.",
+   "Oriole Records"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Where can you find the show Just Men!?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D85d7f63e301f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "NBC",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Along with ABC and the answer to R1 , what other major broadcaster is based in New York?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D158ba1e74086"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "CBS",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What lable was bought by the answer to R2 in the UK?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D60ea8ead9f93"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Oriole Records.",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__776637_87295",
+  "dataset": "musique",
+  "question": "Who does the cast member from Julie play in Princess Diaries?",
+  "answers": [
+   "Queen dowager Clarisse Renaldi"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Julie >> cast member",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D74f02d8f5b74"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Julie Andrews",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who does the answer to R1 play in princess diaries",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D286e069df400"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Queen dowager Clarisse Renaldi",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__372437_88460_30152_20999",
+  "dataset": "musique",
+  "question": "How were people from whom new coins were a proclamation of independence by the Somali Muslim Ajuran Empire expelled from the natural boundary between Thailand and Na Khaulom's country?",
+  "answers": [
+   "The dynasty regrouped and defeated the Portuguese"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Na Khaulom >> country",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De04ee7a3fd59"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Laos",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "what natural boundary lies between thailand and the answer to R1",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D776fd1e9007f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Myanmar",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "New coins were a proclamation of independence by the Somali Muslim Ajuran Empire from whom?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcf1f7f0ac3a8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Portuguese",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "How were the the answer to R3 expelled from the answer to R2 ?",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D1059c68ee4b4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "The dynasty regrouped and defeated the Portuguese",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__462960_160545_62931",
+  "dataset": "musique",
+  "question": "Where was the film The Beach filmed in the country where Pao Sarasin was born?",
+  "answers": [
+   "island Koh Phi Phi"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Pao Sarasin >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0e5d8aed38a9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Bangkok",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where is the answer to R1 located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dea0e88cd5af0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Thailand",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "where was the film the beach filmed in the answer to R2",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D6a88de6baa36"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "island Koh Phi Phi",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__465684_160545_62931",
+  "dataset": "musique",
+  "question": "Where in the country where Bodindecha was born was The Beach filmed?",
+  "answers": [
+   "island Koh Phi Phi"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Bodindecha >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0eb3bfbf298b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Bangkok",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where is the answer to R1 located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dea0e88cd5af0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Thailand",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "where was the film the beach filmed in the answer to R2",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D6a88de6baa36"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "island Koh Phi Phi",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__304722_590317_63959",
+  "dataset": "musique",
+  "question": "When was the last time the team that Terry Twell was a member of beat the 194-95 winner of the FA Cup?",
+  "answers": [
+   "1 December 2010"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "1894\u201395 FA Cup >> winner",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Daeb33c51edd9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aston Villa",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Terry Twell >> member of sports team",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6cb7a524bc12"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Birmingham City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when was the last time the answer to R2 beat the answer to R1",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Daec3d863ed9b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1 December 2010",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__570103_49925_13759_736921",
+  "dataset": "musique",
+  "question": "Where is the district that the person who wanted to reform and address Brian Nobles's religion preached a sermon on Marian devotion before his death located?",
+  "answers": [
+   "Saxony-Anhalt"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Brian Noble >> religion",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2c6950b27f79"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Catholic Church",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who wanted the answer to R1 to reform and address",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D312f5a148d06"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Martin Luther",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Where did the answer to R2 preach a sermon on Marian devotion a month before his death?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D35ed1d15cae5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Wittenberg",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D2bd864fb8801"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Saxony-Anhalt",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop2__161602_474028_88460_21034",
+  "dataset": "musique",
+  "question": "What year did the country that is the natural boundary between where the tournament was hosted and where A Don is located host the ASEAN Conference?",
+  "answers": [
+   "hosted the summit in 2014"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who hosted the tournament?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbb3f5f78c667"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Thailand",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "A Don >> country",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D99200735e8f3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Laos",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what natural boundary lies between the answer to R1 and the answer to R2",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D776fd1e9007f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Myanmar",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "What year was the answer to R3 the host for the ASEAN conference?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Dd38acd9c372c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "hosted the summit in 2014",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__315246_88622",
+  "dataset": "musique",
+  "question": "Who is the head of the developer of Simon?",
+  "answers": [
+   "ADM Michael S. Rogers",
+   "Michael S. Rogers"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Simon >> developer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D02cfbc1af28c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "National Security Agency",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who is the head of the answer to R1",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dd275b2317526"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "ADM Michael S. Rogers",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__8496_21567",
+  "dataset": "musique",
+  "question": "Who introduced a system of musical notation used during the 14th century in the place where there is no evidence of a Slavic settlement before c. 600 AD?",
+  "answers": [
+   "John Kukuzelis"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "There is no evidence of a Slavic settlement where before c. 600 AD?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddca6c395d079"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "the Balkans",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Who introduced a system of musical notation used in the the answer to R1 in the 14th century?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dd23dabfe03cb"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "John Kukuzelis",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__35137_22899",
+  "dataset": "musique",
+  "question": "What age did the writer of The Canon of Medicine learn the entire quran?",
+  "answers": [
+   "ten",
+   "Ten"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who wrote The Canon of Medicine?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D11809ece8ffc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Avicenna",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "By what age had the answer to R1 learned the entire Quran?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D588647c3534c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "ten",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__175168_110222",
+  "dataset": "musique",
+  "question": "When was the creator of The Painter's Studio born?",
+  "answers": [
+   "10 June 1819"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "The Painter's Studio >> creator",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D39d2479e70c7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Gustave Courbet",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "The date of birth of the answer to R1 is?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D5c64f57cac1e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "10 June 1819",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__132472_684936",
+  "dataset": "musique",
+  "question": "The company making ALARM follows which company?",
+  "answers": [
+   "BAC"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What company makes ALARM?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8c765a7da5f0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "British Aerospace",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> follows",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D7fa27dde39e1"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "BAC",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__771862_466199_695123_72134",
+  "dataset": "musique",
+  "question": "When did the town WIZE is licensed in become capitol of the state where Jackson Township is located?",
+  "answers": [
+   "1839"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Jackson Township >> located in the administrative territorial entity",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De812126039cd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Randolph County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df69441aab42c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Illinois",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "WIZE >> licensed to broadcast to",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd3e1fabf8c79"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Springfield",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when did the answer to R3 become the capital of the answer to R2",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Df095b9050f07"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1839",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__304722_747004_63959",
+  "dataset": "musique",
+  "question": "When was the last time George Hollis's team beat the 1894-95 FA Cup winner?",
+  "answers": [
+   "1 December 2010"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "1894\u201395 FA Cup >> winner",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Daeb33c51edd9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aston Villa",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "George Hollis >> member of sports team",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3d1a8a7e2560"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Birmingham City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when was the last time the answer to R2 beat the answer to R1",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Daec3d863ed9b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1 December 2010",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__193820_466199_128875_72134",
+  "dataset": "musique",
+  "question": "When did the town WLUJ is licensed in become capitol of the state where Brantley York was born?",
+  "answers": [
+   "1839"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Brantley York >> place of birth",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3ab2a5ff6ed0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Randolph County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df69441aab42c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Illinois",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What town is WLUJ liscensed in?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc73ba6f7f621"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Springfield",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when did the answer to R3 become the capital of the answer to R2",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Df095b9050f07"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1839",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__66708_573255",
+  "dataset": "musique",
+  "question": "Who was the spouse of the person the Bible says was the first king of Israel?",
+  "answers": [
+   "Ahinoam"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "who was the first king of israel according to the bible",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4bd9902df42c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Saul",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> spouse",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D69bd1483a979"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Ahinoam",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__135793_87694_64412",
+  "dataset": "musique",
+  "question": "When did the location of the basilica named after the same saint at San Pietro in Ciel d'Oro become its own country?",
+  "answers": [
+   "11 February 1929"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Whom is San Pietro in Ciel d'Oro named after?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De325c8518ad3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Peter",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "st. the answer to R1 \u2019s basilica the head of the catholic religion is located in",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df92e362a6ffc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Vatican City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 become its own country",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D71fc5b812c35"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "11 February 1929",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__603558_87694_64412",
+  "dataset": "musique",
+  "question": "When did the location of the basilica that is named after the same saint as the San Pietro in Ciel d'Oro become its own country?",
+  "answers": [
+   "11 February 1929"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "San Pietro in Ciel d'Oro >> named after",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De325c8518ad3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Peter",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "st. the answer to R1 \u2019s basilica the head of the catholic religion is located in",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df92e362a6ffc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Vatican City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when did the answer to R2 become its own country",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D71fc5b812c35"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "11 February 1929",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__601548_836463_161616_77103",
+  "dataset": "musique",
+  "question": "When did the birthplace of the Live and Beyond performer become the capitol of the state Knowles was from?",
+  "answers": [
+   "1839"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Live and Beyond >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D23ff5c47cc8a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Eric Johnson",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> place of birth",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D9b4ab031f596"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Austin",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what state was Knowles from?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbc7ae9a09d0e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Texas,",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when did the answer to R2 become the capital of the answer to R3",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D28529a3c6f1f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1839",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__851134_326964_7713",
+  "dataset": "musique",
+  "question": "How long had Pfrang Association's headquarters location been the capitol city of Yaxing Coach's headquarters location?",
+  "answers": [
+   "about 400 years"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Pfrang Association >> headquarters location",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd92d671ee842"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Nanjing",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Yaxing Coach >> headquarters location",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D62f311bff040"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Yangzhou",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "How long had the answer to R1 been the capital city of the answer to R2 ?",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da4875d6d2443"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "about 400 years",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__324979_836463_161616_77103",
+  "dataset": "musique",
+  "question": "When did the birthplace of Ah Via Musicom's performer become the capital of the state Knowles is from?",
+  "answers": [
+   "1839"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Ah Via Musicom >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dff851e84701e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Eric Johnson",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> place of birth",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D9b4ab031f596"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Austin",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what state was Knowles from?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbc7ae9a09d0e"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Texas,",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "when did the answer to R2 become the capital of the answer to R3",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D28529a3c6f1f"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1839",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__373573_132409_223216_35031",
+  "dataset": "musique",
+  "question": "The band Pathology formed in a city whose urban area ranks where by size among the urban areas of the state where the Still Swingin' song's band formed?",
+  "answers": [
+   "third-largest"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Still Swingin' >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Deeb856d938e3"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Papa Roach",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city was the answer to R1 formed in?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D0377864da491"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "California",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Pathology >> location of formation",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfda3f5d5633c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "San Diego",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "In the top five largest urban areas in the answer to R2 , where does the answer to R3 rank?",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D6a22a41704ba"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "third-largest",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__767417_624859_355213_203322",
+  "dataset": "musique",
+  "question": "What county shares a border with the county where the performer of Change of Heart was born?",
+  "answers": [
+   "Cabarrus County"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Change of Heart >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D17582c049b12"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Eric Carmen",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> place of birth",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dabce876476b4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Cleveland",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> located in the administrative territorial entity",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D6bf79f43c8e7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Rowan County",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "the answer to R3 >> shares border with",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D2227b9b1689c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Cabarrus County",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop3__316459_41402_146223_13584",
+  "dataset": "musique",
+  "question": "Besides areas of the country gaining control of Florida after the conflict Charles Edmund Nugent participated in, what other differences exist between where Simon Sabiani died and Real Madrid?",
+  "answers": [
+   "two cities"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Charles Edmund Nugent >> conflict",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbb7995b71fd1"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Revolutionary War",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Who gained control of Florida after the conclusion of the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dd41c4baea8ff"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Spain",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "In what city did Simon Sabiani die?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8db23cadb2cc"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Barcelona",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "Besides the areas of the answer to R2 , what other differences are there between the answer to R3 and Real Madrid?",
+    "depends_on": [
+     "R2",
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D87a2ed246240"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "two cities",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__347652_47134",
+  "dataset": "musique",
+  "question": "What is the mascot of the institution that owns Memorial Union?",
+  "answers": [
+   "Benny Beaver"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Memorial Union >> owned by",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbf96daca5b7c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Oregon State University",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "what is the mascot of the answer to R1",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Ddc28676d76a8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Benny Beaver",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__95970_152907",
+  "dataset": "musique",
+  "question": "What city is the star of Sous les pieds des femmes from?",
+  "answers": [
+   "La Goulette",
+   "Tunis"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who has acted in the film Sous les pieds des femmes?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9f6d544ff52b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Claudia Cardinale",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city is the answer to R1 from?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D341c3dfa5e95"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "La Goulette",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__16581_16525",
+  "dataset": "musique",
+  "question": "When did the person who first brought a postal service into Umayyad lands become caliph?",
+  "answers": [
+   "661"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who first brought a postal service into Umayyad lands?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6ca00e9f0000"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mu'awiyah",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "When did the answer to R1 become caliph?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Daadc2d670edd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "661",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__130668_126089",
+  "dataset": "musique",
+  "question": "Who was in charge of the state where Graft-De Rijp is located?",
+  "answers": [
+   "Johan Remkes"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What state is Graft-De Rijp located?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc6c48154e14d"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "North Holland",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Who was in charge of the answer to R1 ?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D7eab89a48501"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Johan Remkes",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__354480_834494_33939",
+  "dataset": "musique",
+  "question": "What was the population of the city that is found in the same county as Eric Marcus Municipal Airport in 1900?",
+  "answers": [
+   "7,531"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Eric Marcus Municipal Airport >> location",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8b98a8f609bd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Pima County",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> contains administrative territorial entity",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Ddcd54b52a38a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Tucson",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "What was the answer to R2 's population in 1900?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D0c1189872e76"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "7,531",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__525129_315334_131926_13165",
+  "dataset": "musique",
+  "question": "What treaty ceded territory to the US extending west to body of water by the city where the Lots More Blues, Rags and Hollers performer was formed?",
+  "answers": [
+   "Treaty of Paris"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Lots More Blues, Rags and Hollers >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddbfc403eb5e7"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Koerner, Ray & Glover",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> location of formation",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df116cbdface5"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Minneapolis",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Which is the body of water by the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D6325312f070b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mississippi River",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "What treaty ceded territory to the US extending west to the answer to R3 ?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "Da24dcd7cbe81"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Treaty of Paris",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop2__304722_238553_63959",
+  "dataset": "musique",
+  "question": "When was the last time Peter Till's sports team beat the winner of the 1894-95 FA Cup?",
+  "answers": [
+   "1 December 2010"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "1894\u201395 FA Cup >> winner",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Daeb33c51edd9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Aston Villa",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Peter Till >> member of sports team",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D918a39eb543a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Birmingham City",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "when was the last time the answer to R2 beat the answer to R1",
+    "depends_on": [
+     "R1",
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Daec3d863ed9b"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "1 December 2010",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__446612_160545_60577",
+  "dataset": "musique",
+  "question": "Where did they film The Beach in the country where Ercole Manfredi died?",
+  "answers": [
+   "Ko Phi Phi Leh",
+   "Ko Phi Phi Le"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Ercole Manfredi >> place of death",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1a02703c7683"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Bangkok",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "Where is the answer to R1 located?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dea0e88cd5af0"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Thailand",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "where did they film the beach in the answer to R2",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D4f1a5acab3d9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Ko Phi Phi Leh",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__9007_698949_157828_162309",
+  "dataset": "musique",
+  "question": "When did the country with a co-official language used in the film titled after the city that is the final resting place of Tito first attend the Olympics games?",
+  "answers": [
+   "2016"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Where is the final resting place of Tito?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9a4df36562dd"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Belgrade",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> original language of film or TV show",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dda5d0ec0dad8"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Serbian",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 is the co-official language of what country?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dc95301ef7483"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Kosovo",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "When did the answer to R3 first attend the Olympics games as an independent team?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D53f1e5497887"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "2016",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__846600_153080_159767_81096",
+  "dataset": "musique",
+  "question": "Who won the Indy car race in the largest city and the capital of the state of origin of the performer of A Modern Jazz Symposium of Music and Poetry?",
+  "answers": [
+   "Mario Andretti"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "A Modern Jazz Symposium of Music and Poetry >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2c2e977c8619"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Charles Mingus",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city is the answer to R1 from?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D37cd227b47e4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Arizona",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what city is both the largest city and the state capital of the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da290c66b797a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Phoenix",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "who won the indy car race in the answer to R3",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "De65ae60b5c09"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mario Andretti",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "3hop1__109422_720914_27537",
+  "dataset": "musique",
+  "question": "Why did Roncalli leave the place of death of The Punishment of Tythus' creator?",
+  "answers": [
+   "for the conclave in Rome",
+   "Rome",
+   "Roma"
+  ],
+  "n_hops": 3,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Who is the creator of The Punishment of Tythus?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6e6fbc6b01c1"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Titian",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "the answer to R1 >> place of death",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D2732537ffb72"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Venice",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "Why did Roncalli leave the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D229b9e77e3d9"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "for the conclave in Rome",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__708184_153080_159767_81096",
+  "dataset": "musique",
+  "question": "Who won the Indy car race in the largest city and the capital of the US state of origin of the performer of The Black Saint and the Sinner Lady?",
+  "answers": [
+   "Mario Andretti"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "The Black Saint and the Sinner Lady >> performer",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddcc1204b1aec"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Charles Mingus",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What city is the answer to R1 from?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D37cd227b47e4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Arizona",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "what city is both the largest city and the state capital of the answer to R2 ?",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da290c66b797a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Phoenix",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "who won the indy car race in the answer to R3",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "De65ae60b5c09"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Mario Andretti",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "4hop1__567737_141375_458768_33677",
+  "dataset": "musique",
+  "question": "When was the most recent Bicycle Friendly Community Award given to the city where the company Study in Brown's record label is part of is headquartered?",
+  "answers": [
+   "2013"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Study in Brown >> record label",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da9425b9e0c32"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "EmArcy Records",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What company is the answer to R1 part of?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D0e5bc70a819a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Universal Music Group",
+    "heuristic": false
+   },
+   {
+    "rid": "R3",
+    "text": "the answer to R2 >> headquarters location",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D9bb7fc532718"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Santa Monica",
+    "heuristic": false
+   },
+   {
+    "rid": "R4",
+    "text": "When was the most recent Bicycle Friendly Community Award given to the answer to R3 ?",
+    "depends_on": [
+     "R3"
+    ],
+    "gold_doc_ids": [
+     "D901aaf73f15a"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "2013",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__25797_25855",
+  "dataset": "musique",
+  "question": "What does Dell call the feature that enables drives using the feature where 1.1 was the first widely used version, to remain powered when a computer is off?",
+  "answers": [
+   "PowerShare"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "1.1 was the first widely used version of what?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D58db4fde7e8c"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "USB",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "What does dell call the feature that lets the answer to R1 drives to remain powered when the computer is off?",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D5c83889a5139"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "PowerShare",
+    "heuristic": false
+   }
+  ]
+ },
+ {
+  "qid": "2hop__160223_58067",
+  "dataset": "musique",
+  "question": "Who was given India's highest civilian honor before he became President of India?",
+  "answers": [
+   "A.P.J. Abdul Kalam",
+   "A. P. J. Abdul Kalam",
+   "Abdul Kalam",
+   "Kalam",
+   "Avul Pakir Jainulabdeen Abdul Kalam"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "What is Indian civilian highest honor?",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2d651b57eac1"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "Bharat Ratna",
+    "heuristic": false
+   },
+   {
+    "rid": "R2",
+    "text": "who was honoured with the answer to R1 before he became president of india",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D366f30618ff4"
+    ],
+    "gold_unit_ids": null,
+    "gold_answer": "A.P.J. Abdul Kalam",
+    "heuristic": false
+   }
+  ]
+ }
+]

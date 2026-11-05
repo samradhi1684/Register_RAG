@@ -1,0 +1,28 @@
+{
+  "system": "liveledger",
+  "dataset": "2wiki",
+  "data_path": "C:\\Users\\DAIICT E\\Desktop\\Jyoti\\RegisterRAG-main\\RegisterRAG-main\\datasets/wiki2_data/2wiki_100.json",
+  "limit": null,
+  "sample_seed": null,
+  "corpus_scope": "pooled",
+  "chunk_size_words": 256,
+  "chunk_overlap_words": 50,
+  "embedder": "BAAI/bge-small-en-v1.5",
+  "prepend_title": true,
+  "lam": 0.5,
+  "retrieve_k": 50,
+  "top_k": 5,
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "generator": "qwen2.5:3b",
+  "temperature": 0.0,
+  "max_new_tokens": 64,
+  "seed": 0,
+  "num_ctx": 8192,
+  "budget_tokens": null,
+  "prompt_version": "v2",
+  "tokenizer": "tiktoken_cl100k",
+  "method_args": {
+    "ledger": false
+  },
+  "data_sha256": "db31c8c30daa4b9721d9d4290bb48555b176aa77ebee3f9b5610c327abd37d44"
+}

@@ -1,0 +1,2 @@
+# on top of the root requirements.txt (only the offline tool tools/fit_aggregator.py needs these)
+scikit-learn

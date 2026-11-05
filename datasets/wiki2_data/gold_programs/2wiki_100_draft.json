@@ -1,0 +1,4646 @@
+[
+ {
+  "qid": "6bde832c0bdb11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Which award the director of film Sainikudu earned?",
+  "answers": [
+   "Filmfare Awards South"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Sainikudu.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D20094b2f69c2"
+    ],
+    "gold_unit_ids": [
+     "D20094b2f69c2#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the award received of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Da9a7451f3281"
+    ],
+    "gold_unit_ids": [
+     "Da9a7451f3281#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "cbdd888308b511ebbd88ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do both films: Illusion (1929 Film) and Melancholie Der Engel have the directors from the same country?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Illusion (1929 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Df273697c5e7d"
+    ],
+    "gold_unit_ids": [
+     "Df273697c5e7d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Melancholie der Engel.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da16243aa62ab"
+    ],
+    "gold_unit_ids": [
+     "Da16243aa62ab#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D541cd0469600"
+    ],
+    "gold_unit_ids": [
+     "D541cd0469600#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D8a283c8eb14d"
+    ],
+    "gold_unit_ids": [
+     "D8a283c8eb14d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "77e657d80bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the sibling-in-law of Elaine Tettemer Marshall?",
+  "answers": [
+   "J. Howard Marshall III"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Elaine Tettemer Marshall.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da123233f5be3"
+    ],
+    "gold_unit_ids": [
+     "Da123233f5be3#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the sibling of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dcb10670e89e6"
+    ],
+    "gold_unit_ids": [
+     "Dcb10670e89e6#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "c08b31300baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the wife of James Corrigan?",
+  "answers": [
+   "Lillian Elliott"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the child of James Corrigan.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1bce7f854ba7"
+    ],
+    "gold_unit_ids": [
+     "D1bce7f854ba7#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the mother of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D3680752a4525"
+    ],
+    "gold_unit_ids": [
+     "D3680752a4525#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1e11803208ce11ebbd94ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Did the movies Prairie Fever and The Captain (2017 Film), originate from the same country?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the country of origin of Prairie Fever.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D799e4684b1a3"
+    ],
+    "gold_unit_ids": [
+     "D799e4684b1a3#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of origin of The Captain (2017 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1bd810efee0f"
+    ],
+    "gold_unit_ids": [
+     "D1bd810efee0f#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "654d62ba0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Mary Willing Byrd's child?",
+  "answers": [
+   "Charles Willing Byrd"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Mary Willing Byrd.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D85eea6e35a23"
+    ],
+    "gold_unit_ids": [
+     "D85eea6e35a23#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the child of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D437859c5a3d5"
+    ],
+    "gold_unit_ids": [
+     "D437859c5a3d5#s15"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "267ff0c00bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of the director of film Charley'S Aunt (1925 Film)?",
+  "answers": [
+   "London"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Charley's Aunt.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dc84366ca6a91"
+    ],
+    "gold_unit_ids": [
+     "Dc84366ca6a91#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "08b13d9208db11ebbd9cac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Who is older, Larisa Rozanova or Digby Tatham-Warter?",
+  "answers": [
+   "Digby Tatham-Warter"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the date of birth of Larisa Rozanova.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db0cdfbdb3494"
+    ],
+    "gold_unit_ids": [
+     "Db0cdfbdb3494#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of birth of Digby Tatham-Warter.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D64fbb684d105"
+    ],
+    "gold_unit_ids": [
+     "D64fbb684d105#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "6c0b26320bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Dzeliwe Of Eswatini's father-in-law?",
+  "answers": [
+   "Ngwane V"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Dzeliwe of Eswatini.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5776a2ae3b3d"
+    ],
+    "gold_unit_ids": [
+     "D5776a2ae3b3d#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Ded1e44aa9fbe"
+    ],
+    "gold_unit_ids": [
+     "Ded1e44aa9fbe#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "63c7398408c711ebbd91ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director died later, Cheyenne Wildcat or Muqaddar Ka Faisla?",
+  "answers": [
+   "Muqaddar Ka Faisla"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Cheyenne Wildcat.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd3d871d5f04f"
+    ],
+    "gold_unit_ids": [
+     "Dd3d871d5f04f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Muqaddar Ka Faisla.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3e7f21265bb8"
+    ],
+    "gold_unit_ids": [
+     "D3e7f21265bb8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D559fe50433cc"
+    ],
+    "gold_unit_ids": [
+     "D559fe50433cc#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dcf39111658e9"
+    ],
+    "gold_unit_ids": [
+     "Dcf39111658e9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "f33672d00bae11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Farkas Esterh\u00e1zy's paternal grandfather?",
+  "answers": [
+   "Ferenc Esterh\u00e1zy"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Farkas Esterh\u00e1zy.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd81a1d17f20f"
+    ],
+    "gold_unit_ids": [
+     "Dd81a1d17f20f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "2705d338093811ebbdaeac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do the movies Thor The Conqueror and City Of Pain, originate from the same country?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the country of origin of Thor the Conqueror.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7db91a4b3ce9"
+    ],
+    "gold_unit_ids": [
+     "D7db91a4b3ce9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of origin of City of Pain.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd267807a6ae6"
+    ],
+    "gold_unit_ids": [
+     "Dd267807a6ae6#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3f3687600baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Catherine Of Austria, Lady Of Coucy's paternal grandfather?",
+  "answers": [
+   "Albert I of Germany"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Catherine of Austria, Lady of Coucy.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd11a738a3af9"
+    ],
+    "gold_unit_ids": [
+     "Dd11a738a3af9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D69a2df5bfc25"
+    ],
+    "gold_unit_ids": [
+     "D69a2df5bfc25#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "5cdd0438087111ebbd63ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film whose director is younger, Enemy Agents Meet Ellery Queen or Sirivantha?",
+  "answers": [
+   "Sirivantha"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Enemy Agents Meet Ellery Queen.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbf7101fc43ba"
+    ],
+    "gold_unit_ids": [
+     "Dbf7101fc43ba#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Sirivantha.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D18a7f06409be"
+    ],
+    "gold_unit_ids": [
+     "D18a7f06409be#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of James P. Hogan (director).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D72ecbe6f264a"
+    ],
+    "gold_unit_ids": [
+     "D72ecbe6f264a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D000498985739"
+    ],
+    "gold_unit_ids": [
+     "D000498985739#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "d105363b086e11ebbd62ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out earlier, Diary For My Mother And Father or The Story Of Gilbert And Sullivan?",
+  "answers": [
+   "The Story Of Gilbert And Sullivan"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Diary for My Mother and Father.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8411e29e7667"
+    ],
+    "gold_unit_ids": [
+     "D8411e29e7667#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of The Story of Gilbert and Sullivan.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D19ef31456beb"
+    ],
+    "gold_unit_ids": [
+     "D19ef31456beb#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1f382fb20bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Charles I, Count Of Ligny's paternal grandfather?",
+  "answers": [
+   "Louis de Luxembourg, Count of Saint-Pol"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Charles I, Count of Ligny.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D733824b5454a"
+    ],
+    "gold_unit_ids": [
+     "D733824b5454a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dcd560ac18176"
+    ],
+    "gold_unit_ids": [
+     "Dcd560ac18176#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "234f8b0c08ee11ebbda8ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Who is younger, Lourdes Casal or Leonel Maciel?",
+  "answers": [
+   "Leonel Maciel"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the date of birth of Lourdes Casal.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dd7d6d1286689"
+    ],
+    "gold_unit_ids": [
+     "Dd7d6d1286689#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of birth of Leonel Maciel.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De81c3aab6d31"
+    ],
+    "gold_unit_ids": [
+     "De81c3aab6d31#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "6478283c085611ebbd59ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do director of film Father'S Day (1996 Film) and director of film The Pursuit Of Happiness (1971 Film) have the same nationality?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Father's Day (1996 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db7692730e6bb"
+    ],
+    "gold_unit_ids": [
+     "Db7692730e6bb#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of The Pursuit of Happiness (1971 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4b164d1941c5"
+    ],
+    "gold_unit_ids": [
+     "D4b164d1941c5#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of Sherry Hormann.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De90b0545d56c"
+    ],
+    "gold_unit_ids": [
+     "De90b0545d56c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Deac21f0af40c"
+    ],
+    "gold_unit_ids": [
+     "Deac21f0af40c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "ffc7b33c08c611ebbd91ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do John Richard Jones and Ashanti Johnson share the same nationality?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the country of citizenship of John Richard Jones.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddd68f3cca5e5"
+    ],
+    "gold_unit_ids": [
+     "Ddd68f3cca5e5#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of citizenship of Ashanti Johnson.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddc5df3bd6596"
+    ],
+    "gold_unit_ids": [
+     "Ddc5df3bd6596#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "08ff055a085311ebbd58ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film was released first, Japoteurs or Cool Hand Luke?",
+  "answers": [
+   "Japoteurs"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Japoteurs.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6b3b3eb56d8c"
+    ],
+    "gold_unit_ids": [
+     "D6b3b3eb56d8c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Cool Hand Luke.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da4e0331b0726"
+    ],
+    "gold_unit_ids": [
+     "Da4e0331b0726#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "948e931808fa11ebbdacac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out earlier, Love Returns or The Keeping Room?",
+  "answers": [
+   "Love Returns"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Love Returns.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4d104550a6dc"
+    ],
+    "gold_unit_ids": [
+     "D4d104550a6dc#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of The Keeping Room.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0ec047540955"
+    ],
+    "gold_unit_ids": [
+     "D0ec047540955#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "b1794a820bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the father of Herm\u00f3genes Irisarri born?",
+  "answers": [
+   "Guatemala"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Herm\u00f3genes Irisarri.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D671b76ec57ea"
+    ],
+    "gold_unit_ids": [
+     "D671b76ec57ea#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df71c1794d1e9"
+    ],
+    "gold_unit_ids": [
+     "Df71c1794d1e9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3f0eaa5e089611ebbd76ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who is older, This Love Of Ours or The Red Siren?",
+  "answers": [
+   "This Love Of Ours"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of This Love of Ours.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0b47d039f112"
+    ],
+    "gold_unit_ids": [
+     "D0b47d039f112#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of The Red Siren.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc4f49282f961"
+    ],
+    "gold_unit_ids": [
+     "Dc4f49282f961#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Deaeded55bae7"
+    ],
+    "gold_unit_ids": [
+     "Deaeded55bae7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D5f5c9a421705"
+    ],
+    "gold_unit_ids": [
+     "D5f5c9a421705#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "65645b8c0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Princess Adelaide Of Saxe-Meiningen's maternal grandmother?",
+  "answers": [
+   "Karoline of Wartensleben"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Princess Adelaide \"Adi\" of Saxe-Meiningen.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the mother of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D9e4003caacff"
+    ],
+    "gold_unit_ids": [
+     "D9e4003caacff#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "f6e2b9280bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Which country Mohammed Al-Modiahki's wife is from?",
+  "answers": [
+   "China"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Mohammed Ahmed Al-Modiahki.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D08d027d4db51"
+    ],
+    "gold_unit_ids": [
+     "D08d027d4db51#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "afcff22e0bda11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the place of burial of the director of film The Color Of Pomegranates?",
+  "answers": [
+   "Komitas Pantheon"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of The Color of Pomegranates.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3a0d8d7f765a"
+    ],
+    "gold_unit_ids": [
+     "D3a0d8d7f765a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of burial of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dc65ac72885d9"
+    ],
+    "gold_unit_ids": [
+     "Dc65ac72885d9#s16"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "6a59336a0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the maternal grandfather of Margaret Of J\u00fclich?",
+  "answers": [
+   "Otto IV, Count of Ravensberg"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Margaret of J\u00fclich.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D79a46ef75a7f"
+    ],
+    "gold_unit_ids": [
+     "D79a46ef75a7f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dfaf712451e81"
+    ],
+    "gold_unit_ids": [
+     "Dfaf712451e81#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "57348a9e091811ebbdaeac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out earlier, Lovely Rita, Sainte Patronne Des Cas D\u00e9sesp\u00e9r\u00e9s or The Descendants?",
+  "answers": [
+   "Lovely Rita, Sainte Patronne Des Cas D\u00e9sesp\u00e9r\u00e9s"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Lovely Rita, sainte patronne des cas d\u00e9sesp\u00e9r\u00e9s.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D28e879ea3794"
+    ],
+    "gold_unit_ids": [
+     "D28e879ea3794#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of The Descendants.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9d4fdb263e3a"
+    ],
+    "gold_unit_ids": [
+     "D9d4fdb263e3a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "8a7214a20bdb11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of the composer of film Yand\u00e9 Codou, La Griotte De Senghor?",
+  "answers": [
+   "Somb"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the composer of Yand\u00e9 Codou, la griotte de Senghor.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7c7d1e48d295"
+    ],
+    "gold_unit_ids": [
+     "D7c7d1e48d295#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D8f3e0fd72157"
+    ],
+    "gold_unit_ids": [
+     "D8f3e0fd72157#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3472a2680bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the paternal grandfather of Frederick V Of The Palatinate?",
+  "answers": [
+   "Louis VI"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Frederick V.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "5fdf9c8008b311ebbd86ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Who lived longer, Huchtenburg or Benjamin Nottingham Webster?",
+  "answers": [
+   "Huchtenburg"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the date of birth of Huchtenburg.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D82c3c105bff6"
+    ],
+    "gold_unit_ids": [
+     "D82c3c105bff6#s11"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of death of Huchtenburg.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D82c3c105bff6"
+    ],
+    "gold_unit_ids": [
+     "D82c3c105bff6#s11"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of Benjamin Nottingham Webster.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D09524dc87661"
+    ],
+    "gold_unit_ids": [
+     "D09524dc87661#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of Benjamin Nottingham Webster.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D09524dc87661"
+    ],
+    "gold_unit_ids": [
+     "D09524dc87661#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "bdd526c4091811ebbdaeac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out first, 3 Dots or Dying God?",
+  "answers": [
+   "Dying God"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of 3 Dots.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da85c2ce1cc6a"
+    ],
+    "gold_unit_ids": [
+     "Da85c2ce1cc6a#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Dying God.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2479420ed271"
+    ],
+    "gold_unit_ids": [
+     "D2479420ed271#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1ee47f380bde11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the performer of song Get A Life \u2013 Get Alive born?",
+  "answers": [
+   "V\u00f6cklabruck"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the performer of Get a Life \u2013 Get Alive.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4845e4c3b78b"
+    ],
+    "gold_unit_ids": [
+     "D4845e4c3b78b#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D0a768dbf5a9a"
+    ],
+    "gold_unit_ids": [
+     "D0a768dbf5a9a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "56a8541e0bdc11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of the director of film Manolete (Film)?",
+  "answers": [
+   "Eindhoven"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Manolete.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D37f7a385f978"
+    ],
+    "gold_unit_ids": [
+     "D37f7a385f978#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "ffb2f58a08dc11ebbd9dac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do both films Rockshow and Assignment To Kill have the directors that share the same nationality?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Rockshow.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2b26e29486ca"
+    ],
+    "gold_unit_ids": [
+     "D2b26e29486ca#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Assignment to Kill.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D046134df3f8a"
+    ],
+    "gold_unit_ids": [
+     "D046134df3f8a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dcc817deb8a2d"
+    ],
+    "gold_unit_ids": [
+     "Dcc817deb8a2d#s15"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of Sheldon Reynolds (producer).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De93637968d30"
+    ],
+    "gold_unit_ids": [
+     "De93637968d30#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "ec3d39280bae11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the maternal grandfather of Countess Emilia Antwerpiana Of Nassau?",
+  "answers": [
+   "Louis, Duke of Montpensier"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Countess Emilia Antwerpiana of Nassau.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D246fe531a174"
+    ],
+    "gold_unit_ids": [
+     "D246fe531a174#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D9634740db2e6"
+    ],
+    "gold_unit_ids": [
+     "D9634740db2e6#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "584ec9960bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the award that the director of film Bangalore Naatkal earned?",
+  "answers": [
+   "Nandi Awards"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Bangalore Days.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the award received of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "7f49e96e0baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Princess Thyra Of Denmark (1880\u20131945)'s maternal grandmother?",
+  "answers": [
+   "Louise of the Netherlands"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Princess Thyra of Denmark.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8d3ed7daed94"
+    ],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the mother of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D24f649cafae7"
+    ],
+    "gold_unit_ids": [
+     "D24f649cafae7#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "dac11f1c0bda11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the spouse of the director of film Love At Second Sight (1999 Film)?",
+  "answers": [
+   "Mosh\u00e9 Mizrahi"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Love at Second Sight.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the spouse of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dc5f5d00e96d3"
+    ],
+    "gold_unit_ids": [
+     "Dc5f5d00e96d3#s5"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1ba2ba8c0bda11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the date of death of the composer of film Caminito De Gloria?",
+  "answers": [
+   "11 November 1964"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the composer of Caminito de Gloria.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D792a6d43a08e"
+    ],
+    "gold_unit_ids": [
+     "D792a6d43a08e#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D8e2411984bcb"
+    ],
+    "gold_unit_ids": [
+     "D8e2411984bcb#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "fb1ef77a0bda11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the spouse of the director of film Voices (1973 Film)?",
+  "answers": [
+   "Rachel Billington"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Voices.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the spouse of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D076cfd989fc0"
+    ],
+    "gold_unit_ids": [
+     "D076cfd989fc0#s5"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "e9e18ee608d811ebbd9cac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film was released first, Kalaya Tasmai Namaha or Undercover With The Kkk?",
+  "answers": [
+   "Undercover With The Kkk"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Kalaya Tasmai Namaha.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6b9b636ca324"
+    ],
+    "gold_unit_ids": [
+     "D6b9b636ca324#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Undercover with the KKK.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da556ce0713fd"
+    ],
+    "gold_unit_ids": [
+     "Da556ce0713fd#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "f3c5261d088711ebbd6eac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do both directors of films Bad City Blues and A Woman In White have the same nationality?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Bad City Blues.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D45c32b8ddfa0"
+    ],
+    "gold_unit_ids": [
+     "D45c32b8ddfa0#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of A Woman in White.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da0f2e014cc2f"
+    ],
+    "gold_unit_ids": [
+     "Da0f2e014cc2f#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of Michael Stevens (producer).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D247de853bae5"
+    ],
+    "gold_unit_ids": [
+     "D247de853bae5#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D594eccc08a38"
+    ],
+    "gold_unit_ids": [
+     "D594eccc08a38#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "f1d813c2087e11ebbd6bac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director born later, Chelsea 7750 or Le C\u0153ur Des Hommes?",
+  "answers": [
+   "Le C\u0153ur Des Hommes"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Chelsea 7750.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9a2cfe84a487"
+    ],
+    "gold_unit_ids": [
+     "D9a2cfe84a487#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Le C\u0153ur des hommes.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1552c514a6a5"
+    ],
+    "gold_unit_ids": [
+     "D1552c514a6a5#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D3dbcf2b69f8f"
+    ],
+    "gold_unit_ids": [
+     "D3dbcf2b69f8f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dc6cd60c93428"
+    ],
+    "gold_unit_ids": [
+     "Dc6cd60c93428#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "87724861086d11ebbd62ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film whose director is younger, The Devil'S Pass Key or La Bella Di Lodi?",
+  "answers": [
+   "La Bella Di Lodi"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of The Devil's Pass Key.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcecb100350a9"
+    ],
+    "gold_unit_ids": [
+     "Dcecb100350a9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of La bella di Lodi.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D3fd6e9f39e30"
+    ],
+    "gold_unit_ids": [
+     "D3fd6e9f39e30#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D958f2695fd88"
+    ],
+    "gold_unit_ids": [
+     "D958f2695fd88#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Df881c4ce8165"
+    ],
+    "gold_unit_ids": [
+     "Df881c4ce8165#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "b008266d088d11ebbd70ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Who lived longer, Bruce Cummins or Ko Tun-Hwa?",
+  "answers": [
+   "Ko Tun-Hwa"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the date of birth of Bruce Cummins.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2865290aacfd"
+    ],
+    "gold_unit_ids": [
+     "D2865290aacfd#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of death of Bruce Cummins.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2865290aacfd"
+    ],
+    "gold_unit_ids": [
+     "D2865290aacfd#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of Ko Tun-hwa.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5c186df53e7f"
+    ],
+    "gold_unit_ids": [
+     "D5c186df53e7f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of Ko Tun-hwa.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5c186df53e7f"
+    ],
+    "gold_unit_ids": [
+     "D5c186df53e7f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "429615320bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Anne De Laval, Viscountess Of Thouars's paternal grandfather?",
+  "answers": [
+   "Jean de Laval"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Anne de Laval.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D3faa876d1b3a"
+    ],
+    "gold_unit_ids": [
+     "D3faa876d1b3a#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "d543d1a7085611ebbd59ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do both directors of films The Yellow Birds (Film) and Lucky Partners have the same nationality?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 5,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of The Yellow Birds (film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ded89b9946879"
+    ],
+    "gold_unit_ids": [
+     "Ded89b9946879#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Lucky Partners.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Daee10f0c00b8"
+    ],
+    "gold_unit_ids": [
+     "Daee10f0c00b8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Deff852f0854c"
+    ],
+    "gold_unit_ids": [
+     "Deff852f0854c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Db89eb4442c3f"
+    ],
+    "gold_unit_ids": [
+     "Db89eb4442c3f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R5",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Db89eb4442c3f"
+    ],
+    "gold_unit_ids": [
+     "Db89eb4442c3f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "656b25bc0baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the paternal grandfather of Chlothar Iii?",
+  "answers": [
+   "Dagobert I"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Chlothar III.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D52efb04aba57"
+    ],
+    "gold_unit_ids": [
+     "D52efb04aba57#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dbbe23f6b7a79"
+    ],
+    "gold_unit_ids": [
+     "Dbbe23f6b7a79#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1597b4be086311ebbd5eac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Are the directors of both films Went To Coney Island On A Mission From God... Be Back By Five and No One Can Achieve Perfection from the same country?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Went to Coney Island on a Mission from God... Be Back by Five.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dbe215e8c3f13"
+    ],
+    "gold_unit_ids": [
+     "Dbe215e8c3f13#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of No One Can Achieve Perfection.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D414f3535c484"
+    ],
+    "gold_unit_ids": [
+     "D414f3535c484#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D46beacc94ba9"
+    ],
+    "gold_unit_ids": [
+     "D46beacc94ba9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D23d649027a68"
+    ],
+    "gold_unit_ids": [
+     "D23d649027a68#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "d22d6bbe0bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the place of death of Mark Rockefeller's father?",
+  "answers": [
+   "New York"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Mark Fitler Rockefeller.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3143ca94096011ebbdafac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film was released earlier, Hirer Angti or Torn From The Flag?",
+  "answers": [
+   "Hirer Angti"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Hirer Angti.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D75a3005b77e9"
+    ],
+    "gold_unit_ids": [
+     "D75a3005b77e9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Torn from the Flag.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D08de3c942d70"
+    ],
+    "gold_unit_ids": [
+     "D08de3c942d70#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3b25b6fe087711ebbd67ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director died earlier, Nothing Underneath or A Hero On Horseback?",
+  "answers": [
+   "A Hero On Horseback"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Nothing Underneath.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D21bed7661c5d"
+    ],
+    "gold_unit_ids": [
+     "D21bed7661c5d#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of A Hero on Horseback.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfda1da0a42e9"
+    ],
+    "gold_unit_ids": [
+     "Dfda1da0a42e9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D91c32280c8c6"
+    ],
+    "gold_unit_ids": [
+     "D91c32280c8c6#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dc0d300f1755f"
+    ],
+    "gold_unit_ids": [
+     "Dc0d300f1755f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "21eecd840baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the maternal grandfather of Princess Adelaide Of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg?",
+  "answers": [
+   "Frederick VIII, Duke of Schleswig-Holstein"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Princess Adelaide of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfb17f2d25fef"
+    ],
+    "gold_unit_ids": [
+     "Dfb17f2d25fef#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D3aa720763af6"
+    ],
+    "gold_unit_ids": [
+     "D3aa720763af6#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "dcbe23ba08e611ebbda5ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film was released more recently, Tom At The Farm or Tunisian Victory?",
+  "answers": [
+   "Tom At The Farm"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Tom at the Farm.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddb565896fa73"
+    ],
+    "gold_unit_ids": [
+     "Ddb565896fa73#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Tunisian Victory.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc2e7b1d45a33"
+    ],
+    "gold_unit_ids": [
+     "Dc2e7b1d45a33#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "911f95e40bdc11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Which country Elizabeth Patterson Bonaparte's husband is from?",
+  "answers": [
+   "French"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Elizabeth \"Betsy\" Patterson Bonaparte.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D02f6ff31c7fd"
+    ],
+    "gold_unit_ids": [
+     "D02f6ff31c7fd#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "02e9e3dc0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the paternal grandfather of Patrick Chaworth, 3Rd Viscount Chaworth?",
+  "answers": [
+   "George Chaworth"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Patrick Chaworth.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dac8b48ee16a0"
+    ],
+    "gold_unit_ids": [
+     "Dac8b48ee16a0#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "0ad93d5a086411ebbd5eac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Who is younger, Barry Donald or Halle Cioffi?",
+  "answers": [
+   "Barry Donald"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the date of birth of Barry Donald.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De9feadd3080d"
+    ],
+    "gold_unit_ids": [
+     "De9feadd3080d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of birth of Halle Cioffi.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D97d11456e41f"
+    ],
+    "gold_unit_ids": [
+     "D97d11456e41f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "4d982dc308c111ebbd8bac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director died earlier, Condemned Women or Faces In The Dark?",
+  "answers": [
+   "Condemned Women"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Condemned Women.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ded47bedae20f"
+    ],
+    "gold_unit_ids": [
+     "Ded47bedae20f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Faces in the Dark.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Df7309c8d573f"
+    ],
+    "gold_unit_ids": [
+     "Df7309c8d573f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dd2bdbcb146f7"
+    ],
+    "gold_unit_ids": [
+     "Dd2bdbcb146f7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of David Eady (film director).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4a50c383ce48"
+    ],
+    "gold_unit_ids": [
+     "D4a50c383ce48#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "9fdebb500baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the maternal grandfather of Bianca Riario?",
+  "answers": [
+   "Galeazzo Maria Sforza"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Bianca Riario.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Df835773b55d8"
+    ],
+    "gold_unit_ids": [
+     "Df835773b55d8#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D341f563f3415"
+    ],
+    "gold_unit_ids": [
+     "D341f563f3415#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "77f3d9300bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Germaine Of Foix's paternal grandfather?",
+  "answers": [
+   "Gaston IV of Foix"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Germaine of Foix.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da85286f3a850"
+    ],
+    "gold_unit_ids": [
+     "Da85286f3a850#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df5e030362df6"
+    ],
+    "gold_unit_ids": [
+     "Df5e030362df6#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "e380d24a0bdb11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the performer of song Now That I'Ve Found You born?",
+  "answers": [
+   "Amstelveen"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the performer of Now That I've Found You.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0d1746c3452a"
+    ],
+    "gold_unit_ids": [
+     "D0d1746c3452a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D23085df83534"
+    ],
+    "gold_unit_ids": [
+     "D23085df83534#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "c365be0608ae11ebbd83ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out first, Starsuckers or Enemies Closer?",
+  "answers": [
+   "Starsuckers"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Starsuckers.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D8cbf2f0efef8"
+    ],
+    "gold_unit_ids": [
+     "D8cbf2f0efef8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Enemies Closer.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db95b147c1eb7"
+    ],
+    "gold_unit_ids": [
+     "Db95b147c1eb7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "783b1724087611ebbd67ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director born later, Night And Dawn or Arena Of Fear?",
+  "answers": [
+   "Night And Dawn"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Night and Dawn.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9486f50ada45"
+    ],
+    "gold_unit_ids": [
+     "D9486f50ada45#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Arena of Fear.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db91a0b576a82"
+    ],
+    "gold_unit_ids": [
+     "Db91a0b576a82#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D624406200381"
+    ],
+    "gold_unit_ids": [
+     "D624406200381#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dcfab26719ce7"
+    ],
+    "gold_unit_ids": [
+     "Dcfab26719ce7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "89882b2b087611ebbd67ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who is older, See Naples And Die or Season Of Strangers?",
+  "answers": [
+   "See Naples And Die"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of See Naples and Die.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1a780b252324"
+    ],
+    "gold_unit_ids": [
+     "D1a780b252324#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Season of Strangers.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfe1d0b2652ff"
+    ],
+    "gold_unit_ids": [
+     "Dfe1d0b2652ff#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D560af932796d"
+    ],
+    "gold_unit_ids": [
+     "D560af932796d#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D73de344824d6"
+    ],
+    "gold_unit_ids": [
+     "D73de344824d6#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "528f7ff9093c11ebbdaeac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which album was released more recently, Epistemological Despondency or Tonight The Stars Revolt!?",
+  "answers": [
+   "Tonight The Stars Revolt!"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Epistemological Despondency.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da9ef8dc4146c"
+    ],
+    "gold_unit_ids": [
+     "Da9ef8dc4146c#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Tonight the Stars Revolt!.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D96931d62638e"
+    ],
+    "gold_unit_ids": [
+     "D96931d62638e#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "4de804bd096811ebbdafac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which one was established first, Presto Casting Company or Wd Scott?",
+  "answers": [
+   "Wd Scott"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the inception of Presto Casting Company.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D13567945444a"
+    ],
+    "gold_unit_ids": [
+     "D13567945444a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the inception of WD Scott.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De79476db6c34"
+    ],
+    "gold_unit_ids": [
+     "De79476db6c34#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "cce33f4e09a811ebbdb0ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which song was released earlier, Right Back At It Again or Donne-Moi Le Temps?",
+  "answers": [
+   "Donne-Moi Le Temps"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Right Back at It Again.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dea60176222f5"
+    ],
+    "gold_unit_ids": [
+     "Dea60176222f5#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Donne-moi le temps.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfb978064b7a2"
+    ],
+    "gold_unit_ids": [
+     "Dfb978064b7a2#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "4fa359f2097411ebbdb0ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has more directors, I Nuovi Mostri or Strapless?",
+  "answers": [
+   "I Nuovi Mostri"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of I nuovi mostri.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcff3878da53e"
+    ],
+    "gold_unit_ids": [
+     "Dcff3878da53e#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of I nuovi mostri.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcff3878da53e"
+    ],
+    "gold_unit_ids": [
+     "Dcff3878da53e#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the director of I nuovi mostri.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcff3878da53e"
+    ],
+    "gold_unit_ids": [
+     "Dcff3878da53e#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the director of Strapless.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D801b43c6abc9"
+    ],
+    "gold_unit_ids": [
+     "D801b43c6abc9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "ff243e0708e811ebbda7ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Are Iroquois River (Saint John River Tributary) and Capousacataca River both located in the same country?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the country of Iroquois River (Saint John River tributary).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4fdf3e5d28b8"
+    ],
+    "gold_unit_ids": [
+     "D4fdf3e5d28b8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of Capousacataca River.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D43ec5394a576"
+    ],
+    "gold_unit_ids": [
+     "D43ec5394a576#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "3b5a4070089711ebbd76ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director born later, Cheerleader Camp or Professor Marston And The Wonder Women?",
+  "answers": [
+   "Professor Marston And The Wonder Women"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Cheerleader Camp.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D45c4793a2d61"
+    ],
+    "gold_unit_ids": [
+     "D45c4793a2d61#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Professor Marston and the Wonder Women.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dad1af2dd7b33"
+    ],
+    "gold_unit_ids": [
+     "Dad1af2dd7b33#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of John Quinn (collector).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcf78a2d82a88"
+    ],
+    "gold_unit_ids": [
+     "Dcf78a2d82a88#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of Angela Robinson (director).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc7990409dadf"
+    ],
+    "gold_unit_ids": [
+     "Dc7990409dadf#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "112083160bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of Siti Hardiyanti Rukmana's father?",
+  "answers": [
+   "Kemusuk"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Siti Hardiyanti Rukmana.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Ddc56fde51423"
+    ],
+    "gold_unit_ids": [
+     "Ddc56fde51423#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D6e322737db3c"
+    ],
+    "gold_unit_ids": [
+     "D6e322737db3c#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "b00177ba08a411ebbd7dac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who was born later, Western Limited or Mission To Caracas?",
+  "answers": [
+   "Mission To Caracas"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Western Limited.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7083e066bbd4"
+    ],
+    "gold_unit_ids": [
+     "D7083e066bbd4#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Mission to Caracas.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D60409fe8f2d3"
+    ],
+    "gold_unit_ids": [
+     "D60409fe8f2d3#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D93126acafdf9"
+    ],
+    "gold_unit_ids": [
+     "D93126acafdf9#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D387cd689cd17"
+    ],
+    "gold_unit_ids": [
+     "D387cd689cd17#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "ef48a3720baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the father of Philip I, Duke Of Brabant?",
+  "answers": [
+   "Anthony, Duke of Brabant"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Philip I.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the spouse of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D01716ae69bcc"
+    ],
+    "gold_unit_ids": [
+     "D01716ae69bcc#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "2002bf0c0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?",
+  "answers": [
+   "Rupert"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Catherine of Pomerania, Countess Palatine of Neumarkt.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D4e4dd3ffa944"
+    ],
+    "gold_unit_ids": [
+     "D4e4dd3ffa944#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "56d2ffcc08d811ebbd9aac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do both films Homecoming (1984 Film) and Hello Cheyenne have the directors that share the same nationality?",
+  "answers": [
+   "no"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Homecoming (1984 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D83300e3dbb07"
+    ],
+    "gold_unit_ids": [
+     "D83300e3dbb07#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Hello Cheyenne.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D43d204b24d93"
+    ],
+    "gold_unit_ids": [
+     "D43d204b24d93#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Db4ecdd1ad0ab"
+    ],
+    "gold_unit_ids": [
+     "Db4ecdd1ad0ab#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dd11260edf14a"
+    ],
+    "gold_unit_ids": [
+     "Dd11260edf14a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "83d6fb36088d11ebbd70ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who died first, The 49Th Man or Annabel Takes A Tour?",
+  "answers": [
+   "The 49Th Man"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of The 49th Man.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Df7a9fc959f97"
+    ],
+    "gold_unit_ids": [
+     "Df7a9fc959f97#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Annabel Takes a Tour.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da0ebdd3e4f2c"
+    ],
+    "gold_unit_ids": [
+     "Da0ebdd3e4f2c#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D29b3da900323"
+    ],
+    "gold_unit_ids": [
+     "D29b3da900323#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Dd2bdbcb146f7"
+    ],
+    "gold_unit_ids": [
+     "Dd2bdbcb146f7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "2fa728f20bde11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the husband of Florence Bligh, Countess Of Darnley born?",
+  "answers": [
+   "Westminster"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Florence Rose Bligh (n\u00e9e Morphy), Countess of Darnley.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Df9e7c2500999"
+    ],
+    "gold_unit_ids": [
+     "Df9e7c2500999#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "fdc90af60bda11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where did the composer of song Aren'T You Kind Of Glad We Did? die?",
+  "answers": [
+   "Hollywood"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the composer of \"Aren't You Kinda Glad We Did?.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D0a901c5a2bf6"
+    ],
+    "gold_unit_ids": [
+     "D0a901c5a2bf6#s9"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "e710322e089911ebbd77ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Do director of film Just Married (1934 Film) and director of film The Thirteenth Commandment share the same nationality?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 5,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Just Married (1934 film).",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D6966e284cff4"
+    ],
+    "gold_unit_ids": [
+     "D6966e284cff4#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of The Thirteenth Commandment.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2683935da530"
+    ],
+    "gold_unit_ids": [
+     "D2683935da530#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the country of citizenship of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dbc6ac78f3f7e"
+    ],
+    "gold_unit_ids": [
+     "Dbc6ac78f3f7e#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D06d6171182d7"
+    ],
+    "gold_unit_ids": [
+     "D06d6171182d7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R5",
+    "text": "Find the country of citizenship of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D06d6171182d7"
+    ],
+    "gold_unit_ids": [
+     "D06d6171182d7#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1f6b39480bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the performer of song American Storm born?",
+  "answers": [
+   "Detroit"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the performer of American Storm.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dcc723c8f7d2a"
+    ],
+    "gold_unit_ids": [
+     "Dcc723c8f7d2a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D5de1d1af49d8"
+    ],
+    "gold_unit_ids": [
+     "D5de1d1af49d8#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "91d01af80bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the cause of death of director of film Awesome; I Fuckin' Shot That!?",
+  "answers": [
+   "cancer"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Awesome; I Fuckin' Shot That!.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De8fc51c7a1b5"
+    ],
+    "gold_unit_ids": [
+     "De8fc51c7a1b5#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the cause of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D40ce17ce6d76"
+    ],
+    "gold_unit_ids": [
+     "D40ce17ce6d76#s4"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "43d8b52c0baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Princess Mafalda Of Savoy's maternal grandmother?",
+  "answers": [
+   "Milena Vukoti\u0107"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Princess Mafalda of Savoy.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dfc806400c94f"
+    ],
+    "gold_unit_ids": [
+     "Dfc806400c94f#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the mother of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D75071955bf4a"
+    ],
+    "gold_unit_ids": [
+     "D75071955bf4a#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "0a12f704085e11ebbd5cac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film came out earlier, The Secret Of Mountain Lake or Upstairs And Downstairs?",
+  "answers": [
+   "The Secret Of Mountain Lake"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of The Secret of Mountain Lake.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Db3b043401606"
+    ],
+    "gold_unit_ids": [
+     "Db3b043401606#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of Upstairs and Downstairs.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Dc4a319bf28c1"
+    ],
+    "gold_unit_ids": [
+     "Dc4a319bf28c1#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "bb3829b80baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the father-in-law of Maria Manuela, Princess Of Portugal?",
+  "answers": [
+   "Charles V"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Maria Manuela, Princess of Portugal.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De40049bd651c"
+    ],
+    "gold_unit_ids": [
+     "De40049bd651c#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D51a57ce8b645"
+    ],
+    "gold_unit_ids": [
+     "D51a57ce8b645#s3"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "207788f1084a11ebbd55ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Are Trenton Aerodrome and Mackenzie Airport both located in the same country?",
+  "answers": [
+   "yes"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the country of Trenton Aerodrome.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1ac8f180ada8"
+    ],
+    "gold_unit_ids": [
+     "D1ac8f180ada8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the country of Mackenzie Airport.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D1582f761c10e"
+    ],
+    "gold_unit_ids": [
+     "D1582f761c10e#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "6d92780e0bdb11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Where was the place of death of Gilbert Chandler's father?",
+  "answers": [
+   "Boronia"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Gilbert Chandler.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7b9521b7fda7"
+    ],
+    "gold_unit_ids": [
+     "D7b9521b7fda7#s4"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "f68691d208bf11ebbd8aac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who was born first, The Younger Generation or The Sky Skidder?",
+  "answers": [
+   "The Sky Skidder"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of The Younger Generation.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De9f16455ef85"
+    ],
+    "gold_unit_ids": [
+     "De9f16455ef85#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of The Sky Skidder.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D929e318d688c"
+    ],
+    "gold_unit_ids": [
+     "D929e318d688c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dff2ed0427cb3"
+    ],
+    "gold_unit_ids": [
+     "Dff2ed0427cb3#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "Da87d8ff8afdc"
+    ],
+    "gold_unit_ids": [
+     "Da87d8ff8afdc#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "6392cf220bde11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of Henrik Selberg's father?",
+  "answers": [
+   "Flora"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Henrik Selberg.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D0252d23f313d"
+    ],
+    "gold_unit_ids": [
+     "D0252d23f313d#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Db3e85574f67e"
+    ],
+    "gold_unit_ids": [
+     "Db3e85574f67e#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "48c8f7f80bdd11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the father of the director of film Gramps Is In The Resistance?",
+  "answers": [
+   "Alain Poir\u00e9"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Papy fait de la r\u00e9sistance.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D0871d4d46f67"
+    ],
+    "gold_unit_ids": [
+     "D0871d4d46f67#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "1b36941208a911ebbd7fac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who was born later, Anchorman 2: The Legend Continues or Much Ado About Nixi?",
+  "answers": [
+   "Anchorman 2: The Legend Continues"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Anchorman 2: The Legend Continues.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Da32c1a5d0a26"
+    ],
+    "gold_unit_ids": [
+     "Da32c1a5d0a26#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Much Ado About Nixi.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2dc577ada00b"
+    ],
+    "gold_unit_ids": [
+     "D2dc577ada00b#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D2db97720d04b"
+    ],
+    "gold_unit_ids": [
+     "D2db97720d04b#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D8b1ba8e32591"
+    ],
+    "gold_unit_ids": [
+     "D8b1ba8e32591#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "5312a6eb087d11ebbd6aac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who was born earlier, Broadway Danny Rose or Bl\u00e6ndv\u00e6rk?",
+  "answers": [
+   "Bl\u00e6ndv\u00e6rk"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Broadway Danny Rose.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De83ddf9d6798"
+    ],
+    "gold_unit_ids": [
+     "De83ddf9d6798#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Bl\u00e6ndv\u00e6rk.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D5ebcf0cd96ea"
+    ],
+    "gold_unit_ids": [
+     "D5ebcf0cd96ea#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D22a9ca843eaa"
+    ],
+    "gold_unit_ids": [
+     "D22a9ca843eaa#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D137e7c6cbf52"
+    ],
+    "gold_unit_ids": [
+     "D137e7c6cbf52#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "0cdb4d11085c11ebbd5cac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who was born first, Going All The Way or Married To The Mob?",
+  "answers": [
+   "Married To The Mob"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Going All the Way.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "De314cef47c9d"
+    ],
+    "gold_unit_ids": [
+     "De314cef47c9d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Married to the Mob.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D2ff75d93e2ee"
+    ],
+    "gold_unit_ids": [
+     "D2ff75d93e2ee#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D73331321b9fc"
+    ],
+    "gold_unit_ids": [
+     "D73331321b9fc#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of birth of the entity identified in R2.",
+    "depends_on": [
+     "R2"
+    ],
+    "gold_doc_ids": [
+     "D141a989a3dd8"
+    ],
+    "gold_unit_ids": [
+     "D141a989a3dd8#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "8cf72457085211ebbd58ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film has the director who died earlier, Holiday In Tyrol or Las Aventuras De Pito P\u00e9rez?",
+  "answers": [
+   "Holiday In Tyrol"
+  ],
+  "n_hops": 4,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the director of Holiday in Tyrol.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D05b6da1fb13d"
+    ],
+    "gold_unit_ids": [
+     "D05b6da1fb13d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the director of Las aventuras de Pito P\u00e9rez.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D50d70bbf301b"
+    ],
+    "gold_unit_ids": [
+     "D50d70bbf301b#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R3",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dca5e382e9394"
+    ],
+    "gold_unit_ids": [
+     "Dca5e382e9394#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R4",
+    "text": "Find the date of death of Juan Bustillo Oro.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D00a98ff19654"
+    ],
+    "gold_unit_ids": [
+     "D00a98ff19654#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "680e91260bde11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "What is the place of birth of Dina Sfat's husband?",
+  "answers": [
+   "Lavras do Sul"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the spouse of Dina Sfat.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Deac5cf64cdbd"
+    ],
+    "gold_unit_ids": [
+     "Deac5cf64cdbd#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the place of birth of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D4e939ffe54ee"
+    ],
+    "gold_unit_ids": [
+     "D4e939ffe54ee#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "dab62b000baf11ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is Duke Siegfried August In Bavaria's maternal grandmother?",
+  "answers": [
+   "Princess Cl\u00e9mentine of Orl\u00e9ans"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the mother of Duke Siegfried in Bavaria.",
+    "depends_on": [],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the mother of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D4e7285a40e53"
+    ],
+    "gold_unit_ids": [
+     "D4e7285a40e53#s1"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "fd68c8f7085311ebbd59ac1f6bf848b6",
+  "dataset": "2wiki",
+  "question": "Which film was released more recently, Inn Of The Damned or The Assigned Servant?",
+  "answers": [
+   "Inn Of The Damned"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the publication date of Inn of the Damned.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D828b04aee852"
+    ],
+    "gold_unit_ids": [
+     "D828b04aee852#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the publication date of The Assigned Servant.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D7102c7681d8d"
+    ],
+    "gold_unit_ids": [
+     "D7102c7681d8d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "56d3a3a20bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the paternal grandfather of Friedrich Karl Of Limburg Stirum?",
+  "answers": [
+   "Hermann Otto II of Limburg Stirum"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Friedrich Karl of Limburg Stirum.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D9e2e4fab2e9d"
+    ],
+    "gold_unit_ids": [
+     "D9e2e4fab2e9d#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "Dc9ce1333c12b"
+    ],
+    "gold_unit_ids": [
+     "Dc9ce1333c12b#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "0fc59fa00bde11eba7f7acde48001122",
+  "dataset": "2wiki",
+  "question": "When did Ludwig Gruno Of Hesse-Homburg's father die?",
+  "answers": [
+   "8 June 1746"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Ludwig Gruno of Hesse-Homburg.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "D08d842beb39e"
+    ],
+    "gold_unit_ids": [
+     "D08d842beb39e#s2"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the date of death of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [
+     "D15f2faa07fda"
+    ],
+    "gold_unit_ids": [
+     "D15f2faa07fda#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ },
+ {
+  "qid": "32edaabe0bb011ebab90acde48001122",
+  "dataset": "2wiki",
+  "question": "Who is the paternal grandfather of Prince Joseph Wenzel Of Liechtenstein?",
+  "answers": [
+   "Hans-Adam II"
+  ],
+  "n_hops": 2,
+  "needs_review": true,
+  "requirements": [
+   {
+    "rid": "R1",
+    "text": "Find the father of Prince Joseph Wenzel of Liechtenstein.",
+    "depends_on": [],
+    "gold_doc_ids": [
+     "Daa626a74f80c"
+    ],
+    "gold_unit_ids": [
+     "Daa626a74f80c#s0"
+    ],
+    "gold_answer": null,
+    "heuristic": true
+   },
+   {
+    "rid": "R2",
+    "text": "Find the father of the entity identified in R1.",
+    "depends_on": [
+     "R1"
+    ],
+    "gold_doc_ids": [],
+    "gold_unit_ids": [],
+    "gold_answer": null,
+    "heuristic": true
+   }
+  ]
+ }
+]
