@@ -16,11 +16,11 @@ sys.path.insert(0, ROOT)
 from registerrag import registry
 
 INDEXED = {"hlg", "evimem", "lychee"}      # baselines with an offline index (scripts/build_index.py)
-DATA = {"2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json"}
+DATA = {"2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json", "dsire": "datasets/dsire_data/repolicyqa_{s}.json"}
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--generator", default="qwen2.5:3b")
-ap.add_argument("--datasets", default="2wiki,musique")
+ap.add_argument("--datasets", default="2wiki,musique,dsire")
 ap.add_argument("--methods", default="none,chunk,sentence,iterative")
 ap.add_argument("--coder", default=None, help="code model for planners (default: qwen2.5-coder:<same size>)")
 ap.add_argument("--suffix", default="100")

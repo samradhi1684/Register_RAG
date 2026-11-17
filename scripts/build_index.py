@@ -16,7 +16,7 @@ from registerrag.config import RunConfig
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--system", required=True, help="comma separated --system names / folder ids")
-ap.add_argument("--dataset", required=True, choices=["2wiki", "musique", "hotpot"])
+ap.add_argument("--dataset", required=True, choices=["2wiki", "musique", "hotpot", "dsire"], help="dataset name")
 ap.add_argument("--data", required=True)
 ap.add_argument("--generator", default="qwen2.5:3b")
 ap.add_argument("--limit", type=int)

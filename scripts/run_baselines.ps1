@@ -7,7 +7,7 @@
 #   powershell -ExecutionPolicy Bypass -File scripts\run_baselines.ps1 -Suffix 500
 param(
   [string]$Generator = "qwen2.5:3b",
-  [string[]]$Datasets = @("2wiki", "musique"),
+  [string[]]$Datasets = @("2wiki", "musique","dsire"),
   [string]$Out = "runs",
   [string]$Suffix = "100",
   [int]$Limit = 0,
@@ -18,6 +18,7 @@ $env:PYTHONUTF8 = "1"
 $files = @{
   "2wiki"   = "datasets/wiki2_data/2wiki_$Suffix.json"
   "musique" = "datasets/musique_data/musique_$Suffix.json"
+  "dsire"   = "datasets/dsire_data/repolicyqa_$Suffix.json"
 }
 $script:failed = @()
 

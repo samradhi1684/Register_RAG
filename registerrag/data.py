@@ -1,6 +1,7 @@
 """Dataset loaders -> Example objects with gold evidence and draft gold requirement programs."""
 from __future__ import annotations
 
+
 import hashlib
 import json
 import random
@@ -8,7 +9,10 @@ import re
 from dataclasses import dataclass, field
 from typing import Optional
 
+
 from .units import PysbdSplitter, doc_from_native_sentences, doc_from_text, norm_ws
+
+
 
 
 @dataclass
@@ -21,8 +25,11 @@ class Requirement:
     gold_answer: Optional[str] = None        # intermediate answer when the dataset provides it
     heuristic: bool = False                  # True => auto-derived, needs manual review
 
+
     def to_dict(self):
         return self.__dict__.copy()
+
+
 
 
 @dataclass
@@ -39,12 +46,16 @@ class Example:
     gold_requirements: list = field(default_factory=list)
 
 
+
+
 def _norm_key(s: str) -> str:
     return norm_ws(s).lower()
 
 
+
+
 def _wiki_requirements(rec, title2doc, sf_units):
-    """Draft requirements from 2Wiki `evidences` triples. Triples are used ONLY to author the
+    """Draft requirements from 2Wiki evidences triples. Triples are used ONLY to author the
     plain-English requirement text and hop order; they are not used as an evidence representation."""
     ev = rec.get("evidences") or []
     reqs = []
@@ -60,6 +71,8 @@ def _wiki_requirements(rec, title2doc, sf_units):
         gunits = sf_units.get(_norm_key(s), []) if doc else []
         reqs.append(Requirement(f"R{i}", text, deps, gdocs, gunits, None, heuristic=True))
     return reqs
+
+
 
 
 def parse_native_sentence_record(rec: dict, dataset: str, docs: dict) -> Example:
@@ -99,6 +112,8 @@ def parse_native_sentence_record(rec: dict, dataset: str, docs: dict) -> Example
                    doc_ids, gold_docs, gold_units, n_hops, rec.get("type", ""), reqs)
 
 
+
+
 def parse_musique_record(rec: dict, docs: dict, splitter) -> Example:
     idx2doc, doc_ids, gold_docs = {}, [], []
     for p in rec["paragraphs"]:
@@ -122,9 +137,32 @@ def parse_musique_record(rec: dict, docs: dict, splitter) -> Example:
                    len(reqs) or 2, "", reqs)
 
 
+
+
+def parse_dsire_records(recs: list, docs: dict, splitter) -> list:
+    """DSIRE / RePolicyQA: one record = (policy chunk, question, long free-text answer). Corpus = the unique policy
+    chunks (several questions share one chunk). Gold evidence = that question's chunk (document-level only; the
+    context field is a paraphrased summary, not a span, so no sentence-level gold is claimed). EM is ~0 for
+    free-text answers, so token-F1 is the answer metric for this dataset."""
+    exs = []
+    for i, r in enumerate(recs):
+        chunk = r["chunk"]
+        m = re.match(r"\s*#\s*(.+)", chunk)
+        title = (m.group(1) if m else f"policy {r['document_id']}").strip()
+        d = doc_from_text(title, chunk, splitter)
+        if d is None:
+            continue
+        docs.setdefault(d.doc_id, d)
+        exs.append(Example(f"dsire{i:03d}", "dsire", r["question"], [r["answer"]], [d.doc_id], [d.doc_id], None, 1,
+                           r.get("question_type", "")))
+    return exs
+
+
+
+
 def load_examples(path: str, dataset: str, limit: Optional[int] = None, sample_seed: Optional[int] = None):
     """Returns (examples, docs, data_sha256). The 100-question files are already frozen samples;
-    `sample_seed` is only for sub-sampling a larger file."""
+    sample_seed is only for sub-sampling a larger file."""
     raw_bytes = open(path, "rb").read()
     sha = hashlib.sha256(raw_bytes).hexdigest()
     recs = json.loads(raw_bytes)
@@ -135,7 +173,9 @@ def load_examples(path: str, dataset: str, limit: Optional[int] = None, sample_s
     if limit:
         recs = recs[:limit]
     docs, exs = {}, []
-    splitter = PysbdSplitter() if dataset == "musique" else None
+    splitter = PysbdSplitter() if dataset in ("musique", "dsire") else None
+    if dataset == "dsire":
+        return parse_dsire_records(recs, docs, splitter), docs, sha
     for r in recs:
         if dataset in ("2wiki", "hotpot"):
             exs.append(parse_native_sentence_record(r, dataset, docs))
