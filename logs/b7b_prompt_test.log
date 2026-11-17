@@ -1,0 +1,19 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00, 26.02it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 32.76it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 75.47it/s]
+[suffix] 6bde832c EM=0.0 F1=0.0 217.7s :: 'The memory does not contain the information about the award Gunasekhar earned.'
+[chatml] 6bde832c EM=0.0 F1=0.0 192.34s :: 'The provided section does not contain any information about the award earned by '
+[suffix] cbdd8883 EM=0.0 F1=0.0 201.02s :: 'No, the directors of both films are not from the same country.'
+[chatml] cbdd8883 EM=0.0 F1=0.0 312.91s :: 'No, the directors of "Illusion" (1929 Film) and "Melancholie Der Engel" are from'
+[suffix] 77e657d8 EM=0.0 F1=0.0 147.21s :: 'Robert Vadra'
+[chatml] 77e657d8 EM=0.0 F1=0.0 163.78s :: 'Robert Vadra'
+[suffix] c08b3130 EM=0.0 F1=0.0 154.39s :: 'Catherine Exley'
+[chatml] c08b3130 EM=0.0 F1=0.0 162.88s :: 'E Catherine Exley'
+[suffix] 1e118032 EM=0.0 F1=0.06666666666666667 169.36s :: 'No, the movies "Prairie Fever" and "The Captain" (2017 Film) did not originate f'
+[chatml] 1e118032 EM=0.0 F1=0.07407407407407407 175.84s :: 'No, the movies Prairie Fever and The Captain ( 2017 Film) originate from differe'
+[suffix] 654d62ba EM=0.0 F1=0.36363636363636365 157.56s :: "Mary Willing Byrd's child is Richard Willing Byrd."
+[chatml] 654d62ba EM=0.0 F1=0.3333333333333333 322.66s :: 'William Byrd III'
+[suffix] 267ff0c0 EM=0.0 F1=0.4 151.44s :: 'London, England, United Kingdom'
+[chatml] 267ff0c0 EM=0.0 F1=0.5 146.9s :: 'London, England, UK'
+[suffix] 08b13d92 EM=0.0 F1=0.4444444444444445 156.45s :: 'Digby Tatham-Warter is older than Larisa Rozanova.'
+[chatml] 08b13d92 EM=0.0 F1=0.0 174.82s :: 'DigbyTatham-Warter is older than Larisa Rozanova.'
+##### B7B PROMPT TEST DONE

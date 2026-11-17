@@ -1,0 +1,112 @@
+{
+  "n": 100,
+  "em": 0.17,
+  "em_ci95": [
+    0.1,
+    0.24
+  ],
+  "f1": 0.2013997113997114,
+  "f1_ci95": [
+    0.1263780663780664,
+    0.2747330447330447
+  ],
+  "doc_recall@5": 0.725,
+  "doc_recall@10": 0.79,
+  "doc_recall@20": 0.855,
+  "sent_recall@5": 0.585,
+  "sent_recall@10": 0.675,
+  "sent_recall@20": 0.73,
+  "unit_precision@5": 0.278,
+  "unit_precision@10": 0.159,
+  "ctx_doc_recall": 0.725,
+  "ctx_sent_recall": 0.585,
+  "ctx_unit_precision": 0.278,
+  "ctx_all_gold_rate": 0.28,
+  "latency_p50": 0.36276989999896614,
+  "latency_p95": 0.6372556000060285,
+  "peak_prompt_tokens_mean": 249.39,
+  "peak_prompt_tokens_max": 505,
+  "total_tokens_mean": 2713.16,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 420.16015625,
+  "calls_mean": {
+    "retriever": 1.0,
+    "reranker": 1.0,
+    "verifier": 0.0,
+    "compiler": 0.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "RERANKING_FAILURE": 22,
+    "RETRIEVAL_FAILURE": 45,
+    "CORRECT": 17,
+    "GENERATION_FAILURE": 16
+  },
+  "by_hops": {
+    "2": {
+      "n": 72,
+      "em": 0.19444444444444445,
+      "f1": 0.2380551547218214
+    },
+    "4": {
+      "n": 26,
+      "em": 0.11538461538461539,
+      "f1": 0.11538461538461539
+    },
+    "5": {
+      "n": 2,
+      "em": 0.0,
+      "f1": 0.0
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 83,
+      "recall": 0.9156626506024096
+    },
+    "2": {
+      "n": 93,
+      "recall": 0.6129032258064516
+    },
+    "3": {
+      "n": 28,
+      "recall": 0.14285714285714285
+    },
+    "4": {
+      "n": 28,
+      "recall": 0.21428571428571427
+    },
+    "5": {
+      "n": 2,
+      "recall": 0.0
+    }
+  },
+  "config": {
+    "system": "sentence",
+    "dataset": "2wiki",
+    "data_path": "datasets/wiki2_data/2wiki_100.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": false,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v1",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "a44b7c7deb",
+  "data_sha256": "db31c8c30daa4b9721d9d4290bb48555b176aa77ebee3f9b5610c327abd37d44",
+  "git_sha": null,
+  "git_dirty": null
+}

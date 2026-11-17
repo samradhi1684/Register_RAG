@@ -1,0 +1,613 @@
+##### b7b 2wiki attempt 1 Sun, Nov  1, 2026  8:00:36 PM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4834.75it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 5377.58it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 1.7s
+run dir: baselines/b7b_lychee_acl/results\lycheeacl_2wiki_0bda7466e7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 834, 'n_docs': 799, 'units_fingerprint': '0760b47093392b4524b346c65edda1ce82af87eea24e649f1c73dcca4309c4c5'}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 176.88it/s]
+  [10/100] last EM=0  latency=224.3s
+  [20/100] last EM=0  latency=400.1s
+  [30/100] last EM=0  latency=199.9s
+  [40/100] last EM=0  latency=183.7s
+  [50/100] last EM=0  latency=249.5s
+  [60/100] last EM=0  latency=316.3s
+  [70/100] last EM=0  latency=201.8s
+  [80/100] last EM=0  latency=201.0s
+  [90/100] last EM=0  latency=173.3s
+  [100/100] last EM=0  latency=645.2s
+{
+  "n": 100,
+  "em": 0.0,
+  "em_ci95": [
+    0.0,
+    0.0
+  ],
+  "f1": 0.14376905788257313,
+  "sent_recall@10": 0.0,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 2372,
+  "total_tokens_mean": 1192.97,
+  "latency_p50": 220.03604939999786,
+  "latency_p95": 403.8256609000018,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 100
+  }
+}
+##### b7b musique attempt 1 Mon, Nov  2, 2026  3:04:53 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4709.56it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4578.46it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 1.4s
+run dir: baselines/b7b_lychee_acl/results\lycheeacl_musique_3d1bd68197
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 1641, 'n_docs': 1629, 'units_fingerprint': 'c2b89aa367bca98836e621e7c65cf928e374bb48aceac5425588ad53543f80ab'}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 172.39it/s]
+  [10/100] last EM=0  latency=288.2s
+  [20/100] last EM=0  latency=418.1s
+  [30/100] last EM=0  latency=383.4s
+  [40/100] last EM=0  latency=287.6s
+  [50/100] last EM=0  latency=499.3s
+  [60/100] last EM=0  latency=371.7s
+  [70/100] last EM=0  latency=460.9s
+##### b7b 2wiki attempt 1 Mon, Nov  2, 2026 11:19:49 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5377.76it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4576.84it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 1 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 2 Mon, Nov  2, 2026 11:20:31 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4999.92it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4386.78it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 2 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 3 Mon, Nov  2, 2026 11:21:00 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4629.14it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4619.57it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 3 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 4 Mon, Nov  2, 2026 11:21:29 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4423.60it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4578.79it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 4 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 5 Mon, Nov  2, 2026 11:21:57 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5876.90it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4909.78it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 5 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 6 Mon, Nov  2, 2026 11:22:25 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5627.09it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4654.72it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 6 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 7 Mon, Nov  2, 2026 11:22:53 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5184.30it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4661.97it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 7 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 8 Mon, Nov  2, 2026 11:23:20 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5528.54it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4511.21it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 8 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 9 Mon, Nov  2, 2026 11:23:48 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5226.96it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4536.62it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 9 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 10 Mon, Nov  2, 2026 11:24:19 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4952.57it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 5171.22it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 10 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 11 Mon, Nov  2, 2026 11:24:48 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4870.44it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4891.18it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 11 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 12 Mon, Nov  2, 2026 11:25:15 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5089.52it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4765.84it/s]
+Windows fatal exception: access violation
+
+Thread 0x00001ba4 (most recent call first):
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 363 in wait
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 659 in wait
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\tqdm\_monitor.py", line 69 in run
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1041 in _bootstrap_inner
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1012 in _bootstrap
+
+Current thread 0x000017ac (most recent call first):
+  Garbage-collecting
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 171 in __setitem__
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 703 in _parse
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459 in _parse_sub
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 863 in _parse
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459 in _parse_sub
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 863 in _parse
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459 in _parse_sub
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 863 in _parse
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459 in _parse_sub
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 980 in parse
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748 in compile
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350 in _compile
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 289 in compile
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\urllib3\util\url.py", line 65 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\urllib3\util\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\urllib3\_base_connection.py", line 5 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\urllib3\__init__.py", line 15 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\requests\__init__.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 68 in ping
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+./run_b7b_full.sh: line 10:  2025 Segmentation fault      CUDA_VISIBLE_DEVICES="" $PY -m registerrag.cli run --system lycheeacl --dataset $ds --data "$data" --out baselines/b7b_lychee_acl/results --prepend-title --prompt v2 --top-k 5 --generator qwen2.5:3b --method-arg timeout_s=3600
+attempt 12 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 13 Mon, Nov  2, 2026 11:25:29 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5992.08it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 3985.07it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 13 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 14 Mon, Nov  2, 2026 11:26:01 AM
+Windows fatal exception: code 0xc000001d
+
+Current thread 0x00004438 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2972 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4659 in auto_class_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4856 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\udop\configuration_udop.py", line 22 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1412 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\__init__.py", line 4 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 15 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Fatal Python error: Illegal instruction
+
+Current thread 0x00004438 (most recent call first):
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 2972 in parse_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4659 in auto_class_docstring
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 4856 in auto_docstring_decorator
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\models\udop\configuration_udop.py", line 22 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\Users\DAIICT E\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2841 in _get_module
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\transformers\utils\import_utils.py", line 2612 in __getattr__
+  File "<frozen importlib._bootstrap>", line 1412 in _handle_fromlist
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 14 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\modules\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\model.py", line 45 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\base\__init__.py", line 4 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1310 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\.venv\Lib\site-packages\sentence_transformers\__init__.py", line 15 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1026 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\retrieval.py", line 39 in __init__
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 61 in build_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 81 in cmd_run
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181 in main
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, regex._regex, markupsafe._speedups, yaml._yaml, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.sparse._sparsetools, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, charset_normalizer.md, charset_normalizer.cd, _csparsetools, scipy.sparse._csparsetools, sklearn.__check_build._check_build, scipy.special._ufuncs_cxx, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg._batched_linalg, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._internal_matfuncs, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg.cython_lapack, scipy.linalg._decomp_update, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.spatial._ckdtree, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.interpolate._fitpack, scipy.interpolate._dierckx, scipy.interpolate._ppoly, scipy.interpolate._interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy.stats._ansari_swilk_statistics, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._rcont.rcont, scipy.stats._qmvnt_cy, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, sklearn._cyutility, sklearn.utils._isfinite, sklearn.utils.sparsefuncs_fast, sklearn.utils.murmurhash, sklearn.utils._openmp_helpers, sklearn.metrics.cluster._expected_mutual_info_fast, sklearn.metrics._dist_metrics, sklearn.metrics._pairwise_distances_reduction._datasets_pair, sklearn.utils._cython_blas, sklearn.metrics._pairwise_distances_reduction._base, sklearn.metrics._pairwise_distances_reduction._middle_term_computer, sklearn.utils._heap, sklearn.utils._sorting, sklearn.metrics._pairwise_distances_reduction._argkmin, sklearn.metrics._pairwise_distances_reduction._argkmin_classmode, sklearn.utils._vector_sentinel, sklearn.metrics._pairwise_distances_reduction._radius_neighbors, sklearn.metrics._pairwise_distances_reduction._radius_neighbors_classmode, sklearn.metrics._pairwise_fast, sklearn.preprocessing._csr_polynomial_expansion, sklearn.preprocessing._target_encoder_fast (total: 128)
+attempt 14 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 15 Mon, Nov  2, 2026 11:26:11 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4806.63it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4627.09it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 15 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 16 Mon, Nov  2, 2026 11:26:48 AM
+Could not reach the Hub ([WinError 10054] An existing connection was forcibly closed by the remote host). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5647.50it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4299.16it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 16 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 17 Mon, Nov  2, 2026 11:27:32 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5696.10it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4577.79it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 181, in main
+    a.fn(a)
+    ~~~~^^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\cli.py", line 84, in cmd_run
+    print(f"preflight[{role}]:", gen.ping())
+                                 ~~~~~~~~^^
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 78, in ping
+    out = self.generate("Reply with one word.", "Say OK")
+  File "C:\Users\DAIICT E\Desktop\Jyoti\RegisterRAG-main\RegisterRAG-main\registerrag\generate.py", line 64, in generate
+    raise RuntimeError(f"ollama failed: {last}")
+RuntimeError: ollama failed: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/chat
+attempt 17 failed; finished questions are kept, retrying...
+##### b7b 2wiki attempt 18 Mon, Nov  2, 2026 11:28:00 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4501.44it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4321.69it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 20.6s
+run dir: baselines/b7b_lychee_acl/results\lycheeacl_2wiki_0bda7466e7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 834, 'n_docs': 799, 'units_fingerprint': '0760b47093392b4524b346c65edda1ce82af87eea24e649f1c73dcca4309c4c5'}
+{
+  "n": 100,
+  "em": 0.0,
+  "em_ci95": [
+    0.0,
+    0.0
+  ],
+  "f1": 0.14376905788257313,
+  "sent_recall@10": 0.0,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 2372,
+  "total_tokens_mean": 1192.97,
+  "latency_p50": 220.03604939999786,
+  "latency_p95": 403.8256609000018,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 100
+  }
+}
+##### b7b musique attempt 1 Mon, Nov  2, 2026 11:28:31 AM
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4027.09it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4416.61it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: baselines/b7b_lychee_acl/results\lycheeacl_musique_3d1bd68197
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 1641, 'n_docs': 1629, 'units_fingerprint': 'c2b89aa367bca98836e621e7c65cf928e374bb48aceac5425588ad53543f80ab'}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 53.70it/s]
+  [80/100] last EM=0  latency=182.8s
+  [90/100] last EM=0  latency=210.2s
+  [100/100] last EM=0  latency=519.0s
+{
+  "n": 100,
+  "em": 0.0,
+  "em_ci95": [
+    0.0,
+    0.0
+  ],
+  "f1": 0.06776007963240473,
+  "sent_recall@10": null,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 3945,
+  "total_tokens_mean": 2893.81,
+  "latency_p50": 302.92358620000596,
+  "latency_p95": 617.6152568000034,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 100
+  }
+}
+##### B7B DONE Mon, Nov  2, 2026 12:54:53 PM

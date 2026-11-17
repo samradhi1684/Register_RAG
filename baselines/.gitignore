@@ -1,0 +1,3 @@
+# cloned official code and baseline-specific data/caches stay out of git
+*/third_party/
+*/data/

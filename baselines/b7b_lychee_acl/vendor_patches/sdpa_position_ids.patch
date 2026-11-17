@@ -1,0 +1,17 @@
+diff --git a/src/modeling_qwen2.py b/src/modeling_qwen2.py
+index b8fee70..d7567c6 100644
+--- a/src/modeling_qwen2.py
++++ b/src/modeling_qwen2.py
+@@ -1269,10 +1269,10 @@ class Qwen2ForCausalLM(Qwen2PreTrainedModel, GenerationMixin):
+             # t3 = time.time()
+ 
+             input_ids, attention_mask, position_ids, past_key_values, labels = self.memory.step()
+-            if self.memory.kv_mask is not None:
++            if self.memory.kv_mask is not None and attention_mask is not None and attention_mask.dim() == 2:
+                 attention_mask[:,:self.memory.kv_mask.shape[1]] = self.memory.kv_mask
+             # 根据attention_mask动态构建position_ids，mask为1的位置自增，为0保持不变
+-            if attention_mask is not None:
++            if attention_mask is not None and attention_mask.dim() == 2:
+                 # 假设attention_mask形状为(batch, seq_len)
+                 position_ids = torch.cumsum(attention_mask, dim=1) - 1
+                 position_ids = position_ids.clamp(min=0).to(torch.long)

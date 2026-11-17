@@ -1,0 +1,119 @@
+{
+  "n": 100,
+  "em": 0.0,
+  "em_ci95": [
+    0.0,
+    0.0
+  ],
+  "f1": 0.024,
+  "f1_ci95": [
+    0.005,
+    0.048
+  ],
+  "doc_recall@5": 0.0,
+  "doc_recall@10": 0.0,
+  "doc_recall@20": 0.0,
+  "sent_recall@5": null,
+  "sent_recall@10": null,
+  "sent_recall@20": null,
+  "unit_precision@5": null,
+  "unit_precision@10": null,
+  "ctx_doc_recall": 0.0,
+  "ctx_sent_recall": null,
+  "ctx_unit_precision": null,
+  "ctx_all_gold_rate": 0.0,
+  "latency_p50": 0.046943800000008196,
+  "latency_p95": 0.18834919999790145,
+  "peak_prompt_tokens_mean": 74.1,
+  "peak_prompt_tokens_max": 89,
+  "total_tokens_mean": 78.62,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 213.919921875,
+  "calls_mean": {
+    "retriever": 0.0,
+    "reranker": 0.0,
+    "verifier": 0.0,
+    "compiler": 0.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "NO_RETRIEVAL": 100
+  },
+  "by_hops": {
+    "2": {
+      "n": 34,
+      "em": 0.0,
+      "f1": 0.024509803921568624
+    },
+    "3": {
+      "n": 33,
+      "em": 0.0,
+      "f1": 0.0
+    },
+    "4": {
+      "n": 33,
+      "em": 0.0,
+      "f1": 0.047474747474747475
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 100,
+      "recall": 0.0
+    },
+    "2": {
+      "n": 100,
+      "recall": 0.0
+    },
+    "3": {
+      "n": 66,
+      "recall": 0.0
+    },
+    "4": {
+      "n": 33,
+      "recall": 0.0
+    }
+  },
+  "config": {
+    "system": "none",
+    "dataset": "musique",
+    "data_path": "datasets/musique_data/musique_100.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "f51860b62f",
+  "data_sha256": "2e32ae16a25f3c60a54b941424f437bdc3bfd17f6a15a779961aa55960f71ef9",
+  "git_sha": null,
+  "git_dirty": null,
+  "env": {
+    "python": "3.13.3",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.4",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.21.0",
+    "sentence-transformers": "6.2.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "ollama_version": "0.40.11",
+    "OLLAMA_FLASH_ATTENTION(client env)": "0"
+  }
+}

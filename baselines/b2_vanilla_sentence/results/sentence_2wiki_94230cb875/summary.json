@@ -1,0 +1,112 @@
+{
+  "n": 100,
+  "em": 0.37,
+  "em_ci95": [
+    0.28,
+    0.46
+  ],
+  "f1": 0.43259523809523814,
+  "f1_ci95": [
+    0.34360317460317463,
+    0.5190238095238096
+  ],
+  "doc_recall@5": 0.7025,
+  "doc_recall@10": 0.7525,
+  "doc_recall@20": 0.82,
+  "sent_recall@5": 0.6375,
+  "sent_recall@10": 0.705,
+  "sent_recall@20": 0.76,
+  "unit_precision@5": 0.30400000000000005,
+  "unit_precision@10": 0.16699999999999998,
+  "ctx_doc_recall": 0.82,
+  "ctx_sent_recall": 0.76,
+  "ctx_unit_precision": 0.08950000000000001,
+  "ctx_all_gold_rate": 0.5,
+  "latency_p50": 0.3922842999963905,
+  "latency_p95": 0.44816010000067763,
+  "peak_prompt_tokens_mean": 871.58,
+  "peak_prompt_tokens_max": 1631,
+  "total_tokens_mean": 3602.58,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 343.25244140625,
+  "calls_mean": {
+    "retriever": 1.0,
+    "reranker": 1.0,
+    "verifier": 0.0,
+    "compiler": 0.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "GENERATION_FAILURE": 31,
+    "RETRIEVAL_FAILURE": 26,
+    "CORRECT": 37,
+    "RERANKING_FAILURE": 6
+  },
+  "by_hops": {
+    "2": {
+      "n": 72,
+      "em": 0.2361111111111111,
+      "f1": 0.3230489417989418
+    },
+    "4": {
+      "n": 26,
+      "em": 0.7307692307692307,
+      "f1": 0.7307692307692307
+    },
+    "5": {
+      "n": 2,
+      "em": 0.5,
+      "f1": 0.5
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 83,
+      "recall": 0.9879518072289156
+    },
+    "2": {
+      "n": 93,
+      "recall": 0.6451612903225806
+    },
+    "3": {
+      "n": 28,
+      "recall": 0.10714285714285714
+    },
+    "4": {
+      "n": 28,
+      "recall": 0.21428571428571427
+    },
+    "5": {
+      "n": 2,
+      "recall": 0.0
+    }
+  },
+  "config": {
+    "system": "sentence",
+    "dataset": "2wiki",
+    "data_path": "datasets/wiki2_data/2wiki_100.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 20,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": 4096,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "94230cb875",
+  "data_sha256": "db31c8c30daa4b9721d9d4290bb48555b176aa77ebee3f9b5610c327abd37d44",
+  "git_sha": null,
+  "git_dirty": null
+}

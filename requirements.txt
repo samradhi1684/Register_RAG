@@ -1,0 +1,9 @@
+numpy
+rank_bm25
+pysbd
+sentence-transformers
+transformers
+requests
+openai
+tiktoken
+pytest
