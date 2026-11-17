@@ -37,6 +37,41 @@
 | 2wiki | qwen2.5:7b | B9 LiveLedger | ledger=False | 100 | 0.44 [0.34, 0.54] | 0.530 | 0.91 | 0.70 | 1855 | 8674 | 1.84 / 3.52 | 2.8, 2.8, 0.0, 3.8 | liveledger_2wiki_6b02197e52 |
 | 2wiki | qwen2.5:7b | ref: iterative refinement | - | 100 | 0.29 [0.21, 0.38] | 0.370 | 0.74 | 0.30 | 797 | 5077 | 2.04 / 2.52 | 1.9, 1.9, 1.0, 1.0 | iterative_2wiki_0993722dcd |
 | 2wiki | qwen2.5:7b | ref: no retrieval (floor) | - | 100 | 0.14 [0.08, 0.21] | 0.160 | 0.00 | 0.00 | 85 | 73 | 0.05 / 0.10 | 0.0, 0.0, 0.0, 1.0 | none_2wiki_fd1aa63fca |
+| dsire | qwen2.5:3b | B1 vanilla RAG (chunk) | - | 100 | 0.34 [0.25, 0.43] | 0.477 | 1.00 | 1.00 | 2355 | 20364 | 0.30 / 0.47 | 1.0, 1.0, 0.0, 1.0 | chunk_dsire_95dca64e52 |
+| dsire | qwen2.5:3b | B2 vanilla RAG (sentence) | - | 100 | 0.32 [0.23, 0.41] | 0.420 | 0.99 | 0.95 | 1191 | 5630 | 0.12 / 0.28 | 1.0, 1.0, 0.0, 1.0 | sentence_dsire_0b994b65a4 |
+| dsire | qwen2.5:3b | B3 GeoRAG | - | 100 | 0.30 [0.21, 0.39] | 0.418 | 1.00 | 0.90 | 2427 | 2769 | 3.00 / 4.03 | 9.7, 0.0, 1.0, 1.0 | georag_dsire_726a2d71dd |
+| dsire | qwen2.5:3b | B3 GeoRAG | unit=sentence | 100 | 0.28 [0.20, 0.37] | 0.337 | 1.00 | 0.95 | 1196 | 1347 | 3.74 / 4.99 | 9.6, 0.0, 1.0, 1.0 | georag_dsire_32ac9a6795 |
+| dsire | qwen2.5:3b | B4 HLG-RAG | - | 100 | 0.30 [0.21, 0.39] | 0.393 | 1.00 | 0.97 | 573 | 7943 | 0.36 / 0.90 | 1.0, 1.0, 1.0, 1.0 | hlg_dsire_e0837982d4 |
+| dsire | qwen2.5:3b | B4 HLG-RAG | retriever=topic | 100 | 0.28 [0.20, 0.37] | 0.373 | 0.98 | 0.93 | 598 | 33111 | 0.80 / 1.38 | 1.0, 2.0, 1.0, 1.0 | hlg_dsire_bcf6402575 |
+| dsire | qwen2.5:3b | B5 SURE-RAG | gate=False | 100 | 0.34 [0.25, 0.43] | 0.476 | 1.00 | 1.00 | 2355 | 22437 | 0.53 / 0.76 | 1.0, 1.0, 1.0, 1.0 | surerag_dsire_fbc6e1c8b0 |
+| dsire | qwen2.5:3b | B5 SURE-RAG | gate=False, premise=concat | 100 | 0.34 [0.25, 0.43] | 0.478 | 1.00 | 1.00 | 2355 | 22311 | 0.47 / 0.71 | 1.0, 1.0, 1.0, 1.0 | surerag_dsire_9e94186550 |
+| dsire | qwen2.5:3b | B6 EviMem | - | 100 | 0.37 [0.28, 0.47] | 0.535 | 0.96 | 0.99 | 3518 | 3984 | 1.40 / 2.59 | 3.2, 0.0, 1.3, 1.0 | evimem_dsire_ac158aa9c5 |
+| dsire | qwen2.5:3b | B6 EviMem | answer_context=raw | 100 | 0.34 [0.25, 0.43] | 0.503 | 0.96 | 0.96 | 3130 | 3578 | 1.25 / 2.42 | 3.2, 0.0, 1.3, 1.0 | evimem_dsire_28717b1d0e |
+| dsire | qwen2.5:3b | B7 LycheeMemory V2 | - | 100 | 0.28 [0.19, 0.37] | 0.370 | 0.75 | 0.81 | 4146 | 2656 | 1.53 / 2.34 | 1.0, 0.0, 1.0, 1.0 | lychee_dsire_5648abb7e1 |
+| dsire | qwen2.5:3b | B7 LycheeMemory V2 | plan=False | 100 | 0.27 [0.19, 0.36] | 0.350 | 0.74 | 0.79 | 4191 | 2261 | 0.35 / 2.35 | 1.0, 0.0, 0.0, 1.0 | lychee_dsire_51e390b512 |
+| dsire | qwen2.5:3b | B8 PyRAG | - | 100 | 0.22 [0.14, 0.30] | 0.358 | 0.96 | 0.87 | 9391 | 92718 | 3.67 / 6.44 | 4.2, 4.2, 2.1, 5.4 | pyrag_dsire_fbad56a568 |
+| dsire | qwen2.5:3b | B8 PyRAG | plan_generator=qwen2.5-coder:3b | 100 | 0.22 [0.14, 0.31] | 0.367 | 1.00 | 0.83 | 9429 | 90624 | 3.64 / 6.64 | 4.2, 4.2, 2.0, 5.5 | pyrag_dsire_f054b904ab |
+| dsire | qwen2.5:3b | B9 LiveLedger | - | 100 | 0.28 [0.19, 0.37] | 0.387 | 0.96 | 0.93 | 2326 | 21272 | 2.20 / 6.38 | 3.0, 3.0, 1.0, 4.0 | liveledger_dsire_68586668fe |
+| dsire | qwen2.5:3b | B9 LiveLedger | ledger=False | 100 | 0.28 [0.19, 0.37] | 0.417 | 0.99 | 0.96 | 2070 | 11695 | 0.81 / 2.80 | 2.3, 2.3, 0.0, 3.3 | liveledger_dsire_b425c671de |
+| dsire | qwen2.5:3b | ref: iterative refinement | - | 100 | 0.34 [0.25, 0.43] | 0.427 | 0.96 | 0.93 | 2296 | 9999 | 0.59 / 0.85 | 2.2, 2.2, 1.0, 1.0 | iterative_dsire_675a0325f5 |
+| dsire | qwen2.5:3b | ref: no retrieval (floor) | - | 100 | 0.07 [0.02, 0.12] | 0.080 | 0.00 | 0.00 | 120 | 85 | 0.04 / 0.06 | 0.0, 0.0, 0.0, 1.0 | none_dsire_8c328cd9a0 |
+| dsire | qwen2.5:7b | B1 vanilla RAG (chunk) | - | 100 | 0.38 [0.28, 0.48] | 0.546 | 1.00 | 1.00 | 2355 | 20363 | 5.31 / 5.61 | 1.0, 1.0, 0.0, 1.0 | chunk_dsire_582933042a |
+| dsire | qwen2.5:7b | B2 vanilla RAG (sentence) | - | 100 | 0.36 [0.27, 0.45] | 0.508 | 0.99 | 0.95 | 1191 | 5631 | 3.76 / 4.06 | 1.0, 1.0, 0.0, 1.0 | sentence_dsire_e25b391f30 |
+| dsire | qwen2.5:7b | B3 GeoRAG | - | 100 | 0.33 [0.24, 0.42] | 0.464 | 1.00 | 0.90 | 2427 | 2399 | 2.33 / 3.26 | 10.7, 0.0, 1.0, 1.0 | georag_dsire_a655b4dc04 |
+| dsire | qwen2.5:7b | B3 GeoRAG | unit=sentence | 100 | 0.30 [0.21, 0.39] | 0.387 | 1.00 | 0.94 | 1178 | 976 | 2.98 / 4.12 | 10.7, 0.0, 1.0, 1.0 | georag_dsire_a39b3f149d |
+| dsire | qwen2.5:7b | B4 HLG-RAG | - | 100 | 0.37 [0.27, 0.47] | 0.517 | 1.00 | 0.96 | 733 | 7464 | 4.80 / 5.85 | 1.0, 1.0, 1.0, 1.0 | hlg_dsire_dc387f6e53 |
+| dsire | qwen2.5:7b | B4 HLG-RAG | retriever=topic | 100 | 0.37 [0.27, 0.47] | 0.513 | 1.00 | 0.96 | 733 | 21914 | 16.73 / 20.69 | 1.0, 2.0, 1.0, 1.0 | hlg_dsire_00f06c1451 |
+| dsire | qwen2.5:7b | B5 SURE-RAG | gate=False | 100 | 0.38 [0.28, 0.48] | 0.547 | 1.00 | 1.00 | 2355 | 22417 | 10.39 / 10.88 | 1.0, 1.0, 1.0, 1.0 | surerag_dsire_e0c2d0f6d4 |
+| dsire | qwen2.5:7b | B5 SURE-RAG | gate=False, premise=concat | 100 | 0.38 [0.28, 0.48] | 0.547 | 1.00 | 1.00 | 2355 | 22304 | 6.39 / 6.88 | 1.0, 1.0, 1.0, 1.0 | surerag_dsire_c85555f229 |
+| dsire | qwen2.5:7b | B6 EviMem | - | 100 | 0.33 [0.24, 0.42] | 0.429 | 0.98 | 1.00 | 2754 | 3268 | 1.94 / 4.29 | 3.1, 0.0, 1.3, 1.0 | evimem_dsire_0f4365acf4 |
+| dsire | qwen2.5:7b | B6 EviMem | answer_context=raw | 100 | 0.34 [0.25, 0.43] | 0.489 | 0.98 | 0.98 | 2686 | 3359 | 1.98 / 4.01 | 3.1, 0.0, 1.3, 1.0 | evimem_dsire_db88cb13c2 |
+| dsire | qwen2.5:7b | B7 LycheeMemory V2 | - | 100 | 0.33 [0.24, 0.42] | 0.438 | 0.88 | 0.97 | 3760 | 2491 | 5.05 / 6.60 | 1.0, 0.0, 1.0, 1.0 | lychee_dsire_ab5b81138f |
+| dsire | qwen2.5:7b | B7 LycheeMemory V2 | plan=False | 100 | 0.35 [0.26, 0.44] | 0.454 | 0.88 | 0.99 | 3810 | 2232 | 3.41 / 3.82 | 1.0, 0.0, 0.0, 1.0 | lychee_dsire_6978fa62e2 |
+| dsire | qwen2.5:7b | B8 PyRAG | - | 100 | 0.28 [0.19, 0.37] | 0.449 | 1.00 | 1.00 | 6567 | 80388 | 24.16 / 47.58 | 3.8, 3.8, 2.0, 5.2 | pyrag_dsire_d76446e8f8 |
+| dsire | qwen2.5:7b | B9 LiveLedger | - | 100 | 0.35 [0.26, 0.44] | 0.491 | 1.00 | 0.97 | 2818 | 19428 | 9.98 / 30.38 | 3.0, 3.0, 1.0, 4.0 | liveledger_dsire_6bb79ffcb1 |
+| dsire | qwen2.5:7b | B9 LiveLedger | ledger=False | 100 | 0.34 [0.25, 0.43] | 0.465 | 0.99 | 0.94 | 2640 | 13986 | 6.76 / 25.14 | 2.7, 2.7, 0.0, 3.7 | liveledger_dsire_0f5ac11ccb |
+| dsire | qwen2.5:7b | ref: iterative refinement | - | 100 | 0.36 [0.27, 0.46] | 0.522 | 0.99 | 0.98 | 1918 | 8459 | 5.48 / 9.55 | 1.8, 1.8, 1.0, 1.0 | iterative_dsire_4e0e8a0095 |
+| dsire | qwen2.5:7b | ref: no retrieval (floor) | - | 100 | 0.11 [0.05, 0.17] | 0.120 | 0.00 | 0.00 | 120 | 84 | 0.04 / 0.08 | 0.0, 0.0, 0.0, 1.0 | none_dsire_205af03414 |
 | musique | qwen2.5:3b | B1 vanilla RAG (chunk) | - | 100 | 0.09 [0.04, 0.15] | 0.144 | 0.70 | 0.16 | 1286 | 8493 | 0.39 / 0.47 | 1.0, 1.0, 0.0, 1.0 | chunk_musique_df1040a2ff |
 | musique | qwen2.5:3b | B2 vanilla RAG (sentence) | - | 100 | 0.14 [0.08, 0.21] | 0.194 | 0.65 | 0.16 | 572 | 3361 | 0.38 / 0.65 | 1.0, 1.0, 0.0, 1.0 | sentence_musique_0d935103be |
 | musique | qwen2.5:3b | B3 GeoRAG | - | 100 | 0.05 [0.01, 0.09] | 0.068 | 0.60 | 0.01 | 1266 | 1547 | 4.66 / 5.85 | 8.3, 0.0, 1.0, 1.0 | georag_musique_88953daad9 |
