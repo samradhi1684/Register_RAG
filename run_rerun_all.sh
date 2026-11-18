@@ -1,27 +1,40 @@
 #!/usr/bin/env bash
-# Full rerun: ALL baselines (B1-B9, B7b, references) x 2wiki, musique, dsire x qwen2.5:3b and :7b.
-# Results go to runs_rerun/ (existing results are not touched). Resumable: rerun the same script after a crash.
-# Usage:  bash run_rerun_all.sh            (keeps cached indexes)
-#         FRESH_INDEX=1 bash run_rerun_all.sh   (deletes cached HLG/EviMem/Lychee indexes first = rebuilt from scratch)
+# Full rerun, self-contained: no gitignored file is needed (no logs/ folder, no cached index, no old results).
+# ALL baselines (B1-B9, references, B7b) x 2wiki, musique, dsire x qwen2.5:3b and :7b. n=100.
+# Output: runs_rerun/ (results + logs). Existing results are not touched. Resumable: rerun the same script after a crash.
+# Indexes (B4 graph, B6 tuples, B7 memory) are always rebuilt: any cached ones are moved to index.bak_<time>.
 cd "$(dirname "$0")"
 PY=../.venv/Scripts/python.exe
 OUT=runs_rerun
-mkdir -p logs
+export PYTHONPATH="$PWD" PYTHONUTF8=1 PYTHONUNBUFFERED=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+mkdir -p "$OUT/logs"
 
-if [ "$FRESH_INDEX" = "1" ]; then
+# fresh indexes (only on the first start; a marker keeps resumes from discarding a half-built index)
+if [ ! -f "$OUT/.indexes_reset" ]; then
   for d in b4_hlg_rag b6_evimem b7_lycheememory; do
     [ -d "baselines/$d/index" ] && mv "baselines/$d/index" "baselines/$d/index.bak_$(date +%Y%m%d_%H%M%S)"
   done
+  date > "$OUT/.indexes_reset"
 fi
 
-# Part 1: everything that runs through Ollama (needs the main venv + Ollama)
+# Part 1: all Ollama-based methods
 for g in qwen2.5:3b qwen2.5:7b; do
-  $PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --generator $g --attempts 5 \
-    --methods none,chunk,sentence,iterative,pyrag,evimem,georag,surerag,liveledger,hlg,lychee \
-    --out $OUT
-done >> logs/rerun_all.log 2>&1
+  for attempt in $(seq 1 30); do
+    echo "##### part1 $g attempt $attempt $(date)"
+    $PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --generator $g --attempts 5 \
+      --methods none,chunk,sentence,iterative,pyrag,evimem,georag,surerag,liveledger,hlg,lychee \
+      --out $OUT && break
+    echo "part1 $g attempt $attempt failed; finished work is kept, retrying"; sleep 10
+  done
+done >> "$OUT/logs/rerun_all.log" 2>&1
 
-# Part 2: B7b (own 7B checkpoint, ignores --generator, needs the GPU free of Ollama models)
-ollama stop qwen2.5:3b 2>/dev/null; ollama stop qwen2.5:7b 2>/dev/null
-$PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --methods lycheeacl --out $OUT \
-  >> logs/rerun_b7b.log 2>&1
+# Part 2: B7b (own 7B checkpoint; GPU must be free of Ollama models; harness side on CPU)
+ollama stop qwen2.5:3b >/dev/null 2>&1; ollama stop qwen2.5:7b >/dev/null 2>&1
+ollama stop qwen2.5-coder:3b >/dev/null 2>&1; ollama stop qwen2.5-coder:7b >/dev/null 2>&1
+for attempt in $(seq 1 30); do
+  echo "##### b7b attempt $attempt $(date)"
+  CUDA_VISIBLE_DEVICES="" $PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --methods lycheeacl \
+    --out $OUT && break
+  echo "b7b attempt $attempt failed; finished questions are kept, retrying"; sleep 10
+done >> "$OUT/logs/rerun_b7b.log" 2>&1
+echo "##### ALL DONE $(date)" >> "$OUT/logs/rerun_all.log"
