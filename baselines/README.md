@@ -73,6 +73,14 @@ Runs land in `baselines/<id>/results/` automatically. Cross-baseline views:
 `baselines/baseline_table.md`), `python scripts/by_type.py`, and `python -m registerrag.cli compare <A> <B>` for paired tests.
 Per-baseline diagnostics live in that baseline's `tools/`.
 
+## DSIRE (RePolicyQA) - how every baseline sees it (no paper uses this dataset)
+- **Data:** `datasets/dsire_data/repolicyqa_100.json`, 100 questions; loader `registerrag/data.py::parse_dsire_records`. One record = (policy chunk, question, free-text answer); the **corpus is the unique policy chunks** of all questions (see `docs` in each run's `index_stats`), pooled across questions. Question types (20 each): Descriptive, Legal-Obligation, Yes-No-cond, Factual, Yes-No. MuSiQue-style pysbd sentence splitting is used.
+- **Gold:** document-level only (the question's own chunk); there are **no gold sentences**, so sentence recall/precision are not defined. Because that chunk is in the pool and the pool is small, `doc_recall@10` and "all gold in prompt" are 0.9-1.0 for almost every method: DSIRE hardly separates retrievers, it mostly measures generation.
+- **Metric: use token-F1.** Gold answers are free text (mean 21 words); 37 of 100 are plain yes/no. EM is about 0.92 on those 37 and about 0.06 on the other 63, so DSIRE "EM" is yes/no accuracy. `baseline_table.md` therefore shows **F1 as the primary metric for DSIRE** and EM for 2Wiki/MuSiQue.
+- **Indexed methods (B4, B6, B7)** build their graph / tuple index / memory over the DSIRE chunks with the same frozen generator, one index per generator (separate cache files). `fallback_chunks` / `fallback_sentences` / `fallback_segments` in `index_stats` say how much of it fell back to verbatim text.
+- **Every method is out of domain here** (the papers evaluate Wikipedia multi-hop QA, LoCoMo dialogue, web search or conversation memory); the loader sets `n_hops=1` for every DSIRE question (not annotated) and the answer sits in one policy chunk, so multi-hop machinery (PyRAG programs, LiveLedger constraints, EviMem iterations: 66-72 % of EviMem questions stop after iteration 1) has little to do.
+- **B7b (LycheeMemory ACL)** has no DSIRE rows.
+
 ## Legacy scripts
 `vector-rag/`, `sentence-rag/`, `vector-rag-crossencoder/` and `policy-rag/` are the earlier stand-alone scripts. They are not
 part of the registry and are left untouched so the earlier numbers stay reproducible.

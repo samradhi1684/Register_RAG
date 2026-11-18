@@ -2,7 +2,7 @@
 
 - **Paper:** "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation", arXiv 2608.12990 (v2). Sections 3.1-3.5, Algorithms 1-2 and Appendices A-D read verbatim; Appendix E prompts only as fragments.
 - **Official code / checkpoint:** none found (`github.com/lycheemem/lycheemem` returned 404; no Hugging Face weights). It is **training-free**.
-- **Open item for you:** the *ACL 2026 LycheeMemory* (Compressor + Gate + RL-trained Reasoner, RULER-HQA, 7B checkpoint) described in an earlier chat is a **different paper** and could not be found. If it is the one you meant for this baseline (it is conceptually closer to a bounded working memory), send its arXiv/ACL link and I will read it and build it as a separate `b7b` row. Until then B7 = V2, the paper you linked (arXiv 2608.12990).
+- **The ACL 2026 LycheeMemory** (Compressor + Gate + RL-trained Reasoner, arXiv 2602.08382) is a **different paper**. It is now implemented as the separate reference row `b7b_lychee_acl` (released 7B checkpoint, inference only; see its README). B7 here is V2 (arXiv 2608.12990).
 - **Status:** structure-faithful re-implementation; prompts reconstructed from fragments. Tests: `python -m pytest baselines/b7_lycheememory -q`. It is the weakest fit of all nine (dialogue memory, unbounded append-only store, no Wikipedia results in the paper).
 - **Code here:** `lychee.py`, `baseline.py`. Memory cache: `index/memory_<generator>_<version>.jsonl` (committed).
 

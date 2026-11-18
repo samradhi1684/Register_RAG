@@ -21,7 +21,7 @@
 |---|---|---|
 | Paper vs code | Alg. 2: same budget for both paths, entity-count downgrade (delta=2, conf cap 0.6), entity hints in refinement | **code followed**: halved anchor budget; entity tracker is log-only in their code, so not implemented |
 | Models | GPT-4o (answer), GPT-4o-mini (judge/refine), text-embedding-3-small | one frozen generator for every role; BGE-small embeddings (cosine threshold 0.5 kept - with BGE it rarely binds, top-k bounds the set) |
-| Tuple extraction prompt | not published in the files we could read | ours (`EXTRACT_SYSTEM`) |
+| Tuple extraction prompt | **published** in the authors' repo: `src/memory_save_system/prompts/index_manager.py` (`IndexManagerPrompt`, ~10 KB; checked 2026-11-18). It is written for *conversations*: speaker rules, `record_time` resolution, memory types, and output through `memory_index_insert` **tool calls** inside a MIRIX-style loop | ours (`EXTRACT_SYSTEM`, JSON output, page title instead of speaker, no `record_time`, no memory types). Not a drop-in: using the authors' prompt on Wikipedia text still needs an adaptation (speaker := page title, tool call := JSON), so this row stays a labelled deviation |
 | Temperature | 0 / 0.2 / paper says 0.3 | 0 everywhere (harness) |
 | "Not mentioned" abstention | returns the literal "Not mentioned" | **disabled** (forced-answer policy of all baselines); `would_abstain` is logged (`allow_abstain=true` enables it) |
 | Answer format | sentence-style, LLM judge | + one line asking for the shortest answer (EM/F1 are the metrics here); `short_answer=false` removes it |

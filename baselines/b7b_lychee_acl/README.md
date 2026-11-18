@@ -46,5 +46,15 @@ python scripts/run_baselines.py --methods lycheeacl                             
 Knobs (`--method-arg`): `attn` (sdpa), `ratio` 4, `window` 2048, `stride` 2048, `stream_chunk_size` 4096, `max_new_tokens` 1024, `timeout_s` 1500, `revision`, `model`, `python`, `vendor`.
 A crashed or hung worker is restarted once per question; an out-of-memory error is logged as that question's error and the run continues (failed questions are retried on resume). Each answer is fsynced before the next question.
 
+## Scoring (measured 2026-11-18: the strict EM of 0.00 is an output-format effect, not a failed run)
+All 200 questions (2Wiki + MuSiQue) were answered with no error; the model writes full sentences ("No, the movies ... did not
+originate from the same country ..."), 73 words on average on 2Wiki and 197 on MuSiQue, because the released checkpoint has no
+answer-format instruction (no template, no eval script). Strict EM and token-F1 therefore stay near zero **by construction**, and
+`timeout_s=3600` in the variant column is just a config knob. `python baselines/b7b_lychee_acl/tools/rescore.py` re-scores from the
+stored raw outputs (no model call) and writes `rescore.json` per run: **contains-acc** (gold occurs as whole words in the output;
+yes/no must be the first word) is **0.65 on 2Wiki and 0.35 on MuSiQue**, and the model says "the memory does not contain the
+answer" on 19 % / 59 % of the questions. These are lenient numbers: never report them in the EM column and never call them
+comparable with the 3B/7B rows.
+
 ## Reading the result
 Per question: `prediction` (extracted), `extra.raw_output` (full generation), `text_tokens`, `worker_seconds`, `worker_peak_mem_mb`. First check that the raw outputs are short answers; if the model writes long reasoning, adjust `extract_answer` and re-score from `raw_output` rather than re-running.

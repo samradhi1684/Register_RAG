@@ -1,0 +1,8 @@
+{
+  "n": 100,
+  "strict_em": 0.0,
+  "strict_f1": 0.06776007963240473,
+  "contains_acc": 0.35,
+  "says_no_info": 0.59,
+  "note": "contains_acc is a lenient metric; do not compare with EM"
+}
