@@ -1,0 +1,121 @@
+{
+  "n": 100,
+  "em": 0.05,
+  "em_ci95": [
+    0.01,
+    0.1
+  ],
+  "f1": 0.07304761904761904,
+  "f1_ci95": [
+    0.03133333333333333,
+    0.1220952380952381
+  ],
+  "doc_recall@5": 0.2816666666666667,
+  "doc_recall@10": 0.595,
+  "doc_recall@20": 0.7425,
+  "sent_recall@5": null,
+  "sent_recall@10": null,
+  "sent_recall@20": null,
+  "unit_precision@5": null,
+  "unit_precision@10": null,
+  "ctx_doc_recall": 0.2816666666666667,
+  "ctx_sent_recall": null,
+  "ctx_unit_precision": null,
+  "ctx_all_gold_rate": 0.01,
+  "latency_p50": 2.1986676209926372,
+  "latency_p95": 3.0506375639961334,
+  "peak_prompt_tokens_mean": 876.34,
+  "peak_prompt_tokens_max": 1248,
+  "total_tokens_mean": 1544.35,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 215.9423828125,
+  "calls_mean": {
+    "retriever": 9.09,
+    "reranker": 0.0,
+    "verifier": 0.0,
+    "compiler": 1.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "RERANKING_FAILURE": 78,
+    "RETRIEVAL_FAILURE": 17,
+    "CORRECT": 5
+  },
+  "by_hops": {
+    "2": {
+      "n": 34,
+      "em": 0.14705882352941177,
+      "f1": 0.18823529411764706
+    },
+    "3": {
+      "n": 33,
+      "em": 0.0,
+      "f1": 0.0
+    },
+    "4": {
+      "n": 33,
+      "em": 0.0,
+      "f1": 0.02741702741702742
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 100,
+      "recall": 0.9
+    },
+    "2": {
+      "n": 100,
+      "recall": 0.36
+    },
+    "3": {
+      "n": 66,
+      "recall": 0.5151515151515151
+    },
+    "4": {
+      "n": 33,
+      "recall": 0.36363636363636365
+    }
+  },
+  "config": {
+    "system": "georag",
+    "dataset": "musique",
+    "data_path": "/home/aura/Desktop/Register_RAG/datasets/musique_data/musique_100.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "9b79d47841",
+  "data_sha256": "2e32ae16a25f3c60a54b941424f437bdc3bfd17f6a15a779961aa55960f71ef9",
+  "git_sha": "d0ab1d5b205585cd2a2982afa354dd7984afba2a",
+  "git_dirty": true,
+  "env": {
+    "python": "3.14.9",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39",
+    "numpy": "2.5.5",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "ollama_version": "0.40.2",
+    "OLLAMA_FLASH_ATTENTION(client env)": null
+  }
+}

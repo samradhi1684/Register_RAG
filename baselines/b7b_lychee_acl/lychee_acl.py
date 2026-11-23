@@ -97,7 +97,9 @@ class LycheeACL(BasePipeline):
         if "worker_cmd" in m:                          # tests: a fake worker
             self.cmd = json.loads(m["worker_cmd"]) if isinstance(m["worker_cmd"], str) else list(m["worker_cmd"])
         else:
-            py = m.get("python", os.path.join(os.path.dirname(ROOT), ".venv_lychee", "Scripts", "python.exe"))
+            _vd = os.path.join(os.path.dirname(ROOT), ".venv_lychee")
+            _def = os.path.join(_vd, "Scripts", "python.exe") if os.name == "nt" else os.path.join(_vd, "bin", "python")
+            py = m.get("python") or os.environ.get("LYCHEE_PY") or _def
             self.cmd = [py, os.path.join(HERE, "worker.py"), "--vendor", str(m.get("vendor", os.path.join(HERE, "vendor"))),
                         "--model", str(m.get("model", "lerverson/LycheeMemory-7B")), "--attn", str(m.get("attn", "sdpa")),
                         "--stream_chunk_size", str(m.get("stream_chunk_size", 4096)), "--ratio", str(m.get("ratio", 4)),
@@ -129,3 +131,4 @@ class LycheeACL(BasePipeline):
                  "worker_seconds": r["seconds"], "worker_peak_mem_mb": r.get("peak_mem_mb"), "note":
                  "retrieval metrics are not applicable: the model receives the question's whole context, no retrieval"}
         return PipelineResult(extract_answer(raw), [], [], [], [], False, extra)
+

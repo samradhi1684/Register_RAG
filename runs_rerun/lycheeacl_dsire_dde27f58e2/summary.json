@@ -1,0 +1,93 @@
+{
+  "n": 100,
+  "em": 0.01,
+  "em_ci95": [
+    0.0,
+    0.03
+  ],
+  "f1": 0.262527594433021,
+  "f1_ci95": [
+    0.21572328290756168,
+    0.3124196537147683
+  ],
+  "doc_recall@5": 0.0,
+  "doc_recall@10": 0.0,
+  "doc_recall@20": 0.0,
+  "sent_recall@5": null,
+  "sent_recall@10": null,
+  "sent_recall@20": null,
+  "unit_precision@5": null,
+  "unit_precision@10": null,
+  "ctx_doc_recall": 0.0,
+  "ctx_sent_recall": null,
+  "ctx_unit_precision": null,
+  "ctx_all_gold_rate": 0.0,
+  "latency_p50": 4.000414933019783,
+  "latency_p95": 14.061584914976265,
+  "peak_prompt_tokens_mean": 745.17,
+  "peak_prompt_tokens_max": 1775,
+  "total_tokens_mean": 852.57,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 213.919921875,
+  "calls_mean": {
+    "retriever": 0.0,
+    "reranker": 0.0,
+    "verifier": 0.0,
+    "compiler": 0.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 99,
+    "CORRECT": 1
+  },
+  "by_hops": {
+    "1": {
+      "n": 100,
+      "em": 0.01,
+      "f1": 0.262527594433021
+    }
+  },
+  "per_hop_recall@10": {},
+  "config": {
+    "system": "lycheeacl",
+    "dataset": "dsire",
+    "data_path": "/home/aura/Desktop/Register_RAG/datasets/dsire_data/repolicyqa_100.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "dde27f58e2",
+  "data_sha256": "d11292cb7c6bb87444fc6e4b600d8705553a0a8a5852f04105246a3711898ea4",
+  "git_sha": "d0ab1d5b205585cd2a2982afa354dd7984afba2a",
+  "git_dirty": true,
+  "env": {
+    "python": "3.14.9",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39",
+    "numpy": "2.5.5",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "ollama_version": "0.40.2",
+    "OLLAMA_FLASH_ATTENTION(client env)": null
+  }
+}

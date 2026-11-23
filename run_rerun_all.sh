@@ -4,10 +4,18 @@
 # Output: runs_rerun/ (results + logs). Existing results are not touched. Resumable: rerun the same script after a crash.
 # Indexes (B4 graph, B6 tuples, B7 memory) are always rebuilt: any cached ones are moved to index.bak_<time>.
 cd "$(dirname "$0")"
-PY=../.venv/Scripts/python.exe
+# Python: $PY if set, else the active venv, else ../.venv (Windows or Linux layout), else python3
+if [ -z "$PY" ]; then
+  if [ -n "$VIRTUAL_ENV" ]; then PY="$VIRTUAL_ENV/bin/python"; [ -x "$PY" ] || PY="$VIRTUAL_ENV/Scripts/python.exe"
+  elif [ -x ../.venv/bin/python ]; then PY=../.venv/bin/python
+  elif [ -x ../.venv/Scripts/python.exe ]; then PY=../.venv/Scripts/python.exe
+  else PY=$(command -v python3 || command -v python); fi
+fi
+echo "using python: $PY"; "$PY" -c "import registerrag, sys" || { echo "python cannot import registerrag / deps (pip install -r requirements.txt)"; exit 1; }
 OUT=runs_rerun
 export PYTHONPATH="$PWD" PYTHONUTF8=1 PYTHONUNBUFFERED=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 mkdir -p "$OUT/logs"
+
 
 # fresh indexes (only on the first start; a marker keeps resumes from discarding a half-built index)
 if [ ! -f "$OUT/.indexes_reset" ]; then
@@ -16,6 +24,7 @@ if [ ! -f "$OUT/.indexes_reset" ]; then
   done
   date > "$OUT/.indexes_reset"
 fi
+
 
 # Part 1: all Ollama-based methods
 for g in qwen2.5:3b qwen2.5:7b; do
@@ -27,6 +36,7 @@ for g in qwen2.5:3b qwen2.5:7b; do
     echo "part1 $g attempt $attempt failed; finished work is kept, retrying"; sleep 10
   done
 done >> "$OUT/logs/rerun_all.log" 2>&1
+
 
 # Part 2: B7b (own 7B checkpoint; GPU must be free of Ollama models; harness side on CPU)
 ollama stop qwen2.5:3b >/dev/null 2>&1; ollama stop qwen2.5:7b >/dev/null 2>&1

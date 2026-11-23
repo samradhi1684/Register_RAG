@@ -8,9 +8,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from registerrag import registry
 from registerrag.paths import run_folders
 
-args = [a for a in sys.argv[1:] if not a.startswith("--")]
-root = args[0] if args else None
-gen = sys.argv[sys.argv.index("--generator") + 1] if "--generator" in sys.argv else None
+import argparse
+_ap = argparse.ArgumentParser()
+_ap.add_argument("dir", nargs="?", default=None)
+_ap.add_argument("--generator", default=None)
+_ap.add_argument("--md", default=None, help="write the table here instead of baselines/baseline_table.md")
+_a = _ap.parse_args()
+root, gen = _a.dir, _a.generator
 LABEL = {b.system: b.label for b in registry.implemented()}      # registry order: B1, B2, ..., refs
 ORDER = list(LABEL)
 rows = []
@@ -46,5 +50,7 @@ NOTES = ["",
          "- **B5 SURE-RAG rows have the gate off**: they are B1's answers plus unfitted verifier scores, not a measurement of SURE-RAG accuracy.",
          "- Gaps below about 4 EM points are inside run-to-run noise (same config, same questions: 0.35-0.39); n=100 gives a 95% CI of about +/- 9 points. See `FIDELITY_AUDIT.md`."]
 txt = "\n".join(out + NOTES)
-open(os.path.join(registry.BASELINES_DIR, "baseline_table.md"), "w", encoding="utf-8").write(txt + "\n")
-print(txt, "\n\nwritten to baselines/baseline_table.md")
+_dest = _a.md or os.path.join(registry.BASELINES_DIR, "baseline_table.md")
+os.makedirs(os.path.dirname(os.path.abspath(_dest)), exist_ok=True)
+open(_dest, "w", encoding="utf-8").write(txt + "\n")
+print(txt, "\n\nwritten to", _dest)

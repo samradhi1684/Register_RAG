@@ -1,0 +1,2 @@
+nohup: ignoring input
+using python: /home/aura/Desktop/Register_RAG/venv/bin/python
