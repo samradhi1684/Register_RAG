@@ -1,0 +1,126 @@
+{
+  "n": 500,
+  "em": 0.148,
+  "em_ci95": [
+    0.118,
+    0.18
+  ],
+  "f1": 0.2261809523809524,
+  "f1_ci95": [
+    0.1946031746031746,
+    0.2612047619047619
+  ],
+  "doc_recall@5": 0.5241666666666667,
+  "doc_recall@10": 0.599,
+  "doc_recall@20": 0.6743333333333333,
+  "sent_recall@5": null,
+  "sent_recall@10": null,
+  "sent_recall@20": null,
+  "unit_precision@5": null,
+  "unit_precision@10": null,
+  "ctx_doc_recall": 0.5241666666666667,
+  "ctx_sent_recall": null,
+  "ctx_unit_precision": null,
+  "ctx_all_gold_rate": 0.16,
+  "latency_p50": 0.2441667210077867,
+  "latency_p95": 0.34072739497059956,
+  "peak_prompt_tokens_mean": 718.43,
+  "peak_prompt_tokens_max": 1359,
+  "total_tokens_mean": 9344.936,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 1153.42431640625,
+  "calls_mean": {
+    "retriever": 1.0,
+    "reranker": 1.0,
+    "verifier": 1.0,
+    "compiler": 1.0,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "RERANKING_FAILURE": 107,
+    "GENERATION_FAILURE": 45,
+    "RETRIEVAL_FAILURE": 274,
+    "CORRECT": 74
+  },
+  "by_hops": {
+    "2": {
+      "n": 155,
+      "em": 0.2064516129032258,
+      "f1": 0.28764976958525346
+    },
+    "3": {
+      "n": 179,
+      "em": 0.1564245810055866,
+      "f1": 0.2584996009577015
+    },
+    "4": {
+      "n": 166,
+      "em": 0.08433734939759036,
+      "f1": 0.13393574297188757
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 500,
+      "recall": 0.866
+    },
+    "2": {
+      "n": 500,
+      "recall": 0.416
+    },
+    "3": {
+      "n": 345,
+      "recall": 0.47246376811594204
+    },
+    "4": {
+      "n": 166,
+      "recall": 0.3373493975903614
+    }
+  },
+  "config": {
+    "system": "surerag",
+    "dataset": "musique",
+    "data_path": "/home/aura/Desktop/Register_RAG/datasets/musique_data/musique_prog500.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:7b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k",
+    "method_args": {
+      "gate": false,
+      "premise": "concat"
+    }
+  },
+  "config_hash": "582a2f6125",
+  "data_sha256": "05ed3e36e4d5c5a3ea516ab3aef99378f1f0fb81f3ab92437684ca03afeec585",
+  "git_sha": "a9313866d3b243d61ac80b4769118d1f0c0f4f01",
+  "git_dirty": true,
+  "env": {
+    "python": "3.14.9",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39",
+    "numpy": "2.5.5",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "ollama_version": "0.40.2",
+    "OLLAMA_FLASH_ATTENTION(client env)": null
+  }
+}

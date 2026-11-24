@@ -1,0 +1,131 @@
+{
+  "n": 500,
+  "em": 0.342,
+  "em_ci95": [
+    0.302,
+    0.384
+  ],
+  "f1": 0.4296698523698524,
+  "f1_ci95": [
+    0.3896572982572983,
+    0.46903287823287826
+  ],
+  "doc_recall@5": 0.6605,
+  "doc_recall@10": 0.8035,
+  "doc_recall@20": 0.8785,
+  "sent_recall@5": 0.5935,
+  "sent_recall@10": 0.7335,
+  "sent_recall@20": 0.8075,
+  "unit_precision@5": 0.28740000000000004,
+  "unit_precision@10": 0.18683650793650794,
+  "ctx_doc_recall": 0.8805,
+  "ctx_sent_recall": 0.811,
+  "ctx_unit_precision": 0.12973793396739014,
+  "ctx_all_gold_rate": 0.586,
+  "latency_p50": 1.5044250849750824,
+  "latency_p95": 2.400231702020392,
+  "peak_prompt_tokens_mean": 728.72,
+  "peak_prompt_tokens_max": 1352,
+  "total_tokens_mean": 2817.3,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 410.255859375,
+  "calls_mean": {
+    "retriever": 4.272,
+    "reranker": 0.0,
+    "verifier": 2.136,
+    "compiler": 1.926,
+    "generator": 1.0
+  },
+  "failure_counts": {
+    "GENERATION_FAILURE": 168,
+    "RETRIEVAL_FAILURE": 147,
+    "CORRECT": 171,
+    "RERANKING_FAILURE": 14
+  },
+  "by_hops": {
+    "2": {
+      "n": 358,
+      "em": 0.3407821229050279,
+      "f1": 0.462693994397905
+    },
+    "3": {
+      "n": 3,
+      "em": 0.0,
+      "f1": 0.0
+    },
+    "4": {
+      "n": 132,
+      "em": 0.36363636363636365,
+      "f1": 0.36507936507936506
+    },
+    "5": {
+      "n": 7,
+      "em": 0.14285714285714285,
+      "f1": 0.14285714285714285
+    }
+  },
+  "per_hop_recall@10": {
+    "1": {
+      "n": 420,
+      "recall": 0.9738095238095238
+    },
+    "2": {
+      "n": 459,
+      "recall": 0.7189542483660131
+    },
+    "3": {
+      "n": 142,
+      "recall": 0.28169014084507044
+    },
+    "4": {
+      "n": 139,
+      "recall": 0.2733812949640288
+    },
+    "5": {
+      "n": 7,
+      "recall": 0.2857142857142857
+    }
+  },
+  "config": {
+    "system": "evimem",
+    "dataset": "2wiki",
+    "data_path": "/home/aura/Desktop/Register_RAG/datasets/wiki2_data/2wiki_prog500.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:7b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k"
+  },
+  "config_hash": "7d129a57cf",
+  "data_sha256": "21255907faaed201da80102170b058a0116075daf26ec04e42753ae01d507b4c",
+  "git_sha": "a9313866d3b243d61ac80b4769118d1f0c0f4f01",
+  "git_dirty": true,
+  "env": {
+    "python": "3.14.9",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39",
+    "numpy": "2.5.5",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "ollama_version": "0.40.2",
+    "OLLAMA_FLASH_ATTENTION(client env)": null
+  }
+}
