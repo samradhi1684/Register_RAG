@@ -5,48 +5,47 @@
     0.322,
     0.408
   ],
-  "f1": 0.4900512947328727,
+  "f1": 0.4907469469067858,
   "f1_ci95": [
-    0.4517058743723451,
-    0.5291525265856758
+    0.45182931472508414,
+    0.5298488079125034
   ],
-  "doc_recall@5": 0.8096192384769539,
-  "doc_recall@10": 0.9799599198396793,
-  "doc_recall@20": 0.9899799599198397,
+  "doc_recall@5": 0.81,
+  "doc_recall@10": 0.98,
+  "doc_recall@20": 0.99,
   "sent_recall@5": null,
   "sent_recall@10": null,
   "sent_recall@20": null,
   "unit_precision@5": null,
   "unit_precision@10": null,
-  "ctx_doc_recall": 0.8096192384769539,
+  "ctx_doc_recall": 0.81,
   "ctx_sent_recall": null,
   "ctx_unit_precision": null,
-  "ctx_all_gold_rate": 0.8096192384769539,
-  "latency_p50": 2.0225239869905636,
+  "ctx_all_gold_rate": 0.81,
+  "latency_p50": 2.0226500110002235,
   "latency_p95": 2.674819136969745,
-  "peak_prompt_tokens_mean": 1952.434,
+  "peak_prompt_tokens_mean": 1956.758,
   "peak_prompt_tokens_max": 2542,
-  "total_tokens_mean": 2345.682,
+  "total_tokens_mean": 2350.702,
   "truncated_rate": 0.0,
   "gpu_peak_mb_max": 215.8251953125,
   "calls_mean": {
-    "retriever": 10.156,
+    "retriever": 10.178,
     "reranker": 0.0,
     "verifier": 0.0,
-    "compiler": 0.998,
-    "generator": 0.998
+    "compiler": 1.0,
+    "generator": 1.0
   },
   "failure_counts": {
-    "GENERATION_FAILURE": 238,
+    "GENERATION_FAILURE": 239,
     "CORRECT": 182,
-    "RERANKING_FAILURE": 79,
-    "SYSTEM_ERROR": 1
+    "RERANKING_FAILURE": 79
   },
   "by_hops": {
     "1": {
       "n": 500,
       "em": 0.364,
-      "f1": 0.4900512947328727
+      "f1": 0.4907469469067858
     }
   },
   "per_hop_recall@10": {},
@@ -76,7 +75,7 @@
   },
   "config_hash": "d393a9cee7",
   "data_sha256": "7f8ada32a2a8886b67d71c84e8465142f3b9c569ae72a9d95121aef1366bb557",
-  "git_sha": "9a8433b389cd5474ed2b8934954c0f8a5fef7d85",
+  "git_sha": "25104fd4dd1686e1153df8415ea18a2324fca080",
   "git_dirty": true,
   "env": {
     "python": "3.14.9",

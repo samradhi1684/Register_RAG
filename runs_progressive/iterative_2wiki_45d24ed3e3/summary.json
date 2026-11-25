@@ -112,7 +112,7 @@
   },
   "config_hash": "45d24ed3e3",
   "data_sha256": "21255907faaed201da80102170b058a0116075daf26ec04e42753ae01d507b4c",
-  "git_sha": "a9313866d3b243d61ac80b4769118d1f0c0f4f01",
+  "git_sha": "25104fd4dd1686e1153df8415ea18a2324fca080",
   "git_dirty": true,
   "env": {
     "python": "3.14.9",

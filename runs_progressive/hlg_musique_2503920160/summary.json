@@ -2,52 +2,51 @@
   "n": 500,
   "em": 0.154,
   "em_ci95": [
-    0.124,
+    0.122,
     0.186
   ],
-  "f1": 0.2342793650793651,
+  "f1": 0.2360888888888889,
   "f1_ci95": [
-    0.2032825396825397,
-    0.2680095238095238
+    0.20104761904761903,
+    0.2706349206349206
   ],
-  "doc_recall@5": 0.48360107095046856,
-  "doc_recall@10": 0.5642570281124498,
-  "doc_recall@20": 0.6345381526104418,
+  "doc_recall@5": 0.4841666666666667,
+  "doc_recall@10": 0.5645,
+  "doc_recall@20": 0.6355,
   "sent_recall@5": null,
   "sent_recall@10": null,
   "sent_recall@20": null,
   "unit_precision@5": null,
   "unit_precision@10": null,
-  "ctx_doc_recall": 0.4362449799196787,
+  "ctx_doc_recall": 0.4365,
   "ctx_sent_recall": null,
   "ctx_unit_precision": null,
-  "ctx_all_gold_rate": 0.08032128514056225,
-  "latency_p50": 1.0565391150303185,
-  "latency_p95": 1.7194546270184219,
-  "peak_prompt_tokens_mean": 201.058,
+  "ctx_all_gold_rate": 0.08,
+  "latency_p50": 1.0569961370201781,
+  "latency_p95": 1.7213704709429294,
+  "peak_prompt_tokens_mean": 201.53,
   "peak_prompt_tokens_max": 317,
-  "total_tokens_mean": 14553.268,
+  "total_tokens_mean": 14600.198,
   "truncated_rate": 0.0,
   "gpu_peak_mb_max": 758.669921875,
   "calls_mean": {
     "retriever": 1.0,
-    "reranker": 1.996,
+    "reranker": 2.0,
     "verifier": 0.0,
     "compiler": 1.0,
-    "generator": 0.996
+    "generator": 1.0
   },
   "failure_counts": {
-    "RETRIEVAL_FAILURE": 222,
+    "RETRIEVAL_FAILURE": 223,
     "CORRECT": 77,
-    "RERANKING_FAILURE": 174,
-    "GENERATION_FAILURE": 25,
-    "SYSTEM_ERROR": 2
+    "RERANKING_FAILURE": 175,
+    "GENERATION_FAILURE": 25
   },
   "by_hops": {
     "2": {
       "n": 155,
       "em": 0.18064516129032257,
-      "f1": 0.27145929339477726
+      "f1": 0.27514592933947774
     },
     "3": {
       "n": 179,
@@ -57,25 +56,25 @@
     "4": {
       "n": 166,
       "em": 0.1144578313253012,
-      "f1": 0.1674411933448078
+      "f1": 0.16944922547332186
     }
   },
   "per_hop_recall@10": {
     "1": {
-      "n": 498,
-      "recall": 0.8353413654618473
+      "n": 500,
+      "recall": 0.836
     },
     "2": {
-      "n": 498,
-      "recall": 0.35943775100401604
+      "n": 500,
+      "recall": 0.36
     },
     "3": {
-      "n": 344,
-      "recall": 0.4418604651162791
+      "n": 345,
+      "recall": 0.4434782608695652
     },
     "4": {
-      "n": 165,
-      "recall": 0.34545454545454546
+      "n": 166,
+      "recall": 0.3433734939759036
     }
   },
   "config": {
@@ -107,7 +106,7 @@
   },
   "config_hash": "2503920160",
   "data_sha256": "05ed3e36e4d5c5a3ea516ab3aef99378f1f0fb81f3ab92437684ca03afeec585",
-  "git_sha": "9a8433b389cd5474ed2b8934954c0f8a5fef7d85",
+  "git_sha": "25104fd4dd1686e1153df8415ea18a2324fca080",
   "git_dirty": true,
   "env": {
     "python": "3.14.9",

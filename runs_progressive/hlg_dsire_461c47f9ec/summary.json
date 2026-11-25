@@ -2,31 +2,31 @@
   "n": 500,
   "em": 0.282,
   "em_ci95": [
-    0.242,
+    0.244,
     0.322
   ],
-  "f1": 0.3562801631219641,
+  "f1": 0.35761349645529744,
   "f1_ci95": [
-    0.31840437750655304,
-    0.3939654899164351
+    0.3183335207280522,
+    0.3961413984056644
   ],
-  "doc_recall@5": 0.8837675350701403,
-  "doc_recall@10": 0.9178356713426854,
-  "doc_recall@20": 0.9418837675350702,
+  "doc_recall@5": 0.884,
+  "doc_recall@10": 0.918,
+  "doc_recall@20": 0.942,
   "sent_recall@5": null,
   "sent_recall@10": null,
   "sent_recall@20": null,
   "unit_precision@5": null,
   "unit_precision@10": null,
-  "ctx_doc_recall": 0.8657314629258517,
+  "ctx_doc_recall": 0.866,
   "ctx_sent_recall": null,
   "ctx_unit_precision": null,
-  "ctx_all_gold_rate": 0.8657314629258517,
-  "latency_p50": 0.2759621959994547,
-  "latency_p95": 0.6154144540196285,
-  "peak_prompt_tokens_mean": 303.158,
+  "ctx_all_gold_rate": 0.866,
+  "latency_p50": 0.2763179420144297,
+  "latency_p95": 0.618273260013666,
+  "peak_prompt_tokens_mean": 304.204,
   "peak_prompt_tokens_max": 733,
-  "total_tokens_mean": 8016.856,
+  "total_tokens_mean": 8018.044,
   "truncated_rate": 0.0,
   "gpu_peak_mb_max": 758.669921875,
   "calls_mean": {
@@ -34,20 +34,19 @@
     "reranker": 1.0,
     "verifier": 0.0,
     "compiler": 1.0,
-    "generator": 0.998
+    "generator": 1.0
   },
   "failure_counts": {
-    "GENERATION_FAILURE": 297,
+    "GENERATION_FAILURE": 298,
     "CORRECT": 141,
     "RERANKING_FAILURE": 45,
-    "RETRIEVAL_FAILURE": 16,
-    "SYSTEM_ERROR": 1
+    "RETRIEVAL_FAILURE": 16
   },
   "by_hops": {
     "1": {
       "n": 500,
       "em": 0.282,
-      "f1": 0.3562801631219641
+      "f1": 0.35761349645529744
     }
   },
   "per_hop_recall@10": {},
@@ -77,7 +76,7 @@
   },
   "config_hash": "461c47f9ec",
   "data_sha256": "7f8ada32a2a8886b67d71c84e8465142f3b9c569ae72a9d95121aef1366bb557",
-  "git_sha": "a9313866d3b243d61ac80b4769118d1f0c0f4f01",
+  "git_sha": "25104fd4dd1686e1153df8415ea18a2324fca080",
   "git_dirty": true,
   "env": {
     "python": "3.14.9",

@@ -7,41 +7,40 @@
   ],
   "f1": 0.3479202908202908,
   "f1_ci95": [
-    0.31058744588744586,
-    0.3887518925518925
+    0.31085506715506717,
+    0.38761677211677215
   ],
-  "doc_recall@5": 0.6392785571142284,
-  "doc_recall@10": 0.6943887775551102,
-  "doc_recall@20": 0.7359719438877755,
-  "sent_recall@5": 0.5601202404809619,
-  "sent_recall@10": 0.6132264529058116,
-  "sent_recall@20": 0.6442885771543087,
-  "unit_precision@5": 0.26973947895791583,
-  "unit_precision@10": 0.1468937875751503,
-  "ctx_doc_recall": 0.6007014028056112,
-  "ctx_sent_recall": 0.5205410821643287,
-  "ctx_unit_precision": 0.3971609886439546,
-  "ctx_all_gold_rate": 0.19438877755511022,
-  "latency_p50": 0.8512559829978272,
-  "latency_p95": 1.380955209955573,
-  "peak_prompt_tokens_mean": 206.542,
+  "doc_recall@5": 0.639,
+  "doc_recall@10": 0.694,
+  "doc_recall@20": 0.7355,
+  "sent_recall@5": 0.56,
+  "sent_recall@10": 0.613,
+  "sent_recall@20": 0.644,
+  "unit_precision@5": 0.2696,
+  "unit_precision@10": 0.1468,
+  "ctx_doc_recall": 0.6005,
+  "ctx_sent_recall": 0.5205,
+  "ctx_unit_precision": 0.3968666666666667,
+  "ctx_all_gold_rate": 0.194,
+  "latency_p50": 0.8546805969672278,
+  "latency_p95": 1.3951314689475112,
+  "peak_prompt_tokens_mean": 206.808,
   "peak_prompt_tokens_max": 357,
-  "total_tokens_mean": 7162.064,
+  "total_tokens_mean": 7173.906,
   "truncated_rate": 0.0,
   "gpu_peak_mb_max": 696.44140625,
   "calls_mean": {
     "retriever": 1.0,
-    "reranker": 1.998,
+    "reranker": 2.0,
     "verifier": 0.0,
     "compiler": 1.0,
-    "generator": 0.998
+    "generator": 1.0
   },
   "failure_counts": {
     "RERANKING_FAILURE": 85,
-    "RETRIEVAL_FAILURE": 223,
+    "RETRIEVAL_FAILURE": 224,
     "CORRECT": 146,
-    "GENERATION_FAILURE": 45,
-    "SYSTEM_ERROR": 1
+    "GENERATION_FAILURE": 45
   },
   "by_hops": {
     "2": {
@@ -67,12 +66,12 @@
   },
   "per_hop_recall@10": {
     "1": {
-      "n": 419,
-      "recall": 0.9021479713603818
+      "n": 420,
+      "recall": 0.9023809523809524
     },
     "2": {
-      "n": 458,
-      "recall": 0.5982532751091703
+      "n": 459,
+      "recall": 0.5969498910675382
     },
     "3": {
       "n": 142,
@@ -116,7 +115,7 @@
   },
   "config_hash": "e5c8cdf25d",
   "data_sha256": "21255907faaed201da80102170b058a0116075daf26ec04e42753ae01d507b4c",
-  "git_sha": "a9313866d3b243d61ac80b4769118d1f0c0f4f01",
+  "git_sha": "25104fd4dd1686e1153df8415ea18a2324fca080",
   "git_dirty": true,
   "env": {
     "python": "3.14.9",
