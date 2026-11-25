@@ -1,0 +1,555 @@
+##### b7b attempt 1 Tue Nov 24 19:06:23 UTC 2026
+
+=== 2wiki | B7b LycheeMemory ACL (own 7B, recurrent memory)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 29600.20it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 16506.82it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 2.0s
+run dir: runs_progressive/lycheeacl_2wiki_97d3ab6cd4
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 3584, 'n_docs': 3402, 'units_fingerprint': '36abc4d18d48c3cc0fda1a9804d5cd4a739cffd4a8fc18e7babce1f3ebc0f28e'}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 63.47it/s]
+  [10/500] last EM=0  latency=6.1s
+  [20/500] last EM=0  latency=13.3s
+  [30/500] last EM=0  latency=3.9s
+  [40/500] last EM=0  latency=2.6s
+  [50/500] last EM=0  latency=6.4s
+  [60/500] last EM=0  latency=9.2s
+  [70/500] last EM=0  latency=2.1s
+  [80/500] last EM=0  latency=3.6s
+  [90/500] last EM=0  latency=5.6s
+  [100/500] last EM=0  latency=18.3s
+  [110/500] last EM=0  latency=3.5s
+  [120/500] last EM=0  latency=5.0s
+  [130/500] last EM=0  latency=6.7s
+  [140/500] last EM=0  latency=4.8s
+  [150/500] last EM=0  latency=13.3s
+  [160/500] last EM=0  latency=3.0s
+  [170/500] last EM=0  latency=2.4s
+  [180/500] last EM=0  latency=4.2s
+  [190/500] last EM=0  latency=3.9s
+  [200/500] last EM=0  latency=13.7s
+  [210/500] last EM=0  latency=2.0s
+  [220/500] last EM=0  latency=4.9s
+  [230/500] last EM=0  latency=3.7s
+  [240/500] last EM=0  latency=3.8s
+  [250/500] last EM=0  latency=3.4s
+  [260/500] last EM=0  latency=9.4s
+  [270/500] last EM=0  latency=3.6s
+  [280/500] last EM=0  latency=5.1s
+  [290/500] last EM=0  latency=4.3s
+  [300/500] last EM=0  latency=18.8s
+  [310/500] last EM=0  latency=3.4s
+  [320/500] last EM=0  latency=8.8s
+  [330/500] last EM=0  latency=9.8s
+  [340/500] last EM=0  latency=3.4s
+  [350/500] last EM=0  latency=6.2s
+  [360/500] last EM=0  latency=12.2s
+  [370/500] last EM=0  latency=13.6s
+  [380/500] last EM=0  latency=4.5s
+  [390/500] last EM=0  latency=7.9s
+  [400/500] last EM=0  latency=5.4s
+  [410/500] last EM=0  latency=2.6s
+  [420/500] last EM=0  latency=4.6s
+  [430/500] last EM=0  latency=5.8s
+  [440/500] last EM=0  latency=9.0s
+  [450/500] last EM=0  latency=6.3s
+  [460/500] last EM=0  latency=5.4s
+  [470/500] last EM=0  latency=9.4s
+  [480/500] last EM=0  latency=6.7s
+  [490/500] last EM=0  latency=9.0s
+  [500/500] last EM=0  latency=4.6s
+{
+  "n": 500,
+  "em": 0.006,
+  "em_ci95": [
+    0.0,
+    0.014
+  ],
+  "f1": 0.1536592453176972,
+  "sent_recall@10": 0.0,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 4200,
+  "total_tokens_mean": 1187.414,
+  "latency_p50": 5.189174753963016,
+  "latency_p95": 13.704288812004961,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 497,
+    "CORRECT": 3
+  }
+}
+
+=== musique | B7b LycheeMemory ACL (own 7B, recurrent memory)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 17068.84it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14714.40it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 1.2s
+run dir: runs_progressive/lycheeacl_musique_f8e6954d75
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 5936, 'n_docs': 5898, 'units_fingerprint': 'c16da7a6182ac7680ad4cbdbc6a0b14b77ea8a2e56799d28462bedd6c26664de'}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 255.47it/s]
+  [10/500] last EM=0  latency=4.3s
+  [20/500] last EM=0  latency=23.9s
+  [30/500] last EM=0  latency=11.0s
+  [40/500] last EM=0  latency=14.1s
+  [50/500] last EM=0  latency=11.1s
+  [60/500] last EM=0  latency=13.1s
+  [70/500] last EM=0  latency=7.2s
+  [80/500] last EM=0  latency=8.6s
+  [90/500] last EM=0  latency=4.8s
+  [100/500] last EM=0  latency=9.6s
+  [110/500] last EM=0  latency=9.7s
+  [120/500] last EM=0  latency=8.8s
+  [130/500] last EM=0  latency=5.7s
+  [140/500] last EM=0  latency=5.9s
+  [150/500] last EM=0  latency=2.7s
+  [160/500] last EM=0  latency=16.8s
+  [170/500] last EM=0  latency=6.8s
+  [180/500] last EM=0  latency=6.3s
+  [190/500] last EM=0  latency=8.9s
+  [200/500] last EM=0  latency=6.4s
+  [210/500] last EM=0  latency=7.9s
+  [220/500] last EM=0  latency=4.2s
+  [230/500] last EM=0  latency=6.7s
+  [240/500] last EM=0  latency=6.1s
+  [250/500] last EM=0  latency=10.6s
+  [260/500] last EM=0  latency=12.4s
+  [270/500] last EM=0  latency=4.7s
+  [280/500] last EM=0  latency=7.4s
+  [290/500] last EM=0  latency=2.0s
+  [300/500] last EM=0  latency=9.6s
+  [310/500] last EM=0  latency=7.2s
+  [320/500] last EM=0  latency=12.4s
+  [330/500] last EM=0  latency=10.4s
+  [340/500] last EM=0  latency=5.0s
+  [350/500] last EM=0  latency=10.8s
+  [360/500] last EM=0  latency=5.6s
+  [370/500] last EM=0  latency=10.2s
+  [380/500] last EM=0  latency=2.7s
+  [390/500] last EM=0  latency=12.8s
+  [400/500] last EM=0  latency=7.3s
+  [410/500] last EM=0  latency=1.8s
+  [420/500] last EM=0  latency=14.9s
+  [430/500] last EM=0  latency=14.1s
+  [440/500] last EM=0  latency=15.9s
+  [450/500] last EM=0  latency=10.5s
+  [460/500] last EM=1  latency=10.7s
+  [470/500] last EM=0  latency=15.6s
+  [480/500] last EM=0  latency=5.9s
+  [490/500] last EM=0  latency=9.5s
+  [500/500] last EM=0  latency=9.0s
+{
+  "n": 500,
+  "em": 0.004,
+  "em_ci95": [
+    0.0,
+    0.01
+  ],
+  "f1": 0.07159995585470606,
+  "sent_recall@10": null,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 4741,
+  "total_tokens_mean": 2877.874,
+  "latency_p50": 7.434314890066162,
+  "latency_p95": 18.050042552058585,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 498,
+    "CORRECT": 2
+  }
+}
+
+=== dsire | B7b LycheeMemory ACL (own 7B, recurrent memory)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16816.43it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15950.81it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 1.2s
+run dir: runs_progressive/lycheeacl_dsire_171019e0b9
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 466, 'n_docs': 194, 'units_fingerprint': '4ef94ed10f0dd28b132be3ef61f995b39ee95ecb5124fe1752b4c651c2bbbb7d'}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 237.14it/s]
+  [10/500] last EM=0  latency=3.1s
+  [20/500] last EM=0  latency=2.3s
+  [30/500] last EM=0  latency=11.1s
+  [40/500] last EM=0  latency=1.4s
+  [50/500] last EM=0  latency=5.7s
+  [60/500] last EM=0  latency=2.2s
+  [70/500] last EM=0  latency=1.9s
+  [80/500] last EM=0  latency=4.4s
+  [90/500] last EM=0  latency=4.1s
+  [100/500] last EM=0  latency=6.1s
+  [110/500] last EM=0  latency=6.7s
+  [120/500] last EM=0  latency=13.6s
+  [130/500] last EM=0  latency=3.1s
+  [140/500] last EM=0  latency=3.3s
+  [150/500] last EM=0  latency=12.0s
+  [160/500] last EM=0  latency=2.7s
+  [170/500] last EM=0  latency=2.1s
+  [180/500] last EM=0  latency=2.9s
+  [190/500] last EM=0  latency=4.0s
+  [200/500] last EM=0  latency=5.8s
+  [210/500] last EM=0  latency=5.6s
+  [220/500] last EM=0  latency=6.0s
+  [230/500] last EM=0  latency=1.7s
+  [240/500] last EM=0  latency=1.8s
+  [250/500] last EM=0  latency=1.3s
+  [260/500] last EM=0  latency=3.4s
+  [270/500] last EM=0  latency=5.3s
+  [280/500] last EM=0  latency=7.6s
+  [290/500] last EM=0  latency=4.6s
+  [300/500] last EM=0  latency=4.9s
+  [310/500] last EM=0  latency=7.4s
+  [320/500] last EM=0  latency=5.1s
+  [330/500] last EM=0  latency=5.7s
+  [340/500] last EM=0  latency=7.2s
+  [350/500] last EM=0  latency=1.6s
+  [360/500] last EM=0  latency=3.0s
+  [370/500] last EM=0  latency=8.1s
+  [380/500] last EM=0  latency=3.5s
+  [390/500] last EM=0  latency=24.7s
+  [400/500] last EM=0  latency=4.2s
+  [410/500] last EM=0  latency=13.4s
+  [420/500] last EM=0  latency=4.9s
+  [430/500] last EM=0  latency=6.1s
+  [440/500] last EM=0  latency=4.1s
+  [450/500] last EM=0  latency=5.1s
+  [460/500] last EM=0  latency=1.7s
+  [470/500] last EM=0  latency=7.3s
+  [480/500] last EM=0  latency=12.9s
+  [490/500] last EM=0  latency=5.7s
+  [500/500] last EM=0  latency=13.1s
+{
+  "n": 500,
+  "em": 0.006,
+  "em_ci95": [
+    0.0,
+    0.014
+  ],
+  "f1": 0.22546881389438966,
+  "sent_recall@10": null,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 1775,
+  "total_tokens_mean": 780.832,
+  "latency_p50": 4.129250195925124,
+  "latency_p95": 13.111887232051231,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 497,
+    "CORRECT": 3
+  }
+}
+settings that differ between runs: ['system', 'dataset', 'prepend_title', 'prompt_version', 'generator', 'top_k', 'budget_tokens', 'unit_mode', 'method_args']
+constant: {'limit': None, 'lam': 0.5, 'corpus_scope': 'pooled', 'embedder': 'BAAI/bge-small-en-v1.5', 'reranker': 'cross-encoder/ms-marco-MiniLM-L-6-v2', 'tokenizer': 'tiktoken_cl100k'}
+
+run                              system      dataset prepend_titl prompt_versi    generator        top_k budget_token    unit_mode  method_args    n     EM     EM 95% CI     F1 sentR@10 allGold peakTok  failures
+chunk_2wiki_1e8ef39c7a            chunk        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.28,0.46]  0.461    0.835   0.530    1443  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+chunk_2wiki_214817796c            chunk        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.400   [0.30,0.50]  0.449    0.835   0.350     505  {'CONTEXT_OVERFLOW': 30, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 40, 'GENERATION_FAILURE': 11, 'RERANKING_FAILURE': 2}
+chunk_2wiki_abdc596e68            chunk        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.44]  0.419    0.835   0.530    1443  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 35, 'RERANKING_FAILURE': 16}
+chunk_2wiki_d5d410254c            chunk        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.410   [0.32,0.50]  0.496    0.835   0.560    1010  {'GENERATION_FAILURE': 33, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 41, 'CONTEXT_OVERFLOW': 9, 'RERANKING_FAILURE': 3}
+chunk_2wiki_ddcb70df26            chunk        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.450   [0.36,0.54]  0.519    0.835   0.650    2029  {'GENERATION_FAILURE': 37, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 45, 'RERANKING_FAILURE': 3, 'CONTEXT_OVERFLOW': 1}
+chunk_dsire_582933042a            chunk        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.380   [0.28,0.48]  0.546        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+chunk_dsire_95dca64e52            chunk        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.477        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+chunk_musique_5d86dd4bba          chunk      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.150   [0.09,0.22]  0.252        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 15}
+chunk_musique_df1040a2ff          chunk      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.090   [0.04,0.15]  0.144        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+sentence_2wiki_245fbcab4d      sentence        2wiki         True           v1   qwen2.5:3b            5         None         None         None  100  0.150   [0.09,0.23]  0.182    0.705   0.290     500  {'GENERATION_FAILURE': 22, 'RETRIEVAL_FAILURE': 37, 'RERANKING_FAILURE': 26, 'CORRECT': 15}
+sentence_2wiki_3dda92fe5e      sentence        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.370   [0.28,0.46]  0.429    0.705   0.480     996  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 2}
+sentence_2wiki_43999629bb      sentence        2wiki         True           v2   qwen2.5:3b           20         None         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_45603b394d      sentence        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.300   [0.21,0.39]  0.358    0.705   0.380     501  {'GENERATION_FAILURE': 24, 'RETRIEVAL_FAILURE': 29, 'CORRECT': 30, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 11}
+sentence_2wiki_650b13b7a9      sentence        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_7eb0ce0e4e      sentence        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.49]  0.455    0.705   0.290     499  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 39, 'RERANKING_FAILURE': 26}
+sentence_2wiki_94230cb875      sentence        2wiki         True           v2   qwen2.5:3b           20         4096         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_a44b7c7deb      sentence        2wiki        False           v1   qwen2.5:3b            5         None         None         None  100  0.170   [0.10,0.24]  0.201    0.675   0.280     505  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 45, 'CORRECT': 17, 'GENERATION_FAILURE': 16}
+sentence_2wiki_ac1a2d0b75      sentence        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.45]  0.416    0.705   0.290     499  {'GENERATION_FAILURE': 14, 'RETRIEVAL_FAILURE': 25, 'RERANKING_FAILURE': 26, 'CORRECT': 35}
+sentence_2wiki_dbaf8d21ef      sentence        2wiki         True           v2   qwen2.5:3b           10         None         None         None  100  0.340   [0.25,0.43]  0.388    0.705   0.400     924  {'GENERATION_FAILURE': 23, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 34, 'RERANKING_FAILURE': 15}
+sentence_2wiki_e3d4ba2a98      sentence        2wiki        False           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.409    0.675   0.280     504  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 36, 'GENERATION_FAILURE': 14}
+sentence_dsire_0b994b65a4      sentence        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.320   [0.23,0.41]  0.420        -   0.950    1191  {'GENERATION_FAILURE': 65, 'CORRECT': 32, 'RERANKING_FAILURE': 3}
+sentence_dsire_e25b391f30      sentence        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.45]  0.508        -   0.950    1191  {'GENERATION_FAILURE': 61, 'CORRECT': 36, 'RERANKING_FAILURE': 3}
+sentence_musique_0d935103be     sentence      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.140   [0.08,0.21]  0.194        -   0.160     572  {'RERANKING_FAILURE': 27, 'GENERATION_FAILURE': 11, 'RETRIEVAL_FAILURE': 48, 'CORRECT': 14}
+sentence_musique_89620719f1     sentence      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.190   [0.12,0.27]  0.307        -   0.160     572  {'RERANKING_FAILURE': 26, 'GENERATION_FAILURE': 8, 'RETRIEVAL_FAILURE': 47, 'CORRECT': 19}
+georag_2wiki_24f766fc74          georag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.230   [0.15,0.31]  0.301    0.782   0.040    1564  {'RERANKING_FAILURE': 68, 'CORRECT': 23, 'RETRIEVAL_FAILURE': 5, 'GENERATION_FAILURE': 4}
+georag_2wiki_68349c53d9          georag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.20,0.37]  0.339    0.782   0.050    1564  {'RERANKING_FAILURE': 66, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 4, 'GENERATION_FAILURE': 2}
+georag_2wiki_6ea09457b9          georag        2wiki         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.260   [0.18,0.34]  0.308    0.632   0.000     388  {'RERANKING_FAILURE': 55, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 26}
+georag_2wiki_d7dd56c6e1          georag        2wiki         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.260   [0.17,0.35]  0.289    0.630   0.000     372  {'RERANKING_FAILURE': 54, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 26}
+georag_dsire_32ac9a6795          georag        dsire         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.280   [0.20,0.37]  0.337        -   0.950    1196  {'GENERATION_FAILURE': 68, 'CORRECT': 28, 'RERANKING_FAILURE': 4}
+georag_dsire_726a2d71dd          georag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.418        -   0.900    2427  {'GENERATION_FAILURE': 62, 'CORRECT': 30, 'RERANKING_FAILURE': 8}
+georag_dsire_a39b3f149d          georag        dsire         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.300   [0.21,0.39]  0.387        -   0.940    1178  {'GENERATION_FAILURE': 66, 'CORRECT': 30, 'RERANKING_FAILURE': 4}
+georag_dsire_a655b4dc04          georag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.464        -   0.900    2427  {'GENERATION_FAILURE': 59, 'CORRECT': 33, 'RERANKING_FAILURE': 8}
+georag_musique_4b61181368        georag      musique         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.050   [0.01,0.10]  0.089        -   0.020     378  {'RERANKING_FAILURE': 70, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 5}
+georag_musique_88953daad9        georag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.050   [0.01,0.09]  0.068        -   0.010    1266  {'RERANKING_FAILURE': 78, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 5}
+georag_musique_b6639ab9a7        georag      musique         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.090   [0.04,0.15]  0.162        -   0.020     378  {'RERANKING_FAILURE': 67, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 9}
+georag_musique_d7fd4e8c2e        georag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.070   [0.03,0.12]  0.133        -   0.010    1365  {'RERANKING_FAILURE': 77, 'RETRIEVAL_FAILURE': 15, 'GENERATION_FAILURE': 1, 'CORRECT': 7}
+hlg_2wiki_0c2dbbc355                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.370   [0.28,0.46]  0.423    0.700   0.220     346  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 32, 'CORRECT': 37, 'GENERATION_FAILURE': 6}
+hlg_2wiki_70ab86bfea                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.270   [0.19,0.36]  0.350    0.690   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 18, 'RERANKING_FAILURE': 46, 'CORRECT': 27}
+hlg_2wiki_ca340d310f                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.428    0.713   0.240     346  {'RERANKING_FAILURE': 37, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 36, 'GENERATION_FAILURE': 8}
+hlg_2wiki_e1e5fd151b                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.270   [0.19,0.36]  0.350    0.695   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 20, 'RERANKING_FAILURE': 44, 'CORRECT': 27}
+hlg_dsire_00f06c1451                hlg        dsire         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.370   [0.27,0.47]  0.513        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_bcf6402575                hlg        dsire         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.280   [0.20,0.37]  0.373        -   0.930     598  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 4, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 2}
+hlg_dsire_dc387f6e53                hlg        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.517        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_e0837982d4                hlg        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.393        -   0.970     573  {'GENERATION_FAILURE': 68, 'CORRECT': 30, 'RERANKING_FAILURE': 2}
+hlg_musique_0c482f9c36              hlg      musique         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.100   [0.04,0.16]  0.150        -   0.070     329  {'RERANKING_FAILURE': 42, 'CORRECT': 10, 'GENERATION_FAILURE': 6, 'RETRIEVAL_FAILURE': 42}
+hlg_musique_8228debad1              hlg      musique         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.170   [0.10,0.24]  0.277        -   0.060     298  {'RERANKING_FAILURE': 54, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 26}
+hlg_musique_c501e4b372              hlg      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.170   [0.10,0.24]  0.282        -   0.060     298  {'RERANKING_FAILURE': 55, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 25}
+hlg_musique_ec76328fd2              hlg      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.110   [0.05,0.17]  0.158        -   0.080     324  {'RERANKING_FAILURE': 59, 'CORRECT': 11, 'GENERATION_FAILURE': 5, 'RETRIEVAL_FAILURE': 25}
+surerag_2wiki_08b0a060f1        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_2wiki_88571b8855        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.435    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_9ad1b85c0a        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.437    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_bb3fccf333        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_dsire_9e94186550        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.478        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_dsire_c85555f229        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_e0c2d0f6d4        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_fbc6e1c8b0        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.476        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_musique_1883594d09      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_4367c64c2c      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_539ac2910e      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.241        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+surerag_musique_a8a911e1d1      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.232        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+evimem_2wiki_4c317ff90e          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.380   [0.29,0.48]  0.455    0.690   0.400    1113  {'GENERATION_FAILURE': 21, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 38, 'RERANKING_FAILURE': 18}
+evimem_2wiki_82b289f04a          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.330   [0.24,0.42]  0.419    0.718   0.570    1196  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 30, 'CORRECT': 33, 'RERANKING_FAILURE': 2}
+evimem_2wiki_f2c48d736b          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.410   [0.31,0.51]  0.520    0.782   0.520    1157  {'GENERATION_FAILURE': 26, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 41, 'RERANKING_FAILURE': 13}
+evimem_2wiki_f3c1045a0d          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.470    0.782   0.650    1312  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+evimem_dsire_0f4365acf4          evimem        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.429        -   1.000    2754  {'GENERATION_FAILURE': 67, 'CORRECT': 33}
+evimem_dsire_28717b1d0e          evimem        dsire         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.503        -   0.960    3130  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 3, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_ac158aa9c5          evimem        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.535        -   0.990    3518  {'GENERATION_FAILURE': 62, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_db88cb13c2          evimem        dsire         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.489        -   0.980    2686  {'GENERATION_FAILURE': 64, 'CORRECT': 34, 'RERANKING_FAILURE': 2}
+evimem_musique_7575dac5d3        evimem      musique         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.100   [0.05,0.16]  0.147        -   0.240    1159  {'RETRIEVAL_FAILURE': 58, 'GENERATION_FAILURE': 17, 'RERANKING_FAILURE': 15, 'CORRECT': 10}
+evimem_musique_778bec6c37        evimem      musique         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.200   [0.13,0.28]  0.283        -   0.250    1193  {'RERANKING_FAILURE': 20, 'RETRIEVAL_FAILURE': 43, 'GENERATION_FAILURE': 17, 'CORRECT': 20}
+evimem_musique_916f199499        evimem      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.03,0.12]  0.146        -   0.330    1151  {'RETRIEVAL_FAILURE': 59, 'GENERATION_FAILURE': 27, 'RERANKING_FAILURE': 7, 'CORRECT': 7}
+evimem_musique_a5b17687df        evimem      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.220   [0.14,0.31]  0.291        -   0.380    1255  {'RERANKING_FAILURE': 6, 'RETRIEVAL_FAILURE': 47, 'GENERATION_FAILURE': 25, 'CORRECT': 22}
+lychee_2wiki_31b713ea89          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.430    0.565   0.320    1928  {'GENERATION_FAILURE': 16, 'RERANKING_FAILURE': 16, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 31}
+lychee_2wiki_5fc9a7b175          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.430   [0.33,0.53]  0.510    0.675   0.450    1695  {'GENERATION_FAILURE': 19, 'RERANKING_FAILURE': 14, 'CORRECT': 43, 'RETRIEVAL_FAILURE': 24}
+lychee_2wiki_9946152374          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.48]  0.468    0.667   0.430    1667  {'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 18, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 39}
+lychee_2wiki_d9ff2238e4          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.370   [0.28,0.46]  0.426    0.578   0.380    1928  {'GENERATION_FAILURE': 18, 'RERANKING_FAILURE': 12, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 33}
+lychee_dsire_51e390b512          lychee        dsire         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.270   [0.19,0.36]  0.350        -   0.790    4191  {'GENERATION_FAILURE': 56, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 15, 'RERANKING_FAILURE': 2}
+lychee_dsire_5648abb7e1          lychee        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.370        -   0.810    4146  {'GENERATION_FAILURE': 56, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 14, 'RERANKING_FAILURE': 2}
+lychee_dsire_6978fa62e2          lychee        dsire         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.350   [0.26,0.44]  0.454        -   0.990    3810  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+lychee_dsire_ab5b81138f          lychee        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.438        -   0.970    3760  {'GENERATION_FAILURE': 64, 'CORRECT': 33, 'RERANKING_FAILURE': 3}
+lychee_musique_37a76c435b        lychee      musique         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.140   [0.08,0.21]  0.264        -   0.290    1652  {'RETRIEVAL_FAILURE': 35, 'CORRECT': 14, 'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 31}
+lychee_musique_7a94fcd277        lychee      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.234        -   0.210    1652  {'RERANKING_FAILURE': 36, 'CORRECT': 13, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 36}
+lychee_musique_7da640a3c4        lychee      musique         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.230   [0.15,0.31]  0.360        -   0.280    1904  {'RERANKING_FAILURE': 31, 'CORRECT': 23, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 31}
+lychee_musique_ff32896580        lychee      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.210   [0.13,0.29]  0.344        -   0.280    1892  {'RERANKING_FAILURE': 26, 'CORRECT': 21, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+lycheeacl_2wiki_0bda7466e7    lycheeacl        2wiki         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.144    0.000   0.000    2372  {'RETRIEVAL_FAILURE': 100}
+lycheeacl_musique_3d1bd68197    lycheeacl      musique         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.068        -   0.000    3945  {'RETRIEVAL_FAILURE': 100}
+pyrag_2wiki_64f650128d            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.420   [0.32,0.52]  0.500    0.877   0.640    3236  {'GENERATION_FAILURE': 35, 'CORRECT': 42, 'RERANKING_FAILURE': 13, 'RETRIEVAL_FAILURE': 10}
+pyrag_2wiki_7aafdc3d11            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.400   [0.31,0.49]  0.479    0.860   0.670    4626  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 40, 'RERANKING_FAILURE': 10}
+pyrag_2wiki_a8030ce3b1            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.440   [0.34,0.54]  0.508    0.868   0.680    4672  {'GENERATION_FAILURE': 36, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 44, 'RERANKING_FAILURE': 9}
+pyrag_2wiki_c44791bf80            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.451    0.873   0.630    3043  {'GENERATION_FAILURE': 38, 'RETRIEVAL_FAILURE': 12, 'RERANKING_FAILURE': 13, 'CORRECT': 37}
+pyrag_dsire_a3aee4d4af            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.310   [0.22,0.41]  0.455        -   0.990    8143  {'GENERATION_FAILURE': 68, 'CORRECT': 31, 'RERANKING_FAILURE': 1}
+pyrag_dsire_b1a41176b1            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.360   [0.27,0.46]  0.520        -   0.980    8143  {'GENERATION_FAILURE': 63, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+pyrag_dsire_d76446e8f8            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.280   [0.19,0.37]  0.449        -   1.000    6567  {'GENERATION_FAILURE': 72, 'CORRECT': 28}
+pyrag_dsire_f054b904ab            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.220   [0.14,0.31]  0.367        -   0.830    9429  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 12, 'CORRECT': 22}
+pyrag_dsire_fbad56a568            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.220   [0.14,0.30]  0.358        -   0.870    9391  {'GENERATION_FAILURE': 68, 'CORRECT': 22, 'RERANKING_FAILURE': 8, 'RETRIEVAL_FAILURE': 2}
+pyrag_musique_88a2a0d19e          pyrag      musique         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.100   [0.05,0.16]  0.148        -   0.460    5304  {'GENERATION_FAILURE': 41, 'RERANKING_FAILURE': 27, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 10}
+pyrag_musique_c4b125dcb9          pyrag      musique         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.200   [0.12,0.28]  0.281        -   0.500    4734  {'GENERATION_FAILURE': 34, 'RERANKING_FAILURE': 28, 'CORRECT': 20, 'RETRIEVAL_FAILURE': 18}
+pyrag_musique_cdb729a73a          pyrag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.160   [0.09,0.23]  0.265        -   0.530    5405  {'GENERATION_FAILURE': 42, 'CORRECT': 16, 'RERANKING_FAILURE': 23, 'RETRIEVAL_FAILURE': 19}
+pyrag_musique_ed703f84ed          pyrag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.220        -   0.410    4989  {'GENERATION_FAILURE': 32, 'RERANKING_FAILURE': 32, 'RETRIEVAL_FAILURE': 21, 'CORRECT': 15}
+liveledger_2wiki_02323980dc   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.290   [0.21,0.38]  0.388    0.845   0.640    2463  {'GENERATION_FAILURE': 41, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 29, 'RERANKING_FAILURE': 16}
+liveledger_2wiki_6b02197e52   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.440   [0.34,0.54]  0.530    0.882   0.700    1855  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 10, 'CORRECT': 44, 'RERANKING_FAILURE': 14}
+liveledger_2wiki_974c112e7e   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.270   [0.19,0.36]  0.355    0.800   0.540    2754  {'GENERATION_FAILURE': 33, 'RERANKING_FAILURE': 17, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 23}
+liveledger_2wiki_e4ca67a421   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.490   [0.39,0.59]  0.602    0.917   0.790    2378  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 5, 'CORRECT': 49, 'RERANKING_FAILURE': 11}
+liveledger_dsire_0f5ac11ccb   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.340   [0.25,0.43]  0.465        -   0.940    2640  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 4}
+liveledger_dsire_68586668fe   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.387        -   0.930    2326  {'GENERATION_FAILURE': 66, 'RETRIEVAL_FAILURE': 3, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_dsire_6bb79ffcb1   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.350   [0.26,0.44]  0.491        -   0.970    2818  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+liveledger_dsire_b425c671de   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.280   [0.19,0.37]  0.417        -   0.960    2070  {'GENERATION_FAILURE': 69, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_musique_28a83496f0   liveledger      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.210        -   0.260    2135  {'RERANKING_FAILURE': 32, 'CORRECT': 15, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+liveledger_musique_4412435e9e   liveledger      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.20,0.38]  0.401        -   0.410    3141  {'RERANKING_FAILURE': 29, 'GENERATION_FAILURE': 20, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 29}
+liveledger_musique_950ff6e262   liveledger      musique         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.220   [0.14,0.31]  0.280        -   0.300    2438  {'RERANKING_FAILURE': 26, 'RETRIEVAL_FAILURE': 34, 'GENERATION_FAILURE': 18, 'CORRECT': 22}
+liveledger_musique_f00cb18167   liveledger      musique         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.300   [0.21,0.39]  0.416        -   0.450    2435  {'RERANKING_FAILURE': 26, 'CORRECT': 30, 'RETRIEVAL_FAILURE': 18, 'GENERATION_FAILURE': 26}
+iterative_2wiki_0993722dcd    iterative        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.21,0.38]  0.370    0.690   0.300     797  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 31, 'CORRECT': 29, 'GENERATION_FAILURE': 15}
+iterative_2wiki_d75cbcefcb    iterative        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.420    0.700   0.330     767  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 26, 'GENERATION_FAILURE': 13, 'CORRECT': 36}
+iterative_dsire_4e0e8a0095    iterative        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.522        -   0.980    1918  {'GENERATION_FAILURE': 62, 'CORRECT': 36, 'RERANKING_FAILURE': 2}
+iterative_dsire_675a0325f5    iterative        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.427        -   0.930    2296  {'GENERATION_FAILURE': 61, 'CORRECT': 34, 'RERANKING_FAILURE': 4, 'RETRIEVAL_FAILURE': 1}
+iterative_musique_0a6293fd27    iterative      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.211        -   0.210     890  {'RERANKING_FAILURE': 31, 'RETRIEVAL_FAILURE': 45, 'GENERATION_FAILURE': 11, 'CORRECT': 13}
+iterative_musique_c08c0f0d74    iterative      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.180   [0.11,0.25]  0.276        -   0.260     973  {'GENERATION_FAILURE': 16, 'RETRIEVAL_FAILURE': 44, 'CORRECT': 18, 'RERANKING_FAILURE': 22}
+none_2wiki_7679ff0061              none        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.200   [0.13,0.28]  0.202    0.000   0.000      85  {'NO_RETRIEVAL': 80, 'CORRECT': 20}
+none_2wiki_fd1aa63fca              none        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.140   [0.08,0.21]  0.160    0.000   0.000      85  {'NO_RETRIEVAL': 86, 'CORRECT': 14}
+none_dsire_205af03414              none        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.110   [0.05,0.17]  0.120        -   0.000     120  {'NO_RETRIEVAL': 89, 'CORRECT': 11}
+none_dsire_8c328cd9a0              none        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.02,0.12]  0.080        -   0.000     120  {'NO_RETRIEVAL': 93, 'CORRECT': 7}
+none_musique_2b4457a8b1            none      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.000   [0.00,0.00]  0.028        -   0.000      89  {'NO_RETRIEVAL': 100}
+none_musique_f51860b62f            none      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.000   [0.00,0.00]  0.024        -   0.000      89  {'NO_RETRIEVAL': 100}
+
+method_args per run:
+  hlg_2wiki_0c2dbbc355: {'retriever': 'topic'}
+  hlg_2wiki_70ab86bfea: {'retriever': 'topic'}
+  hlg_dsire_00f06c1451: {'retriever': 'topic'}
+  hlg_dsire_bcf6402575: {'retriever': 'topic'}
+  hlg_musique_0c482f9c36: {'retriever': 'topic'}
+  hlg_musique_8228debad1: {'retriever': 'topic'}
+  surerag_2wiki_08b0a060f1: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_88571b8855: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_9ad1b85c0a: {'gate': False}
+  surerag_2wiki_bb3fccf333: {'gate': False}
+  surerag_dsire_9e94186550: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_c85555f229: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_e0c2d0f6d4: {'gate': False}
+  surerag_dsire_fbc6e1c8b0: {'gate': False}
+  surerag_musique_1883594d09: {'gate': False}
+  surerag_musique_4367c64c2c: {'gate': False, 'premise': 'concat'}
+  surerag_musique_539ac2910e: {'gate': False}
+  surerag_musique_a8a911e1d1: {'gate': False, 'premise': 'concat'}
+  evimem_2wiki_4c317ff90e: {'answer_context': 'raw'}
+  evimem_2wiki_f2c48d736b: {'answer_context': 'raw'}
+  evimem_dsire_28717b1d0e: {'answer_context': 'raw'}
+  evimem_dsire_db88cb13c2: {'answer_context': 'raw'}
+  evimem_musique_7575dac5d3: {'answer_context': 'raw'}
+  evimem_musique_778bec6c37: {'answer_context': 'raw'}
+  lychee_2wiki_5fc9a7b175: {'plan': False}
+  lychee_2wiki_d9ff2238e4: {'plan': False}
+  lychee_dsire_51e390b512: {'plan': False}
+  lychee_dsire_6978fa62e2: {'plan': False}
+  lychee_musique_37a76c435b: {'plan': False}
+  lychee_musique_7da640a3c4: {'plan': False}
+  lycheeacl_2wiki_0bda7466e7: {'timeout_s': 3600}
+  lycheeacl_musique_3d1bd68197: {'timeout_s': 3600}
+  pyrag_2wiki_64f650128d: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_2wiki_7aafdc3d11: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_dsire_b1a41176b1: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_dsire_f054b904ab: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_88a2a0d19e: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_c4b125dcb9: {'plan_generator': 'qwen2.5-coder:7b'}
+  liveledger_2wiki_02323980dc: {'ledger': False}
+  liveledger_2wiki_6b02197e52: {'ledger': False}
+  liveledger_dsire_0f5ac11ccb: {'ledger': False}
+  liveledger_dsire_b425c671de: {'ledger': False}
+  liveledger_musique_950ff6e262: {'ledger': False}
+  liveledger_musique_f00cb18167: {'ledger': False}
+
+EM by number of hops (n in brackets):
+run                                 1-hop          2-hop          3-hop          4-hop          5-hop
+chunk_2wiki_1e8ef39c7a                  -    0.31 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+chunk_2wiki_214817796c                  -    0.32 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+chunk_2wiki_abdc596e68                  -    0.26 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+chunk_2wiki_d5d410254c                  -    0.29 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_2wiki_ddcb70df26                  -    0.35 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_dsire_582933042a       0.38 (n=100)              -              -              -              -
+chunk_dsire_95dca64e52       0.34 (n=100)              -              -              -              -
+chunk_musique_5d86dd4bba                -    0.21 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+chunk_musique_df1040a2ff                -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+sentence_2wiki_245fbcab4d               -    0.11 (n=72)              -    0.27 (n=26)     0.00 (n=2)
+sentence_2wiki_3dda92fe5e               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_43999629bb               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_45603b394d               -    0.19 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+sentence_2wiki_650b13b7a9               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_7eb0ce0e4e               -    0.28 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+sentence_2wiki_94230cb875               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_a44b7c7deb               -    0.19 (n=72)              -    0.12 (n=26)     0.00 (n=2)
+sentence_2wiki_ac1a2d0b75               -    0.21 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_dbaf8d21ef               -    0.24 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+sentence_2wiki_e3d4ba2a98               -    0.22 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_dsire_0b994b65a4    0.32 (n=100)              -              -              -              -
+sentence_dsire_e25b391f30    0.36 (n=100)              -              -              -              -
+sentence_musique_0d935103be              -    0.21 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+sentence_musique_89620719f1              -    0.18 (n=34)    0.27 (n=33)    0.12 (n=33)              -
+georag_2wiki_24f766fc74                 -    0.08 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+georag_2wiki_68349c53d9                 -    0.12 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+georag_2wiki_6ea09457b9                 -    0.11 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+georag_2wiki_d7dd56c6e1                 -    0.14 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+georag_dsire_32ac9a6795      0.28 (n=100)              -              -              -              -
+georag_dsire_726a2d71dd      0.30 (n=100)              -              -              -              -
+georag_dsire_a39b3f149d      0.30 (n=100)              -              -              -              -
+georag_dsire_a655b4dc04      0.33 (n=100)              -              -              -              -
+georag_musique_4b61181368               -    0.12 (n=34)    0.00 (n=33)    0.03 (n=33)              -
+georag_musique_88953daad9               -    0.12 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+georag_musique_b6639ab9a7               -    0.15 (n=34)    0.06 (n=33)    0.06 (n=33)              -
+georag_musique_d7fd4e8c2e               -    0.12 (n=34)    0.06 (n=33)    0.03 (n=33)              -
+hlg_2wiki_0c2dbbc355                    -    0.25 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_70ab86bfea                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_2wiki_ca340d310f                    -    0.24 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_e1e5fd151b                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_dsire_00f06c1451         0.37 (n=100)              -              -              -              -
+hlg_dsire_bcf6402575         0.28 (n=100)              -              -              -              -
+hlg_dsire_dc387f6e53         0.37 (n=100)              -              -              -              -
+hlg_dsire_e0837982d4         0.30 (n=100)              -              -              -              -
+hlg_musique_0c482f9c36                  -    0.09 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+hlg_musique_8228debad1                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_c501e4b372                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_ec76328fd2                  -    0.12 (n=34)    0.06 (n=33)    0.15 (n=33)              -
+surerag_2wiki_08b0a060f1                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_2wiki_88571b8855                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_9ad1b85c0a                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_bb3fccf333                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_dsire_9e94186550     0.34 (n=100)              -              -              -              -
+surerag_dsire_c85555f229     0.38 (n=100)              -              -              -              -
+surerag_dsire_e0c2d0f6d4     0.38 (n=100)              -              -              -              -
+surerag_dsire_fbc6e1c8b0     0.34 (n=100)              -              -              -              -
+surerag_musique_1883594d09              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_4367c64c2c              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_539ac2910e              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+surerag_musique_a8a911e1d1              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+evimem_2wiki_4c317ff90e                 -    0.25 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+evimem_2wiki_82b289f04a                 -    0.29 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+evimem_2wiki_f2c48d736b                 -    0.39 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+evimem_2wiki_f3c1045a0d                 -    0.36 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+evimem_dsire_0f4365acf4      0.33 (n=100)              -              -              -              -
+evimem_dsire_28717b1d0e      0.34 (n=100)              -              -              -              -
+evimem_dsire_ac158aa9c5      0.37 (n=100)              -              -              -              -
+evimem_dsire_db88cb13c2      0.34 (n=100)              -              -              -              -
+evimem_musique_7575dac5d3               -    0.21 (n=34)    0.00 (n=33)    0.09 (n=33)              -
+evimem_musique_778bec6c37               -    0.21 (n=34)    0.18 (n=33)    0.21 (n=33)              -
+evimem_musique_916f199499               -    0.18 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+evimem_musique_a5b17687df               -    0.29 (n=34)    0.09 (n=33)    0.27 (n=33)              -
+lychee_2wiki_31b713ea89                 -    0.26 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_5fc9a7b175                 -    0.35 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_9946152374                 -    0.31 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_2wiki_d9ff2238e4                 -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_dsire_51e390b512      0.27 (n=100)              -              -              -              -
+lychee_dsire_5648abb7e1      0.28 (n=100)              -              -              -              -
+lychee_dsire_6978fa62e2      0.35 (n=100)              -              -              -              -
+lychee_dsire_ab5b81138f      0.33 (n=100)              -              -              -              -
+lychee_musique_37a76c435b               -    0.18 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7a94fcd277               -    0.15 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7da640a3c4               -    0.26 (n=34)    0.21 (n=33)    0.21 (n=33)              -
+lychee_musique_ff32896580               -    0.26 (n=34)    0.18 (n=33)    0.18 (n=33)              -
+lycheeacl_2wiki_0bda7466e7              -    0.00 (n=72)              -    0.00 (n=26)     0.00 (n=2)
+lycheeacl_musique_3d1bd68197              -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+pyrag_2wiki_64f650128d                  -    0.38 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+pyrag_2wiki_7aafdc3d11                  -    0.33 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+pyrag_2wiki_a8030ce3b1                  -    0.38 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+pyrag_2wiki_c44791bf80                  -    0.32 (n=72)              -    0.50 (n=26)     0.50 (n=2)
+pyrag_dsire_a3aee4d4af       0.31 (n=100)              -              -              -              -
+pyrag_dsire_b1a41176b1       0.36 (n=100)              -              -              -              -
+pyrag_dsire_d76446e8f8       0.28 (n=100)              -              -              -              -
+pyrag_dsire_f054b904ab       0.22 (n=100)              -              -              -              -
+pyrag_dsire_fbad56a568       0.22 (n=100)              -              -              -              -
+pyrag_musique_88a2a0d19e                -    0.18 (n=34)    0.09 (n=33)    0.03 (n=33)              -
+pyrag_musique_c4b125dcb9                -    0.32 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+pyrag_musique_cdb729a73a                -    0.24 (n=34)    0.09 (n=33)    0.15 (n=33)              -
+pyrag_musique_ed703f84ed                -    0.24 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+liveledger_2wiki_02323980dc              -    0.33 (n=72)              -    0.19 (n=26)     0.00 (n=2)
+liveledger_2wiki_6b02197e52              -    0.43 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+liveledger_2wiki_974c112e7e              -    0.29 (n=72)              -    0.19 (n=26)     0.50 (n=2)
+liveledger_2wiki_e4ca67a421              -    0.42 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+liveledger_dsire_0f5ac11ccb   0.34 (n=100)              -              -              -              -
+liveledger_dsire_68586668fe   0.28 (n=100)              -              -              -              -
+liveledger_dsire_6bb79ffcb1   0.35 (n=100)              -              -              -              -
+liveledger_dsire_b425c671de   0.28 (n=100)              -              -              -              -
+liveledger_musique_28a83496f0              -    0.18 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+liveledger_musique_4412435e9e              -    0.53 (n=34)    0.21 (n=33)    0.12 (n=33)              -
+liveledger_musique_950ff6e262              -    0.32 (n=34)    0.09 (n=33)    0.24 (n=33)              -
+liveledger_musique_f00cb18167              -    0.38 (n=34)    0.27 (n=33)    0.24 (n=33)              -
+iterative_2wiki_0993722dcd              -    0.19 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+iterative_2wiki_d75cbcefcb              -    0.25 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+iterative_dsire_4e0e8a0095   0.36 (n=100)              -              -              -              -
+iterative_dsire_675a0325f5   0.34 (n=100)              -              -              -              -
+iterative_musique_0a6293fd27              -    0.21 (n=34)    0.12 (n=33)    0.06 (n=33)              -
+iterative_musique_c08c0f0d74              -    0.24 (n=34)    0.15 (n=33)    0.15 (n=33)              -
+none_2wiki_7679ff0061                   -    0.11 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+none_2wiki_fd1aa63fca                   -    0.06 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+none_dsire_205af03414        0.11 (n=100)              -              -              -              -
+none_dsire_8c328cd9a0        0.07 (n=100)              -              -              -              -
+none_musique_2b4457a8b1                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+none_musique_f51860b62f                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
