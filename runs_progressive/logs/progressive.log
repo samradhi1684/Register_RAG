@@ -20052,3 +20052,3661 @@ Notes: B7b (LycheeMemory ACL) answers in sentences, so its strict EM/F1 are abou
 
 written to runs_progressive/progressive_report.md and runs_progressive/progressive_report.csv
 ##### ALL DONE Wed Nov 25 07:42:45 UTC 2026
+##### qwen2.5:3b attempt 1 Wed Nov 25 17:48:35 UTC 2026
+
+=== hotpot | ref: no retrieval  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 22152.03it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 17257.13it/s]
+
+Batches:   0%|          | 0/308 [00:00<?, ?it/s]
+Batches:   0%|          | 1/308 [00:00<01:04,  4.73it/s]
+Batches:   2%|▏         | 7/308 [00:00<00:11, 26.63it/s]
+Batches:   5%|▌         | 16/308 [00:00<00:06, 48.23it/s]
+Batches:   8%|▊         | 26/308 [00:00<00:04, 63.68it/s]
+Batches:  11%|█▏        | 35/308 [00:00<00:03, 72.03it/s]
+Batches:  15%|█▍        | 45/308 [00:00<00:03, 79.86it/s]
+Batches:  18%|█▊        | 55/308 [00:00<00:02, 85.24it/s]
+Batches:  22%|██▏       | 67/308 [00:00<00:02, 93.39it/s]
+Batches:  25%|██▌       | 78/308 [00:01<00:02, 97.02it/s]
+Batches:  29%|██▉       | 89/308 [00:01<00:02, 99.98it/s]
+Batches:  33%|███▎      | 102/308 [00:01<00:01, 106.94it/s]
+Batches:  37%|███▋      | 115/308 [00:01<00:01, 111.60it/s]
+Batches:  42%|████▏     | 128/308 [00:01<00:01, 116.83it/s]
+Batches:  46%|████▌     | 141/308 [00:01<00:01, 119.86it/s]
+Batches:  50%|█████     | 155/308 [00:01<00:01, 123.35it/s]
+Batches:  55%|█████▍    | 169/308 [00:01<00:01, 125.87it/s]
+Batches:  59%|█████▉    | 183/308 [00:01<00:00, 129.16it/s]
+Batches:  64%|██████▍   | 197/308 [00:01<00:00, 132.27it/s]
+Batches:  69%|██████▉   | 212/308 [00:02<00:00, 136.18it/s]
+Batches:  74%|███████▎  | 227/308 [00:02<00:00, 137.78it/s]
+Batches:  78%|███████▊  | 241/308 [00:02<00:00, 137.65it/s]
+Batches:  83%|████████▎ | 255/308 [00:02<00:00, 137.27it/s]
+Batches:  88%|████████▊ | 271/308 [00:02<00:00, 142.22it/s]
+Batches:  93%|█████████▎| 287/308 [00:02<00:00, 146.84it/s]
+Batches:  98%|█████████▊| 302/308 [00:02<00:00, 147.62it/s]
+Batches: 100%|██████████| 308/308 [00:02<00:00, 112.29it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 1.2s
+run dir: runs_progressive/none_hotpot_4a6fa29833
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.0s
+  [20/500] last EM=0  latency=0.0s
+  [30/500] last EM=0  latency=0.0s
+  [40/500] last EM=0  latency=0.0s
+  [50/500] last EM=0  latency=0.0s
+  [60/500] last EM=0  latency=0.0s
+  [70/500] last EM=0  latency=0.0s
+  [80/500] last EM=1  latency=0.0s
+  [90/500] last EM=0  latency=0.0s
+  [100/500] last EM=0  latency=0.0s
+  [110/500] last EM=0  latency=0.0s
+  [120/500] last EM=0  latency=0.0s
+  [130/500] last EM=0  latency=0.0s
+  [140/500] last EM=0  latency=0.0s
+  [150/500] last EM=1  latency=0.0s
+  [160/500] last EM=0  latency=0.0s
+  [170/500] last EM=0  latency=0.0s
+  [180/500] last EM=0  latency=0.0s
+  [190/500] last EM=1  latency=0.0s
+  [200/500] last EM=0  latency=0.0s
+  [210/500] last EM=0  latency=0.0s
+  [220/500] last EM=1  latency=0.0s
+  [230/500] last EM=0  latency=0.0s
+  [240/500] last EM=0  latency=0.0s
+  [250/500] last EM=0  latency=0.0s
+  [260/500] last EM=0  latency=0.0s
+  [270/500] last EM=0  latency=0.0s
+  [280/500] last EM=1  latency=0.0s
+  [290/500] last EM=0  latency=0.0s
+  [300/500] last EM=0  latency=0.0s
+  [310/500] last EM=0  latency=0.0s
+  [320/500] last EM=0  latency=0.0s
+  [330/500] last EM=0  latency=0.0s
+  [340/500] last EM=0  latency=0.0s
+  [350/500] last EM=0  latency=0.0s
+  [360/500] last EM=0  latency=0.0s
+  [370/500] last EM=1  latency=0.0s
+  [380/500] last EM=0  latency=0.0s
+  [390/500] last EM=0  latency=0.0s
+  [400/500] last EM=0  latency=0.0s
+  [410/500] last EM=0  latency=0.0s
+  [420/500] last EM=0  latency=0.0s
+  [430/500] last EM=0  latency=0.0s
+  [440/500] last EM=0  latency=0.0s
+  [450/500] last EM=0  latency=0.0s
+  [460/500] last EM=0  latency=0.0s
+  [470/500] last EM=0  latency=0.0s
+  [480/500] last EM=0  latency=0.0s
+  [490/500] last EM=0  latency=0.0s
+  [500/500] last EM=0  latency=0.0s
+{
+  "n": 500,
+  "em": 0.202,
+  "em_ci95": [
+    0.168,
+    0.236
+  ],
+  "f1": 0.23198913504795857,
+  "sent_recall@10": 0.0,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 98,
+  "total_tokens_mean": 73.432,
+  "latency_p50": 0.017682501929812133,
+  "latency_p95": 0.0275496409740299,
+  "failure_counts": {
+    "NO_RETRIEVAL": 399,
+    "CORRECT": 101
+  }
+}
+
+=== hotpot | B1 vanilla RAG, chunk  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 17173.85it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14125.41it/s]
+
+Batches:   0%|          | 0/78 [00:00<?, ?it/s]
+Batches:   1%|▏         | 1/78 [00:00<00:16,  4.54it/s]
+Batches:   5%|▌         | 4/78 [00:00<00:05, 12.38it/s]
+Batches:   9%|▉         | 7/78 [00:00<00:04, 16.78it/s]
+Batches:  13%|█▎        | 10/78 [00:00<00:03, 19.86it/s]
+Batches:  17%|█▋        | 13/78 [00:00<00:02, 22.48it/s]
+Batches:  22%|██▏       | 17/78 [00:00<00:02, 27.33it/s]
+Batches:  28%|██▊       | 22/78 [00:00<00:01, 32.75it/s]
+Batches:  35%|███▍      | 27/78 [00:01<00:01, 36.82it/s]
+Batches:  41%|████      | 32/78 [00:01<00:01, 39.94it/s]
+Batches:  49%|████▊     | 38/78 [00:01<00:00, 43.30it/s]
+Batches:  56%|█████▋    | 44/78 [00:01<00:00, 46.36it/s]
+Batches:  63%|██████▎   | 49/78 [00:01<00:00, 47.20it/s]
+Batches:  72%|███████▏  | 56/78 [00:01<00:00, 52.61it/s]
+Batches:  83%|████████▎ | 65/78 [00:01<00:00, 61.72it/s]
+Batches:  97%|█████████▋| 76/78 [00:01<00:00, 74.72it/s]
+Batches: 100%|██████████| 78/78 [00:01<00:00, 43.26it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/chunk_hotpot_63db49f773
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=1  latency=0.1s
+  [20/500] last EM=1  latency=0.1s
+  [30/500] last EM=0  latency=0.1s
+  [40/500] last EM=0  latency=0.1s
+  [50/500] last EM=1  latency=0.1s
+  [60/500] last EM=0  latency=0.1s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=1  latency=0.1s
+  [90/500] last EM=1  latency=0.1s
+  [100/500] last EM=0  latency=0.1s
+  [110/500] last EM=0  latency=0.1s
+  [120/500] last EM=0  latency=0.1s
+  [130/500] last EM=1  latency=0.1s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=0  latency=0.1s
+  [160/500] last EM=0  latency=0.1s
+  [170/500] last EM=1  latency=0.1s
+  [180/500] last EM=0  latency=0.1s
+  [190/500] last EM=1  latency=0.1s
+  [200/500] last EM=1  latency=0.1s
+  [210/500] last EM=1  latency=0.1s
+  [220/500] last EM=1  latency=0.1s
+  [230/500] last EM=1  latency=0.1s
+  [240/500] last EM=1  latency=0.1s
+  [250/500] last EM=1  latency=0.1s
+  [260/500] last EM=0  latency=0.1s
+  [270/500] last EM=0  latency=0.1s
+  [280/500] last EM=1  latency=0.1s
+  [290/500] last EM=0  latency=0.2s
+  [300/500] last EM=1  latency=0.1s
+  [310/500] last EM=0  latency=0.1s
+  [320/500] last EM=0  latency=0.1s
+  [330/500] last EM=1  latency=0.1s
+  [340/500] last EM=0  latency=0.1s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.1s
+  [370/500] last EM=1  latency=0.1s
+  [380/500] last EM=1  latency=0.1s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.1s
+  [410/500] last EM=0  latency=0.1s
+  [420/500] last EM=0  latency=0.1s
+  [430/500] last EM=0  latency=0.1s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.1s
+  [460/500] last EM=1  latency=0.1s
+  [470/500] last EM=0  latency=0.1s
+  [480/500] last EM=0  latency=0.1s
+  [490/500] last EM=0  latency=0.1s
+  [500/500] last EM=1  latency=0.1s
+{
+  "n": 500,
+  "em": 0.472,
+  "em_ci95": [
+    0.426,
+    0.516
+  ],
+  "f1": 0.551327417027417,
+  "sent_recall@10": 0.9601666666666666,
+  "doc_recall@10": 0.96,
+  "ctx_all_gold_rate": 0.806,
+  "peak_prompt_tokens_max": 1278,
+  "total_tokens_mean": 8570.148,
+  "latency_p50": 0.0975640770047903,
+  "latency_p95": 0.1246459239628166,
+  "failure_counts": {
+    "RERANKING_FAILURE": 62,
+    "CORRECT": 236,
+    "GENERATION_FAILURE": 190,
+    "RETRIEVAL_FAILURE": 12
+  }
+}
+
+=== hotpot | B2 vanilla RAG, sentence  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 21583.23it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 11870.67it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/sentence_hotpot_349f765fb6
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.1s
+  [20/500] last EM=1  latency=0.1s
+  [30/500] last EM=0  latency=0.1s
+  [40/500] last EM=0  latency=0.1s
+  [50/500] last EM=1  latency=0.1s
+  [60/500] last EM=0  latency=0.1s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=1  latency=0.1s
+  [90/500] last EM=0  latency=0.1s
+  [100/500] last EM=1  latency=0.1s
+  [110/500] last EM=0  latency=0.1s
+  [120/500] last EM=0  latency=0.1s
+  [130/500] last EM=1  latency=0.1s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=0  latency=0.1s
+  [160/500] last EM=0  latency=0.1s
+  [170/500] last EM=1  latency=0.1s
+  [180/500] last EM=0  latency=0.1s
+  [190/500] last EM=1  latency=0.1s
+  [200/500] last EM=0  latency=0.1s
+  [210/500] last EM=1  latency=0.1s
+  [220/500] last EM=1  latency=0.1s
+  [230/500] last EM=0  latency=0.1s
+  [240/500] last EM=1  latency=0.1s
+  [250/500] last EM=1  latency=0.1s
+  [260/500] last EM=0  latency=0.1s
+  [270/500] last EM=0  latency=0.1s
+  [280/500] last EM=1  latency=0.1s
+  [290/500] last EM=0  latency=0.1s
+  [300/500] last EM=1  latency=0.1s
+  [310/500] last EM=1  latency=0.1s
+  [320/500] last EM=0  latency=0.1s
+  [330/500] last EM=1  latency=0.1s
+  [340/500] last EM=0  latency=0.1s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.1s
+  [370/500] last EM=1  latency=0.1s
+  [380/500] last EM=1  latency=0.1s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.1s
+  [410/500] last EM=0  latency=0.1s
+  [420/500] last EM=0  latency=0.1s
+  [430/500] last EM=0  latency=0.1s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.1s
+  [460/500] last EM=1  latency=0.1s
+  [470/500] last EM=0  latency=0.1s
+  [480/500] last EM=0  latency=0.1s
+  [490/500] last EM=0  latency=0.1s
+  [500/500] last EM=0  latency=0.1s
+{
+  "n": 500,
+  "em": 0.462,
+  "em_ci95": [
+    0.416,
+    0.506
+  ],
+  "f1": 0.5387238539238539,
+  "sent_recall@10": 0.8723666666666666,
+  "doc_recall@10": 0.92,
+  "ctx_all_gold_rate": 0.564,
+  "peak_prompt_tokens_max": 527,
+  "total_tokens_mean": 3119.556,
+  "latency_p50": 0.09311776899266988,
+  "latency_p95": 0.12475260999053717,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 48,
+    "CORRECT": 231,
+    "GENERATION_FAILURE": 122,
+    "RERANKING_FAILURE": 99
+  }
+}
+
+=== hotpot | ref: iterative refinement  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 18463.62it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 19090.64it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/iterative_hotpot_a43aa8345f
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.4s
+  [20/500] last EM=0  latency=0.2s
+  [30/500] last EM=0  latency=0.2s
+  [40/500] last EM=0  latency=0.2s
+  [50/500] last EM=1  latency=0.4s
+  [60/500] last EM=1  latency=0.4s
+  [70/500] last EM=0  latency=0.5s
+  [80/500] last EM=0  latency=0.2s
+  [90/500] last EM=0  latency=0.2s
+  [100/500] last EM=0  latency=0.3s
+  [110/500] last EM=0  latency=0.2s
+  [120/500] last EM=1  latency=0.3s
+  [130/500] last EM=1  latency=0.3s
+  [140/500] last EM=0  latency=0.2s
+  [150/500] last EM=0  latency=0.3s
+  [160/500] last EM=1  latency=0.5s
+  [170/500] last EM=0  latency=0.4s
+  [180/500] last EM=0  latency=0.4s
+  [190/500] last EM=1  latency=0.2s
+  [200/500] last EM=0  latency=0.4s
+  [210/500] last EM=1  latency=0.2s
+  [220/500] last EM=1  latency=0.2s
+  [230/500] last EM=0  latency=0.5s
+  [240/500] last EM=1  latency=0.3s
+  [250/500] last EM=1  latency=0.2s
+  [260/500] last EM=0  latency=0.4s
+  [270/500] last EM=0  latency=0.3s
+  [280/500] last EM=1  latency=0.4s
+  [290/500] last EM=0  latency=0.3s
+  [300/500] last EM=1  latency=0.3s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.2s
+  [330/500] last EM=0  latency=0.3s
+  [340/500] last EM=0  latency=0.2s
+  [350/500] last EM=0  latency=0.2s
+  [360/500] last EM=0  latency=0.5s
+  [370/500] last EM=1  latency=0.3s
+  [380/500] last EM=1  latency=0.3s
+  [390/500] last EM=0  latency=0.2s
+  [400/500] last EM=0  latency=0.2s
+  [410/500] last EM=0  latency=0.4s
+  [420/500] last EM=0  latency=0.4s
+  [430/500] last EM=0  latency=0.2s
+  [440/500] last EM=1  latency=0.2s
+  [450/500] last EM=1  latency=0.3s
+  [460/500] last EM=1  latency=0.2s
+  [470/500] last EM=0  latency=0.3s
+  [480/500] last EM=0  latency=0.3s
+  [490/500] last EM=0  latency=0.4s
+  [500/500] last EM=1  latency=0.3s
+{
+  "n": 500,
+  "em": 0.452,
+  "em_ci95": [
+    0.408,
+    0.496
+  ],
+  "f1": 0.5297701298701298,
+  "sent_recall@10": 0.8570666666666668,
+  "doc_recall@10": 0.914,
+  "ctx_all_gold_rate": 0.65,
+  "peak_prompt_tokens_max": 1003,
+  "total_tokens_mean": 5396.138,
+  "latency_p50": 0.27225502498913556,
+  "latency_p95": 0.522960469010286,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 51,
+    "CORRECT": 226,
+    "GENERATION_FAILURE": 157,
+    "RERANKING_FAILURE": 66
+  }
+}
+
+=== hotpot | B8 PyRAG (same model plans)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12066.36it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12613.91it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/pyrag_hotpot_e98e4a4363
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=0  latency=1.6s
+  [20/500] last EM=1  latency=1.5s
+  [30/500] last EM=0  latency=1.5s
+  [40/500] last EM=0  latency=1.0s
+  [50/500] last EM=1  latency=2.4s
+  [60/500] last EM=0  latency=1.2s
+  [70/500] last EM=0  latency=1.6s
+  [80/500] last EM=0  latency=1.2s
+  [90/500] last EM=0  latency=1.1s
+  [100/500] last EM=0  latency=0.8s
+  [110/500] last EM=0  latency=1.4s
+  [120/500] last EM=0  latency=2.2s
+  [130/500] last EM=1  latency=1.3s
+  [140/500] last EM=0  latency=1.4s
+  [150/500] last EM=0  latency=2.4s
+  [160/500] last EM=0  latency=1.2s
+  [170/500] last EM=1  latency=1.4s
+  [180/500] last EM=1  latency=1.1s
+  [190/500] last EM=1  latency=1.9s
+  [200/500] last EM=1  latency=1.0s
+  [210/500] last EM=0  latency=1.0s
+  [220/500] last EM=0  latency=0.5s
+  [230/500] last EM=0  latency=3.2s
+  [240/500] last EM=1  latency=2.0s
+  [250/500] last EM=1  latency=1.3s
+  [260/500] last EM=0  latency=0.4s
+  [270/500] last EM=0  latency=2.1s
+  [280/500] last EM=0  latency=1.1s
+  [290/500] last EM=0  latency=2.0s
+  [300/500] last EM=0  latency=1.4s
+  [310/500] last EM=1  latency=1.5s
+  [320/500] last EM=0  latency=2.4s
+  [330/500] last EM=1  latency=2.3s
+  [340/500] last EM=0  latency=2.1s
+  [350/500] last EM=0  latency=1.3s
+  [360/500] last EM=0  latency=1.4s
+  [370/500] last EM=0  latency=0.8s
+  [380/500] last EM=1  latency=1.7s
+  [390/500] last EM=0  latency=1.4s
+  [400/500] last EM=0  latency=1.5s
+  [410/500] last EM=0  latency=2.4s
+  [420/500] last EM=0  latency=1.5s
+  [430/500] last EM=0  latency=2.4s
+  [440/500] last EM=1  latency=1.2s
+  [450/500] last EM=1  latency=2.2s
+  [460/500] last EM=0  latency=2.2s
+  [470/500] last EM=0  latency=1.3s
+  [480/500] last EM=0  latency=1.0s
+  [490/500] last EM=0  latency=2.2s
+  [500/500] last EM=1  latency=0.8s
+{
+  "n": 500,
+  "em": 0.444,
+  "em_ci95": [
+    0.4,
+    0.488
+  ],
+  "f1": 0.5208222666222666,
+  "sent_recall@10": 0.9428666666666666,
+  "doc_recall@10": 0.941,
+  "ctx_all_gold_rate": 0.892,
+  "peak_prompt_tokens_max": 5101,
+  "total_tokens_mean": 35862.612,
+  "latency_p50": 1.3988993540406227,
+  "latency_p95": 2.564044149010442,
+  "failure_counts": {
+    "RERANKING_FAILURE": 27,
+    "CORRECT": 222,
+    "GENERATION_FAILURE": 231,
+    "RETRIEVAL_FAILURE": 20
+  }
+}
+
+=== hotpot | B8 PyRAG (code model plans: qwen2.5-coder:3b)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13252.04it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15439.16it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+preflight[plan]: ollama ok: qwen2.5-coder:3b answered 'Yes' in 0.8s
+run dir: runs_progressive/pyrag_hotpot_b0b3454c1f
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=0  latency=1.3s
+  [20/500] last EM=1  latency=1.4s
+  [30/500] last EM=0  latency=1.7s
+  [40/500] last EM=0  latency=1.1s
+  [50/500] last EM=1  latency=2.1s
+  [60/500] last EM=1  latency=1.7s
+  [70/500] last EM=0  latency=2.0s
+  [80/500] last EM=0  latency=1.2s
+  [90/500] last EM=0  latency=0.8s
+  [100/500] last EM=0  latency=0.7s
+  [110/500] last EM=0  latency=0.8s
+  [120/500] last EM=0  latency=2.1s
+  [130/500] last EM=1  latency=1.1s
+  [140/500] last EM=0  latency=1.1s
+  [150/500] last EM=1  latency=1.5s
+  [160/500] last EM=0  latency=1.1s
+  [170/500] last EM=0  latency=1.4s
+  [180/500] last EM=0  latency=1.0s
+  [190/500] last EM=1  latency=1.3s
+  [200/500] last EM=1  latency=1.0s
+  [210/500] last EM=0  latency=1.1s
+  [220/500] last EM=0  latency=1.1s
+  [230/500] last EM=0  latency=3.4s
+  [233/500] ERROR on 5a7fc6e45542992e7d278d73: RuntimeError('fix failed: unterminated string literal (detected at line 49) (<plan>, line 49)')
+  [240/500] last EM=1  latency=1.9s
+  [250/500] last EM=1  latency=1.4s
+  [260/500] last EM=0  latency=0.6s
+  [270/500] last EM=0  latency=2.0s
+  [280/500] last EM=0  latency=1.7s
+  [290/500] last EM=0  latency=0.7s
+  [300/500] last EM=0  latency=1.2s
+  [310/500] last EM=1  latency=1.5s
+  [320/500] last EM=0  latency=2.3s
+  [330/500] last EM=0  latency=1.7s
+  [340/500] last EM=0  latency=1.6s
+  [350/500] last EM=0  latency=1.7s
+  [360/500] last EM=0  latency=1.6s
+  [370/500] last EM=0  latency=0.9s
+  [380/500] last EM=1  latency=2.1s
+  [390/500] last EM=0  latency=1.5s
+  [400/500] last EM=0  latency=1.3s
+  [410/500] last EM=0  latency=3.7s
+  [420/500] last EM=0  latency=1.5s
+  [430/500] last EM=0  latency=1.4s
+  [440/500] last EM=1  latency=1.0s
+  [450/500] last EM=1  latency=2.1s
+  [460/500] last EM=1  latency=2.5s
+  [470/500] last EM=0  latency=1.3s
+  [480/500] last EM=1  latency=1.1s
+  [490/500] last EM=0  latency=2.0s
+  [500/500] last EM=1  latency=1.4s
+{
+  "n": 500,
+  "em": 0.444,
+  "em_ci95": [
+    0.398,
+    0.488
+  ],
+  "f1": 0.5214116883116883,
+  "sent_recall@10": 0.9464261857047428,
+  "doc_recall@10": 0.9448897795591182,
+  "ctx_all_gold_rate": 0.843687374749499,
+  "peak_prompt_tokens_max": 7194,
+  "total_tokens_mean": 33927.738,
+  "latency_p50": 1.3280462350230664,
+  "latency_p95": 2.3022929780418053,
+  "failure_counts": {
+    "RERANKING_FAILURE": 45,
+    "CORRECT": 222,
+    "GENERATION_FAILURE": 213,
+    "RETRIEVAL_FAILURE": 19,
+    "SYSTEM_ERROR": 1
+  }
+}
+
+=== hotpot | prebuilding the b6_evimem index (cached, resumable) ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15910.84it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15268.41it/s]
+b6_evimem: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+b6_evimem: building index over 4866 documents ...
+  [LaceMem index] 25/4861 docs extracted (16s)
+  [LaceMem index] 50/4861 docs extracted (28s)
+  [LaceMem index] 75/4861 docs extracted (41s)
+  [LaceMem index] 100/4861 docs extracted (60s)
+  [LaceMem index] 125/4861 docs extracted (75s)
+  [LaceMem index] 150/4861 docs extracted (92s)
+  [LaceMem index] 175/4861 docs extracted (111s)
+  [LaceMem index] 200/4861 docs extracted (125s)
+  [LaceMem index] 225/4861 docs extracted (141s)
+  [LaceMem index] 250/4861 docs extracted (156s)
+  [LaceMem index] 275/4861 docs extracted (172s)
+  [LaceMem index] 300/4861 docs extracted (192s)
+  [LaceMem index] 325/4861 docs extracted (207s)
+  [LaceMem index] 350/4861 docs extracted (221s)
+  [LaceMem index] 375/4861 docs extracted (236s)
+  [LaceMem index] 400/4861 docs extracted (249s)
+  [LaceMem index] 425/4861 docs extracted (264s)
+  [LaceMem index] 450/4861 docs extracted (279s)
+  [LaceMem index] 475/4861 docs extracted (291s)
+  [LaceMem index] 500/4861 docs extracted (311s)
+  [LaceMem index] 525/4861 docs extracted (330s)
+  [LaceMem index] 550/4861 docs extracted (344s)
+  [LaceMem index] 575/4861 docs extracted (362s)
+  [LaceMem index] 600/4861 docs extracted (374s)
+  [LaceMem index] 625/4861 docs extracted (390s)
+  [LaceMem index] 650/4861 docs extracted (410s)
+  [LaceMem index] 675/4861 docs extracted (429s)
+  [LaceMem index] 700/4861 docs extracted (442s)
+  [LaceMem index] 725/4861 docs extracted (457s)
+  [LaceMem index] 750/4861 docs extracted (468s)
+  [LaceMem index] 775/4861 docs extracted (485s)
+  [LaceMem index] 800/4861 docs extracted (497s)
+  [LaceMem index] 825/4861 docs extracted (508s)
+  [LaceMem index] 850/4861 docs extracted (523s)
+  [LaceMem index] 875/4861 docs extracted (536s)
+  [LaceMem index] 900/4861 docs extracted (550s)
+  [LaceMem index] 925/4861 docs extracted (560s)
+  [LaceMem index] 950/4861 docs extracted (574s)
+  [LaceMem index] 975/4861 docs extracted (588s)
+  [LaceMem index] 1000/4861 docs extracted (602s)
+  [LaceMem index] 1025/4861 docs extracted (615s)
+  [LaceMem index] 1050/4861 docs extracted (626s)
+  [LaceMem index] 1075/4861 docs extracted (639s)
+  [LaceMem index] 1100/4861 docs extracted (651s)
+  [LaceMem index] 1125/4861 docs extracted (660s)
+  [LaceMem index] 1150/4861 docs extracted (672s)
+  [LaceMem index] 1175/4861 docs extracted (684s)
+  [LaceMem index] 1200/4861 docs extracted (698s)
+  [LaceMem index] 1225/4861 docs extracted (709s)
+  [LaceMem index] 1250/4861 docs extracted (722s)
+  [LaceMem index] 1275/4861 docs extracted (738s)
+  [LaceMem index] 1300/4861 docs extracted (753s)
+  [LaceMem index] 1325/4861 docs extracted (766s)
+  [LaceMem index] 1350/4861 docs extracted (782s)
+  [LaceMem index] 1375/4861 docs extracted (792s)
+  [LaceMem index] 1400/4861 docs extracted (807s)
+  [LaceMem index] 1425/4861 docs extracted (824s)
+  [LaceMem index] 1450/4861 docs extracted (842s)
+  [LaceMem index] 1475/4861 docs extracted (852s)
+  [LaceMem index] 1500/4861 docs extracted (866s)
+  [LaceMem index] 1525/4861 docs extracted (887s)
+  [LaceMem index] 1550/4861 docs extracted (903s)
+  [LaceMem index] 1575/4861 docs extracted (914s)
+  [LaceMem index] 1600/4861 docs extracted (930s)
+  [LaceMem index] 1625/4861 docs extracted (945s)
+  [LaceMem index] 1650/4861 docs extracted (960s)
+  [LaceMem index] 1675/4861 docs extracted (973s)
+  [LaceMem index] 1700/4861 docs extracted (982s)
+  [LaceMem index] 1725/4861 docs extracted (1001s)
+  [LaceMem index] 1750/4861 docs extracted (1013s)
+  [LaceMem index] 1775/4861 docs extracted (1029s)
+  [LaceMem index] 1800/4861 docs extracted (1045s)
+  [LaceMem index] 1825/4861 docs extracted (1061s)
+  [LaceMem index] 1850/4861 docs extracted (1075s)
+  [LaceMem index] 1875/4861 docs extracted (1085s)
+  [LaceMem index] 1900/4861 docs extracted (1101s)
+  [LaceMem index] 1925/4861 docs extracted (1113s)
+  [LaceMem index] 1950/4861 docs extracted (1133s)
+  [LaceMem index] 1975/4861 docs extracted (1147s)
+  [LaceMem index] 2000/4861 docs extracted (1164s)
+  [LaceMem index] 2025/4861 docs extracted (1179s)
+  [LaceMem index] 2050/4861 docs extracted (1190s)
+  [LaceMem index] 2075/4861 docs extracted (1205s)
+  [LaceMem index] 2100/4861 docs extracted (1221s)
+  [LaceMem index] 2125/4861 docs extracted (1233s)
+  [LaceMem index] 2150/4861 docs extracted (1258s)
+  [LaceMem index] 2175/4861 docs extracted (1271s)
+  [LaceMem index] 2200/4861 docs extracted (1285s)
+  [LaceMem index] 2225/4861 docs extracted (1305s)
+  [LaceMem index] 2250/4861 docs extracted (1318s)
+  [LaceMem index] 2275/4861 docs extracted (1335s)
+  [LaceMem index] 2300/4861 docs extracted (1349s)
+  [LaceMem index] 2325/4861 docs extracted (1367s)
+  [LaceMem index] 2350/4861 docs extracted (1384s)
+  [LaceMem index] 2375/4861 docs extracted (1399s)
+  [LaceMem index] 2400/4861 docs extracted (1412s)
+  [LaceMem index] 2425/4861 docs extracted (1426s)
+  [LaceMem index] 2450/4861 docs extracted (1446s)
+  [LaceMem index] 2475/4861 docs extracted (1459s)
+  [LaceMem index] 2500/4861 docs extracted (1477s)
+  [LaceMem index] 2525/4861 docs extracted (1490s)
+  [LaceMem index] 2550/4861 docs extracted (1500s)
+  [LaceMem index] 2575/4861 docs extracted (1509s)
+  [LaceMem index] 2600/4861 docs extracted (1522s)
+  [LaceMem index] 2625/4861 docs extracted (1536s)
+  [LaceMem index] 2650/4861 docs extracted (1553s)
+  [LaceMem index] 2675/4861 docs extracted (1565s)
+  [LaceMem index] 2700/4861 docs extracted (1579s)
+  [LaceMem index] 2725/4861 docs extracted (1591s)
+  [LaceMem index] 2750/4861 docs extracted (1609s)
+  [LaceMem index] 2775/4861 docs extracted (1625s)
+  [LaceMem index] 2800/4861 docs extracted (1638s)
+  [LaceMem index] 2825/4861 docs extracted (1659s)
+  [LaceMem index] 2850/4861 docs extracted (1673s)
+  [LaceMem index] 2875/4861 docs extracted (1684s)
+  [LaceMem index] 2900/4861 docs extracted (1701s)
+  [LaceMem index] 2925/4861 docs extracted (1714s)
+  [LaceMem index] 2950/4861 docs extracted (1724s)
+  [LaceMem index] 2975/4861 docs extracted (1735s)
+  [LaceMem index] 3000/4861 docs extracted (1749s)
+  [LaceMem index] 3025/4861 docs extracted (1761s)
+  [LaceMem index] 3050/4861 docs extracted (1780s)
+  [LaceMem index] 3075/4861 docs extracted (1794s)
+  [LaceMem index] 3100/4861 docs extracted (1807s)
+  [LaceMem index] 3125/4861 docs extracted (1822s)
+  [LaceMem index] 3150/4861 docs extracted (1839s)
+  [LaceMem index] 3175/4861 docs extracted (1849s)
+  [LaceMem index] 3200/4861 docs extracted (1863s)
+  [LaceMem index] 3225/4861 docs extracted (1874s)
+  [LaceMem index] 3250/4861 docs extracted (1887s)
+  [LaceMem index] 3275/4861 docs extracted (1900s)
+  [LaceMem index] 3300/4861 docs extracted (1916s)
+  [LaceMem index] 3325/4861 docs extracted (1927s)
+  [LaceMem index] 3350/4861 docs extracted (1940s)
+  [LaceMem index] 3375/4861 docs extracted (1950s)
+  [LaceMem index] 3400/4861 docs extracted (1963s)
+  [LaceMem index] 3425/4861 docs extracted (1979s)
+  [LaceMem index] 3450/4861 docs extracted (1994s)
+  [LaceMem index] 3475/4861 docs extracted (2007s)
+  [LaceMem index] 3500/4861 docs extracted (2032s)
+  [LaceMem index] 3525/4861 docs extracted (2047s)
+  [LaceMem index] 3550/4861 docs extracted (2062s)
+  [LaceMem index] 3575/4861 docs extracted (2075s)
+  [LaceMem index] 3600/4861 docs extracted (2088s)
+  [LaceMem index] 3625/4861 docs extracted (2101s)
+  [LaceMem index] 3650/4861 docs extracted (2110s)
+  [LaceMem index] 3675/4861 docs extracted (2124s)
+  [LaceMem index] 3700/4861 docs extracted (2137s)
+  [LaceMem index] 3725/4861 docs extracted (2151s)
+  [LaceMem index] 3750/4861 docs extracted (2168s)
+  [LaceMem index] 3775/4861 docs extracted (2185s)
+  [LaceMem index] 3800/4861 docs extracted (2197s)
+  [LaceMem index] 3825/4861 docs extracted (2211s)
+  [LaceMem index] 3850/4861 docs extracted (2222s)
+  [LaceMem index] 3875/4861 docs extracted (2238s)
+  [LaceMem index] 3900/4861 docs extracted (2249s)
+  [LaceMem index] 3925/4861 docs extracted (2264s)
+  [LaceMem index] 3950/4861 docs extracted (2277s)
+  [LaceMem index] 3975/4861 docs extracted (2288s)
+  [LaceMem index] 4000/4861 docs extracted (2307s)
+  [LaceMem index] 4025/4861 docs extracted (2320s)
+  [LaceMem index] 4050/4861 docs extracted (2335s)
+  [LaceMem index] 4075/4861 docs extracted (2347s)
+  [LaceMem index] 4100/4861 docs extracted (2364s)
+  [LaceMem index] 4125/4861 docs extracted (2378s)
+  [LaceMem index] 4150/4861 docs extracted (2389s)
+  [LaceMem index] 4175/4861 docs extracted (2404s)
+  [LaceMem index] 4200/4861 docs extracted (2417s)
+  [LaceMem index] 4225/4861 docs extracted (2431s)
+  [LaceMem index] 4250/4861 docs extracted (2446s)
+  [LaceMem index] 4275/4861 docs extracted (2459s)
+  [LaceMem index] 4300/4861 docs extracted (2472s)
+  [LaceMem index] 4325/4861 docs extracted (2484s)
+  [LaceMem index] 4350/4861 docs extracted (2499s)
+  [LaceMem index] 4375/4861 docs extracted (2511s)
+  [LaceMem index] 4400/4861 docs extracted (2522s)
+  [LaceMem index] 4425/4861 docs extracted (2546s)
+  [LaceMem index] 4450/4861 docs extracted (2558s)
+  [LaceMem index] 4475/4861 docs extracted (2575s)
+  [LaceMem index] 4500/4861 docs extracted (2588s)
+  [LaceMem index] 4525/4861 docs extracted (2603s)
+  [LaceMem index] 4550/4861 docs extracted (2617s)
+  [LaceMem index] 4575/4861 docs extracted (2630s)
+  [LaceMem index] 4600/4861 docs extracted (2643s)
+  [LaceMem index] 4625/4861 docs extracted (2661s)
+  [LaceMem index] 4650/4861 docs extracted (2675s)
+  [LaceMem index] 4675/4861 docs extracted (2687s)
+  [LaceMem index] 4700/4861 docs extracted (2704s)
+  [LaceMem index] 4725/4861 docs extracted (2725s)
+  [LaceMem index] 4750/4861 docs extracted (2740s)
+  [LaceMem index] 4775/4861 docs extracted (2759s)
+  [LaceMem index] 4800/4861 docs extracted (2779s)
+  [LaceMem index] 4825/4861 docs extracted (2793s)
+  [LaceMem index] 4850/4861 docs extracted (2804s)
+  [LaceMem index] 4861/4861 docs extracted (2809s)
+
+Batches:   0%|          | 0/439 [00:00<?, ?it/s]
+Batches:   0%|          | 1/439 [00:00<01:29,  4.87it/s]
+Batches:   3%|▎         | 11/439 [00:00<00:10, 42.66it/s]
+Batches:   5%|▌         | 24/439 [00:00<00:05, 73.55it/s]
+Batches:   9%|▊         | 38/439 [00:00<00:04, 93.57it/s]
+Batches:  12%|█▏        | 52/439 [00:00<00:03, 108.21it/s]
+Batches:  15%|█▌        | 66/439 [00:00<00:03, 117.19it/s]
+Batches:  18%|█▊        | 80/439 [00:00<00:02, 123.78it/s]
+Batches:  21%|██        | 93/439 [00:00<00:02, 124.09it/s]
+Batches:  25%|██▍       | 108/439 [00:01<00:02, 130.42it/s]
+Batches:  28%|██▊       | 123/439 [00:01<00:02, 135.53it/s]
+Batches:  31%|███▏      | 138/439 [00:01<00:02, 139.16it/s]
+Batches:  35%|███▍      | 153/439 [00:01<00:02, 141.54it/s]
+Batches:  38%|███▊      | 168/439 [00:01<00:01, 140.83it/s]
+Batches:  42%|████▏     | 184/439 [00:01<00:01, 143.98it/s]
+Batches:  46%|████▌     | 200/439 [00:01<00:01, 147.80it/s]
+Batches:  49%|████▉     | 216/439 [00:01<00:01, 150.53it/s]
+Batches:  53%|█████▎    | 232/439 [00:01<00:01, 151.15it/s]
+Batches:  57%|█████▋    | 249/439 [00:01<00:01, 154.82it/s]
+Batches:  61%|██████    | 267/439 [00:02<00:01, 160.10it/s]
+Batches:  65%|██████▍   | 285/439 [00:02<00:00, 163.98it/s]
+Batches:  69%|██████▉   | 302/439 [00:02<00:00, 162.79it/s]
+Batches:  73%|███████▎  | 322/439 [00:02<00:00, 172.08it/s]
+Batches:  77%|███████▋  | 340/439 [00:02<00:00, 168.57it/s]
+Batches:  82%|████████▏ | 359/439 [00:02<00:00, 173.27it/s]
+Batches:  86%|████████▌ | 377/439 [00:02<00:00, 155.02it/s]
+Batches:  90%|█████████ | 397/439 [00:02<00:00, 166.03it/s]
+Batches:  95%|█████████▍| 417/439 [00:02<00:00, 174.85it/s]
+Batches: 100%|█████████▉| 437/439 [00:03<00:00, 178.34it/s]
+Batches: 100%|██████████| 439/439 [00:03<00:00, 143.01it/s]
+b6_evimem: done {'docs': 14355, 'tuples': 26529, 'fallback_sentences': 1551, 'failed_calls': 16}
+
+=== hotpot | B6 EviMem (answer from Index tuples, as in the authors' code)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15063.74it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12433.36it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/evimem_hotpot_72a22badff
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/439 [00:00<?, ?it/s]
+Batches:   0%|          | 1/439 [00:00<01:28,  4.94it/s]
+Batches:   3%|▎         | 11/439 [00:00<00:09, 43.47it/s]
+Batches:   5%|▌         | 24/439 [00:00<00:05, 73.36it/s]
+Batches:   9%|▊         | 38/439 [00:00<00:04, 93.63it/s]
+Batches:  12%|█▏        | 52/439 [00:00<00:03, 108.38it/s]
+Batches:  15%|█▌        | 67/439 [00:00<00:03, 119.16it/s]
+Batches:  18%|█▊        | 81/439 [00:00<00:02, 124.05it/s]
+Batches:  22%|██▏       | 97/439 [00:00<00:02, 131.70it/s]
+Batches:  26%|██▌       | 112/439 [00:01<00:02, 134.60it/s]
+Batches:  29%|██▉       | 128/439 [00:01<00:02, 141.17it/s]
+Batches:  33%|███▎      | 143/439 [00:01<00:02, 142.58it/s]
+Batches:  36%|███▌      | 158/439 [00:01<00:02, 140.26it/s]
+Batches:  39%|███▉      | 173/439 [00:01<00:01, 142.46it/s]
+Batches:  43%|████▎     | 188/439 [00:01<00:01, 143.84it/s]
+Batches:  46%|████▋     | 204/439 [00:01<00:01, 147.91it/s]
+Batches:  50%|█████     | 221/439 [00:01<00:01, 151.98it/s]
+Batches:  54%|█████▍    | 237/439 [00:01<00:01, 149.24it/s]
+Batches:  58%|█████▊    | 255/439 [00:01<00:01, 157.79it/s]
+Batches:  62%|██████▏   | 272/439 [00:02<00:01, 159.92it/s]
+Batches:  66%|██████▌   | 290/439 [00:02<00:00, 164.97it/s]
+Batches:  70%|███████   | 308/439 [00:02<00:00, 168.55it/s]
+Batches:  74%|███████▍  | 327/439 [00:02<00:00, 173.17it/s]
+Batches:  79%|███████▉  | 347/439 [00:02<00:00, 178.36it/s]
+Batches:  83%|████████▎ | 366/439 [00:02<00:00, 163.98it/s]
+Batches:  88%|████████▊ | 386/439 [00:02<00:00, 171.91it/s]
+Batches:  93%|█████████▎| 407/439 [00:02<00:00, 182.48it/s]
+Batches:  98%|█████████▊| 430/439 [00:02<00:00, 194.15it/s]
+Batches: 100%|██████████| 439/439 [00:02<00:00, 146.93it/s]
+  [10/500] last EM=0  latency=1.0s
+  [20/500] last EM=1  latency=0.7s
+  [30/500] last EM=1  latency=0.7s
+  [40/500] last EM=0  latency=0.7s
+  [50/500] last EM=1  latency=1.4s
+  [60/500] last EM=1  latency=0.8s
+  [70/500] last EM=0  latency=0.7s
+  [80/500] last EM=0  latency=1.2s
+  [90/500] last EM=0  latency=0.7s
+  [100/500] last EM=1  latency=0.5s
+  [110/500] last EM=0  latency=0.6s
+  [120/500] last EM=1  latency=0.8s
+  [130/500] last EM=0  latency=0.7s
+  [140/500] last EM=0  latency=0.7s
+  [150/500] last EM=1  latency=0.7s
+  [160/500] last EM=1  latency=0.6s
+  [170/500] last EM=1  latency=0.7s
+  [180/500] last EM=0  latency=0.6s
+  [190/500] last EM=1  latency=0.7s
+  [200/500] last EM=0  latency=1.1s
+  [210/500] last EM=1  latency=0.8s
+  [220/500] last EM=1  latency=0.6s
+  [230/500] last EM=1  latency=0.6s
+  [240/500] last EM=1  latency=1.2s
+  [250/500] last EM=1  latency=0.6s
+  [260/500] last EM=0  latency=0.7s
+  [270/500] last EM=0  latency=0.5s
+  [280/500] last EM=0  latency=0.8s
+  [290/500] last EM=0  latency=0.8s
+  [300/500] last EM=1  latency=0.7s
+  [310/500] last EM=0  latency=0.8s
+  [320/500] last EM=0  latency=0.8s
+  [330/500] last EM=1  latency=1.1s
+  [340/500] last EM=0  latency=0.7s
+  [350/500] last EM=0  latency=0.3s
+  [360/500] last EM=0  latency=0.7s
+  [370/500] last EM=1  latency=0.7s
+  [380/500] last EM=1  latency=1.0s
+  [390/500] last EM=0  latency=0.7s
+  [400/500] last EM=0  latency=0.5s
+  [410/500] last EM=0  latency=0.9s
+  [420/500] last EM=0  latency=0.8s
+  [430/500] last EM=0  latency=0.9s
+  [440/500] last EM=1  latency=0.6s
+  [450/500] last EM=1  latency=0.9s
+  [460/500] last EM=1  latency=0.8s
+  [470/500] last EM=0  latency=0.7s
+  [480/500] last EM=0  latency=0.8s
+  [490/500] last EM=0  latency=0.8s
+  [500/500] last EM=1  latency=0.7s
+{
+  "n": 500,
+  "em": 0.422,
+  "em_ci95": [
+    0.378,
+    0.466
+  ],
+  "f1": 0.5068894877052772,
+  "sent_recall@10": 0.8075333333333333,
+  "doc_recall@10": 0.891,
+  "ctx_all_gold_rate": 0.774,
+  "peak_prompt_tokens_max": 1141,
+  "total_tokens_mean": 2635.95,
+  "latency_p50": 0.7494004620239139,
+  "latency_p95": 1.2548731029964983,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 85,
+    "CORRECT": 211,
+    "GENERATION_FAILURE": 198,
+    "RERANKING_FAILURE": 6
+  }
+}
+
+=== hotpot | B6 EviMem (answer grounded in linked Raw sentences, as the paper text says)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16454.09it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12826.62it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/evimem_hotpot_1da50dc7ee
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/439 [00:00<?, ?it/s]
+Batches:   0%|          | 1/439 [00:00<01:30,  4.86it/s]
+Batches:   3%|▎         | 11/439 [00:00<00:09, 43.73it/s]
+Batches:   5%|▌         | 24/439 [00:00<00:05, 74.74it/s]
+Batches:   8%|▊         | 37/439 [00:00<00:04, 93.60it/s]
+Batches:  12%|█▏        | 51/439 [00:00<00:03, 106.88it/s]
+Batches:  15%|█▍        | 65/439 [00:00<00:03, 117.04it/s]
+Batches:  18%|█▊        | 80/439 [00:00<00:02, 124.99it/s]
+Batches:  22%|██▏       | 95/439 [00:00<00:02, 129.64it/s]
+Batches:  25%|██▌       | 110/439 [00:01<00:02, 133.54it/s]
+Batches:  28%|██▊       | 125/439 [00:01<00:02, 138.17it/s]
+Batches:  32%|███▏      | 141/439 [00:01<00:02, 144.14it/s]
+Batches:  36%|███▌      | 157/439 [00:01<00:01, 146.42it/s]
+Batches:  39%|███▉      | 172/439 [00:01<00:01, 135.76it/s]
+Batches:  43%|████▎     | 188/439 [00:01<00:01, 141.92it/s]
+Batches:  46%|████▌     | 203/439 [00:01<00:01, 143.68it/s]
+Batches:  50%|████▉     | 219/439 [00:01<00:01, 147.25it/s]
+Batches:  54%|█████▍    | 236/439 [00:01<00:01, 151.83it/s]
+Batches:  58%|█████▊    | 254/439 [00:01<00:01, 158.21it/s]
+Batches:  62%|██████▏   | 271/439 [00:02<00:01, 159.34it/s]
+Batches:  66%|██████▌   | 288/439 [00:02<00:00, 162.25it/s]
+Batches:  69%|██████▉   | 305/439 [00:02<00:00, 163.83it/s]
+Batches:  74%|███████▍  | 324/439 [00:02<00:00, 169.14it/s]
+Batches:  78%|███████▊  | 341/439 [00:02<00:00, 168.27it/s]
+Batches:  82%|████████▏ | 360/439 [00:02<00:00, 170.83it/s]
+Batches:  86%|████████▌ | 378/439 [00:02<00:00, 152.39it/s]
+Batches:  90%|█████████ | 397/439 [00:02<00:00, 161.73it/s]
+Batches:  95%|█████████▌| 418/439 [00:02<00:00, 172.88it/s]
+Batches: 100%|█████████▉| 438/439 [00:03<00:00, 180.25it/s]
+Batches: 100%|██████████| 439/439 [00:03<00:00, 143.22it/s]
+  [10/500] last EM=0  latency=0.4s
+  [20/500] last EM=1  latency=0.6s
+  [30/500] last EM=1  latency=0.7s
+  [40/500] last EM=0  latency=0.3s
+  [50/500] last EM=0  latency=0.8s
+  [60/500] last EM=1  latency=0.8s
+  [70/500] last EM=0  latency=0.7s
+  [80/500] last EM=0  latency=1.0s
+  [90/500] last EM=0  latency=0.7s
+  [100/500] last EM=0  latency=0.5s
+  [110/500] last EM=0  latency=0.5s
+  [120/500] last EM=1  latency=0.7s
+  [130/500] last EM=1  latency=0.7s
+  [140/500] last EM=0  latency=0.7s
+  [150/500] last EM=0  latency=0.6s
+  [160/500] last EM=1  latency=0.5s
+  [170/500] last EM=0  latency=0.8s
+  [180/500] last EM=0  latency=0.6s
+  [190/500] last EM=1  latency=0.7s
+  [200/500] last EM=0  latency=1.1s
+  [210/500] last EM=1  latency=0.8s
+  [220/500] last EM=1  latency=0.5s
+  [230/500] last EM=1  latency=0.6s
+  [240/500] last EM=1  latency=0.4s
+  [250/500] last EM=0  latency=0.8s
+  [260/500] last EM=0  latency=0.7s
+  [270/500] last EM=0  latency=0.5s
+  [280/500] last EM=0  latency=0.9s
+  [290/500] last EM=0  latency=0.8s
+  [300/500] last EM=1  latency=0.8s
+  [310/500] last EM=1  latency=0.8s
+  [320/500] last EM=0  latency=0.5s
+  [330/500] last EM=0  latency=0.8s
+  [340/500] last EM=0  latency=0.7s
+  [350/500] last EM=0  latency=0.3s
+  [360/500] last EM=0  latency=0.7s
+  [370/500] last EM=1  latency=0.5s
+  [380/500] last EM=1  latency=0.7s
+  [390/500] last EM=0  latency=0.7s
+  [400/500] last EM=0  latency=0.5s
+  [410/500] last EM=0  latency=0.8s
+  [420/500] last EM=0  latency=0.9s
+  [430/500] last EM=0  latency=0.8s
+  [440/500] last EM=1  latency=0.6s
+  [450/500] last EM=1  latency=0.5s
+  [460/500] last EM=1  latency=0.8s
+  [470/500] last EM=0  latency=0.7s
+  [480/500] last EM=0  latency=0.8s
+  [490/500] last EM=0  latency=0.8s
+  [500/500] last EM=1  latency=0.7s
+{
+  "n": 500,
+  "em": 0.422,
+  "em_ci95": [
+    0.378,
+    0.464
+  ],
+  "f1": 0.5140845204437409,
+  "sent_recall@10": 0.8075333333333333,
+  "doc_recall@10": 0.891,
+  "ctx_all_gold_rate": 0.618,
+  "peak_prompt_tokens_max": 959,
+  "total_tokens_mean": 2446.066,
+  "latency_p50": 0.7073585459729657,
+  "latency_p95": 1.0175092059653252,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 83,
+    "CORRECT": 211,
+    "GENERATION_FAILURE": 142,
+    "RERANKING_FAILURE": 64
+  }
+}
+
+=== hotpot | B3 GeoRAG (chunk units, top-200 -> 5)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13529.35it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15994.26it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/georag_hotpot_65af2d3659
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=1  latency=2.2s
+  [20/500] last EM=0  latency=2.0s
+  [30/500] last EM=0  latency=1.9s
+  [40/500] last EM=0  latency=2.4s
+  [50/500] last EM=0  latency=1.8s
+  [60/500] last EM=0  latency=2.0s
+  [70/500] last EM=0  latency=2.3s
+  [80/500] last EM=1  latency=2.2s
+  [90/500] last EM=0  latency=1.5s
+  [100/500] last EM=0  latency=1.9s
+  [110/500] last EM=0  latency=1.5s
+  [120/500] last EM=0  latency=2.1s
+  [130/500] last EM=0  latency=1.6s
+  [140/500] last EM=0  latency=1.6s
+  [150/500] last EM=0  latency=1.5s
+  [160/500] last EM=1  latency=4.1s
+  [170/500] last EM=1  latency=1.6s
+  [180/500] last EM=0  latency=1.7s
+  [190/500] last EM=1  latency=2.9s
+  [200/500] last EM=0  latency=1.8s
+  [210/500] last EM=0  latency=2.1s
+  [220/500] last EM=1  latency=2.0s
+  [230/500] last EM=0  latency=2.9s
+  [240/500] last EM=1  latency=3.0s
+  [250/500] last EM=0  latency=1.8s
+  [260/500] last EM=0  latency=1.5s
+  [270/500] last EM=0  latency=2.3s
+  [280/500] last EM=1  latency=2.5s
+  [290/500] last EM=0  latency=1.6s
+  [300/500] last EM=0  latency=2.4s
+  [310/500] last EM=0  latency=1.7s
+  [320/500] last EM=0  latency=1.7s
+  [330/500] last EM=0  latency=2.6s
+  [340/500] last EM=0  latency=3.0s
+  [350/500] last EM=0  latency=1.7s
+  [360/500] last EM=0  latency=2.3s
+  [370/500] last EM=0  latency=2.2s
+  [380/500] last EM=1  latency=2.3s
+  [390/500] last EM=0  latency=2.0s
+  [400/500] last EM=0  latency=3.0s
+  [410/500] last EM=0  latency=2.4s
+  [420/500] last EM=0  latency=2.4s
+  [430/500] last EM=0  latency=1.8s
+  [440/500] last EM=0  latency=1.6s
+  [450/500] last EM=1  latency=2.8s
+  [460/500] last EM=1  latency=2.2s
+  [470/500] last EM=0  latency=1.8s
+  [480/500] last EM=0  latency=2.0s
+  [490/500] last EM=0  latency=2.5s
+  [500/500] last EM=0  latency=1.9s
+{
+  "n": 500,
+  "em": 0.326,
+  "em_ci95": [
+    0.286,
+    0.368
+  ],
+  "f1": 0.389325974025974,
+  "sent_recall@10": 0.9236666666666666,
+  "doc_recall@10": 0.923,
+  "ctx_all_gold_rate": 0.164,
+  "peak_prompt_tokens_max": 1305,
+  "total_tokens_mean": 1421.404,
+  "latency_p50": 2.1345528919482604,
+  "latency_p95": 3.0008142779115587,
+  "failure_counts": {
+    "RERANKING_FAILURE": 294,
+    "CORRECT": 163,
+    "GENERATION_FAILURE": 37,
+    "RETRIEVAL_FAILURE": 6
+  }
+}
+
+=== hotpot | B3 GeoRAG (sentence units, top-200 -> 5)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 20866.14it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12899.88it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/georag_hotpot_6ea2878493
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=2.4s
+  [20/500] last EM=0  latency=2.3s
+  [30/500] last EM=0  latency=2.0s
+  [40/500] last EM=0  latency=2.6s
+  [50/500] last EM=1  latency=1.9s
+  [60/500] last EM=0  latency=2.0s
+  [70/500] last EM=0  latency=2.4s
+  [80/500] last EM=1  latency=2.4s
+  [90/500] last EM=0  latency=1.7s
+  [100/500] last EM=0  latency=2.0s
+  [110/500] last EM=0  latency=1.6s
+  [120/500] last EM=0  latency=2.4s
+  [128/500] ERROR on 5a77dbaf5542997042120b5b: ValueError('training mode is expected to be boolean')
+  [130/500] last EM=1  latency=1.9s
+  [140/500] last EM=0  latency=1.9s
+  [150/500] last EM=0  latency=1.7s
+  [160/500] last EM=0  latency=3.9s
+  [170/500] last EM=1  latency=1.8s
+  [180/500] last EM=0  latency=1.9s
+  [190/500] last EM=1  latency=2.9s
+  [200/500] last EM=0  latency=1.9s
+  [210/500] last EM=0  latency=2.1s
+  [220/500] last EM=1  latency=2.2s
+  [230/500] last EM=0  latency=3.1s
+  [240/500] last EM=0  latency=3.0s
+  [249/500] ERROR on 5ae1412a55429920d523434c: ValueError('training mode is expected to be boolean')
+  [250/500] last EM=1  latency=1.9s
+  [260/500] last EM=0  latency=1.6s
+  [270/500] last EM=0  latency=2.6s
+  [280/500] last EM=1  latency=2.8s
+  [290/500] last EM=0  latency=1.8s
+  [300/500] last EM=0  latency=2.5s
+  [310/500] last EM=1  latency=1.8s
+  [320/500] last EM=0  latency=1.8s
+  [330/500] last EM=1  latency=2.6s
+  [340/500] last EM=0  latency=3.1s
+  [350/500] last EM=0  latency=1.8s
+  [360/500] last EM=0  latency=2.5s
+  [370/500] last EM=0  latency=2.2s
+  [380/500] last EM=1  latency=2.5s
+  [390/500] last EM=0  latency=2.0s
+  [400/500] last EM=0  latency=3.1s
+  [410/500] last EM=0  latency=2.6s
+  [420/500] last EM=0  latency=2.6s
+  [430/500] last EM=0  latency=1.9s
+  [440/500] last EM=1  latency=1.8s
+  [450/500] last EM=1  latency=3.0s
+  [460/500] last EM=1  latency=2.2s
+  [470/500] last EM=0  latency=2.0s
+  [480/500] last EM=0  latency=2.2s
+  [490/500] last EM=0  latency=2.6s
+  [500/500] last EM=1  latency=2.1s
+{
+  "n": 500,
+  "em": 0.3,
+  "em_ci95": [
+    0.262,
+    0.34
+  ],
+  "f1": 0.3534082251082251,
+  "sent_recall@10": 0.7959170013386881,
+  "doc_recall@10": 0.8835341365461847,
+  "ctx_all_gold_rate": 0.0783132530120482,
+  "peak_prompt_tokens_max": 651,
+  "total_tokens_mean": 896.456,
+  "latency_p50": 2.293471292941831,
+  "latency_p95": 3.087851066957228,
+  "failure_counts": {
+    "RERANKING_FAILURE": 297,
+    "CORRECT": 150,
+    "GENERATION_FAILURE": 21,
+    "RETRIEVAL_FAILURE": 30,
+    "SYSTEM_ERROR": 2
+  }
+}
+
+=== hotpot | B5 SURE-RAG (per-passage pair verifier, scores only)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14473.15it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12706.35it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/surerag_hotpot_23495a393b
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 202/202 [00:00<00:00, 11427.23it/s]
+  [10/500] last EM=1  latency=0.2s
+  [20/500] last EM=0  latency=0.1s
+  [30/500] last EM=0  latency=0.2s
+  [40/500] last EM=0  latency=0.2s
+  [50/500] last EM=1  latency=0.2s
+  [60/500] last EM=0  latency=0.2s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=1  latency=0.2s
+  [90/500] last EM=0  latency=0.1s
+  [100/500] last EM=0  latency=0.2s
+  [110/500] last EM=0  latency=0.2s
+  [120/500] last EM=0  latency=0.2s
+  [130/500] last EM=1  latency=0.2s
+  [140/500] last EM=0  latency=0.2s
+  [150/500] last EM=0  latency=0.1s
+  [160/500] last EM=0  latency=0.2s
+  [170/500] last EM=1  latency=0.2s
+  [180/500] last EM=0  latency=0.2s
+  [190/500] last EM=1  latency=0.2s
+  [200/500] last EM=1  latency=0.2s
+  [210/500] last EM=1  latency=0.2s
+  [220/500] last EM=1  latency=0.2s
+  [230/500] last EM=1  latency=0.2s
+  [240/500] last EM=1  latency=0.2s
+  [250/500] last EM=1  latency=0.2s
+  [260/500] last EM=0  latency=0.2s
+  [270/500] last EM=0  latency=0.2s
+  [280/500] last EM=1  latency=0.2s
+  [290/500] last EM=0  latency=0.3s
+  [300/500] last EM=1  latency=0.2s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.2s
+  [330/500] last EM=1  latency=0.2s
+  [340/500] last EM=0  latency=0.2s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.2s
+  [370/500] last EM=1  latency=0.2s
+  [380/500] last EM=1  latency=0.1s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.2s
+  [410/500] last EM=0  latency=0.2s
+  [420/500] last EM=0  latency=0.2s
+  [430/500] last EM=0  latency=0.2s
+  [440/500] last EM=1  latency=0.2s
+  [450/500] last EM=1  latency=0.2s
+  [460/500] last EM=1  latency=0.2s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.2s
+  [490/500] last EM=0  latency=0.2s
+  [500/500] last EM=1  latency=0.2s
+{
+  "n": 500,
+  "em": 0.464,
+  "em_ci95": [
+    0.42,
+    0.508
+  ],
+  "f1": 0.5435544011544011,
+  "sent_recall@10": 0.9601666666666666,
+  "doc_recall@10": 0.96,
+  "ctx_all_gold_rate": 0.806,
+  "peak_prompt_tokens_max": 1278,
+  "total_tokens_mean": 9339.452,
+  "latency_p50": 0.17273420793935657,
+  "latency_p95": 0.23043967597186565,
+  "failure_counts": {
+    "RERANKING_FAILURE": 62,
+    "CORRECT": 232,
+    "GENERATION_FAILURE": 194,
+    "RETRIEVAL_FAILURE": 12
+  }
+}
+
+=== hotpot | B5 SURE-RAG (concat premise comparator, scores only)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15265.68it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 10551.58it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/surerag_hotpot_a2a7f2c59b
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 202/202 [00:00<00:00, 14591.40it/s]
+  [10/500] last EM=1  latency=0.2s
+  [20/500] last EM=0  latency=0.2s
+  [30/500] last EM=0  latency=0.2s
+  [40/500] last EM=0  latency=0.2s
+  [50/500] last EM=1  latency=0.2s
+  [60/500] last EM=0  latency=0.2s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=1  latency=0.2s
+  [90/500] last EM=0  latency=0.2s
+  [100/500] last EM=0  latency=0.2s
+  [110/500] last EM=0  latency=0.2s
+  [120/500] last EM=0  latency=0.2s
+  [130/500] last EM=1  latency=0.2s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=0  latency=0.1s
+  [160/500] last EM=0  latency=0.2s
+  [170/500] last EM=1  latency=0.2s
+  [180/500] last EM=0  latency=0.2s
+  [190/500] last EM=1  latency=0.2s
+  [200/500] last EM=1  latency=0.2s
+  [210/500] last EM=1  latency=0.2s
+  [220/500] last EM=1  latency=0.2s
+  [230/500] last EM=1  latency=0.2s
+  [240/500] last EM=1  latency=0.2s
+  [250/500] last EM=1  latency=0.2s
+  [260/500] last EM=0  latency=0.2s
+  [270/500] last EM=0  latency=0.2s
+  [280/500] last EM=1  latency=0.2s
+  [290/500] last EM=0  latency=0.3s
+  [300/500] last EM=1  latency=0.2s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.2s
+  [330/500] last EM=1  latency=0.2s
+  [340/500] last EM=0  latency=0.2s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.2s
+  [370/500] last EM=1  latency=0.2s
+  [380/500] last EM=1  latency=0.2s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.2s
+  [410/500] last EM=0  latency=0.2s
+  [420/500] last EM=0  latency=0.2s
+  [430/500] last EM=0  latency=0.2s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.2s
+  [460/500] last EM=1  latency=0.2s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.2s
+  [490/500] last EM=0  latency=0.2s
+  [500/500] last EM=1  latency=0.2s
+{
+  "n": 500,
+  "em": 0.464,
+  "em_ci95": [
+    0.42,
+    0.508
+  ],
+  "f1": 0.5435544011544011,
+  "sent_recall@10": 0.9601666666666666,
+  "doc_recall@10": 0.96,
+  "ctx_all_gold_rate": 0.806,
+  "peak_prompt_tokens_max": 1278,
+  "total_tokens_mean": 9259.338,
+  "latency_p50": 0.17473915603477508,
+  "latency_p95": 0.23252025595866144,
+  "failure_counts": {
+    "RERANKING_FAILURE": 62,
+    "CORRECT": 232,
+    "GENERATION_FAILURE": 194,
+    "RETRIEVAL_FAILURE": 12
+  }
+}
+
+=== hotpot | B9 search agent + LiveLedger  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13401.62it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14807.41it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/liveledger_hotpot_8dc1bd2b34
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.5s
+  [20/500] last EM=1  latency=2.2s
+  [30/500] last EM=1  latency=1.5s
+  [40/500] last EM=0  latency=0.6s
+  [50/500] last EM=1  latency=0.7s
+  [60/500] last EM=0  latency=2.4s
+  [70/500] last EM=0  latency=2.7s
+  [80/500] last EM=1  latency=3.2s
+  [90/500] last EM=1  latency=1.9s
+  [100/500] last EM=1  latency=0.6s
+  [110/500] last EM=0  latency=0.8s
+  [120/500] last EM=1  latency=0.7s
+  [130/500] last EM=1  latency=0.8s
+  [140/500] last EM=0  latency=0.7s
+  [150/500] last EM=0  latency=1.1s
+  [160/500] last EM=1  latency=3.0s
+  [170/500] last EM=0  latency=1.0s
+  [180/500] last EM=0  latency=1.1s
+  [190/500] last EM=1  latency=2.2s
+  [200/500] last EM=1  latency=2.4s
+  [210/500] last EM=0  latency=2.1s
+  [220/500] last EM=1  latency=0.5s
+  [230/500] last EM=0  latency=3.1s
+  [240/500] last EM=1  latency=1.1s
+  [250/500] last EM=1  latency=0.9s
+  [260/500] last EM=0  latency=2.7s
+  [270/500] last EM=0  latency=0.9s
+  [280/500] last EM=0  latency=1.4s
+  [290/500] last EM=0  latency=1.0s
+  [300/500] last EM=0  latency=2.4s
+  [310/500] last EM=0  latency=0.9s
+  [320/500] last EM=0  latency=2.4s
+  [330/500] last EM=0  latency=1.4s
+  [340/500] last EM=0  latency=0.7s
+  [350/500] last EM=0  latency=0.5s
+  [360/500] last EM=0  latency=3.2s
+  [370/500] last EM=0  latency=1.5s
+  [380/500] last EM=1  latency=1.1s
+  [390/500] last EM=0  latency=0.8s
+  [400/500] last EM=0  latency=0.7s
+  [410/500] last EM=0  latency=0.6s
+  [420/500] last EM=0  latency=1.1s
+  [430/500] last EM=0  latency=0.8s
+  [440/500] last EM=1  latency=1.5s
+  [450/500] last EM=1  latency=1.0s
+  [460/500] last EM=1  latency=0.8s
+  [470/500] last EM=0  latency=2.6s
+  [480/500] last EM=0  latency=2.3s
+  [490/500] last EM=0  latency=2.2s
+  [500/500] last EM=1  latency=0.6s
+{
+  "n": 500,
+  "em": 0.45,
+  "em_ci95": [
+    0.406,
+    0.496
+  ],
+  "f1": 0.5361466866466867,
+  "sent_recall@10": 0.8508333333333333,
+  "doc_recall@10": 0.895,
+  "ctx_all_gold_rate": 0.616,
+  "peak_prompt_tokens_max": 2613,
+  "total_tokens_mean": 12185.454,
+  "latency_p50": 1.0071079130284488,
+  "latency_p95": 3.028913563932292,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 50,
+    "CORRECT": 225,
+    "GENERATION_FAILURE": 153,
+    "RERANKING_FAILURE": 72
+  }
+}
+
+=== hotpot | B9 search agent, no ledger (the paper's 'w/o LiveLedger' control)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13691.59it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15716.29it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/liveledger_hotpot_7d70d00163
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.6s
+  [20/500] last EM=1  latency=0.8s
+  [30/500] last EM=0  latency=0.6s
+  [40/500] last EM=0  latency=0.3s
+  [50/500] last EM=1  latency=0.4s
+  [60/500] last EM=0  latency=1.4s
+  [70/500] last EM=0  latency=1.4s
+  [80/500] last EM=0  latency=0.6s
+  [90/500] last EM=1  latency=0.3s
+  [100/500] last EM=1  latency=0.4s
+  [110/500] last EM=0  latency=0.5s
+  [120/500] last EM=1  latency=0.3s
+  [130/500] last EM=1  latency=0.4s
+  [140/500] last EM=0  latency=0.7s
+  [150/500] last EM=1  latency=0.3s
+  [160/500] last EM=1  latency=0.4s
+  [170/500] last EM=0  latency=0.3s
+  [180/500] last EM=1  latency=0.5s
+  [190/500] last EM=1  latency=0.9s
+  [200/500] last EM=1  latency=1.3s
+  [210/500] last EM=1  latency=0.7s
+  [220/500] last EM=1  latency=0.3s
+  [230/500] last EM=1  latency=0.8s
+  [240/500] last EM=1  latency=0.4s
+  [250/500] last EM=1  latency=0.4s
+  [260/500] last EM=0  latency=1.1s
+  [270/500] last EM=0  latency=0.4s
+  [280/500] last EM=1  latency=0.5s
+  [290/500] last EM=0  latency=0.7s
+  [300/500] last EM=1  latency=0.8s
+  [310/500] last EM=0  latency=0.5s
+  [320/500] last EM=0  latency=0.3s
+  [330/500] last EM=0  latency=1.4s
+  [340/500] last EM=0  latency=0.4s
+  [350/500] last EM=0  latency=0.7s
+  [360/500] last EM=0  latency=0.5s
+  [370/500] last EM=1  latency=0.4s
+  [380/500] last EM=1  latency=0.6s
+  [390/500] last EM=0  latency=0.3s
+  [400/500] last EM=0  latency=0.4s
+  [410/500] last EM=0  latency=0.5s
+  [420/500] last EM=0  latency=0.4s
+  [430/500] last EM=0  latency=0.4s
+  [440/500] last EM=1  latency=0.9s
+  [450/500] last EM=1  latency=0.5s
+  [460/500] last EM=1  latency=0.3s
+  [470/500] last EM=0  latency=0.4s
+  [480/500] last EM=1  latency=0.5s
+  [490/500] last EM=0  latency=1.4s
+  [500/500] last EM=1  latency=0.4s
+{
+  "n": 500,
+  "em": 0.504,
+  "em_ci95": [
+    0.462,
+    0.548
+  ],
+  "f1": 0.5991921078921079,
+  "sent_recall@10": 0.8792333333333333,
+  "doc_recall@10": 0.928,
+  "ctx_all_gold_rate": 0.648,
+  "peak_prompt_tokens_max": 2318,
+  "total_tokens_mean": 7344.342,
+  "latency_p50": 0.507459674961865,
+  "latency_p95": 1.5011489909375086,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 43,
+    "CORRECT": 252,
+    "GENERATION_FAILURE": 146,
+    "RERANKING_FAILURE": 59
+  }
+}
+
+=== hotpot | prebuilding the b4_hlg_rag index (cached, resumable) ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14894.39it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 9860.11it/s]
+b4_hlg_rag: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+b4_hlg_rag: building index over 4866 documents ...
+  [HLG index] 20/4861 docs (35s)
+  [HLG index] 40/4861 docs (67s)
+  [HLG index] 60/4861 docs (97s)
+  [HLG index] 80/4861 docs (128s)
+  [HLG index] 100/4861 docs (169s)
+  [HLG index] 120/4861 docs (205s)
+  [HLG index] 140/4861 docs (249s)
+  [HLG index] 160/4861 docs (292s)
+  [HLG index] 180/4861 docs (328s)
+  [HLG index] 200/4861 docs (365s)
+  [HLG index] 220/4861 docs (398s)
+  [HLG index] 240/4861 docs (438s)
+  [HLG index] 260/4861 docs (476s)
+  [HLG index] 280/4861 docs (518s)
+  [HLG index] 300/4861 docs (557s)
+  [HLG index] 320/4861 docs (598s)
+  [HLG index] 340/4861 docs (635s)
+  [HLG index] 360/4861 docs (666s)
+  [HLG index] 380/4861 docs (705s)
+  [HLG index] 400/4861 docs (745s)
+  [HLG index] 420/4861 docs (779s)
+  [HLG index] 440/4861 docs (818s)
+  [HLG index] 460/4861 docs (849s)
+  [HLG index] 480/4861 docs (882s)
+  [HLG index] 500/4861 docs (918s)
+  [HLG index] 520/4861 docs (957s)
+  [HLG index] 540/4861 docs (992s)
+  [HLG index] 560/4861 docs (1037s)
+  [HLG index] 580/4861 docs (1079s)
+  [HLG index] 600/4861 docs (1114s)
+  [HLG index] 620/4861 docs (1155s)
+  [HLG index] 640/4861 docs (1186s)
+  [HLG index] 660/4861 docs (1221s)
+  [HLG index] 680/4861 docs (1261s)
+  [HLG index] 700/4861 docs (1292s)
+  [HLG index] 720/4861 docs (1327s)
+  [HLG index] 740/4861 docs (1358s)
+  [HLG index] 760/4861 docs (1390s)
+  [HLG index] 780/4861 docs (1428s)
+  [HLG index] 800/4861 docs (1463s)
+  [HLG index] 820/4861 docs (1495s)
+  [HLG index] 840/4861 docs (1524s)
+  [HLG index] 860/4861 docs (1559s)
+  [HLG index] 880/4861 docs (1586s)
+  [HLG index] 900/4861 docs (1629s)
+  [HLG index] 920/4861 docs (1661s)
+  [HLG index] 940/4861 docs (1696s)
+  [HLG index] 960/4861 docs (1730s)
+  [HLG index] 980/4861 docs (1763s)
+  [HLG index] 1000/4861 docs (1796s)
+  [HLG index] 1020/4861 docs (1833s)
+  [HLG index] 1040/4861 docs (1865s)
+  [HLG index] 1060/4861 docs (1904s)
+  [HLG index] 1080/4861 docs (1938s)
+  [HLG index] 1100/4861 docs (1971s)
+  [HLG index] 1120/4861 docs (1999s)
+  [HLG index] 1140/4861 docs (2035s)
+  [HLG index] 1160/4861 docs (2065s)
+  [HLG index] 1180/4861 docs (2096s)
+  [HLG index] 1200/4861 docs (2135s)
+  [HLG index] 1220/4861 docs (2174s)
+  [HLG index] 1240/4861 docs (2205s)
+  [HLG index] 1260/4861 docs (2239s)
+  [HLG index] 1280/4861 docs (2271s)
+  [HLG index] 1300/4861 docs (2313s)
+  [HLG index] 1320/4861 docs (2350s)
+  [HLG index] 1340/4861 docs (2388s)
+  [HLG index] 1360/4861 docs (2417s)
+  [HLG index] 1380/4861 docs (2450s)
+  [HLG index] 1400/4861 docs (2496s)
+  [HLG index] 1420/4861 docs (2534s)
+  [HLG index] 1440/4861 docs (2568s)
+  [HLG index] 1460/4861 docs (2607s)
+  [HLG index] 1480/4861 docs (2632s)
+  [HLG index] 1500/4861 docs (2672s)
+  [HLG index] 1520/4861 docs (2717s)
+  [HLG index] 1540/4861 docs (2758s)
+  [HLG index] 1560/4861 docs (2791s)
+  [HLG index] 1580/4861 docs (2823s)
+  [HLG index] 1600/4861 docs (2861s)
+  [HLG index] 1620/4861 docs (2896s)
+  [HLG index] 1640/4861 docs (2936s)
+  [HLG index] 1660/4861 docs (2973s)
+  [HLG index] 1680/4861 docs (3003s)
+  [HLG index] 1700/4861 docs (3030s)
+  [HLG index] 1720/4861 docs (3074s)
+  [HLG index] 1740/4861 docs (3116s)
+  [HLG index] 1760/4861 docs (3146s)
+  [HLG index] 1780/4861 docs (3179s)
+  [HLG index] 1800/4861 docs (3225s)
+  [HLG index] 1820/4861 docs (3257s)
+  [HLG index] 1840/4861 docs (3300s)
+  [HLG index] 1860/4861 docs (3334s)
+  [HLG index] 1880/4861 docs (3368s)
+  [HLG index] 1900/4861 docs (3404s)
+  [HLG index] 1920/4861 docs (3445s)
+  [HLG index] 1940/4861 docs (3478s)
+  [HLG index] 1960/4861 docs (3522s)
+  [HLG index] 1980/4861 docs (3553s)
+  [HLG index] 2000/4861 docs (3603s)
+  [HLG index] 2020/4861 docs (3634s)
+  [HLG index] 2040/4861 docs (3674s)
+  [HLG index] 2060/4861 docs (3711s)
+  [HLG index] 2080/4861 docs (3744s)
+  [HLG index] 2100/4861 docs (3778s)
+  [HLG index] 2120/4861 docs (3811s)
+  [HLG index] 2140/4861 docs (3850s)
+  [HLG index] 2160/4861 docs (3892s)
+  [HLG index] 2180/4861 docs (3922s)
+  [HLG index] 2200/4861 docs (3956s)
+  [HLG index] 2220/4861 docs (4002s)
+  [HLG index] 2240/4861 docs (4038s)
+  [HLG index] 2260/4861 docs (4073s)
+  [HLG index] 2280/4861 docs (4115s)
+  [HLG index] 2300/4861 docs (4148s)
+  [HLG index] 2320/4861 docs (4190s)
+  [HLG index] 2340/4861 docs (4225s)
+  [HLG index] 2360/4861 docs (4263s)
+  [HLG index] 2380/4861 docs (4290s)
+  [HLG index] 2400/4861 docs (4329s)
+  [HLG index] 2420/4861 docs (4367s)
+  [HLG index] 2440/4861 docs (4409s)
+  [HLG index] 2460/4861 docs (4443s)
+  [HLG index] 2480/4861 docs (4477s)
+  [HLG index] 2500/4861 docs (4513s)
+  [HLG index] 2520/4861 docs (4546s)
+  [HLG index] 2540/4861 docs (4576s)
+  [HLG index] 2560/4861 docs (4602s)
+  [HLG index] 2580/4861 docs (4634s)
+  [HLG index] 2600/4861 docs (4669s)
+  [HLG index] 2620/4861 docs (4710s)
+  [HLG index] 2640/4861 docs (4745s)
+  [HLG index] 2660/4861 docs (4786s)
+  [HLG index] 2680/4861 docs (4816s)
+  [HLG index] 2700/4861 docs (4850s)
+  [HLG index] 2720/4861 docs (4885s)
+  [HLG index] 2740/4861 docs (4920s)
+  [HLG index] 2760/4861 docs (4958s)
+  [HLG index] 2780/4861 docs (5003s)
+  [HLG index] 2800/4861 docs (5042s)
+  [HLG index] 2820/4861 docs (5083s)
+  [HLG index] 2840/4861 docs (5125s)
+  [HLG index] 2860/4861 docs (5161s)
+  [HLG index] 2880/4861 docs (5197s)
+  [HLG index] 2900/4861 docs (5236s)
+  [HLG index] 2920/4861 docs (5267s)
+  [HLG index] 2940/4861 docs (5301s)
+  [HLG index] 2960/4861 docs (5329s)
+  [HLG index] 2980/4861 docs (5360s)
+  [HLG index] 3000/4861 docs (5396s)
+  [HLG index] 3020/4861 docs (5432s)
+  [HLG index] 3040/4861 docs (5469s)
+  [HLG index] 3060/4861 docs (5514s)
+  [HLG index] 3080/4861 docs (5548s)
+  [HLG index] 3100/4861 docs (5578s)
+  [HLG index] 3120/4861 docs (5611s)
+  [HLG index] 3140/4861 docs (5645s)
+  [HLG index] 3160/4861 docs (5681s)
+  [HLG index] 3180/4861 docs (5712s)
+  [HLG index] 3200/4861 docs (5746s)
+  [HLG index] 3220/4861 docs (5782s)
+  [HLG index] 3240/4861 docs (5813s)
+  [HLG index] 3260/4861 docs (5850s)
+  [HLG index] 3280/4861 docs (5881s)
+  [HLG index] 3300/4861 docs (5916s)
+  [HLG index] 3320/4861 docs (5949s)
+  [HLG index] 3340/4861 docs (5986s)
+  [HLG index] 3360/4861 docs (6013s)
+  [HLG index] 3380/4861 docs (6040s)
+  [HLG index] 3400/4861 docs (6081s)
+  [HLG index] 3420/4861 docs (6113s)
+  [HLG index] 3440/4861 docs (6153s)
+  [HLG index] 3460/4861 docs (6188s)
+  [HLG index] 3480/4861 docs (6224s)
+  [HLG index] 3500/4861 docs (6274s)
+  [HLG index] 3520/4861 docs (6316s)
+  [HLG index] 3540/4861 docs (6353s)
+  [HLG index] 3560/4861 docs (6386s)
+  [HLG index] 3580/4861 docs (6424s)
+  [HLG index] 3600/4861 docs (6454s)
+  [HLG index] 3620/4861 docs (6484s)
+  [HLG index] 3640/4861 docs (6511s)
+  [HLG index] 3660/4861 docs (6545s)
+  [HLG index] 3680/4861 docs (6587s)
+  [HLG index] 3700/4861 docs (6618s)
+  [HLG index] 3720/4861 docs (6655s)
+  [HLG index] 3740/4861 docs (6690s)
+  [HLG index] 3760/4861 docs (6727s)
+  [HLG index] 3780/4861 docs (6766s)
+  [HLG index] 3800/4861 docs (6803s)
+  [HLG index] 3820/4861 docs (6837s)
+  [HLG index] 3840/4861 docs (6872s)
+  [HLG index] 3860/4861 docs (6899s)
+  [HLG index] 3880/4861 docs (6938s)
+  [HLG index] 3900/4861 docs (6972s)
+  [HLG index] 3920/4861 docs (7017s)
+  [HLG index] 3940/4861 docs (7052s)
+  [HLG index] 3960/4861 docs (7089s)
+  [HLG index] 3980/4861 docs (7121s)
+  [HLG index] 4000/4861 docs (7159s)
+  [HLG index] 4020/4861 docs (7189s)
+  [HLG index] 4040/4861 docs (7232s)
+  [HLG index] 4060/4861 docs (7275s)
+  [HLG index] 4080/4861 docs (7312s)
+  [HLG index] 4100/4861 docs (7348s)
+  [HLG index] 4120/4861 docs (7383s)
+  [HLG index] 4140/4861 docs (7420s)
+  [HLG index] 4160/4861 docs (7459s)
+  [HLG index] 4180/4861 docs (7498s)
+  [HLG index] 4200/4861 docs (7532s)
+  [HLG index] 4220/4861 docs (7567s)
+  [HLG index] 4240/4861 docs (7604s)
+  [HLG index] 4260/4861 docs (7636s)
+  [HLG index] 4280/4861 docs (7664s)
+  [HLG index] 4300/4861 docs (7697s)
+  [HLG index] 4320/4861 docs (7735s)
+  [HLG index] 4340/4861 docs (7774s)
+  [HLG index] 4360/4861 docs (7809s)
+  [HLG index] 4380/4861 docs (7842s)
+  [HLG index] 4400/4861 docs (7873s)
+  [HLG index] 4420/4861 docs (7915s)
+  [HLG index] 4440/4861 docs (7972s)
+  [HLG index] 4460/4861 docs (8014s)
+  [HLG index] 4480/4861 docs (8054s)
+  [HLG index] 4500/4861 docs (8093s)
+  [HLG index] 4520/4861 docs (8127s)
+  [HLG index] 4540/4861 docs (8163s)
+  [HLG index] 4560/4861 docs (8193s)
+  [HLG index] 4580/4861 docs (8233s)
+  [HLG index] 4600/4861 docs (8264s)
+  [HLG index] 4620/4861 docs (8306s)
+  [HLG index] 4640/4861 docs (8344s)
+  [HLG index] 4660/4861 docs (8379s)
+  [HLG index] 4680/4861 docs (8415s)
+  [HLG index] 4700/4861 docs (8457s)
+  [HLG index] 4720/4861 docs (8497s)
+  [HLG index] 4740/4861 docs (8542s)
+  [HLG index] 4760/4861 docs (8584s)
+  [HLG index] 4780/4861 docs (8620s)
+  [HLG index] 4800/4861 docs (8663s)
+  [HLG index] 4820/4861 docs (8705s)
+  [HLG index] 4840/4861 docs (8740s)
+  [HLG index] 4860/4861 docs (8768s)
+  [HLG index] 4861/4861 docs (8769s)
+
+Batches:   0%|          | 0/1027 [00:00<?, ?it/s]
+Batches:   0%|          | 1/1027 [00:00<03:23,  5.04it/s]
+Batches:   1%|          | 11/1027 [00:00<00:23, 43.58it/s]
+Batches:   2%|▏         | 23/1027 [00:00<00:14, 69.58it/s]
+Batches:   4%|▎         | 36/1027 [00:00<00:11, 87.95it/s]
+Batches:   5%|▍         | 48/1027 [00:00<00:09, 98.10it/s]
+Batches:   6%|▌         | 62/1027 [00:00<00:08, 108.62it/s]
+Batches:   7%|▋         | 75/1027 [00:00<00:08, 114.85it/s]
+Batches:   9%|▊         | 88/1027 [00:00<00:07, 118.45it/s]
+Batches:  10%|▉         | 102/1027 [00:01<00:07, 123.43it/s]
+Batches:  11%|█         | 115/1027 [00:01<00:07, 125.28it/s]
+Batches:  13%|█▎        | 129/1027 [00:01<00:07, 127.45it/s]
+Batches:  14%|█▍        | 142/1027 [00:01<00:06, 127.91it/s]
+Batches:  15%|█▌        | 156/1027 [00:01<00:06, 130.92it/s]
+Batches:  17%|█▋        | 170/1027 [00:01<00:06, 130.04it/s]
+Batches:  18%|█▊        | 184/1027 [00:01<00:06, 131.47it/s]
+Batches:  19%|█▉        | 198/1027 [00:01<00:06, 133.09it/s]
+Batches:  21%|██        | 213/1027 [00:01<00:05, 136.16it/s]
+Batches:  22%|██▏       | 227/1027 [00:01<00:05, 137.27it/s]
+Batches:  24%|██▎       | 242/1027 [00:02<00:05, 139.08it/s]
+Batches:  25%|██▌       | 257/1027 [00:02<00:05, 140.05it/s]
+Batches:  26%|██▋       | 272/1027 [00:02<00:05, 142.31it/s]
+Batches:  28%|██▊       | 287/1027 [00:02<00:05, 141.29it/s]
+Batches:  29%|██▉       | 302/1027 [00:02<00:05, 143.45it/s]
+Batches:  31%|███       | 317/1027 [00:02<00:04, 142.39it/s]
+Batches:  32%|███▏      | 333/1027 [00:02<00:04, 146.95it/s]
+Batches:  34%|███▍      | 349/1027 [00:02<00:04, 150.52it/s]
+Batches:  36%|███▌      | 365/1027 [00:02<00:04, 151.28it/s]
+Batches:  37%|███▋      | 381/1027 [00:03<00:04, 150.00it/s]
+Batches:  39%|███▊      | 397/1027 [00:03<00:04, 148.55it/s]
+Batches:  40%|████      | 412/1027 [00:03<00:04, 148.88it/s]
+Batches:  42%|████▏     | 427/1027 [00:03<00:04, 148.86it/s]
+Batches:  43%|████▎     | 442/1027 [00:03<00:03, 148.70it/s]
+Batches:  45%|████▍     | 459/1027 [00:03<00:03, 152.14it/s]
+Batches:  46%|████▋     | 476/1027 [00:03<00:03, 156.46it/s]
+Batches:  48%|████▊     | 492/1027 [00:03<00:03, 156.04it/s]
+Batches:  49%|████▉     | 508/1027 [00:03<00:03, 152.64it/s]
+Batches:  51%|█████     | 524/1027 [00:03<00:03, 154.74it/s]
+Batches:  53%|█████▎    | 541/1027 [00:04<00:03, 143.28it/s]
+Batches:  55%|█████▍    | 561/1027 [00:04<00:02, 157.91it/s]
+Batches:  56%|█████▋    | 580/1027 [00:04<00:02, 163.60it/s]
+Batches:  58%|█████▊    | 598/1027 [00:04<00:02, 167.16it/s]
+Batches:  60%|█████▉    | 616/1027 [00:04<00:02, 168.74it/s]
+Batches:  62%|██████▏   | 636/1027 [00:04<00:02, 175.84it/s]
+Batches:  64%|██████▎   | 654/1027 [00:04<00:02, 176.22it/s]
+Batches:  66%|██████▌   | 677/1027 [00:04<00:01, 191.28it/s]
+Batches:  68%|██████▊   | 700/1027 [00:04<00:01, 202.31it/s]
+Batches:  70%|███████   | 722/1027 [00:05<00:01, 205.56it/s]
+Batches:  72%|███████▏  | 743/1027 [00:05<00:01, 202.16it/s]
+Batches:  75%|███████▍  | 767/1027 [00:05<00:01, 208.64it/s]
+Batches:  77%|███████▋  | 790/1027 [00:05<00:01, 212.10it/s]
+Batches:  79%|███████▉  | 813/1027 [00:05<00:01, 212.94it/s]
+Batches:  81%|████████▏ | 835/1027 [00:05<00:00, 207.96it/s]
+Batches:  83%|████████▎ | 856/1027 [00:05<00:00, 207.66it/s]
+Batches:  86%|████████▌ | 880/1027 [00:05<00:00, 215.08it/s]
+Batches:  88%|████████▊ | 907/1027 [00:05<00:00, 230.34it/s]
+Batches:  91%|█████████ | 931/1027 [00:05<00:00, 228.99it/s]
+Batches:  93%|█████████▎| 959/1027 [00:06<00:00, 239.34it/s]
+Batches:  96%|█████████▌| 987/1027 [00:06<00:00, 248.42it/s]
+Batches:  99%|█████████▊| 1012/1027 [00:06<00:00, 242.90it/s]
+Batches: 100%|██████████| 1027/1027 [00:06<00:00, 162.20it/s]
+
+Batches:   0%|          | 0/88 [00:00<?, ?it/s]
+Batches:   3%|▎         | 3/88 [00:00<00:03, 22.93it/s]
+Batches:  10%|█         | 9/88 [00:00<00:01, 39.76it/s]
+Batches:  20%|██        | 18/88 [00:00<00:01, 58.61it/s]
+Batches:  36%|███▋      | 32/88 [00:00<00:00, 86.89it/s]
+Batches:  61%|██████▏   | 54/88 [00:00<00:00, 130.75it/s]
+Batches:  89%|████████▊ | 78/88 [00:00<00:00, 164.25it/s]
+Batches: 100%|██████████| 88/88 [00:00<00:00, 124.14it/s]
+b4_hlg_rag: done {'chunks': 14871, 'statements': 65691, 'topics': 5607, 'entities': 38551, 'facts': 37076, 'fallback_chunks': 18}
+
+=== hotpot | B4 HLG-RAG (StatementGraphRAG)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 19117.86it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 13506.36it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/hlg_hotpot_01c16880a5
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/1027 [00:00<?, ?it/s]
+Batches:   0%|          | 1/1027 [00:00<03:05,  5.53it/s]
+Batches:   1%|          | 10/1027 [00:00<00:23, 42.73it/s]
+Batches:   2%|▏         | 21/1027 [00:00<00:14, 67.47it/s]
+Batches:   3%|▎         | 34/1027 [00:00<00:11, 87.24it/s]
+Batches:   4%|▍         | 46/1027 [00:00<00:10, 97.69it/s]
+Batches:   6%|▌         | 58/1027 [00:00<00:09, 103.42it/s]
+Batches:   7%|▋         | 72/1027 [00:00<00:08, 112.40it/s]
+Batches:   8%|▊         | 85/1027 [00:00<00:08, 117.10it/s]
+Batches:  10%|▉         | 99/1027 [00:01<00:07, 121.68it/s]
+Batches:  11%|█         | 113/1027 [00:01<00:07, 124.40it/s]
+Batches:  12%|█▏        | 127/1027 [00:01<00:07, 128.22it/s]
+Batches:  14%|█▎        | 141/1027 [00:01<00:06, 129.98it/s]
+Batches:  15%|█▌        | 155/1027 [00:01<00:06, 132.74it/s]
+Batches:  16%|█▋        | 169/1027 [00:01<00:06, 130.82it/s]
+Batches:  18%|█▊        | 184/1027 [00:01<00:06, 134.03it/s]
+Batches:  19%|█▉        | 198/1027 [00:01<00:06, 133.43it/s]
+Batches:  21%|██        | 212/1027 [00:01<00:06, 134.51it/s]
+Batches:  22%|██▏       | 227/1027 [00:01<00:05, 136.86it/s]
+Batches:  24%|██▎       | 242/1027 [00:02<00:05, 138.09it/s]
+Batches:  25%|██▌       | 257/1027 [00:02<00:05, 140.31it/s]
+Batches:  26%|██▋       | 272/1027 [00:02<00:05, 141.68it/s]
+Batches:  28%|██▊       | 287/1027 [00:02<00:05, 140.47it/s]
+Batches:  29%|██▉       | 302/1027 [00:02<00:05, 142.23it/s]
+Batches:  31%|███       | 317/1027 [00:02<00:04, 143.32it/s]
+Batches:  32%|███▏      | 333/1027 [00:02<00:04, 145.87it/s]
+Batches:  34%|███▍      | 349/1027 [00:02<00:04, 147.78it/s]
+Batches:  35%|███▌      | 364/1027 [00:02<00:04, 146.47it/s]
+Batches:  37%|███▋      | 380/1027 [00:03<00:04, 148.05it/s]
+Batches:  38%|███▊      | 395/1027 [00:03<00:04, 147.91it/s]
+Batches:  40%|████      | 411/1027 [00:03<00:04, 149.33it/s]
+Batches:  41%|████▏     | 426/1027 [00:03<00:04, 147.46it/s]
+Batches:  43%|████▎     | 441/1027 [00:03<00:04, 143.01it/s]
+Batches:  45%|████▍     | 458/1027 [00:03<00:03, 148.84it/s]
+Batches:  46%|████▋     | 475/1027 [00:03<00:03, 153.66it/s]
+Batches:  48%|████▊     | 491/1027 [00:03<00:03, 155.26it/s]
+Batches:  49%|████▉     | 508/1027 [00:03<00:03, 159.44it/s]
+Batches:  51%|█████▏    | 527/1027 [00:03<00:03, 166.43it/s]
+Batches:  53%|█████▎    | 544/1027 [00:04<00:03, 154.91it/s]
+Batches:  55%|█████▍    | 564/1027 [00:04<00:02, 167.48it/s]
+Batches:  57%|█████▋    | 584/1027 [00:04<00:02, 175.28it/s]
+Batches:  59%|█████▉    | 605/1027 [00:04<00:02, 183.72it/s]
+Batches:  61%|██████    | 626/1027 [00:04<00:02, 191.18it/s]
+Batches:  63%|██████▎   | 648/1027 [00:04<00:01, 198.87it/s]
+Batches:  65%|██████▌   | 672/1027 [00:04<00:01, 209.97it/s]
+Batches:  68%|██████▊   | 696/1027 [00:04<00:01, 217.52it/s]
+Batches:  70%|███████   | 719/1027 [00:04<00:01, 220.29it/s]
+Batches:  72%|███████▏  | 744/1027 [00:04<00:01, 224.05it/s]
+Batches:  75%|███████▍  | 769/1027 [00:05<00:01, 230.49it/s]
+Batches:  77%|███████▋  | 795/1027 [00:05<00:00, 237.69it/s]
+Batches:  80%|███████▉  | 819/1027 [00:05<00:00, 233.66it/s]
+Batches:  82%|████████▏ | 843/1027 [00:05<00:00, 229.94it/s]
+Batches:  84%|████████▍ | 867/1027 [00:05<00:00, 228.63it/s]
+Batches:  87%|████████▋ | 890/1027 [00:05<00:00, 226.96it/s]
+Batches:  89%|████████▉ | 913/1027 [00:05<00:00, 225.04it/s]
+Batches:  91%|█████████ | 937/1027 [00:05<00:00, 227.38it/s]
+Batches:  94%|█████████▎| 961/1027 [00:05<00:00, 230.18it/s]
+Batches:  96%|█████████▋| 990/1027 [00:06<00:00, 245.77it/s]
+Batches:  99%|█████████▉| 1015/1027 [00:06<00:00, 236.48it/s]
+Batches: 100%|██████████| 1027/1027 [00:06<00:00, 165.92it/s]
+
+Batches:   0%|          | 0/88 [00:00<?, ?it/s]
+Batches:   3%|▎         | 3/88 [00:00<00:03, 23.01it/s]
+Batches:  10%|█         | 9/88 [00:00<00:01, 40.17it/s]
+Batches:  20%|██        | 18/88 [00:00<00:01, 58.64it/s]
+Batches:  38%|███▊      | 33/88 [00:00<00:00, 90.64it/s]
+Batches:  62%|██████▎   | 55/88 [00:00<00:00, 133.24it/s]
+Batches:  89%|████████▊ | 78/88 [00:00<00:00, 164.04it/s]
+Batches: 100%|██████████| 88/88 [00:00<00:00, 126.39it/s]
+  [10/500] last EM=0  latency=0.4s
+  [20/500] last EM=1  latency=0.2s
+  [30/500] last EM=0  latency=0.3s
+  [40/500] last EM=0  latency=0.5s
+  [50/500] last EM=1  latency=0.3s
+  [60/500] last EM=0  latency=0.3s
+  [70/500] last EM=0  latency=0.2s
+  [80/500] last EM=0  latency=0.4s
+  [90/500] last EM=0  latency=0.2s
+  [100/500] last EM=1  latency=0.3s
+  [110/500] last EM=0  latency=0.4s
+  [120/500] last EM=0  latency=0.2s
+  [130/500] last EM=0  latency=0.3s
+  [140/500] last EM=0  latency=0.2s
+  [150/500] last EM=0  latency=0.3s
+  [160/500] last EM=0  latency=0.5s
+  [170/500] last EM=0  latency=0.2s
+  [180/500] last EM=0  latency=0.3s
+  [190/500] last EM=1  latency=0.2s
+  [200/500] last EM=0  latency=0.2s
+  [210/500] last EM=1  latency=0.4s
+  [220/500] last EM=1  latency=0.4s
+  [230/500] last EM=1  latency=0.5s
+  [240/500] last EM=1  latency=0.4s
+  [250/500] last EM=1  latency=0.3s
+  [260/500] last EM=0  latency=0.3s
+  [270/500] last EM=0  latency=0.4s
+  [280/500] last EM=1  latency=0.5s
+  [290/500] last EM=0  latency=0.3s
+  [300/500] last EM=0  latency=0.3s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.3s
+  [330/500] last EM=1  latency=0.4s
+  [340/500] last EM=0  latency=0.3s
+  [350/500] last EM=0  latency=0.3s
+  [360/500] last EM=0  latency=0.5s
+  [370/500] last EM=1  latency=0.3s
+  [380/500] last EM=1  latency=0.3s
+  [390/500] last EM=0  latency=0.2s
+  [400/500] last EM=0  latency=0.4s
+  [410/500] last EM=0  latency=0.5s
+  [420/500] last EM=0  latency=0.5s
+  [430/500] last EM=0  latency=0.3s
+  [440/500] last EM=1  latency=0.2s
+  [442/500] ERROR on 5a88fc4255429938390d4019: ValueError("Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`attention_mask` in this case) have excessive nesting (inputs type `list` where type `int` is expecte
+  [450/500] last EM=1  latency=0.5s
+  [460/500] last EM=1  latency=0.3s
+  [470/500] last EM=0  latency=0.3s
+  [480/500] last EM=0  latency=0.5s
+  [490/500] last EM=0  latency=0.2s
+  [500/500] last EM=1  latency=0.2s
+{
+  "n": 500,
+  "em": 0.396,
+  "em_ci95": [
+    0.354,
+    0.44
+  ],
+  "f1": 0.4643685425685426,
+  "sent_recall@10": 0.8432865731462926,
+  "doc_recall@10": 0.908817635270541,
+  "ctx_all_gold_rate": 0.3967935871743487,
+  "peak_prompt_tokens_max": 325,
+  "total_tokens_mean": 4772.366,
+  "latency_p50": 0.3014646810479462,
+  "latency_p95": 0.5614058759529144,
+  "failure_counts": {
+    "RERANKING_FAILURE": 143,
+    "CORRECT": 198,
+    "GENERATION_FAILURE": 96,
+    "RETRIEVAL_FAILURE": 62,
+    "SYSTEM_ERROR": 1
+  }
+}
+
+=== hotpot | B4 HLG-RAG (TopicGraphRAG)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14400.98it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15601.60it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/hlg_hotpot_a8dbf41c77
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/1027 [00:00<?, ?it/s]
+Batches:   0%|          | 1/1027 [00:00<03:14,  5.29it/s]
+Batches:   1%|          | 11/1027 [00:00<00:22, 44.28it/s]
+Batches:   2%|▏         | 23/1027 [00:00<00:14, 70.79it/s]
+Batches:   4%|▎         | 36/1027 [00:00<00:11, 90.02it/s]
+Batches:   5%|▍         | 48/1027 [00:00<00:09, 99.74it/s]
+Batches:   6%|▌         | 59/1027 [00:00<00:09, 101.10it/s]
+Batches:   7%|▋         | 72/1027 [00:00<00:08, 108.58it/s]
+Batches:   8%|▊         | 85/1027 [00:00<00:08, 114.74it/s]
+Batches:  10%|▉         | 99/1027 [00:01<00:07, 121.06it/s]
+Batches:  11%|█         | 113/1027 [00:01<00:07, 124.78it/s]
+Batches:  12%|█▏        | 126/1027 [00:01<00:07, 125.97it/s]
+Batches:  14%|█▎        | 140/1027 [00:01<00:06, 127.59it/s]
+Batches:  15%|█▍        | 154/1027 [00:01<00:06, 128.86it/s]
+Batches:  16%|█▋        | 168/1027 [00:01<00:06, 130.46it/s]
+Batches:  18%|█▊        | 182/1027 [00:01<00:06, 131.68it/s]
+Batches:  19%|█▉        | 196/1027 [00:01<00:06, 130.88it/s]
+Batches:  20%|██        | 210/1027 [00:01<00:06, 132.96it/s]
+Batches:  22%|██▏       | 224/1027 [00:01<00:05, 134.05it/s]
+Batches:  23%|██▎       | 239/1027 [00:02<00:05, 137.83it/s]
+Batches:  25%|██▍       | 253/1027 [00:02<00:05, 136.21it/s]
+Batches:  26%|██▌       | 268/1027 [00:02<00:05, 139.26it/s]
+Batches:  28%|██▊       | 283/1027 [00:02<00:05, 141.22it/s]
+Batches:  29%|██▉       | 298/1027 [00:02<00:05, 139.24it/s]
+Batches:  31%|███       | 314/1027 [00:02<00:05, 142.48it/s]
+Batches:  32%|███▏      | 330/1027 [00:02<00:04, 143.88it/s]
+Batches:  34%|███▎      | 345/1027 [00:02<00:04, 144.95it/s]
+Batches:  35%|███▌      | 361/1027 [00:02<00:04, 148.93it/s]
+Batches:  37%|███▋      | 376/1027 [00:03<00:04, 147.38it/s]
+Batches:  38%|███▊      | 392/1027 [00:03<00:04, 150.46it/s]
+Batches:  40%|███▉      | 408/1027 [00:03<00:04, 146.98it/s]
+Batches:  41%|████▏     | 424/1027 [00:03<00:04, 148.54it/s]
+Batches:  43%|████▎     | 440/1027 [00:03<00:03, 151.68it/s]
+Batches:  44%|████▍     | 456/1027 [00:03<00:03, 152.79it/s]
+Batches:  46%|████▌     | 472/1027 [00:03<00:03, 154.21it/s]
+Batches:  48%|████▊     | 489/1027 [00:03<00:03, 156.78it/s]
+Batches:  49%|████▉     | 506/1027 [00:03<00:03, 160.36it/s]
+Batches:  51%|█████     | 523/1027 [00:03<00:03, 163.15it/s]
+Batches:  53%|█████▎    | 540/1027 [00:04<00:03, 160.12it/s]
+Batches:  54%|█████▍    | 557/1027 [00:04<00:03, 150.57it/s]
+Batches:  56%|█████▌    | 576/1027 [00:04<00:02, 161.30it/s]
+Batches:  58%|█████▊    | 595/1027 [00:04<00:02, 169.33it/s]
+Batches:  60%|██████    | 618/1027 [00:04<00:02, 185.18it/s]
+Batches:  62%|██████▏   | 641/1027 [00:04<00:01, 196.08it/s]
+Batches:  64%|██████▍   | 662/1027 [00:04<00:01, 199.06it/s]
+Batches:  67%|██████▋   | 683/1027 [00:04<00:01, 201.48it/s]
+Batches:  69%|██████▊   | 704/1027 [00:04<00:01, 199.44it/s]
+Batches:  71%|███████   | 728/1027 [00:05<00:01, 209.29it/s]
+Batches:  73%|███████▎  | 750/1027 [00:05<00:01, 211.45it/s]
+Batches:  75%|███████▌  | 773/1027 [00:05<00:01, 216.47it/s]
+Batches:  78%|███████▊  | 798/1027 [00:05<00:01, 225.54it/s]
+Batches:  80%|███████▉  | 821/1027 [00:05<00:00, 222.51it/s]
+Batches:  82%|████████▏ | 844/1027 [00:05<00:00, 220.45it/s]
+Batches:  84%|████████▍ | 867/1027 [00:05<00:00, 222.83it/s]
+Batches:  87%|████████▋ | 890/1027 [00:05<00:00, 215.41it/s]
+Batches:  89%|████████▉ | 913/1027 [00:05<00:00, 219.48it/s]
+Batches:  91%|█████████ | 936/1027 [00:05<00:00, 215.25it/s]
+Batches:  94%|█████████▍| 964/1027 [00:06<00:00, 231.16it/s]
+Batches:  96%|█████████▋| 990/1027 [00:06<00:00, 237.73it/s]
+Batches:  99%|█████████▉| 1015/1027 [00:06<00:00, 240.32it/s]
+Batches: 100%|██████████| 1027/1027 [00:06<00:00, 162.64it/s]
+
+Batches:   0%|          | 0/88 [00:00<?, ?it/s]
+Batches:   3%|▎         | 3/88 [00:00<00:03, 22.53it/s]
+Batches:  10%|█         | 9/88 [00:00<00:02, 39.33it/s]
+Batches:  20%|██        | 18/88 [00:00<00:01, 58.24it/s]
+Batches:  36%|███▋      | 32/88 [00:00<00:00, 87.45it/s]
+Batches:  59%|█████▉    | 52/88 [00:00<00:00, 123.20it/s]
+Batches:  86%|████████▋ | 76/88 [00:00<00:00, 160.59it/s]
+Batches: 100%|██████████| 88/88 [00:00<00:00, 122.39it/s]
+  [10/500] last EM=0  latency=0.7s
+  [20/500] last EM=1  latency=0.6s
+  [30/500] last EM=0  latency=0.7s
+  [40/500] last EM=0  latency=0.7s
+  [50/500] last EM=1  latency=0.7s
+  [60/500] last EM=0  latency=1.1s
+  [70/500] last EM=0  latency=1.0s
+  [80/500] last EM=0  latency=1.2s
+  [90/500] last EM=0  latency=1.1s
+  [100/500] last EM=0  latency=1.0s
+  [110/500] last EM=0  latency=0.4s
+  [120/500] last EM=0  latency=1.0s
+  [130/500] last EM=0  latency=0.7s
+  [140/500] last EM=0  latency=1.2s
+  [150/500] last EM=0  latency=0.9s
+  [160/500] last EM=0  latency=1.1s
+  [170/500] last EM=1  latency=0.3s
+  [180/500] last EM=0  latency=1.1s
+  [190/500] last EM=1  latency=0.8s
+  [200/500] last EM=0  latency=0.5s
+  [210/500] last EM=1  latency=1.2s
+  [220/500] last EM=0  latency=0.5s
+  [230/500] last EM=0  latency=0.9s
+  [240/500] last EM=1  latency=1.3s
+  [250/500] last EM=0  latency=0.7s
+  [260/500] last EM=0  latency=0.3s
+  [270/500] last EM=0  latency=0.9s
+  [280/500] last EM=1  latency=0.4s
+  [290/500] last EM=0  latency=0.5s
+  [300/500] last EM=0  latency=0.7s
+  [310/500] last EM=0  latency=1.0s
+  [320/500] last EM=0  latency=1.0s
+  [330/500] last EM=1  latency=1.1s
+  [340/500] last EM=0  latency=0.9s
+  [350/500] last EM=0  latency=1.1s
+  [360/500] last EM=0  latency=0.8s
+  [370/500] last EM=1  latency=0.7s
+  [380/500] last EM=1  latency=0.9s
+  [390/500] last EM=0  latency=0.6s
+  [400/500] last EM=0  latency=1.0s
+  [410/500] last EM=0  latency=0.9s
+  [420/500] last EM=0  latency=1.2s
+  [430/500] last EM=0  latency=0.7s
+  [440/500] last EM=1  latency=0.8s
+  [450/500] last EM=1  latency=1.0s
+  [460/500] last EM=1  latency=0.7s
+  [470/500] last EM=0  latency=0.8s
+  [480/500] last EM=0  latency=0.4s
+  [490/500] last EM=0  latency=1.0s
+  [500/500] last EM=1  latency=0.6s
+{
+  "n": 500,
+  "em": 0.366,
+  "em_ci95": [
+    0.326,
+    0.408
+  ],
+  "f1": 0.44036294032764617,
+  "sent_recall@10": 0.8032999999999999,
+  "doc_recall@10": 0.877,
+  "ctx_all_gold_rate": 0.368,
+  "peak_prompt_tokens_max": 325,
+  "total_tokens_mean": 6723.958,
+  "latency_p50": 0.8489241359056905,
+  "latency_p95": 1.3272628020495176,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 108,
+    "CORRECT": 183,
+    "GENERATION_FAILURE": 90,
+    "RERANKING_FAILURE": 119
+  }
+}
+
+=== hotpot | prebuilding the b7_lycheememory index (cached, resumable) ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14992.57it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15781.62it/s]
+b7_lycheememory: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+b7_lycheememory: building index over 4866 documents ...
+  [Lychee memory] 20/4861 docs (31s)
+  [Lychee memory] 40/4861 docs (62s)
+  [Lychee memory] 60/4861 docs (79s)
+  [Lychee memory] 80/4861 docs (107s)
+  [Lychee memory] 100/4861 docs (156s)
+  [Lychee memory] 120/4861 docs (185s)
+  [Lychee memory] 140/4861 docs (214s)
+  [Lychee memory] 160/4861 docs (254s)
+  [Lychee memory] 180/4861 docs (296s)
+  [Lychee memory] 200/4861 docs (328s)
+  [Lychee memory] 220/4861 docs (356s)
+  [Lychee memory] 240/4861 docs (407s)
+  [Lychee memory] 260/4861 docs (441s)
+  [Lychee memory] 280/4861 docs (471s)
+  [Lychee memory] 300/4861 docs (501s)
+  [Lychee memory] 320/4861 docs (547s)
+  [Lychee memory] 340/4861 docs (595s)
+  [Lychee memory] 360/4861 docs (625s)
+  [Lychee memory] 380/4861 docs (666s)
+  [Lychee memory] 400/4861 docs (697s)
+  [Lychee memory] 420/4861 docs (720s)
+  [Lychee memory] 440/4861 docs (758s)
+  [Lychee memory] 460/4861 docs (784s)
+  [Lychee memory] 480/4861 docs (814s)
+  [Lychee memory] 500/4861 docs (841s)
+  [Lychee memory] 520/4861 docs (887s)
+  [Lychee memory] 540/4861 docs (922s)
+  [Lychee memory] 560/4861 docs (966s)
+  [Lychee memory] 580/4861 docs (990s)
+  [Lychee memory] 600/4861 docs (1037s)
+  [Lychee memory] 620/4861 docs (1075s)
+  [Lychee memory] 640/4861 docs (1128s)
+  [Lychee memory] 660/4861 docs (1156s)
+  [Lychee memory] 680/4861 docs (1178s)
+  [Lychee memory] 700/4861 docs (1203s)
+  [Lychee memory] 720/4861 docs (1242s)
+  [Lychee memory] 740/4861 docs (1263s)
+  [Lychee memory] 760/4861 docs (1297s)
+  [Lychee memory] 780/4861 docs (1344s)
+  [Lychee memory] 800/4861 docs (1369s)
+  [Lychee memory] 820/4861 docs (1386s)
+  [Lychee memory] 840/4861 docs (1412s)
+  [Lychee memory] 860/4861 docs (1442s)
+  [Lychee memory] 880/4861 docs (1461s)
+  [Lychee memory] 900/4861 docs (1489s)
+  [Lychee memory] 920/4861 docs (1518s)
+  [Lychee memory] 940/4861 docs (1543s)
+  [Lychee memory] 960/4861 docs (1570s)
+  [Lychee memory] 980/4861 docs (1598s)
+  [Lychee memory] 1000/4861 docs (1618s)
+  [Lychee memory] 1020/4861 docs (1655s)
+  [Lychee memory] 1040/4861 docs (1688s)
+  [Lychee memory] 1060/4861 docs (1724s)
+  [Lychee memory] 1080/4861 docs (1753s)
+  [Lychee memory] 1100/4861 docs (1786s)
+  [Lychee memory] 1120/4861 docs (1803s)
+  [Lychee memory] 1140/4861 docs (1824s)
+  [Lychee memory] 1160/4861 docs (1858s)
+  [Lychee memory] 1180/4861 docs (1891s)
+  [Lychee memory] 1200/4861 docs (1926s)
+  [Lychee memory] 1220/4861 docs (1960s)
+  [Lychee memory] 1240/4861 docs (1986s)
+  [Lychee memory] 1260/4861 docs (2018s)
+  [Lychee memory] 1280/4861 docs (2044s)
+  [Lychee memory] 1300/4861 docs (2089s)
+  [Lychee memory] 1320/4861 docs (2132s)
+  [Lychee memory] 1340/4861 docs (2163s)
+  [Lychee memory] 1360/4861 docs (2179s)
+  [Lychee memory] 1380/4861 docs (2212s)
+  [Lychee memory] 1400/4861 docs (2253s)
+  [Lychee memory] 1420/4861 docs (2296s)
+  [Lychee memory] 1440/4861 docs (2330s)
+  [Lychee memory] 1460/4861 docs (2357s)
+  [Lychee memory] 1480/4861 docs (2381s)
+  [Lychee memory] 1500/4861 docs (2414s)
+  [Lychee memory] 1520/4861 docs (2471s)
+  [Lychee memory] 1540/4861 docs (2511s)
+  [Lychee memory] 1560/4861 docs (2538s)
+  [Lychee memory] 1580/4861 docs (2560s)
+  [Lychee memory] 1600/4861 docs (2598s)
+  [Lychee memory] 1620/4861 docs (2635s)
+  [Lychee memory] 1640/4861 docs (2687s)
+  [Lychee memory] 1660/4861 docs (2717s)
+  [Lychee memory] 1680/4861 docs (2742s)
+  [Lychee memory] 1700/4861 docs (2765s)
+  [Lychee memory] 1720/4861 docs (2828s)
+  [Lychee memory] 1740/4861 docs (2868s)
+  [Lychee memory] 1760/4861 docs (2910s)
+  [Lychee memory] 1780/4861 docs (2925s)
+  [Lychee memory] 1800/4861 docs (2968s)
+  [Lychee memory] 1820/4861 docs (3006s)
+  [Lychee memory] 1840/4861 docs (3056s)
+  [Lychee memory] 1860/4861 docs (3074s)
+  [Lychee memory] 1880/4861 docs (3122s)
+  [Lychee memory] 1900/4861 docs (3144s)
+  [Lychee memory] 1920/4861 docs (3195s)
+  [Lychee memory] 1940/4861 docs (3226s)
+  [Lychee memory] 1960/4861 docs (3291s)
+  [Lychee memory] 1980/4861 docs (3317s)
+  [Lychee memory] 2000/4861 docs (3367s)
+  [Lychee memory] 2020/4861 docs (3390s)
+  [Lychee memory] 2040/4861 docs (3425s)
+  [Lychee memory] 2060/4861 docs (3480s)
+  [Lychee memory] 2080/4861 docs (3513s)
+  [Lychee memory] 2100/4861 docs (3544s)
+  [Lychee memory] 2120/4861 docs (3568s)
+  [Lychee memory] 2140/4861 docs (3615s)
+  [Lychee memory] 2160/4861 docs (3664s)
+  [Lychee memory] 2180/4861 docs (3687s)
+  [Lychee memory] 2200/4861 docs (3714s)
+  [Lychee memory] 2220/4861 docs (3735s)
+  [Lychee memory] 2240/4861 docs (3754s)
+  [Lychee memory] 2260/4861 docs (3793s)
+  [Lychee memory] 2280/4861 docs (3822s)
+  [Lychee memory] 2300/4861 docs (3855s)
+  [Lychee memory] 2320/4861 docs (3891s)
+  [Lychee memory] 2340/4861 docs (3945s)
+  [Lychee memory] 2360/4861 docs (3986s)
+  [Lychee memory] 2380/4861 docs (4002s)
+  [Lychee memory] 2400/4861 docs (4028s)
+  [Lychee memory] 2420/4861 docs (4049s)
+  [Lychee memory] 2440/4861 docs (4085s)
+  [Lychee memory] 2460/4861 docs (4124s)
+  [Lychee memory] 2480/4861 docs (4168s)
+  [Lychee memory] 2500/4861 docs (4194s)
+  [Lychee memory] 2520/4861 docs (4227s)
+  [Lychee memory] 2540/4861 docs (4251s)
+  [Lychee memory] 2560/4861 docs (4273s)
+  [Lychee memory] 2580/4861 docs (4302s)
+  [Lychee memory] 2600/4861 docs (4340s)
+  [Lychee memory] 2620/4861 docs (4376s)
+  [Lychee memory] 2640/4861 docs (4411s)
+  [Lychee memory] 2660/4861 docs (4451s)
+  [Lychee memory] 2680/4861 docs (4472s)
+  [Lychee memory] 2700/4861 docs (4494s)
+  [Lychee memory] 2720/4861 docs (4523s)
+  [Lychee memory] 2740/4861 docs (4552s)
+  [Lychee memory] 2760/4861 docs (4589s)
+  [Lychee memory] 2780/4861 docs (4648s)
+  [Lychee memory] 2800/4861 docs (4676s)
+  [Lychee memory] 2820/4861 docs (4711s)
+  [Lychee memory] 2840/4861 docs (4748s)
+  [Lychee memory] 2860/4861 docs (4787s)
+  [Lychee memory] 2880/4861 docs (4817s)
+  [Lychee memory] 2900/4861 docs (4864s)
+  [Lychee memory] 2920/4861 docs (4889s)
+  [Lychee memory] 2940/4861 docs (4925s)
+  [Lychee memory] 2960/4861 docs (4952s)
+  [Lychee memory] 2980/4861 docs (4972s)
+  [Lychee memory] 3000/4861 docs (4997s)
+  [Lychee memory] 3020/4861 docs (5031s)
+  [Lychee memory] 3040/4861 docs (5067s)
+  [Lychee memory] 3060/4861 docs (5103s)
+  [Lychee memory] 3080/4861 docs (5141s)
+  [Lychee memory] 3100/4861 docs (5160s)
+  [Lychee memory] 3120/4861 docs (5182s)
+  [Lychee memory] 3140/4861 docs (5217s)
+  [Lychee memory] 3160/4861 docs (5268s)
+  [Lychee memory] 3180/4861 docs (5294s)
+  [Lychee memory] 3200/4861 docs (5320s)
+  [Lychee memory] 3220/4861 docs (5361s)
+  [Lychee memory] 3240/4861 docs (5395s)
+  [Lychee memory] 3260/4861 docs (5426s)
+  [Lychee memory] 3280/4861 docs (5445s)
+  [Lychee memory] 3300/4861 docs (5476s)
+  [Lychee memory] 3320/4861 docs (5499s)
+  [Lychee memory] 3340/4861 docs (5529s)
+  [Lychee memory] 3360/4861 docs (5550s)
+  [Lychee memory] 3380/4861 docs (5574s)
+  [Lychee memory] 3400/4861 docs (5601s)
+  [Lychee memory] 3420/4861 docs (5637s)
+  [Lychee memory] 3440/4861 docs (5665s)
+  [Lychee memory] 3460/4861 docs (5695s)
+  [Lychee memory] 3480/4861 docs (5718s)
+  [Lychee memory] 3500/4861 docs (5749s)
+  [Lychee memory] 3520/4861 docs (5780s)
+  [Lychee memory] 3540/4861 docs (5811s)
+  [Lychee memory] 3560/4861 docs (5845s)
+  [Lychee memory] 3580/4861 docs (5883s)
+  [Lychee memory] 3600/4861 docs (5923s)
+  [Lychee memory] 3620/4861 docs (5952s)
+  [Lychee memory] 3640/4861 docs (5976s)
+  [Lychee memory] 3660/4861 docs (6017s)
+  [Lychee memory] 3680/4861 docs (6057s)
+  [Lychee memory] 3700/4861 docs (6076s)
+  [Lychee memory] 3720/4861 docs (6113s)
+  [Lychee memory] 3740/4861 docs (6149s)
+  [Lychee memory] 3760/4861 docs (6205s)
+  [Lychee memory] 3780/4861 docs (6229s)
+  [Lychee memory] 3800/4861 docs (6264s)
+  [Lychee memory] 3820/4861 docs (6312s)
+  [Lychee memory] 3840/4861 docs (6341s)
+  [Lychee memory] 3860/4861 docs (6362s)
+  [Lychee memory] 3880/4861 docs (6425s)
+  [Lychee memory] 3900/4861 docs (6457s)
+  [Lychee memory] 3920/4861 docs (6487s)
+  [Lychee memory] 3940/4861 docs (6516s)
+  [Lychee memory] 3960/4861 docs (6547s)
+  [Lychee memory] 3980/4861 docs (6575s)
+  [Lychee memory] 4000/4861 docs (6601s)
+  [Lychee memory] 4020/4861 docs (6645s)
+  [Lychee memory] 4040/4861 docs (6691s)
+  [Lychee memory] 4060/4861 docs (6715s)
+  [Lychee memory] 4080/4861 docs (6738s)
+  [Lychee memory] 4100/4861 docs (6776s)
+  [Lychee memory] 4120/4861 docs (6808s)
+  [Lychee memory] 4140/4861 docs (6848s)
+  [Lychee memory] 4160/4861 docs (6896s)
+  [Lychee memory] 4180/4861 docs (6925s)
+  [Lychee memory] 4200/4861 docs (6961s)
+  [Lychee memory] 4220/4861 docs (6998s)
+  [Lychee memory] 4240/4861 docs (7044s)
+  [Lychee memory] 4260/4861 docs (7099s)
+  [Lychee memory] 4280/4861 docs (7126s)
+  [Lychee memory] 4300/4861 docs (7157s)
+  [Lychee memory] 4320/4861 docs (7172s)
+  [Lychee memory] 4340/4861 docs (7208s)
+  [Lychee memory] 4360/4861 docs (7229s)
+  [Lychee memory] 4380/4861 docs (7266s)
+  [Lychee memory] 4400/4861 docs (7293s)
+  [Lychee memory] 4420/4861 docs (7328s)
+  [Lychee memory] 4440/4861 docs (7358s)
+  [Lychee memory] 4460/4861 docs (7388s)
+  [Lychee memory] 4480/4861 docs (7428s)
+  [Lychee memory] 4500/4861 docs (7444s)
+  [Lychee memory] 4520/4861 docs (7477s)
+  [Lychee memory] 4540/4861 docs (7511s)
+  [Lychee memory] 4560/4861 docs (7546s)
+  [Lychee memory] 4580/4861 docs (7581s)
+  [Lychee memory] 4600/4861 docs (7605s)
+  [Lychee memory] 4620/4861 docs (7639s)
+  [Lychee memory] 4640/4861 docs (7678s)
+  [Lychee memory] 4660/4861 docs (7703s)
+  [Lychee memory] 4680/4861 docs (7720s)
+  [Lychee memory] 4700/4861 docs (7751s)
+  [Lychee memory] 4720/4861 docs (7790s)
+  [Lychee memory] 4740/4861 docs (7839s)
+  [Lychee memory] 4760/4861 docs (7886s)
+  [Lychee memory] 4780/4861 docs (7915s)
+  [Lychee memory] 4800/4861 docs (7971s)
+  [Lychee memory] 4820/4861 docs (7995s)
+  [Lychee memory] 4840/4861 docs (8021s)
+  [Lychee memory] 4860/4861 docs (8039s)
+  [Lychee memory] 4861/4861 docs (8039s)
+
+Batches:   0%|          | 0/235 [00:00<?, ?it/s]
+Batches:   0%|          | 1/235 [00:00<00:44,  5.24it/s]
+Batches:   4%|▍         | 9/235 [00:00<00:06, 37.13it/s]
+Batches:   9%|▊         | 20/235 [00:00<00:03, 62.72it/s]
+Batches:  14%|█▎        | 32/235 [00:00<00:02, 80.87it/s]
+Batches:  19%|█▉        | 45/235 [00:00<00:01, 95.87it/s]
+Batches:  25%|██▍       | 58/235 [00:00<00:01, 105.74it/s]
+Batches:  31%|███       | 72/235 [00:00<00:01, 113.68it/s]
+Batches:  37%|███▋      | 87/235 [00:00<00:01, 122.89it/s]
+Batches:  43%|████▎     | 101/235 [00:01<00:01, 127.90it/s]
+Batches:  49%|████▉     | 116/235 [00:01<00:00, 132.86it/s]
+Batches:  56%|█████▌    | 131/235 [00:01<00:00, 136.24it/s]
+Batches:  63%|██████▎   | 147/235 [00:01<00:00, 141.85it/s]
+Batches:  69%|██████▉   | 163/235 [00:01<00:00, 146.31it/s]
+Batches:  76%|███████▌  | 178/235 [00:01<00:00, 146.06it/s]
+Batches:  83%|████████▎ | 194/235 [00:01<00:00, 149.67it/s]
+Batches:  90%|████████▉ | 211/235 [00:01<00:00, 154.61it/s]
+Batches:  97%|█████████▋| 227/235 [00:01<00:00, 142.36it/s]
+Batches: 100%|██████████| 235/235 [00:01<00:00, 122.01it/s]
+b7_lycheememory: done {'docs': 14355, 'segments': 4965, 'records': 14993, 'fallback_segments': 746}
+
+=== hotpot | B7 LycheeMemory V2 (planner + 4 channels + RRF + MMR)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15715.21it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14403.52it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/lychee_hotpot_35ff176f99
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/235 [00:00<?, ?it/s]
+Batches:   0%|          | 1/235 [00:00<00:44,  5.24it/s]
+Batches:   4%|▍         | 9/235 [00:00<00:06, 36.97it/s]
+Batches:   8%|▊         | 19/235 [00:00<00:03, 60.02it/s]
+Batches:  13%|█▎        | 31/235 [00:00<00:02, 79.64it/s]
+Batches:  19%|█▊        | 44/235 [00:00<00:02, 95.38it/s]
+Batches:  24%|██▍       | 57/235 [00:00<00:01, 105.58it/s]
+Batches:  30%|███       | 71/235 [00:00<00:01, 115.05it/s]
+Batches:  36%|███▌      | 85/235 [00:00<00:01, 120.62it/s]
+Batches:  43%|████▎     | 100/235 [00:01<00:01, 127.10it/s]
+Batches:  49%|████▉     | 115/235 [00:01<00:00, 131.37it/s]
+Batches:  55%|█████▌    | 130/235 [00:01<00:00, 135.08it/s]
+Batches:  62%|██████▏   | 146/235 [00:01<00:00, 141.30it/s]
+Batches:  69%|██████▊   | 161/235 [00:01<00:00, 143.17it/s]
+Batches:  75%|███████▍  | 176/235 [00:01<00:00, 144.70it/s]
+Batches:  82%|████████▏ | 193/235 [00:01<00:00, 150.30it/s]
+Batches:  90%|█████████ | 212/235 [00:01<00:00, 159.06it/s]
+Batches:  97%|█████████▋| 228/235 [00:01<00:00, 150.94it/s]
+Batches: 100%|██████████| 235/235 [00:01<00:00, 123.83it/s]
+  [10/500] last EM=1  latency=0.6s
+  [20/500] last EM=1  latency=0.8s
+  [30/500] last EM=0  latency=0.8s
+  [40/500] last EM=0  latency=0.7s
+  [50/500] last EM=0  latency=1.0s
+  [60/500] last EM=1  latency=0.8s
+  [70/500] last EM=0  latency=0.9s
+  [80/500] last EM=1  latency=0.8s
+  [90/500] last EM=1  latency=0.7s
+  [100/500] last EM=0  latency=0.8s
+  [110/500] last EM=0  latency=0.7s
+  [120/500] last EM=0  latency=1.1s
+  [130/500] last EM=1  latency=0.8s
+  [140/500] last EM=0  latency=0.6s
+  [150/500] last EM=1  latency=0.6s
+  [160/500] last EM=1  latency=1.1s
+  [170/500] last EM=1  latency=0.7s
+  [180/500] last EM=0  latency=0.5s
+  [190/500] last EM=1  latency=0.6s
+  [200/500] last EM=0  latency=0.8s
+  [210/500] last EM=1  latency=0.7s
+  [220/500] last EM=1  latency=0.9s
+  [230/500] last EM=0  latency=1.2s
+  [240/500] last EM=1  latency=1.0s
+  [250/500] last EM=1  latency=0.5s
+  [260/500] last EM=0  latency=0.8s
+  [270/500] last EM=0  latency=0.7s
+  [280/500] last EM=0  latency=0.6s
+  [290/500] last EM=0  latency=0.8s
+  [300/500] last EM=1  latency=0.8s
+  [310/500] last EM=0  latency=0.6s
+  [320/500] last EM=0  latency=0.9s
+  [330/500] last EM=1  latency=1.0s
+  [340/500] last EM=0  latency=0.5s
+  [350/500] last EM=0  latency=0.8s
+  [360/500] last EM=0  latency=1.2s
+  [370/500] last EM=0  latency=0.7s
+  [380/500] last EM=1  latency=1.0s
+  [390/500] last EM=0  latency=0.8s
+  [400/500] last EM=0  latency=0.9s
+  [410/500] last EM=0  latency=0.9s
+  [420/500] last EM=0  latency=0.9s
+  [430/500] last EM=0  latency=0.7s
+  [440/500] last EM=1  latency=0.6s
+  [450/500] last EM=1  latency=0.9s
+  [460/500] last EM=0  latency=1.3s
+  [470/500] last EM=0  latency=0.7s
+  [480/500] last EM=0  latency=0.6s
+  [490/500] last EM=0  latency=0.3s
+  [500/500] last EM=0  latency=0.7s
+{
+  "n": 500,
+  "em": 0.45,
+  "em_ci95": [
+    0.406,
+    0.494
+  ],
+  "f1": 0.5220177489177489,
+  "sent_recall@10": 0.6708333333333334,
+  "doc_recall@10": 0.829,
+  "ctx_all_gold_rate": 0.452,
+  "peak_prompt_tokens_max": 1985,
+  "total_tokens_mean": 1555.094,
+  "latency_p50": 0.7756280290195718,
+  "latency_p95": 1.1413677909877151,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 142,
+    "RERANKING_FAILURE": 33,
+    "CORRECT": 225,
+    "GENERATION_FAILURE": 100
+  }
+}
+
+=== hotpot | B7 LycheeMemory V2 (no planner: single query)  [qwen2.5:3b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 21096.62it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14788.51it/s]
+preflight[generator]: ollama ok: qwen2.5:3b answered 'OK' in 0.0s
+run dir: runs_progressive/lychee_hotpot_119f909120
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/235 [00:00<?, ?it/s]
+Batches:   0%|          | 1/235 [00:00<00:46,  5.06it/s]
+Batches:   4%|▍         | 9/235 [00:00<00:06, 36.15it/s]
+Batches:   8%|▊         | 19/235 [00:00<00:03, 59.03it/s]
+Batches:  13%|█▎        | 31/235 [00:00<00:02, 78.69it/s]
+Batches:  19%|█▊        | 44/235 [00:00<00:02, 93.49it/s]
+Batches:  24%|██▍       | 57/235 [00:00<00:01, 104.48it/s]
+Batches:  30%|██▉       | 70/235 [00:00<00:01, 111.06it/s]
+Batches:  35%|███▌      | 83/235 [00:00<00:01, 114.67it/s]
+Batches:  41%|████▏     | 97/235 [00:01<00:01, 120.12it/s]
+Batches:  48%|████▊     | 112/235 [00:01<00:00, 127.26it/s]
+Batches:  53%|█████▎    | 125/235 [00:01<00:00, 118.35it/s]
+Batches:  60%|█████▉    | 140/235 [00:01<00:00, 126.65it/s]
+Batches:  66%|██████▌   | 155/235 [00:01<00:00, 133.11it/s]
+Batches:  72%|███████▏  | 170/235 [00:01<00:00, 137.24it/s]
+Batches:  80%|███████▉  | 187/235 [00:01<00:00, 144.70it/s]
+Batches:  87%|████████▋ | 204/235 [00:01<00:00, 150.09it/s]
+Batches:  94%|█████████▍| 222/235 [00:01<00:00, 156.71it/s]
+Batches: 100%|██████████| 235/235 [00:01<00:00, 117.61it/s]
+  [10/500] last EM=0  latency=0.2s
+  [20/500] last EM=1  latency=0.2s
+  [30/500] last EM=0  latency=0.1s
+  [40/500] last EM=0  latency=0.1s
+  [50/500] last EM=0  latency=0.1s
+  [60/500] last EM=1  latency=0.2s
+  [70/500] last EM=0  latency=0.2s
+  [80/500] last EM=1  latency=0.1s
+  [90/500] last EM=1  latency=0.1s
+  [100/500] last EM=0  latency=0.2s
+  [110/500] last EM=0  latency=0.2s
+  [120/500] last EM=0  latency=0.2s
+  [130/500] last EM=1  latency=0.2s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=1  latency=0.1s
+  [160/500] last EM=0  latency=0.2s
+  [170/500] last EM=1  latency=0.2s
+  [180/500] last EM=0  latency=0.2s
+  [190/500] last EM=1  latency=0.1s
+  [200/500] last EM=0  latency=0.1s
+  [210/500] last EM=1  latency=0.2s
+  [220/500] last EM=0  latency=0.2s
+  [230/500] last EM=0  latency=0.2s
+  [240/500] last EM=1  latency=0.2s
+  [250/500] last EM=1  latency=0.1s
+  [260/500] last EM=0  latency=0.2s
+  [270/500] last EM=0  latency=0.3s
+  [280/500] last EM=0  latency=0.1s
+  [290/500] last EM=0  latency=0.2s
+  [300/500] last EM=1  latency=0.1s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.2s
+  [330/500] last EM=1  latency=0.2s
+  [340/500] last EM=0  latency=0.1s
+  [350/500] last EM=0  latency=0.2s
+  [360/500] last EM=0  latency=0.2s
+  [370/500] last EM=1  latency=0.2s
+  [380/500] last EM=1  latency=0.2s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.2s
+  [410/500] last EM=0  latency=0.2s
+  [420/500] last EM=0  latency=0.2s
+  [430/500] last EM=0  latency=0.1s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.2s
+  [460/500] last EM=1  latency=0.2s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.2s
+  [490/500] last EM=0  latency=0.2s
+  [500/500] last EM=0  latency=0.1s
+{
+  "n": 500,
+  "em": 0.456,
+  "em_ci95": [
+    0.412,
+    0.502
+  ],
+  "f1": 0.5357891774891775,
+  "sent_recall@10": 0.7121666666666666,
+  "doc_recall@10": 0.879,
+  "ctx_all_gold_rate": 0.54,
+  "peak_prompt_tokens_max": 1864,
+  "total_tokens_mean": 1168.264,
+  "latency_p50": 0.16672670398838818,
+  "latency_p95": 0.21928251604549587,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 134,
+    "CORRECT": 228,
+    "GENERATION_FAILURE": 120,
+    "RERANKING_FAILURE": 18
+  }
+}
+settings that differ between runs: ['system', 'dataset', 'prepend_title', 'prompt_version', 'generator', 'top_k', 'budget_tokens', 'unit_mode', 'method_args']
+constant: {'limit': None, 'lam': 0.5, 'corpus_scope': 'pooled', 'embedder': 'BAAI/bge-small-en-v1.5', 'reranker': 'cross-encoder/ms-marco-MiniLM-L-6-v2', 'tokenizer': 'tiktoken_cl100k'}
+
+run                              system      dataset prepend_titl prompt_versi    generator        top_k budget_token    unit_mode  method_args    n     EM     EM 95% CI     F1 sentR@10 allGold peakTok  failures
+chunk_2wiki_1e8ef39c7a            chunk        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.28,0.46]  0.461    0.835   0.530    1443  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+chunk_2wiki_214817796c            chunk        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.400   [0.30,0.50]  0.449    0.835   0.350     505  {'CONTEXT_OVERFLOW': 30, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 40, 'GENERATION_FAILURE': 11, 'RERANKING_FAILURE': 2}
+chunk_2wiki_abdc596e68            chunk        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.44]  0.419    0.835   0.530    1443  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 35, 'RERANKING_FAILURE': 16}
+chunk_2wiki_d5d410254c            chunk        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.410   [0.32,0.50]  0.496    0.835   0.560    1010  {'GENERATION_FAILURE': 33, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 41, 'CONTEXT_OVERFLOW': 9, 'RERANKING_FAILURE': 3}
+chunk_2wiki_ddcb70df26            chunk        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.450   [0.36,0.54]  0.519    0.835   0.650    2029  {'GENERATION_FAILURE': 37, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 45, 'RERANKING_FAILURE': 3, 'CONTEXT_OVERFLOW': 1}
+chunk_dsire_582933042a            chunk        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.380   [0.28,0.48]  0.546        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+chunk_dsire_95dca64e52            chunk        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.477        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+chunk_musique_5d86dd4bba          chunk      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.150   [0.09,0.22]  0.252        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 15}
+chunk_musique_df1040a2ff          chunk      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.090   [0.04,0.15]  0.144        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+sentence_2wiki_245fbcab4d      sentence        2wiki         True           v1   qwen2.5:3b            5         None         None         None  100  0.150   [0.09,0.23]  0.182    0.705   0.290     500  {'GENERATION_FAILURE': 22, 'RETRIEVAL_FAILURE': 37, 'RERANKING_FAILURE': 26, 'CORRECT': 15}
+sentence_2wiki_3dda92fe5e      sentence        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.370   [0.28,0.46]  0.429    0.705   0.480     996  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 2}
+sentence_2wiki_43999629bb      sentence        2wiki         True           v2   qwen2.5:3b           20         None         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_45603b394d      sentence        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.300   [0.21,0.39]  0.358    0.705   0.380     501  {'GENERATION_FAILURE': 24, 'RETRIEVAL_FAILURE': 29, 'CORRECT': 30, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 11}
+sentence_2wiki_650b13b7a9      sentence        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_7eb0ce0e4e      sentence        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.49]  0.455    0.705   0.290     499  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 39, 'RERANKING_FAILURE': 26}
+sentence_2wiki_94230cb875      sentence        2wiki         True           v2   qwen2.5:3b           20         4096         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_a44b7c7deb      sentence        2wiki        False           v1   qwen2.5:3b            5         None         None         None  100  0.170   [0.10,0.24]  0.201    0.675   0.280     505  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 45, 'CORRECT': 17, 'GENERATION_FAILURE': 16}
+sentence_2wiki_ac1a2d0b75      sentence        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.45]  0.416    0.705   0.290     499  {'GENERATION_FAILURE': 14, 'RETRIEVAL_FAILURE': 25, 'RERANKING_FAILURE': 26, 'CORRECT': 35}
+sentence_2wiki_dbaf8d21ef      sentence        2wiki         True           v2   qwen2.5:3b           10         None         None         None  100  0.340   [0.25,0.43]  0.388    0.705   0.400     924  {'GENERATION_FAILURE': 23, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 34, 'RERANKING_FAILURE': 15}
+sentence_2wiki_e3d4ba2a98      sentence        2wiki        False           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.409    0.675   0.280     504  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 36, 'GENERATION_FAILURE': 14}
+sentence_dsire_0b994b65a4      sentence        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.320   [0.23,0.41]  0.420        -   0.950    1191  {'GENERATION_FAILURE': 65, 'CORRECT': 32, 'RERANKING_FAILURE': 3}
+sentence_dsire_e25b391f30      sentence        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.45]  0.508        -   0.950    1191  {'GENERATION_FAILURE': 61, 'CORRECT': 36, 'RERANKING_FAILURE': 3}
+sentence_musique_0d935103be     sentence      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.140   [0.08,0.21]  0.194        -   0.160     572  {'RERANKING_FAILURE': 27, 'GENERATION_FAILURE': 11, 'RETRIEVAL_FAILURE': 48, 'CORRECT': 14}
+sentence_musique_89620719f1     sentence      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.190   [0.12,0.27]  0.307        -   0.160     572  {'RERANKING_FAILURE': 26, 'GENERATION_FAILURE': 8, 'RETRIEVAL_FAILURE': 47, 'CORRECT': 19}
+georag_2wiki_24f766fc74          georag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.230   [0.15,0.31]  0.301    0.782   0.040    1564  {'RERANKING_FAILURE': 68, 'CORRECT': 23, 'RETRIEVAL_FAILURE': 5, 'GENERATION_FAILURE': 4}
+georag_2wiki_68349c53d9          georag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.20,0.37]  0.339    0.782   0.050    1564  {'RERANKING_FAILURE': 66, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 4, 'GENERATION_FAILURE': 2}
+georag_2wiki_6ea09457b9          georag        2wiki         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.260   [0.18,0.34]  0.308    0.632   0.000     388  {'RERANKING_FAILURE': 55, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 26}
+georag_2wiki_d7dd56c6e1          georag        2wiki         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.260   [0.17,0.35]  0.289    0.630   0.000     372  {'RERANKING_FAILURE': 54, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 26}
+georag_dsire_32ac9a6795          georag        dsire         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.280   [0.20,0.37]  0.337        -   0.950    1196  {'GENERATION_FAILURE': 68, 'CORRECT': 28, 'RERANKING_FAILURE': 4}
+georag_dsire_726a2d71dd          georag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.418        -   0.900    2427  {'GENERATION_FAILURE': 62, 'CORRECT': 30, 'RERANKING_FAILURE': 8}
+georag_dsire_a39b3f149d          georag        dsire         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.300   [0.21,0.39]  0.387        -   0.940    1178  {'GENERATION_FAILURE': 66, 'CORRECT': 30, 'RERANKING_FAILURE': 4}
+georag_dsire_a655b4dc04          georag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.464        -   0.900    2427  {'GENERATION_FAILURE': 59, 'CORRECT': 33, 'RERANKING_FAILURE': 8}
+georag_musique_4b61181368        georag      musique         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.050   [0.01,0.10]  0.089        -   0.020     378  {'RERANKING_FAILURE': 70, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 5}
+georag_musique_88953daad9        georag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.050   [0.01,0.09]  0.068        -   0.010    1266  {'RERANKING_FAILURE': 78, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 5}
+georag_musique_b6639ab9a7        georag      musique         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.090   [0.04,0.15]  0.162        -   0.020     378  {'RERANKING_FAILURE': 67, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 9}
+georag_musique_d7fd4e8c2e        georag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.070   [0.03,0.12]  0.133        -   0.010    1365  {'RERANKING_FAILURE': 77, 'RETRIEVAL_FAILURE': 15, 'GENERATION_FAILURE': 1, 'CORRECT': 7}
+hlg_2wiki_0c2dbbc355                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.370   [0.28,0.46]  0.423    0.700   0.220     346  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 32, 'CORRECT': 37, 'GENERATION_FAILURE': 6}
+hlg_2wiki_70ab86bfea                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.270   [0.19,0.36]  0.350    0.690   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 18, 'RERANKING_FAILURE': 46, 'CORRECT': 27}
+hlg_2wiki_ca340d310f                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.428    0.713   0.240     346  {'RERANKING_FAILURE': 37, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 36, 'GENERATION_FAILURE': 8}
+hlg_2wiki_e1e5fd151b                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.270   [0.19,0.36]  0.350    0.695   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 20, 'RERANKING_FAILURE': 44, 'CORRECT': 27}
+hlg_dsire_00f06c1451                hlg        dsire         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.370   [0.27,0.47]  0.513        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_bcf6402575                hlg        dsire         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.280   [0.20,0.37]  0.373        -   0.930     598  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 4, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 2}
+hlg_dsire_dc387f6e53                hlg        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.517        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_e0837982d4                hlg        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.393        -   0.970     573  {'GENERATION_FAILURE': 68, 'CORRECT': 30, 'RERANKING_FAILURE': 2}
+hlg_musique_0c482f9c36              hlg      musique         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.100   [0.04,0.16]  0.150        -   0.070     329  {'RERANKING_FAILURE': 42, 'CORRECT': 10, 'GENERATION_FAILURE': 6, 'RETRIEVAL_FAILURE': 42}
+hlg_musique_8228debad1              hlg      musique         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.170   [0.10,0.24]  0.277        -   0.060     298  {'RERANKING_FAILURE': 54, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 26}
+hlg_musique_c501e4b372              hlg      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.170   [0.10,0.24]  0.282        -   0.060     298  {'RERANKING_FAILURE': 55, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 25}
+hlg_musique_ec76328fd2              hlg      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.110   [0.05,0.17]  0.158        -   0.080     324  {'RERANKING_FAILURE': 59, 'CORRECT': 11, 'GENERATION_FAILURE': 5, 'RETRIEVAL_FAILURE': 25}
+surerag_2wiki_08b0a060f1        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_2wiki_88571b8855        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.435    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_9ad1b85c0a        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.437    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_bb3fccf333        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_dsire_9e94186550        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.478        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_dsire_c85555f229        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_e0c2d0f6d4        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_fbc6e1c8b0        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.476        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_musique_1883594d09      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_4367c64c2c      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_539ac2910e      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.241        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+surerag_musique_a8a911e1d1      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.232        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+evimem_2wiki_4c317ff90e          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.380   [0.29,0.48]  0.455    0.690   0.400    1113  {'GENERATION_FAILURE': 21, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 38, 'RERANKING_FAILURE': 18}
+evimem_2wiki_82b289f04a          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.330   [0.24,0.42]  0.419    0.718   0.570    1196  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 30, 'CORRECT': 33, 'RERANKING_FAILURE': 2}
+evimem_2wiki_f2c48d736b          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.410   [0.31,0.51]  0.520    0.782   0.520    1157  {'GENERATION_FAILURE': 26, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 41, 'RERANKING_FAILURE': 13}
+evimem_2wiki_f3c1045a0d          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.470    0.782   0.650    1312  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+evimem_dsire_0f4365acf4          evimem        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.429        -   1.000    2754  {'GENERATION_FAILURE': 67, 'CORRECT': 33}
+evimem_dsire_28717b1d0e          evimem        dsire         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.503        -   0.960    3130  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 3, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_ac158aa9c5          evimem        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.535        -   0.990    3518  {'GENERATION_FAILURE': 62, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_db88cb13c2          evimem        dsire         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.489        -   0.980    2686  {'GENERATION_FAILURE': 64, 'CORRECT': 34, 'RERANKING_FAILURE': 2}
+evimem_musique_7575dac5d3        evimem      musique         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.100   [0.05,0.16]  0.147        -   0.240    1159  {'RETRIEVAL_FAILURE': 58, 'GENERATION_FAILURE': 17, 'RERANKING_FAILURE': 15, 'CORRECT': 10}
+evimem_musique_778bec6c37        evimem      musique         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.200   [0.13,0.28]  0.283        -   0.250    1193  {'RERANKING_FAILURE': 20, 'RETRIEVAL_FAILURE': 43, 'GENERATION_FAILURE': 17, 'CORRECT': 20}
+evimem_musique_916f199499        evimem      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.03,0.12]  0.146        -   0.330    1151  {'RETRIEVAL_FAILURE': 59, 'GENERATION_FAILURE': 27, 'RERANKING_FAILURE': 7, 'CORRECT': 7}
+evimem_musique_a5b17687df        evimem      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.220   [0.14,0.31]  0.291        -   0.380    1255  {'RERANKING_FAILURE': 6, 'RETRIEVAL_FAILURE': 47, 'GENERATION_FAILURE': 25, 'CORRECT': 22}
+lychee_2wiki_31b713ea89          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.430    0.565   0.320    1928  {'GENERATION_FAILURE': 16, 'RERANKING_FAILURE': 16, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 31}
+lychee_2wiki_5fc9a7b175          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.430   [0.33,0.53]  0.510    0.675   0.450    1695  {'GENERATION_FAILURE': 19, 'RERANKING_FAILURE': 14, 'CORRECT': 43, 'RETRIEVAL_FAILURE': 24}
+lychee_2wiki_9946152374          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.48]  0.468    0.667   0.430    1667  {'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 18, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 39}
+lychee_2wiki_d9ff2238e4          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.370   [0.28,0.46]  0.426    0.578   0.380    1928  {'GENERATION_FAILURE': 18, 'RERANKING_FAILURE': 12, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 33}
+lychee_dsire_51e390b512          lychee        dsire         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.270   [0.19,0.36]  0.350        -   0.790    4191  {'GENERATION_FAILURE': 56, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 15, 'RERANKING_FAILURE': 2}
+lychee_dsire_5648abb7e1          lychee        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.370        -   0.810    4146  {'GENERATION_FAILURE': 56, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 14, 'RERANKING_FAILURE': 2}
+lychee_dsire_6978fa62e2          lychee        dsire         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.350   [0.26,0.44]  0.454        -   0.990    3810  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+lychee_dsire_ab5b81138f          lychee        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.438        -   0.970    3760  {'GENERATION_FAILURE': 64, 'CORRECT': 33, 'RERANKING_FAILURE': 3}
+lychee_musique_37a76c435b        lychee      musique         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.140   [0.08,0.21]  0.264        -   0.290    1652  {'RETRIEVAL_FAILURE': 35, 'CORRECT': 14, 'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 31}
+lychee_musique_7a94fcd277        lychee      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.234        -   0.210    1652  {'RERANKING_FAILURE': 36, 'CORRECT': 13, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 36}
+lychee_musique_7da640a3c4        lychee      musique         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.230   [0.15,0.31]  0.360        -   0.280    1904  {'RERANKING_FAILURE': 31, 'CORRECT': 23, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 31}
+lychee_musique_ff32896580        lychee      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.210   [0.13,0.29]  0.344        -   0.280    1892  {'RERANKING_FAILURE': 26, 'CORRECT': 21, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+lycheeacl_2wiki_0bda7466e7    lycheeacl        2wiki         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.144    0.000   0.000    2372  {'RETRIEVAL_FAILURE': 100}
+lycheeacl_musique_3d1bd68197    lycheeacl      musique         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.068        -   0.000    3945  {'RETRIEVAL_FAILURE': 100}
+pyrag_2wiki_64f650128d            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.420   [0.32,0.52]  0.500    0.877   0.640    3236  {'GENERATION_FAILURE': 35, 'CORRECT': 42, 'RERANKING_FAILURE': 13, 'RETRIEVAL_FAILURE': 10}
+pyrag_2wiki_7aafdc3d11            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.400   [0.31,0.49]  0.479    0.860   0.670    4626  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 40, 'RERANKING_FAILURE': 10}
+pyrag_2wiki_a8030ce3b1            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.440   [0.34,0.54]  0.508    0.868   0.680    4672  {'GENERATION_FAILURE': 36, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 44, 'RERANKING_FAILURE': 9}
+pyrag_2wiki_c44791bf80            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.451    0.873   0.630    3043  {'GENERATION_FAILURE': 38, 'RETRIEVAL_FAILURE': 12, 'RERANKING_FAILURE': 13, 'CORRECT': 37}
+pyrag_dsire_a3aee4d4af            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.310   [0.22,0.41]  0.455        -   0.990    8143  {'GENERATION_FAILURE': 68, 'CORRECT': 31, 'RERANKING_FAILURE': 1}
+pyrag_dsire_b1a41176b1            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.360   [0.27,0.46]  0.520        -   0.980    8143  {'GENERATION_FAILURE': 63, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+pyrag_dsire_d76446e8f8            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.280   [0.19,0.37]  0.449        -   1.000    6567  {'GENERATION_FAILURE': 72, 'CORRECT': 28}
+pyrag_dsire_f054b904ab            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.220   [0.14,0.31]  0.367        -   0.830    9429  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 12, 'CORRECT': 22}
+pyrag_dsire_fbad56a568            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.220   [0.14,0.30]  0.358        -   0.870    9391  {'GENERATION_FAILURE': 68, 'CORRECT': 22, 'RERANKING_FAILURE': 8, 'RETRIEVAL_FAILURE': 2}
+pyrag_musique_88a2a0d19e          pyrag      musique         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.100   [0.05,0.16]  0.148        -   0.460    5304  {'GENERATION_FAILURE': 41, 'RERANKING_FAILURE': 27, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 10}
+pyrag_musique_c4b125dcb9          pyrag      musique         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.200   [0.12,0.28]  0.281        -   0.500    4734  {'GENERATION_FAILURE': 34, 'RERANKING_FAILURE': 28, 'CORRECT': 20, 'RETRIEVAL_FAILURE': 18}
+pyrag_musique_cdb729a73a          pyrag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.160   [0.09,0.23]  0.265        -   0.530    5405  {'GENERATION_FAILURE': 42, 'CORRECT': 16, 'RERANKING_FAILURE': 23, 'RETRIEVAL_FAILURE': 19}
+pyrag_musique_ed703f84ed          pyrag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.220        -   0.410    4989  {'GENERATION_FAILURE': 32, 'RERANKING_FAILURE': 32, 'RETRIEVAL_FAILURE': 21, 'CORRECT': 15}
+liveledger_2wiki_02323980dc   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.290   [0.21,0.38]  0.388    0.845   0.640    2463  {'GENERATION_FAILURE': 41, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 29, 'RERANKING_FAILURE': 16}
+liveledger_2wiki_6b02197e52   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.440   [0.34,0.54]  0.530    0.882   0.700    1855  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 10, 'CORRECT': 44, 'RERANKING_FAILURE': 14}
+liveledger_2wiki_974c112e7e   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.270   [0.19,0.36]  0.355    0.800   0.540    2754  {'GENERATION_FAILURE': 33, 'RERANKING_FAILURE': 17, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 23}
+liveledger_2wiki_e4ca67a421   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.490   [0.39,0.59]  0.602    0.917   0.790    2378  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 5, 'CORRECT': 49, 'RERANKING_FAILURE': 11}
+liveledger_dsire_0f5ac11ccb   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.340   [0.25,0.43]  0.465        -   0.940    2640  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 4}
+liveledger_dsire_68586668fe   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.387        -   0.930    2326  {'GENERATION_FAILURE': 66, 'RETRIEVAL_FAILURE': 3, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_dsire_6bb79ffcb1   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.350   [0.26,0.44]  0.491        -   0.970    2818  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+liveledger_dsire_b425c671de   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.280   [0.19,0.37]  0.417        -   0.960    2070  {'GENERATION_FAILURE': 69, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_musique_28a83496f0   liveledger      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.210        -   0.260    2135  {'RERANKING_FAILURE': 32, 'CORRECT': 15, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+liveledger_musique_4412435e9e   liveledger      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.20,0.38]  0.401        -   0.410    3141  {'RERANKING_FAILURE': 29, 'GENERATION_FAILURE': 20, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 29}
+liveledger_musique_950ff6e262   liveledger      musique         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.220   [0.14,0.31]  0.280        -   0.300    2438  {'RERANKING_FAILURE': 26, 'RETRIEVAL_FAILURE': 34, 'GENERATION_FAILURE': 18, 'CORRECT': 22}
+liveledger_musique_f00cb18167   liveledger      musique         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.300   [0.21,0.39]  0.416        -   0.450    2435  {'RERANKING_FAILURE': 26, 'CORRECT': 30, 'RETRIEVAL_FAILURE': 18, 'GENERATION_FAILURE': 26}
+iterative_2wiki_0993722dcd    iterative        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.21,0.38]  0.370    0.690   0.300     797  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 31, 'CORRECT': 29, 'GENERATION_FAILURE': 15}
+iterative_2wiki_d75cbcefcb    iterative        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.420    0.700   0.330     767  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 26, 'GENERATION_FAILURE': 13, 'CORRECT': 36}
+iterative_dsire_4e0e8a0095    iterative        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.522        -   0.980    1918  {'GENERATION_FAILURE': 62, 'CORRECT': 36, 'RERANKING_FAILURE': 2}
+iterative_dsire_675a0325f5    iterative        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.427        -   0.930    2296  {'GENERATION_FAILURE': 61, 'CORRECT': 34, 'RERANKING_FAILURE': 4, 'RETRIEVAL_FAILURE': 1}
+iterative_musique_0a6293fd27    iterative      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.211        -   0.210     890  {'RERANKING_FAILURE': 31, 'RETRIEVAL_FAILURE': 45, 'GENERATION_FAILURE': 11, 'CORRECT': 13}
+iterative_musique_c08c0f0d74    iterative      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.180   [0.11,0.25]  0.276        -   0.260     973  {'GENERATION_FAILURE': 16, 'RETRIEVAL_FAILURE': 44, 'CORRECT': 18, 'RERANKING_FAILURE': 22}
+none_2wiki_7679ff0061              none        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.200   [0.13,0.28]  0.202    0.000   0.000      85  {'NO_RETRIEVAL': 80, 'CORRECT': 20}
+none_2wiki_fd1aa63fca              none        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.140   [0.08,0.21]  0.160    0.000   0.000      85  {'NO_RETRIEVAL': 86, 'CORRECT': 14}
+none_dsire_205af03414              none        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.110   [0.05,0.17]  0.120        -   0.000     120  {'NO_RETRIEVAL': 89, 'CORRECT': 11}
+none_dsire_8c328cd9a0              none        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.02,0.12]  0.080        -   0.000     120  {'NO_RETRIEVAL': 93, 'CORRECT': 7}
+none_musique_2b4457a8b1            none      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.000   [0.00,0.00]  0.028        -   0.000      89  {'NO_RETRIEVAL': 100}
+none_musique_f51860b62f            none      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.000   [0.00,0.00]  0.024        -   0.000      89  {'NO_RETRIEVAL': 100}
+
+method_args per run:
+  hlg_2wiki_0c2dbbc355: {'retriever': 'topic'}
+  hlg_2wiki_70ab86bfea: {'retriever': 'topic'}
+  hlg_dsire_00f06c1451: {'retriever': 'topic'}
+  hlg_dsire_bcf6402575: {'retriever': 'topic'}
+  hlg_musique_0c482f9c36: {'retriever': 'topic'}
+  hlg_musique_8228debad1: {'retriever': 'topic'}
+  surerag_2wiki_08b0a060f1: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_88571b8855: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_9ad1b85c0a: {'gate': False}
+  surerag_2wiki_bb3fccf333: {'gate': False}
+  surerag_dsire_9e94186550: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_c85555f229: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_e0c2d0f6d4: {'gate': False}
+  surerag_dsire_fbc6e1c8b0: {'gate': False}
+  surerag_musique_1883594d09: {'gate': False}
+  surerag_musique_4367c64c2c: {'gate': False, 'premise': 'concat'}
+  surerag_musique_539ac2910e: {'gate': False}
+  surerag_musique_a8a911e1d1: {'gate': False, 'premise': 'concat'}
+  evimem_2wiki_4c317ff90e: {'answer_context': 'raw'}
+  evimem_2wiki_f2c48d736b: {'answer_context': 'raw'}
+  evimem_dsire_28717b1d0e: {'answer_context': 'raw'}
+  evimem_dsire_db88cb13c2: {'answer_context': 'raw'}
+  evimem_musique_7575dac5d3: {'answer_context': 'raw'}
+  evimem_musique_778bec6c37: {'answer_context': 'raw'}
+  lychee_2wiki_5fc9a7b175: {'plan': False}
+  lychee_2wiki_d9ff2238e4: {'plan': False}
+  lychee_dsire_51e390b512: {'plan': False}
+  lychee_dsire_6978fa62e2: {'plan': False}
+  lychee_musique_37a76c435b: {'plan': False}
+  lychee_musique_7da640a3c4: {'plan': False}
+  lycheeacl_2wiki_0bda7466e7: {'timeout_s': 3600}
+  lycheeacl_musique_3d1bd68197: {'timeout_s': 3600}
+  pyrag_2wiki_64f650128d: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_2wiki_7aafdc3d11: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_dsire_b1a41176b1: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_dsire_f054b904ab: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_88a2a0d19e: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_c4b125dcb9: {'plan_generator': 'qwen2.5-coder:7b'}
+  liveledger_2wiki_02323980dc: {'ledger': False}
+  liveledger_2wiki_6b02197e52: {'ledger': False}
+  liveledger_dsire_0f5ac11ccb: {'ledger': False}
+  liveledger_dsire_b425c671de: {'ledger': False}
+  liveledger_musique_950ff6e262: {'ledger': False}
+  liveledger_musique_f00cb18167: {'ledger': False}
+
+EM by number of hops (n in brackets):
+run                                 1-hop          2-hop          3-hop          4-hop          5-hop
+chunk_2wiki_1e8ef39c7a                  -    0.31 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+chunk_2wiki_214817796c                  -    0.32 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+chunk_2wiki_abdc596e68                  -    0.26 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+chunk_2wiki_d5d410254c                  -    0.29 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_2wiki_ddcb70df26                  -    0.35 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_dsire_582933042a       0.38 (n=100)              -              -              -              -
+chunk_dsire_95dca64e52       0.34 (n=100)              -              -              -              -
+chunk_musique_5d86dd4bba                -    0.21 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+chunk_musique_df1040a2ff                -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+sentence_2wiki_245fbcab4d               -    0.11 (n=72)              -    0.27 (n=26)     0.00 (n=2)
+sentence_2wiki_3dda92fe5e               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_43999629bb               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_45603b394d               -    0.19 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+sentence_2wiki_650b13b7a9               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_7eb0ce0e4e               -    0.28 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+sentence_2wiki_94230cb875               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_a44b7c7deb               -    0.19 (n=72)              -    0.12 (n=26)     0.00 (n=2)
+sentence_2wiki_ac1a2d0b75               -    0.21 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_dbaf8d21ef               -    0.24 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+sentence_2wiki_e3d4ba2a98               -    0.22 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_dsire_0b994b65a4    0.32 (n=100)              -              -              -              -
+sentence_dsire_e25b391f30    0.36 (n=100)              -              -              -              -
+sentence_musique_0d935103be              -    0.21 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+sentence_musique_89620719f1              -    0.18 (n=34)    0.27 (n=33)    0.12 (n=33)              -
+georag_2wiki_24f766fc74                 -    0.08 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+georag_2wiki_68349c53d9                 -    0.12 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+georag_2wiki_6ea09457b9                 -    0.11 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+georag_2wiki_d7dd56c6e1                 -    0.14 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+georag_dsire_32ac9a6795      0.28 (n=100)              -              -              -              -
+georag_dsire_726a2d71dd      0.30 (n=100)              -              -              -              -
+georag_dsire_a39b3f149d      0.30 (n=100)              -              -              -              -
+georag_dsire_a655b4dc04      0.33 (n=100)              -              -              -              -
+georag_musique_4b61181368               -    0.12 (n=34)    0.00 (n=33)    0.03 (n=33)              -
+georag_musique_88953daad9               -    0.12 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+georag_musique_b6639ab9a7               -    0.15 (n=34)    0.06 (n=33)    0.06 (n=33)              -
+georag_musique_d7fd4e8c2e               -    0.12 (n=34)    0.06 (n=33)    0.03 (n=33)              -
+hlg_2wiki_0c2dbbc355                    -    0.25 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_70ab86bfea                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_2wiki_ca340d310f                    -    0.24 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_e1e5fd151b                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_dsire_00f06c1451         0.37 (n=100)              -              -              -              -
+hlg_dsire_bcf6402575         0.28 (n=100)              -              -              -              -
+hlg_dsire_dc387f6e53         0.37 (n=100)              -              -              -              -
+hlg_dsire_e0837982d4         0.30 (n=100)              -              -              -              -
+hlg_musique_0c482f9c36                  -    0.09 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+hlg_musique_8228debad1                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_c501e4b372                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_ec76328fd2                  -    0.12 (n=34)    0.06 (n=33)    0.15 (n=33)              -
+surerag_2wiki_08b0a060f1                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_2wiki_88571b8855                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_9ad1b85c0a                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_bb3fccf333                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_dsire_9e94186550     0.34 (n=100)              -              -              -              -
+surerag_dsire_c85555f229     0.38 (n=100)              -              -              -              -
+surerag_dsire_e0c2d0f6d4     0.38 (n=100)              -              -              -              -
+surerag_dsire_fbc6e1c8b0     0.34 (n=100)              -              -              -              -
+surerag_musique_1883594d09              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_4367c64c2c              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_539ac2910e              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+surerag_musique_a8a911e1d1              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+evimem_2wiki_4c317ff90e                 -    0.25 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+evimem_2wiki_82b289f04a                 -    0.29 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+evimem_2wiki_f2c48d736b                 -    0.39 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+evimem_2wiki_f3c1045a0d                 -    0.36 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+evimem_dsire_0f4365acf4      0.33 (n=100)              -              -              -              -
+evimem_dsire_28717b1d0e      0.34 (n=100)              -              -              -              -
+evimem_dsire_ac158aa9c5      0.37 (n=100)              -              -              -              -
+evimem_dsire_db88cb13c2      0.34 (n=100)              -              -              -              -
+evimem_musique_7575dac5d3               -    0.21 (n=34)    0.00 (n=33)    0.09 (n=33)              -
+evimem_musique_778bec6c37               -    0.21 (n=34)    0.18 (n=33)    0.21 (n=33)              -
+evimem_musique_916f199499               -    0.18 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+evimem_musique_a5b17687df               -    0.29 (n=34)    0.09 (n=33)    0.27 (n=33)              -
+lychee_2wiki_31b713ea89                 -    0.26 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_5fc9a7b175                 -    0.35 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_9946152374                 -    0.31 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_2wiki_d9ff2238e4                 -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_dsire_51e390b512      0.27 (n=100)              -              -              -              -
+lychee_dsire_5648abb7e1      0.28 (n=100)              -              -              -              -
+lychee_dsire_6978fa62e2      0.35 (n=100)              -              -              -              -
+lychee_dsire_ab5b81138f      0.33 (n=100)              -              -              -              -
+lychee_musique_37a76c435b               -    0.18 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7a94fcd277               -    0.15 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7da640a3c4               -    0.26 (n=34)    0.21 (n=33)    0.21 (n=33)              -
+lychee_musique_ff32896580               -    0.26 (n=34)    0.18 (n=33)    0.18 (n=33)              -
+lycheeacl_2wiki_0bda7466e7              -    0.00 (n=72)              -    0.00 (n=26)     0.00 (n=2)
+lycheeacl_musique_3d1bd68197              -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+pyrag_2wiki_64f650128d                  -    0.38 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+pyrag_2wiki_7aafdc3d11                  -    0.33 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+pyrag_2wiki_a8030ce3b1                  -    0.38 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+pyrag_2wiki_c44791bf80                  -    0.32 (n=72)              -    0.50 (n=26)     0.50 (n=2)
+pyrag_dsire_a3aee4d4af       0.31 (n=100)              -              -              -              -
+pyrag_dsire_b1a41176b1       0.36 (n=100)              -              -              -              -
+pyrag_dsire_d76446e8f8       0.28 (n=100)              -              -              -              -
+pyrag_dsire_f054b904ab       0.22 (n=100)              -              -              -              -
+pyrag_dsire_fbad56a568       0.22 (n=100)              -              -              -              -
+pyrag_musique_88a2a0d19e                -    0.18 (n=34)    0.09 (n=33)    0.03 (n=33)              -
+pyrag_musique_c4b125dcb9                -    0.32 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+pyrag_musique_cdb729a73a                -    0.24 (n=34)    0.09 (n=33)    0.15 (n=33)              -
+pyrag_musique_ed703f84ed                -    0.24 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+liveledger_2wiki_02323980dc              -    0.33 (n=72)              -    0.19 (n=26)     0.00 (n=2)
+liveledger_2wiki_6b02197e52              -    0.43 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+liveledger_2wiki_974c112e7e              -    0.29 (n=72)              -    0.19 (n=26)     0.50 (n=2)
+liveledger_2wiki_e4ca67a421              -    0.42 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+liveledger_dsire_0f5ac11ccb   0.34 (n=100)              -              -              -              -
+liveledger_dsire_68586668fe   0.28 (n=100)              -              -              -              -
+liveledger_dsire_6bb79ffcb1   0.35 (n=100)              -              -              -              -
+liveledger_dsire_b425c671de   0.28 (n=100)              -              -              -              -
+liveledger_musique_28a83496f0              -    0.18 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+liveledger_musique_4412435e9e              -    0.53 (n=34)    0.21 (n=33)    0.12 (n=33)              -
+liveledger_musique_950ff6e262              -    0.32 (n=34)    0.09 (n=33)    0.24 (n=33)              -
+liveledger_musique_f00cb18167              -    0.38 (n=34)    0.27 (n=33)    0.24 (n=33)              -
+iterative_2wiki_0993722dcd              -    0.19 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+iterative_2wiki_d75cbcefcb              -    0.25 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+iterative_dsire_4e0e8a0095   0.36 (n=100)              -              -              -              -
+iterative_dsire_675a0325f5   0.34 (n=100)              -              -              -              -
+iterative_musique_0a6293fd27              -    0.21 (n=34)    0.12 (n=33)    0.06 (n=33)              -
+iterative_musique_c08c0f0d74              -    0.24 (n=34)    0.15 (n=33)    0.15 (n=33)              -
+none_2wiki_7679ff0061                   -    0.11 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+none_2wiki_fd1aa63fca                   -    0.06 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+none_dsire_205af03414        0.11 (n=100)              -              -              -              -
+none_dsire_8c328cd9a0        0.07 (n=100)              -              -              -              -
+none_musique_2b4457a8b1                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+none_musique_f51860b62f                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+##### qwen2.5:7b attempt 1 Thu Nov 26 01:17:08 UTC 2026
+
+=== hotpot | ref: no retrieval  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16005.11it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14827.85it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 1.1s
+run dir: runs_progressive/none_hotpot_007213192a
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.0s
+  [20/500] last EM=0  latency=0.0s
+  [30/500] last EM=0  latency=0.0s
+  [40/500] last EM=0  latency=0.0s
+  [50/500] last EM=0  latency=0.0s
+  [60/500] last EM=0  latency=0.1s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=0  latency=0.0s
+  [90/500] last EM=0  latency=0.0s
+  [100/500] last EM=0  latency=0.0s
+  [110/500] last EM=0  latency=0.0s
+  [120/500] last EM=0  latency=0.0s
+  [130/500] last EM=0  latency=0.0s
+  [140/500] last EM=0  latency=0.0s
+  [150/500] last EM=1  latency=0.0s
+  [160/500] last EM=0  latency=0.0s
+  [170/500] last EM=0  latency=0.0s
+  [180/500] last EM=0  latency=0.0s
+  [190/500] last EM=1  latency=0.0s
+  [200/500] last EM=1  latency=0.0s
+  [210/500] last EM=0  latency=0.0s
+  [220/500] last EM=1  latency=0.0s
+  [230/500] last EM=0  latency=0.0s
+  [240/500] last EM=1  latency=0.0s
+  [250/500] last EM=1  latency=0.0s
+  [260/500] last EM=0  latency=0.0s
+  [270/500] last EM=0  latency=0.0s
+  [280/500] last EM=1  latency=0.0s
+  [290/500] last EM=0  latency=0.0s
+  [300/500] last EM=0  latency=0.0s
+  [310/500] last EM=0  latency=0.0s
+  [320/500] last EM=0  latency=0.0s
+  [330/500] last EM=0  latency=0.0s
+  [340/500] last EM=0  latency=0.0s
+  [350/500] last EM=0  latency=0.0s
+  [360/500] last EM=0  latency=0.0s
+  [370/500] last EM=1  latency=0.0s
+  [380/500] last EM=1  latency=0.0s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.0s
+  [410/500] last EM=0  latency=0.0s
+  [420/500] last EM=0  latency=0.0s
+  [430/500] last EM=0  latency=0.0s
+  [440/500] last EM=1  latency=0.0s
+  [450/500] last EM=0  latency=0.0s
+  [460/500] last EM=1  latency=0.0s
+  [470/500] last EM=0  latency=0.0s
+  [480/500] last EM=0  latency=0.0s
+  [490/500] last EM=0  latency=0.0s
+  [500/500] last EM=0  latency=0.1s
+{
+  "n": 500,
+  "em": 0.252,
+  "em_ci95": [
+    0.214,
+    0.292
+  ],
+  "f1": 0.29756282642089094,
+  "sent_recall@10": 0.0,
+  "doc_recall@10": 0.0,
+  "ctx_all_gold_rate": 0.0,
+  "peak_prompt_tokens_max": 98,
+  "total_tokens_mean": 73.882,
+  "latency_p50": 0.019814750994555652,
+  "latency_p95": 0.044681058963760734,
+  "failure_counts": {
+    "NO_RETRIEVAL": 374,
+    "CORRECT": 126
+  }
+}
+
+=== hotpot | B1 vanilla RAG, chunk  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 23758.69it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 13620.82it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/chunk_hotpot_286059deb7
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=0  latency=0.1s
+  [20/500] last EM=1  latency=0.1s
+  [30/500] last EM=1  latency=0.2s
+  [40/500] last EM=0  latency=0.1s
+  [50/500] last EM=1  latency=0.1s
+  [60/500] last EM=0  latency=0.1s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=0  latency=0.1s
+  [90/500] last EM=1  latency=0.1s
+  [100/500] last EM=0  latency=0.2s
+  [110/500] last EM=0  latency=0.1s
+  [120/500] last EM=1  latency=0.1s
+  [130/500] last EM=0  latency=0.1s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=1  latency=0.1s
+  [160/500] last EM=0  latency=0.1s
+  [170/500] last EM=0  latency=0.1s
+  [180/500] last EM=0  latency=0.1s
+  [190/500] last EM=1  latency=0.1s
+  [200/500] last EM=1  latency=0.1s
+  [210/500] last EM=1  latency=0.1s
+  [220/500] last EM=1  latency=0.1s
+  [230/500] last EM=1  latency=0.2s
+  [240/500] last EM=1  latency=0.1s
+  [250/500] last EM=0  latency=0.1s
+  [260/500] last EM=1  latency=0.1s
+  [270/500] last EM=0  latency=0.1s
+  [280/500] last EM=1  latency=0.1s
+  [290/500] last EM=0  latency=0.2s
+  [300/500] last EM=1  latency=0.1s
+  [310/500] last EM=1  latency=0.1s
+  [320/500] last EM=0  latency=0.1s
+  [330/500] last EM=1  latency=0.1s
+  [340/500] last EM=0  latency=0.1s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.1s
+  [370/500] last EM=1  latency=0.1s
+  [380/500] last EM=1  latency=0.1s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.1s
+  [410/500] last EM=0  latency=0.1s
+  [420/500] last EM=0  latency=0.1s
+  [430/500] last EM=0  latency=0.1s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.1s
+  [460/500] last EM=1  latency=0.1s
+  [470/500] last EM=0  latency=0.1s
+  [480/500] last EM=0  latency=0.1s
+  [490/500] last EM=0  latency=0.1s
+  [500/500] last EM=0  latency=0.1s
+{
+  "n": 500,
+  "em": 0.566,
+  "em_ci95": [
+    0.522,
+    0.61
+  ],
+  "f1": 0.6520381396381397,
+  "sent_recall@10": 0.9601666666666666,
+  "doc_recall@10": 0.96,
+  "ctx_all_gold_rate": 0.806,
+  "peak_prompt_tokens_max": 1278,
+  "total_tokens_mean": 8570.086,
+  "latency_p50": 0.12408652401063591,
+  "latency_p95": 0.15978401410393417,
+  "failure_counts": {
+    "RERANKING_FAILURE": 56,
+    "GENERATION_FAILURE": 149,
+    "CORRECT": 283,
+    "RETRIEVAL_FAILURE": 12
+  }
+}
+
+=== hotpot | B2 vanilla RAG, sentence  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 17083.17it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 17489.45it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/sentence_hotpot_613dca4ff9
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.2s
+  [20/500] last EM=1  latency=0.1s
+  [30/500] last EM=1  latency=0.1s
+  [40/500] last EM=0  latency=0.1s
+  [50/500] last EM=1  latency=0.1s
+  [60/500] last EM=0  latency=0.1s
+  [70/500] last EM=0  latency=0.1s
+  [80/500] last EM=0  latency=0.1s
+  [90/500] last EM=1  latency=0.1s
+  [100/500] last EM=1  latency=0.1s
+  [110/500] last EM=0  latency=0.1s
+  [120/500] last EM=1  latency=0.1s
+  [130/500] last EM=0  latency=0.1s
+  [140/500] last EM=0  latency=0.1s
+  [150/500] last EM=1  latency=0.1s
+  [160/500] last EM=0  latency=0.1s
+  [170/500] last EM=0  latency=0.1s
+  [180/500] last EM=0  latency=0.1s
+  [190/500] last EM=1  latency=0.1s
+  [200/500] last EM=1  latency=0.1s
+  [210/500] last EM=0  latency=0.1s
+  [220/500] last EM=1  latency=0.1s
+  [230/500] last EM=0  latency=0.1s
+  [240/500] last EM=1  latency=0.1s
+  [250/500] last EM=1  latency=0.1s
+  [260/500] last EM=0  latency=0.1s
+  [270/500] last EM=0  latency=0.2s
+  [280/500] last EM=1  latency=0.1s
+  [290/500] last EM=0  latency=0.1s
+  [300/500] last EM=1  latency=0.1s
+  [310/500] last EM=1  latency=0.1s
+  [320/500] last EM=0  latency=0.1s
+  [330/500] last EM=1  latency=0.1s
+  [340/500] last EM=0  latency=0.1s
+  [350/500] last EM=0  latency=0.1s
+  [360/500] last EM=0  latency=0.1s
+  [370/500] last EM=1  latency=0.1s
+  [380/500] last EM=1  latency=0.1s
+  [390/500] last EM=0  latency=0.1s
+  [400/500] last EM=0  latency=0.1s
+  [410/500] last EM=0  latency=0.1s
+  [420/500] last EM=0  latency=0.1s
+  [430/500] last EM=0  latency=0.1s
+  [440/500] last EM=1  latency=0.1s
+  [450/500] last EM=1  latency=0.1s
+  [460/500] last EM=1  latency=0.1s
+  [470/500] last EM=0  latency=0.1s
+  [480/500] last EM=0  latency=0.1s
+  [490/500] last EM=0  latency=0.1s
+  [500/500] last EM=0  latency=0.1s
+{
+  "n": 500,
+  "em": 0.536,
+  "em_ci95": [
+    0.49,
+    0.582
+  ],
+  "f1": 0.6232893217893217,
+  "sent_recall@10": 0.8723666666666666,
+  "doc_recall@10": 0.92,
+  "ctx_all_gold_rate": 0.564,
+  "peak_prompt_tokens_max": 527,
+  "total_tokens_mean": 3119.648,
+  "latency_p50": 0.10395808704197407,
+  "latency_p95": 0.14264099905267358,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 48,
+    "CORRECT": 268,
+    "GENERATION_FAILURE": 96,
+    "RERANKING_FAILURE": 88
+  }
+}
+
+=== hotpot | ref: iterative refinement  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11655.07it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14880.45it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/iterative_hotpot_9aa125e7e9
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+  [10/500] last EM=0  latency=0.4s
+  [20/500] last EM=1  latency=0.3s
+  [30/500] last EM=1  latency=0.4s
+  [40/500] last EM=0  latency=0.4s
+  [50/500] last EM=1  latency=0.4s
+  [60/500] last EM=0  latency=0.4s
+  [70/500] last EM=0  latency=0.3s
+  [80/500] last EM=0  latency=0.3s
+  [90/500] last EM=1  latency=0.3s
+  [100/500] last EM=0  latency=0.4s
+  [110/500] last EM=0  latency=0.5s
+  [120/500] last EM=0  latency=0.4s
+  [130/500] last EM=1  latency=0.3s
+  [140/500] last EM=0  latency=0.3s
+  [150/500] last EM=1  latency=0.3s
+  [160/500] last EM=0  latency=0.4s
+  [170/500] last EM=0  latency=0.3s
+  [180/500] last EM=0  latency=0.3s
+  [190/500] last EM=1  latency=0.6s
+  [200/500] last EM=1  latency=0.3s
+  [210/500] last EM=1  latency=0.4s
+  [220/500] last EM=1  latency=0.4s
+  [230/500] last EM=1  latency=0.5s
+  [240/500] last EM=1  latency=0.3s
+  [250/500] last EM=0  latency=0.3s
+  [260/500] last EM=0  latency=0.4s
+  [270/500] last EM=0  latency=0.4s
+  [280/500] last EM=1  latency=0.3s
+  [290/500] last EM=1  latency=0.3s
+  [300/500] last EM=1  latency=0.4s
+  [310/500] last EM=1  latency=0.3s
+  [320/500] last EM=0  latency=0.3s
+  [330/500] last EM=0  latency=0.3s
+  [340/500] last EM=0  latency=0.4s
+  [350/500] last EM=0  latency=0.3s
+  [360/500] last EM=0  latency=0.3s
+  [370/500] last EM=1  latency=0.3s
+  [380/500] last EM=1  latency=0.3s
+  [390/500] last EM=0  latency=0.3s
+  [400/500] last EM=0  latency=0.3s
+  [410/500] last EM=0  latency=0.4s
+  [420/500] last EM=0  latency=0.3s
+  [430/500] last EM=0  latency=0.3s
+  [440/500] last EM=1  latency=0.3s
+  [450/500] last EM=1  latency=0.5s
+  [460/500] last EM=1  latency=0.3s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.4s
+  [490/500] last EM=0  latency=0.4s
+  [500/500] last EM=0  latency=0.3s
+{
+  "n": 500,
+  "em": 0.52,
+  "em_ci95": [
+    0.474,
+    0.564
+  ],
+  "f1": 0.6078641469641469,
+  "sent_recall@10": 0.8653333333333334,
+  "doc_recall@10": 0.917,
+  "ctx_all_gold_rate": 0.67,
+  "peak_prompt_tokens_max": 944,
+  "total_tokens_mean": 5055.346,
+  "latency_p50": 0.33846993395127356,
+  "latency_p95": 0.5248292110627517,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 53,
+    "CORRECT": 260,
+    "GENERATION_FAILURE": 132,
+    "RERANKING_FAILURE": 55
+  }
+}
+
+=== hotpot | B8 PyRAG (same model plans)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14768.15it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 18362.32it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/pyrag_hotpot_5ff8712279
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=0  latency=2.9s
+  [20/500] last EM=1  latency=1.4s
+  [30/500] last EM=1  latency=0.7s
+  [40/500] last EM=0  latency=1.8s
+  [50/500] last EM=1  latency=1.5s
+  [60/500] last EM=0  latency=2.9s
+  [70/500] last EM=0  latency=3.3s
+  [80/500] last EM=0  latency=1.7s
+  [90/500] last EM=1  latency=1.6s
+  [100/500] last EM=1  latency=1.6s
+  [110/500] last EM=0  latency=1.3s
+  [120/500] last EM=1  latency=1.6s
+  [130/500] last EM=0  latency=2.3s
+  [140/500] last EM=0  latency=1.4s
+  [150/500] last EM=1  latency=1.3s
+  [160/500] last EM=0  latency=2.2s
+  [170/500] last EM=0  latency=1.3s
+  [180/500] last EM=0  latency=2.1s
+  [190/500] last EM=1  latency=2.7s
+  [200/500] last EM=1  latency=1.3s
+  [210/500] last EM=1  latency=1.9s
+  [220/500] last EM=1  latency=1.8s
+  [230/500] last EM=1  latency=3.4s
+  [240/500] last EM=1  latency=3.6s
+  [250/500] last EM=1  latency=1.5s
+  [260/500] last EM=1  latency=2.4s
+  [270/500] last EM=0  latency=2.8s
+  [280/500] last EM=1  latency=1.8s
+  [290/500] last EM=0  latency=2.7s
+  [300/500] last EM=0  latency=1.7s
+  [310/500] last EM=1  latency=2.0s
+  [320/500] last EM=0  latency=1.8s
+  [330/500] last EM=1  latency=1.5s
+  [340/500] last EM=0  latency=1.6s
+  [350/500] last EM=0  latency=1.6s
+  [360/500] last EM=0  latency=2.8s
+  [370/500] last EM=1  latency=1.4s
+  [380/500] last EM=0  latency=2.0s
+  [390/500] last EM=0  latency=1.5s
+  [400/500] last EM=0  latency=1.5s
+  [410/500] last EM=0  latency=3.4s
+  [420/500] last EM=0  latency=2.2s
+  [430/500] last EM=0  latency=1.4s
+  [440/500] last EM=0  latency=2.3s
+  [450/500] last EM=1  latency=2.8s
+  [460/500] last EM=0  latency=4.5s
+  [470/500] last EM=0  latency=2.1s
+  [480/500] last EM=0  latency=2.0s
+  [490/500] last EM=0  latency=1.8s
+  [500/500] last EM=1  latency=1.5s
+{
+  "n": 500,
+  "em": 0.526,
+  "em_ci95": [
+    0.48,
+    0.568
+  ],
+  "f1": 0.628262555962556,
+  "sent_recall@10": 0.9662000000000001,
+  "doc_recall@10": 0.967,
+  "ctx_all_gold_rate": 0.916,
+  "peak_prompt_tokens_max": 3877,
+  "total_tokens_mean": 26888.128,
+  "latency_p50": 1.8330557009903714,
+  "latency_p95": 3.4133708109147847,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 10,
+    "CORRECT": 263,
+    "GENERATION_FAILURE": 211,
+    "RERANKING_FAILURE": 16
+  }
+}
+
+=== hotpot | B8 PyRAG (code model plans: qwen2.5-coder:7b)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7566.96it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 5815.50it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+preflight[plan]: ollama ok: qwen2.5-coder:7b answered 'OK' in 2.6s
+run dir: runs_progressive/pyrag_hotpot_a6e32c2e7c
+units: {'unit_mode': 'chunk', 'chunk_size_words': 256, 'chunk_overlap_words': 50, 'n_units': 4929, 'n_docs': 4866, 'units_fingerprint': '00ae81e94bb1f41667ca186ce2c3131c58f009dff5398b134eea21c88f219871'}
+  [10/500] last EM=0  latency=2.7s
+  [20/500] last EM=1  latency=1.5s
+  [30/500] last EM=1  latency=1.1s
+  [40/500] last EM=0  latency=1.9s
+  [50/500] last EM=1  latency=1.5s
+  [60/500] last EM=0  latency=2.7s
+  [70/500] last EM=0  latency=3.1s
+  [80/500] last EM=0  latency=1.8s
+  [90/500] last EM=0  latency=1.6s
+  [100/500] last EM=1  latency=1.6s
+  [110/500] last EM=0  latency=1.3s
+  [120/500] last EM=1  latency=1.6s
+  [130/500] last EM=0  latency=2.1s
+  [140/500] last EM=0  latency=1.3s
+  [150/500] last EM=1  latency=1.3s
+  [160/500] last EM=0  latency=2.1s
+  [170/500] last EM=0  latency=1.5s
+  [180/500] last EM=0  latency=2.1s
+  [190/500] last EM=1  latency=2.5s
+  [200/500] last EM=1  latency=1.8s
+  [210/500] last EM=1  latency=2.1s
+  [220/500] last EM=0  latency=1.9s
+  [230/500] last EM=1  latency=2.6s
+  [240/500] last EM=1  latency=3.1s
+  [250/500] last EM=1  latency=1.5s
+  [260/500] last EM=1  latency=2.4s
+  [270/500] last EM=0  latency=2.9s
+  [280/500] last EM=1  latency=1.9s
+  [290/500] last EM=0  latency=2.7s
+  [300/500] last EM=1  latency=1.8s
+  [310/500] last EM=1  latency=2.1s
+  [320/500] last EM=0  latency=1.9s
+  [330/500] last EM=1  latency=1.7s
+  [340/500] last EM=0  latency=1.6s
+  [350/500] last EM=0  latency=1.5s
+  [360/500] last EM=0  latency=2.5s
+  [370/500] last EM=1  latency=1.5s
+  [380/500] last EM=0  latency=2.0s
+  [390/500] last EM=0  latency=1.5s
+  [400/500] last EM=0  latency=1.4s
+  [410/500] last EM=0  latency=3.1s
+  [420/500] last EM=0  latency=3.3s
+  [430/500] last EM=0  latency=1.4s
+  [440/500] last EM=0  latency=2.2s
+  [450/500] last EM=1  latency=2.8s
+  [460/500] last EM=0  latency=4.5s
+  [470/500] last EM=0  latency=1.9s
+  [480/500] last EM=0  latency=1.8s
+  [490/500] last EM=0  latency=2.2s
+  [500/500] last EM=1  latency=1.5s
+{
+  "n": 500,
+  "em": 0.514,
+  "em_ci95": [
+    0.468,
+    0.558
+  ],
+  "f1": 0.6129654380707013,
+  "sent_recall@10": 0.9591666666666666,
+  "doc_recall@10": 0.959,
+  "ctx_all_gold_rate": 0.896,
+  "peak_prompt_tokens_max": 4177,
+  "total_tokens_mean": 26792.362,
+  "latency_p50": 1.8340602680109441,
+  "latency_p95": 3.232276847003959,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 15,
+    "CORRECT": 257,
+    "GENERATION_FAILURE": 208,
+    "RERANKING_FAILURE": 20
+  }
+}
+
+=== hotpot | prebuilding the b6_evimem index (cached, resumable) ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14815.86it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15239.88it/s]
+b6_evimem: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+b6_evimem: building index over 4866 documents ...
+  [LaceMem index] 25/4861 docs extracted (33s)
+  [LaceMem index] 50/4861 docs extracted (51s)
+  [LaceMem index] 75/4861 docs extracted (78s)
+  [LaceMem index] 100/4861 docs extracted (116s)
+  [LaceMem index] 125/4861 docs extracted (143s)
+  [LaceMem index] 150/4861 docs extracted (174s)
+  [LaceMem index] 175/4861 docs extracted (211s)
+  [LaceMem index] 200/4861 docs extracted (237s)
+  [LaceMem index] 225/4861 docs extracted (264s)
+  [LaceMem index] 250/4861 docs extracted (296s)
+  [LaceMem index] 275/4861 docs extracted (326s)
+  [LaceMem index] 300/4861 docs extracted (359s)
+  [LaceMem index] 325/4861 docs extracted (385s)
+  [LaceMem index] 350/4861 docs extracted (408s)
+  [LaceMem index] 375/4861 docs extracted (434s)
+  [LaceMem index] 400/4861 docs extracted (459s)
+  [LaceMem index] 425/4861 docs extracted (487s)
+  [LaceMem index] 450/4861 docs extracted (514s)
+  [LaceMem index] 475/4861 docs extracted (532s)
+  [LaceMem index] 500/4861 docs extracted (561s)
+  [LaceMem index] 525/4861 docs extracted (587s)
+  [LaceMem index] 550/4861 docs extracted (615s)
+  [LaceMem index] 575/4861 docs extracted (643s)
+  [LaceMem index] 600/4861 docs extracted (668s)
+  [LaceMem index] 625/4861 docs extracted (699s)
+  [LaceMem index] 650/4861 docs extracted (735s)
+  [LaceMem index] 675/4861 docs extracted (768s)
+  [LaceMem index] 700/4861 docs extracted (793s)
+  [LaceMem index] 725/4861 docs extracted (830s)
+  [LaceMem index] 750/4861 docs extracted (851s)
+  [LaceMem index] 775/4861 docs extracted (887s)
+  [LaceMem index] 800/4861 docs extracted (909s)
+  [LaceMem index] 825/4861 docs extracted (925s)
+  [LaceMem index] 850/4861 docs extracted (946s)
+  [LaceMem index] 875/4861 docs extracted (966s)
+  [LaceMem index] 900/4861 docs extracted (993s)
+  [LaceMem index] 925/4861 docs extracted (1008s)
+  [LaceMem index] 950/4861 docs extracted (1036s)
+  [LaceMem index] 975/4861 docs extracted (1059s)
+  [LaceMem index] 1000/4861 docs extracted (1083s)
+  [LaceMem index] 1025/4861 docs extracted (1110s)
+  [LaceMem index] 1050/4861 docs extracted (1135s)
+  [LaceMem index] 1075/4861 docs extracted (1163s)
+  [LaceMem index] 1100/4861 docs extracted (1186s)
+  [LaceMem index] 1125/4861 docs extracted (1203s)
+  [LaceMem index] 1150/4861 docs extracted (1227s)
+  [LaceMem index] 1175/4861 docs extracted (1244s)
+  [LaceMem index] 1200/4861 docs extracted (1269s)
+  [LaceMem index] 1225/4861 docs extracted (1291s)
+  [LaceMem index] 1250/4861 docs extracted (1313s)
+  [LaceMem index] 1275/4861 docs extracted (1331s)
+  [LaceMem index] 1300/4861 docs extracted (1367s)
+  [LaceMem index] 1325/4861 docs extracted (1392s)
+  [LaceMem index] 1350/4861 docs extracted (1423s)
+  [LaceMem index] 1375/4861 docs extracted (1446s)
+  [LaceMem index] 1400/4861 docs extracted (1472s)
+  [LaceMem index] 1425/4861 docs extracted (1507s)
+  [LaceMem index] 1450/4861 docs extracted (1530s)
+  [LaceMem index] 1475/4861 docs extracted (1548s)
+  [LaceMem index] 1500/4861 docs extracted (1585s)
+  [LaceMem index] 1525/4861 docs extracted (1624s)
+  [LaceMem index] 1550/4861 docs extracted (1657s)
+  [LaceMem index] 1575/4861 docs extracted (1680s)
+  [LaceMem index] 1600/4861 docs extracted (1706s)
+  [LaceMem index] 1625/4861 docs extracted (1731s)
+  [LaceMem index] 1650/4861 docs extracted (1768s)
+  [LaceMem index] 1675/4861 docs extracted (1794s)
+  [LaceMem index] 1700/4861 docs extracted (1811s)
+  [LaceMem index] 1725/4861 docs extracted (1845s)
+  [LaceMem index] 1750/4861 docs extracted (1865s)
+  [LaceMem index] 1775/4861 docs extracted (1889s)
+  [LaceMem index] 1800/4861 docs extracted (1920s)
+  [LaceMem index] 1825/4861 docs extracted (1944s)
+  [LaceMem index] 1850/4861 docs extracted (1969s)
+  [LaceMem index] 1875/4861 docs extracted (1991s)
+  [LaceMem index] 1900/4861 docs extracted (2015s)
+  [LaceMem index] 1925/4861 docs extracted (2038s)
+  [LaceMem index] 1950/4861 docs extracted (2070s)
+  [LaceMem index] 1975/4861 docs extracted (2092s)
+  [LaceMem index] 2000/4861 docs extracted (2135s)
+  [LaceMem index] 2025/4861 docs extracted (2159s)
+  [LaceMem index] 2050/4861 docs extracted (2185s)
+  [LaceMem index] 2075/4861 docs extracted (2214s)
+  [LaceMem index] 2100/4861 docs extracted (2242s)
+  [LaceMem index] 2125/4861 docs extracted (2265s)
+  [LaceMem index] 2150/4861 docs extracted (2307s)
+  [LaceMem index] 2175/4861 docs extracted (2330s)
+  [LaceMem index] 2200/4861 docs extracted (2359s)
+  [LaceMem index] 2225/4861 docs extracted (2393s)
+  [LaceMem index] 2250/4861 docs extracted (2418s)
+  [LaceMem index] 2275/4861 docs extracted (2448s)
+  [LaceMem index] 2300/4861 docs extracted (2473s)
+  [LaceMem index] 2325/4861 docs extracted (2507s)
+  [LaceMem index] 2350/4861 docs extracted (2533s)
+  [LaceMem index] 2375/4861 docs extracted (2558s)
+  [LaceMem index] 2400/4861 docs extracted (2581s)
+  [LaceMem index] 2425/4861 docs extracted (2608s)
+  [LaceMem index] 2450/4861 docs extracted (2639s)
+  [LaceMem index] 2475/4861 docs extracted (2673s)
+  [LaceMem index] 2500/4861 docs extracted (2696s)
+  [LaceMem index] 2525/4861 docs extracted (2723s)
+  [LaceMem index] 2550/4861 docs extracted (2738s)
+  [LaceMem index] 2575/4861 docs extracted (2756s)
+  [LaceMem index] 2600/4861 docs extracted (2783s)
+  [LaceMem index] 2625/4861 docs extracted (2811s)
+  [LaceMem index] 2650/4861 docs extracted (2839s)
+  [LaceMem index] 2675/4861 docs extracted (2860s)
+  [LaceMem index] 2700/4861 docs extracted (2887s)
+  [LaceMem index] 2725/4861 docs extracted (2910s)
+  [LaceMem index] 2750/4861 docs extracted (2948s)
+  [LaceMem index] 2775/4861 docs extracted (2980s)
+  [LaceMem index] 2800/4861 docs extracted (3002s)
+  [LaceMem index] 2825/4861 docs extracted (3037s)
+  [LaceMem index] 2850/4861 docs extracted (3062s)
+  [LaceMem index] 2875/4861 docs extracted (3082s)
+  [LaceMem index] 2900/4861 docs extracted (3110s)
+  [LaceMem index] 2925/4861 docs extracted (3137s)
+  [LaceMem index] 2950/4861 docs extracted (3154s)
+  [LaceMem index] 2975/4861 docs extracted (3174s)
+  [LaceMem index] 3000/4861 docs extracted (3201s)
+  [LaceMem index] 3025/4861 docs extracted (3223s)
+  [LaceMem index] 3050/4861 docs extracted (3252s)
+  [LaceMem index] 3075/4861 docs extracted (3279s)
+  [LaceMem index] 3100/4861 docs extracted (3301s)
+  [LaceMem index] 3125/4861 docs extracted (3324s)
+  [LaceMem index] 3150/4861 docs extracted (3348s)
+  [LaceMem index] 3175/4861 docs extracted (3369s)
+  [LaceMem index] 3200/4861 docs extracted (3395s)
+  [LaceMem index] 3225/4861 docs extracted (3414s)
+  [LaceMem index] 3250/4861 docs extracted (3446s)
+  [LaceMem index] 3275/4861 docs extracted (3468s)
+  [LaceMem index] 3300/4861 docs extracted (3492s)
+  [LaceMem index] 3325/4861 docs extracted (3514s)
+  [LaceMem index] 3350/4861 docs extracted (3537s)
+  [LaceMem index] 3375/4861 docs extracted (3556s)
+  [LaceMem index] 3400/4861 docs extracted (3583s)
+  [LaceMem index] 3425/4861 docs extracted (3604s)
+  [LaceMem index] 3450/4861 docs extracted (3630s)
+  [LaceMem index] 3475/4861 docs extracted (3652s)
+  [LaceMem index] 3500/4861 docs extracted (3687s)
+  [LaceMem index] 3525/4861 docs extracted (3715s)
+  [LaceMem index] 3550/4861 docs extracted (3743s)
+  [LaceMem index] 3575/4861 docs extracted (3770s)
+  [LaceMem index] 3600/4861 docs extracted (3794s)
+  [LaceMem index] 3625/4861 docs extracted (3817s)
+  [LaceMem index] 3650/4861 docs extracted (3833s)
+  [LaceMem index] 3675/4861 docs extracted (3860s)
+  [LaceMem index] 3700/4861 docs extracted (3878s)
+  [LaceMem index] 3725/4861 docs extracted (3899s)
+  [LaceMem index] 3750/4861 docs extracted (3927s)
+  [LaceMem index] 3775/4861 docs extracted (3960s)
+  [LaceMem index] 3800/4861 docs extracted (3983s)
+  [LaceMem index] 3825/4861 docs extracted (4014s)
+  [LaceMem index] 3850/4861 docs extracted (4035s)
+  [LaceMem index] 3875/4861 docs extracted (4060s)
+  [LaceMem index] 3900/4861 docs extracted (4081s)
+  [LaceMem index] 3925/4861 docs extracted (4111s)
+  [LaceMem index] 3950/4861 docs extracted (4131s)
+  [LaceMem index] 3975/4861 docs extracted (4150s)
+  [LaceMem index] 4000/4861 docs extracted (4181s)
+  [LaceMem index] 4025/4861 docs extracted (4205s)
+  [LaceMem index] 4050/4861 docs extracted (4235s)
+  [LaceMem index] 4075/4861 docs extracted (4261s)
+  [LaceMem index] 4100/4861 docs extracted (4297s)
+  [LaceMem index] 4125/4861 docs extracted (4323s)
+  [LaceMem index] 4150/4861 docs extracted (4350s)
+  [LaceMem index] 4175/4861 docs extracted (4382s)
+  [LaceMem index] 4200/4861 docs extracted (4405s)
+  [LaceMem index] 4225/4861 docs extracted (4426s)
+  [LaceMem index] 4250/4861 docs extracted (4452s)
+  [LaceMem index] 4275/4861 docs extracted (4475s)
+  [LaceMem index] 4300/4861 docs extracted (4499s)
+  [LaceMem index] 4325/4861 docs extracted (4521s)
+  [LaceMem index] 4350/4861 docs extracted (4543s)
+  [LaceMem index] 4375/4861 docs extracted (4565s)
+  [LaceMem index] 4400/4861 docs extracted (4586s)
+  [LaceMem index] 4425/4861 docs extracted (4611s)
+  [LaceMem index] 4450/4861 docs extracted (4638s)
+  [LaceMem index] 4475/4861 docs extracted (4668s)
+  [LaceMem index] 4500/4861 docs extracted (4698s)
+  [LaceMem index] 4525/4861 docs extracted (4725s)
+  [LaceMem index] 4550/4861 docs extracted (4755s)
+  [LaceMem index] 4575/4861 docs extracted (4779s)
+  [LaceMem index] 4600/4861 docs extracted (4805s)
+  [LaceMem index] 4625/4861 docs extracted (4839s)
+  [LaceMem index] 4650/4861 docs extracted (4866s)
+  [LaceMem index] 4675/4861 docs extracted (4887s)
+  [LaceMem index] 4700/4861 docs extracted (4920s)
+  [LaceMem index] 4725/4861 docs extracted (4961s)
+  [LaceMem index] 4750/4861 docs extracted (4984s)

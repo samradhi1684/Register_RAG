@@ -1,0 +1,99 @@
+{
+  "n": 500,
+  "em": 0.444,
+  "em_ci95": [
+    0.398,
+    0.488
+  ],
+  "f1": 0.5214116883116883,
+  "f1_ci95": [
+    0.4801976911976911,
+    0.5641486291486292
+  ],
+  "doc_recall@5": 0.9028056112224448,
+  "doc_recall@10": 0.9448897795591182,
+  "doc_recall@20": 0.9629258517034068,
+  "sent_recall@5": 0.9049766199064796,
+  "sent_recall@10": 0.9464261857047428,
+  "sent_recall@20": 0.9639278557114228,
+  "unit_precision@5": 0.361122244488978,
+  "unit_precision@10": 0.18897795591182368,
+  "ctx_doc_recall": 0.8997995991983968,
+  "ctx_sent_recall": 0.9013360053440214,
+  "ctx_unit_precision": 0.14922037752849673,
+  "ctx_all_gold_rate": 0.843687374749499,
+  "latency_p50": 1.3280462350230664,
+  "latency_p95": 2.3022929780418053,
+  "peak_prompt_tokens_mean": 1693.28,
+  "peak_prompt_tokens_max": 7194,
+  "total_tokens_mean": 33927.738,
+  "truncated_rate": 0.0,
+  "gpu_peak_mb_max": 486.294921875,
+  "calls_mean": {
+    "retriever": 3.67,
+    "reranker": 3.67,
+    "verifier": 0.0,
+    "compiler": 2.15,
+    "generator": 5.054
+  },
+  "failure_counts": {
+    "RERANKING_FAILURE": 45,
+    "CORRECT": 222,
+    "GENERATION_FAILURE": 213,
+    "RETRIEVAL_FAILURE": 19,
+    "SYSTEM_ERROR": 1
+  },
+  "by_hops": {
+    "2": {
+      "n": 500,
+      "em": 0.444,
+      "f1": 0.5214116883116883
+    }
+  },
+  "per_hop_recall@10": {},
+  "config": {
+    "system": "pyrag",
+    "dataset": "hotpot",
+    "data_path": "/home/aura/Desktop/Register_RAG/datasets/hotpotqa_data/hotpot_prog500.json",
+    "limit": null,
+    "sample_seed": null,
+    "corpus_scope": "pooled",
+    "chunk_size_words": 256,
+    "chunk_overlap_words": 50,
+    "embedder": "BAAI/bge-small-en-v1.5",
+    "prepend_title": true,
+    "lam": 0.5,
+    "retrieve_k": 50,
+    "top_k": 5,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator": "qwen2.5:3b",
+    "temperature": 0.0,
+    "max_new_tokens": 64,
+    "seed": 0,
+    "num_ctx": 8192,
+    "budget_tokens": null,
+    "prompt_version": "v2",
+    "tokenizer": "tiktoken_cl100k",
+    "method_args": {
+      "plan_generator": "qwen2.5-coder:3b"
+    }
+  },
+  "config_hash": "b0b3454c1f",
+  "data_sha256": "5eec5990b4820ab7de8727536efbbcfa2088f159c381abe6438dbc799915ad40",
+  "git_sha": "0f7ba4865f49d43b6cf6fae81780d4aeec0b362f",
+  "git_dirty": true,
+  "env": {
+    "python": "3.14.9",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.39",
+    "numpy": "2.5.5",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "sentence-transformers": "6.3.0",
+    "rank-bm25": "0.2.2",
+    "pysbd": "0.3.4",
+    "tiktoken": "0.14.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "ollama_version": "0.40.2",
+    "OLLAMA_FLASH_ATTENTION(client env)": null
+  }
+}

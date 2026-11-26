@@ -24,7 +24,7 @@ md_path = a.md or os.path.join(a.dir, "progressive_report.md")
 csv_path = a.csv or os.path.join(a.dir, "progressive_report.csv")
 LABEL = {b.system: b.label for b in registry.implemented()}
 ORDER = list(LABEL)
-PRIMARY = {"dsire": "f1", "2wiki": "em", "musique": "em"}
+PRIMARY = {"dsire": "f1", "2wiki": "em", "musique": "em", "hotpot": "em"}
 rng = np.random.default_rng(0)
 
 

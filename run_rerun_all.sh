@@ -13,9 +13,10 @@ if [ -z "$PY" ]; then
 fi
 echo "using python: $PY"; "$PY" -c "import registerrag, sys" || { echo "python cannot import registerrag / deps (pip install -r requirements.txt)"; exit 1; }
 OUT=runs_rerun
+DATASETS=${DATASETS:-2wiki,musique,dsire}   # e.g. DATASETS=hotpot to run only HotpotQA (n=100)
+B7B_ENV=""; [ "${B7B_CPU:-0}" = "1" ] && B7B_ENV='env CUDA_VISIBLE_DEVICES='   # B7b on GPU by default; B7B_CPU=1 forces CPU
 export PYTHONPATH="$PWD" PYTHONUTF8=1 PYTHONUNBUFFERED=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 mkdir -p "$OUT/logs"
-
 
 # fresh indexes (only on the first start; a marker keeps resumes from discarding a half-built index)
 if [ ! -f "$OUT/.indexes_reset" ]; then
@@ -25,25 +26,23 @@ if [ ! -f "$OUT/.indexes_reset" ]; then
   date > "$OUT/.indexes_reset"
 fi
 
-
 # Part 1: all Ollama-based methods
 for g in qwen2.5:3b qwen2.5:7b; do
   for attempt in $(seq 1 30); do
     echo "##### part1 $g attempt $attempt $(date)"
-    $PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --generator $g --attempts 5 \
+    $PY scripts/run_baselines.py --datasets $DATASETS --generator $g --attempts 5 \
       --methods none,chunk,sentence,iterative,pyrag,evimem,georag,surerag,liveledger,hlg,lychee \
       --out $OUT && break
     echo "part1 $g attempt $attempt failed; finished work is kept, retrying"; sleep 10
   done
 done >> "$OUT/logs/rerun_all.log" 2>&1
 
-
 # Part 2: B7b (own 7B checkpoint; GPU must be free of Ollama models; harness side on CPU)
 ollama stop qwen2.5:3b >/dev/null 2>&1; ollama stop qwen2.5:7b >/dev/null 2>&1
 ollama stop qwen2.5-coder:3b >/dev/null 2>&1; ollama stop qwen2.5-coder:7b >/dev/null 2>&1
 for attempt in $(seq 1 30); do
   echo "##### b7b attempt $attempt $(date)"
-  CUDA_VISIBLE_DEVICES="" $PY scripts/run_baselines.py --datasets 2wiki,musique,dsire --methods lycheeacl \
+  $B7B_ENV $PY scripts/run_baselines.py --datasets $DATASETS --methods lycheeacl \
     --out $OUT && break
   echo "b7b attempt $attempt failed; finished questions are kept, retrying"; sleep 10
 done >> "$OUT/logs/rerun_b7b.log" 2>&1

@@ -1,0 +1,6 @@
+nohup: ignoring input
+using python: /home/aura/Desktop/Register_RAG/venv/bin/python
+2wiki: 100 + 500 -> 500 questions (100 + 400 non-overlapping) -> datasets/wiki2_data/2wiki_prog500.json
+musique: 100 + 500 -> 500 questions (100 + 400 non-overlapping) -> datasets/musique_data/musique_prog500.json
+hotpot: 100 + 500 -> 500 questions (100 + 400 non-overlapping) -> datasets/hotpotqa_data/hotpot_prog500.json
+dsire: 100 + 500 -> 500 questions (100 + 400 non-overlapping) -> datasets/dsire_data/repolicyqa_prog500.json

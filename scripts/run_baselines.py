@@ -69,7 +69,7 @@ def run_watched(cmd, cwd, env, stall_min, watch_dirs, what=""):
     return p.returncode
 
 INDEXED = {"hlg", "evimem", "lychee"}      # baselines with an offline index (scripts/build_index.py)
-DATA = {"2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json", "dsire": "datasets/dsire_data/repolicyqa_{s}.json"}
+DATA = {"hotpot": "datasets/hotpotqa_data/hotpot_{s}.json", "2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json", "dsire": "datasets/dsire_data/repolicyqa_{s}.json"}
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--generator", default="qwen2.5:3b")

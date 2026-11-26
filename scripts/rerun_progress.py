@@ -17,7 +17,7 @@ ap.add_argument("--generators", default="qwen2.5:3b,qwen2.5:7b")
 ap.add_argument("--datasets", default="2wiki,musique,dsire")
 ap.add_argument("--methods", default="none,chunk,sentence,iterative,pyrag,evimem,georag,surerag,liveledger,hlg,lychee,lycheeacl")
 a = ap.parse_args()
-DATA = {"2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json", "dsire": "datasets/dsire_data/repolicyqa_{s}.json"}
+DATA = {"hotpot": "datasets/hotpotqa_data/hotpot_{s}.json", "2wiki": "datasets/wiki2_data/2wiki_{s}.json", "musique": "datasets/musique_data/musique_{s}.json", "dsire": "datasets/dsire_data/repolicyqa_{s}.json"}
 gens, dss = a.generators.split(","), a.datasets.split(",")
 bs = [registry.resolve(m) for m in a.methods.split(",") if m]
 

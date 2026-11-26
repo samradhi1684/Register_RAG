@@ -11,6 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SETS = [  # name, 100-file, 500-file, output, dedup key
     ("2wiki", "datasets/wiki2_data/2wiki_100.json", "datasets/wiki2_data/2wiki_500.json", "datasets/wiki2_data/2wiki_prog{T}.json", lambda r: r["id"]),
     ("musique", "datasets/musique_data/musique_100.json", "datasets/musique_data/musique_500.json", "datasets/musique_data/musique_prog{T}.json", lambda r: r["id"]),
+    ("hotpot", "datasets/hotpotqa_data/hotpot_100.json", "datasets/hotpotqa_data/hotpot_500.json", "datasets/hotpotqa_data/hotpot_prog{T}.json", lambda r: r["id"]),
     ("dsire", "datasets/dsire_data/repolicyqa_100.json", "datasets/dsire_data/repolicyqa_stratified.json", "datasets/dsire_data/repolicyqa_prog{T}.json",
      lambda r: (r["document_id"], r["question"].strip())),
 ]
