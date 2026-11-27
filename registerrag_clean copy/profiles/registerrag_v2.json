@@ -1,0 +1,20 @@
+{
+    "_about":  "beam_af + binding type check",
+    "llm_binding_extraction":  true,
+    "self_consistency_enabled":  true,
+    "scope_anchor_enabled":  true,
+    "missing_step_evidence_enabled":  true,
+    "joint_binding_fallback_enabled":  true,
+    "kinship_templates_enabled":  false,
+    "date_compare_enabled":  false,
+    "yesno_compare_enabled":  false,
+    "answer_normalize_enabled":  false,
+    "hub_filter_enabled":  false,
+    "title_step_collapse_enabled":  false,
+    "compare_operator_enabled":  true,
+    "choice_snap_enabled":  true,
+    "answer_type_check_enabled":  true,
+    "backtrack_enabled":  true,
+    "binding_answer_first":  true,
+    "binding_type_check":  true
+}

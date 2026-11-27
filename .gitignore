@@ -1,0 +1,65 @@
+# Cache databases
+cache/
+*.sqlite
+*.db
+
+# Dataset and generated data
+registerrag/data/
+data/
+datasets/
+corpus/
+
+# Embeddings and vector indexes
+embeddings/
+embedding/
+vector_store/
+chroma_db/
+faiss_index/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated outputs
+outputs/
+results/
+logs/
+tracing/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Exclude generated files inside the copied project
+registerrag_clean copy/cache/
+registerrag_clean copy/registerrag/data/
+registerrag_clean copy/registerrag/corpus/
+registerrag_clean copy/registerrag/__pycache__/
+registerrag_clean copy/**/__pycache__/
+registerrag_clean copy/logs/
+registerrag_clean copy/runs/
+registerrag_clean copy/outputs/
+registerrag_clean copy/results/
+
+cache/
+*.sqlite
+*.db

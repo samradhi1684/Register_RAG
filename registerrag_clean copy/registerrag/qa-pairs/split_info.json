@@ -1,0 +1,74 @@
+{
+ "2wiki": {
+  "source": "2wiki_500.json",
+  "seed": 13,
+  "stratify": "type",
+  "groups_500": {
+   "bridge_comparison": 125,
+   "comparison": 125,
+   "compositional": 125,
+   "inference": 125
+  },
+  "groups_100": {
+   "bridge_comparison": 25,
+   "comparison": 25,
+   "compositional": 25,
+   "inference": 25
+  },
+  "n_100": 100,
+  "n_400": 400
+ },
+ "hotpotqa": {
+  "source": "hotpot_500.json",
+  "seed": 13,
+  "stratify": "type",
+  "groups_500": {
+   "bridge": 250,
+   "comparison": 250
+  },
+  "groups_100": {
+   "bridge": 50,
+   "comparison": 50
+  },
+  "n_100": 100,
+  "n_400": 400
+ },
+ "musique": {
+  "source": "musique_500.json",
+  "seed": 13,
+  "stratify": "type",
+  "groups_500": {
+   "2hop": 167,
+   "3hop": 167,
+   "4hop": 166
+  },
+  "groups_100": {
+   "2hop": 34,
+   "3hop": 33,
+   "4hop": 33
+  },
+  "n_100": 100,
+  "n_400": 400
+ },
+ "repolicyqa": {
+  "source": "repolicyqa_500.json",
+  "seed": 13,
+  "stratify": "type",
+  "groups_500": {
+   "Descriptive": 100,
+   "Factual": 100,
+   "Legal-Obligation": 100,
+   "Yes-No": 100,
+   "Yes-No-cond": 100
+  },
+  "groups_100": {
+   "Descriptive": 20,
+   "Factual": 20,
+   "Legal-Obligation": 20,
+   "Yes-No": 20,
+   "Yes-No-cond": 20
+  },
+  "n_100": 100,
+  "n_400": 400
+ }
+}
