@@ -24557,3 +24557,2323 @@ b4_hlg_rag: building index over 4866 documents ...
   [HLG index] 960/4861 docs (3954s)
   [HLG index] 980/4861 docs (4039s)
   [HLG index] 1000/4861 docs (4124s)
+  [HLG index] 1020/4861 docs (4207s)
+  [HLG index] 1040/4861 docs (4278s)
+  [HLG index] 1060/4861 docs (4357s)
+  [HLG index] 1080/4861 docs (4437s)
+  [HLG index] 1100/4861 docs (4514s)
+  [HLG index] 1120/4861 docs (4581s)
+  [HLG index] 1140/4861 docs (4658s)
+  [HLG index] 1160/4861 docs (4732s)
+  [HLG index] 1180/4861 docs (4805s)
+  [HLG index] 1200/4861 docs (4893s)
+  [HLG index] 1220/4861 docs (4970s)
+  [HLG index] 1240/4861 docs (5055s)
+  [HLG index] 1260/4861 docs (5130s)
+  [HLG index] 1280/4861 docs (5201s)
+  [HLG index] 1300/4861 docs (5288s)
+  [HLG index] 1320/4861 docs (5383s)
+  [HLG index] 1340/4861 docs (5471s)
+  [HLG index] 1360/4861 docs (5543s)
+  [HLG index] 1380/4861 docs (5621s)
+  [HLG index] 1400/4861 docs (5706s)
+  [HLG index] 1420/4861 docs (5799s)
+  [HLG index] 1440/4861 docs (5890s)
+  [HLG index] 1460/4861 docs (5969s)
+  [HLG index] 1480/4861 docs (6032s)
+  [HLG index] 1500/4861 docs (6118s)
+  [HLG index] 1520/4861 docs (6222s)
+  [HLG index] 1540/4861 docs (6323s)
+  [HLG index] 1560/4861 docs (6400s)
+  [HLG index] 1580/4861 docs (6472s)
+  [HLG index] 1600/4861 docs (6555s)
+  [HLG index] 1620/4861 docs (6638s)
+  [HLG index] 1640/4861 docs (6724s)
+  [HLG index] 1660/4861 docs (6818s)
+  [HLG index] 1680/4861 docs (6889s)
+  [HLG index] 1700/4861 docs (6951s)
+  [HLG index] 1720/4861 docs (7043s)
+  [HLG index] 1740/4861 docs (7128s)
+  [HLG index] 1760/4861 docs (7195s)
+  [HLG index] 1780/4861 docs (7263s)
+  [HLG index] 1800/4861 docs (7355s)
+  [HLG index] 1820/4861 docs (7432s)
+  [HLG index] 1840/4861 docs (7517s)
+  [HLG index] 1860/4861 docs (7593s)
+  [HLG index] 1880/4861 docs (7674s)
+  [HLG index] 1900/4861 docs (7754s)
+  [HLG index] 1920/4861 docs (7835s)
+  [HLG index] 1940/4861 docs (7911s)
+  [HLG index] 1960/4861 docs (8002s)
+  [HLG index] 1980/4861 docs (8087s)
+  [HLG index] 2000/4861 docs (8182s)
+  [HLG index] 2020/4861 docs (8255s)
+  [HLG index] 2040/4861 docs (8324s)
+  [HLG index] 2060/4861 docs (8411s)
+  [HLG index] 2080/4861 docs (8494s)
+  [HLG index] 2100/4861 docs (8584s)
+  [HLG index] 2120/4861 docs (8657s)
+  [HLG index] 2140/4861 docs (8744s)
+  [HLG index] 2160/4861 docs (8841s)
+  [HLG index] 2180/4861 docs (8905s)
+  [HLG index] 2200/4861 docs (8990s)
+  [HLG index] 2220/4861 docs (9088s)
+  [HLG index] 2240/4861 docs (9168s)
+  [HLG index] 2260/4861 docs (9242s)
+  [HLG index] 2280/4861 docs (9330s)
+  [HLG index] 2300/4861 docs (9409s)
+  [HLG index] 2320/4861 docs (9503s)
+  [HLG index] 2340/4861 docs (9587s)
+  [HLG index] 2360/4861 docs (9676s)
+  [HLG index] 2380/4861 docs (9745s)
+  [HLG index] 2400/4861 docs (9825s)
+  [HLG index] 2420/4861 docs (9916s)
+  [HLG index] 2440/4861 docs (10004s)
+  [HLG index] 2460/4861 docs (10086s)
+  [HLG index] 2480/4861 docs (10186s)
+  [HLG index] 2500/4861 docs (10264s)
+  [HLG index] 2520/4861 docs (10347s)
+  [HLG index] 2540/4861 docs (10414s)
+  [HLG index] 2560/4861 docs (10475s)
+  [HLG index] 2580/4861 docs (10540s)
+  [HLG index] 2600/4861 docs (10619s)
+  [HLG index] 2620/4861 docs (10703s)
+  [HLG index] 2640/4861 docs (10790s)
+  [HLG index] 2660/4861 docs (10877s)
+  [HLG index] 2680/4861 docs (10947s)
+  [HLG index] 2700/4861 docs (11033s)
+  [HLG index] 2720/4861 docs (11109s)
+  [HLG index] 2740/4861 docs (11202s)
+  [HLG index] 2760/4861 docs (11295s)
+  [HLG index] 2780/4861 docs (11385s)
+  [HLG index] 2800/4861 docs (11460s)
+  [HLG index] 2820/4861 docs (11565s)
+  [HLG index] 2840/4861 docs (11651s)
+  [HLG index] 2860/4861 docs (11728s)
+  [HLG index] 2880/4861 docs (11807s)
+  [HLG index] 2900/4861 docs (11891s)
+  [HLG index] 2920/4861 docs (11961s)
+  [HLG index] 2940/4861 docs (12036s)
+  [HLG index] 2960/4861 docs (12101s)
+  [HLG index] 2980/4861 docs (12188s)
+  [HLG index] 3000/4861 docs (12267s)
+  [HLG index] 3020/4861 docs (12346s)
+  [HLG index] 3040/4861 docs (12433s)
+  [HLG index] 3060/4861 docs (12523s)
+  [HLG index] 3080/4861 docs (12601s)
+  [HLG index] 3100/4861 docs (12668s)
+  [HLG index] 3120/4861 docs (12747s)
+  [HLG index] 3140/4861 docs (12815s)
+  [HLG index] 3160/4861 docs (12902s)
+  [HLG index] 3180/4861 docs (12970s)
+  [HLG index] 3200/4861 docs (13043s)
+  [HLG index] 3220/4861 docs (13114s)
+  [HLG index] 3240/4861 docs (13199s)
+  [HLG index] 3260/4861 docs (13277s)
+  [HLG index] 3280/4861 docs (13353s)
+  [HLG index] 3300/4861 docs (13439s)
+  [HLG index] 3320/4861 docs (13505s)
+  [HLG index] 3340/4861 docs (13585s)
+  [HLG index] 3360/4861 docs (13644s)
+  [HLG index] 3380/4861 docs (13708s)
+  [HLG index] 3400/4861 docs (13794s)
+  [HLG index] 3420/4861 docs (13866s)
+  [HLG index] 3440/4861 docs (13944s)
+  [HLG index] 3460/4861 docs (14023s)
+  [HLG index] 3480/4861 docs (14105s)
+  [HLG index] 3500/4861 docs (14211s)
+  [HLG index] 3520/4861 docs (14290s)
+  [HLG index] 3540/4861 docs (14373s)
+  [HLG index] 3560/4861 docs (14449s)
+  [HLG index] 3580/4861 docs (14534s)
+  [HLG index] 3600/4861 docs (14606s)
+  [HLG index] 3620/4861 docs (14680s)
+  [HLG index] 3640/4861 docs (14743s)
+  [HLG index] 3660/4861 docs (14820s)
+  [HLG index] 3680/4861 docs (14905s)
+  [HLG index] 3700/4861 docs (14977s)
+  [HLG index] 3720/4861 docs (15067s)
+  [HLG index] 3740/4861 docs (15140s)
+  [HLG index] 3760/4861 docs (15227s)
+  [HLG index] 3780/4861 docs (15318s)
+  [HLG index] 3800/4861 docs (15391s)
+  [HLG index] 3820/4861 docs (15466s)
+  [HLG index] 3840/4861 docs (15547s)
+  [HLG index] 3860/4861 docs (15621s)
+  [HLG index] 3880/4861 docs (15709s)
+  [HLG index] 3900/4861 docs (15785s)
+  [HLG index] 3920/4861 docs (15864s)
+  [HLG index] 3940/4861 docs (15946s)
+  [HLG index] 3960/4861 docs (16018s)
+  [HLG index] 3980/4861 docs (16091s)
+  [HLG index] 4000/4861 docs (16185s)
+  [HLG index] 4020/4861 docs (16256s)
+  [HLG index] 4040/4861 docs (16334s)
+  [HLG index] 4060/4861 docs (16414s)
+  [HLG index] 4080/4861 docs (16493s)
+  [HLG index] 4100/4861 docs (16585s)
+  [HLG index] 4120/4861 docs (16662s)
+  [HLG index] 4140/4861 docs (16736s)
+  [HLG index] 4160/4861 docs (16821s)
+  [HLG index] 4180/4861 docs (16908s)
+  [HLG index] 4200/4861 docs (16985s)
+  [HLG index] 4220/4861 docs (17068s)
+  [HLG index] 4240/4861 docs (17156s)
+  [HLG index] 4260/4861 docs (17234s)
+  [HLG index] 4280/4861 docs (17298s)
+  [HLG index] 4300/4861 docs (17380s)
+  [HLG index] 4320/4861 docs (17452s)
+  [HLG index] 4340/4861 docs (17543s)
+  [HLG index] 4360/4861 docs (17611s)
+  [HLG index] 4380/4861 docs (17682s)
+  [HLG index] 4400/4861 docs (17749s)
+  [HLG index] 4420/4861 docs (17834s)
+  [HLG index] 4440/4861 docs (17907s)
+  [HLG index] 4460/4861 docs (17990s)
+  [HLG index] 4480/4861 docs (18078s)
+  [HLG index] 4500/4861 docs (18156s)
+  [HLG index] 4520/4861 docs (18249s)
+  [HLG index] 4540/4861 docs (18324s)
+  [HLG index] 4560/4861 docs (18397s)
+  [HLG index] 4580/4861 docs (18480s)
+  [HLG index] 4600/4861 docs (18559s)
+  [HLG index] 4620/4861 docs (18655s)
+  [HLG index] 4640/4861 docs (18745s)
+  [HLG index] 4660/4861 docs (18825s)
+  [HLG index] 4680/4861 docs (18901s)
+  [HLG index] 4700/4861 docs (18989s)
+  [HLG index] 4720/4861 docs (19085s)
+  [HLG index] 4740/4861 docs (19169s)
+  [HLG index] 4760/4861 docs (19267s)
+  [HLG index] 4780/4861 docs (19354s)
+  [HLG index] 4800/4861 docs (19456s)
+  [HLG index] 4820/4861 docs (19539s)
+  [HLG index] 4840/4861 docs (19615s)
+  [HLG index] 4860/4861 docs (19679s)
+  [HLG index] 4861/4861 docs (19682s)
+
+Batches:   0%|          | 0/728 [00:00<?, ?it/s]
+Batches:   0%|          | 1/728 [00:00<02:13,  5.43it/s]
+Batches:   2%|▏         | 12/728 [00:00<00:14, 49.79it/s]
+Batches:   3%|▎         | 25/728 [00:00<00:08, 78.39it/s]
+Batches:   5%|▍         | 36/728 [00:00<00:11, 57.74it/s]
+Batches:   7%|▋         | 50/728 [00:00<00:08, 76.32it/s]
+Batches:   9%|▉         | 64/728 [00:00<00:07, 90.71it/s]
+Batches:  11%|█         | 77/728 [00:00<00:06, 100.72it/s]
+Batches:  12%|█▎        | 91/728 [00:01<00:05, 110.06it/s]
+Batches:  14%|█▍        | 105/728 [00:01<00:05, 116.99it/s]
+Batches:  16%|█▋        | 120/728 [00:01<00:04, 125.85it/s]
+Batches:  18%|█▊        | 134/728 [00:01<00:04, 127.59it/s]
+Batches:  20%|██        | 148/728 [00:01<00:04, 129.76it/s]
+Batches:  22%|██▏       | 162/728 [00:01<00:04, 130.60it/s]
+Batches:  24%|██▍       | 176/728 [00:01<00:04, 132.47it/s]
+Batches:  26%|██▌       | 191/728 [00:01<00:03, 135.39it/s]
+Batches:  28%|██▊       | 207/728 [00:01<00:03, 139.92it/s]
+Batches:  30%|███       | 222/728 [00:02<00:03, 140.62it/s]
+Batches:  33%|███▎      | 237/728 [00:02<00:03, 141.25it/s]
+Batches:  35%|███▍      | 252/728 [00:02<00:03, 140.71it/s]
+Batches:  37%|███▋      | 267/728 [00:02<00:03, 141.56it/s]
+Batches:  39%|███▊      | 282/728 [00:02<00:03, 140.51it/s]
+Batches:  41%|████      | 297/728 [00:02<00:03, 141.32it/s]
+Batches:  43%|████▎     | 312/728 [00:02<00:02, 143.17it/s]
+Batches:  45%|████▍     | 327/728 [00:02<00:02, 144.21it/s]
+Batches:  47%|████▋     | 343/728 [00:02<00:02, 147.07it/s]
+Batches:  49%|████▉     | 359/728 [00:02<00:02, 150.11it/s]
+Batches:  52%|█████▏    | 375/728 [00:03<00:02, 149.15it/s]
+Batches:  54%|█████▎    | 390/728 [00:03<00:02, 146.12it/s]
+Batches:  56%|█████▌    | 406/728 [00:03<00:02, 148.02it/s]
+Batches:  58%|█████▊    | 422/728 [00:03<00:02, 147.50it/s]
+Batches:  60%|██████    | 438/728 [00:03<00:01, 150.69it/s]
+Batches:  62%|██████▏   | 454/728 [00:03<00:01, 151.17it/s]
+Batches:  65%|██████▍   | 470/728 [00:03<00:01, 153.01it/s]
+Batches:  67%|██████▋   | 486/728 [00:03<00:01, 152.30it/s]
+Batches:  69%|██████▉   | 502/728 [00:03<00:01, 151.45it/s]
+Batches:  71%|███████   | 518/728 [00:04<00:01, 150.44it/s]
+Batches:  73%|███████▎  | 535/728 [00:04<00:01, 153.83it/s]
+Batches:  76%|███████▌  | 551/728 [00:04<00:01, 153.46it/s]
+Batches:  78%|███████▊  | 568/728 [00:04<00:01, 156.25it/s]
+Batches:  80%|████████  | 584/728 [00:04<00:00, 156.13it/s]
+Batches:  82%|████████▏ | 600/728 [00:04<00:00, 151.66it/s]
+Batches:  85%|████████▍ | 616/728 [00:04<00:00, 153.37it/s]
+Batches:  87%|████████▋ | 633/728 [00:04<00:00, 157.68it/s]
+Batches:  89%|████████▉ | 651/728 [00:04<00:00, 162.32it/s]
+Batches:  92%|█████████▏| 669/728 [00:04<00:00, 167.03it/s]
+Batches:  94%|█████████▍| 686/728 [00:05<00:00, 166.49it/s]
+Batches:  97%|█████████▋| 704/728 [00:05<00:00, 169.37it/s]
+Batches:  99%|█████████▉| 722/728 [00:05<00:00, 171.91it/s]
+Batches: 100%|██████████| 728/728 [00:05<00:00, 136.54it/s]
+
+Batches:   0%|          | 0/100 [00:00<?, ?it/s]
+Batches:   2%|▏         | 2/100 [00:00<00:04, 19.90it/s]
+Batches:   5%|▌         | 5/100 [00:00<00:04, 22.83it/s]
+Batches:   8%|▊         | 8/100 [00:00<00:03, 24.19it/s]
+Batches:  12%|█▏        | 12/100 [00:00<00:03, 26.72it/s]
+Batches:  16%|█▌        | 16/100 [00:00<00:02, 28.27it/s]
+Batches:  20%|██        | 20/100 [00:00<00:02, 30.99it/s]
+Batches:  25%|██▌       | 25/100 [00:00<00:02, 34.17it/s]
+Batches:  30%|███       | 30/100 [00:00<00:01, 37.43it/s]
+Batches:  35%|███▌      | 35/100 [00:01<00:01, 40.03it/s]
+Batches:  40%|████      | 40/100 [00:01<00:01, 42.49it/s]
+Batches:  46%|████▌     | 46/100 [00:01<00:01, 45.21it/s]
+Batches:  52%|█████▏    | 52/100 [00:01<00:00, 48.30it/s]
+Batches:  58%|█████▊    | 58/100 [00:01<00:00, 50.74it/s]
+Batches:  65%|██████▌   | 65/100 [00:01<00:00, 56.00it/s]
+Batches:  74%|███████▍  | 74/100 [00:01<00:00, 64.48it/s]
+Batches:  84%|████████▍ | 84/100 [00:01<00:00, 74.40it/s]
+Batches:  98%|█████████▊| 98/100 [00:01<00:00, 92.42it/s]
+Batches: 100%|██████████| 100/100 [00:01<00:00, 52.38it/s]
+b4_hlg_rag: done {'chunks': 14871, 'statements': 46571, 'topics': 6357, 'entities': 49735, 'facts': 36480, 'fallback_chunks': 118}
+
+=== hotpot | B4 HLG-RAG (StatementGraphRAG)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15669.49it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 13701.33it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/hlg_hotpot_be7991ce84
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/728 [00:00<?, ?it/s]
+Batches:   0%|          | 1/728 [00:00<02:08,  5.67it/s]
+Batches:   2%|▏         | 11/728 [00:00<00:15, 47.56it/s]
+Batches:   3%|▎         | 23/728 [00:00<00:09, 75.11it/s]
+Batches:   5%|▍         | 35/728 [00:00<00:07, 90.44it/s]
+Batches:   7%|▋         | 48/728 [00:00<00:06, 103.13it/s]
+Batches:   9%|▊         | 62/728 [00:00<00:05, 112.34it/s]
+Batches:  10%|█         | 75/728 [00:00<00:05, 117.73it/s]
+Batches:  12%|█▏        | 89/728 [00:00<00:05, 122.58it/s]
+Batches:  14%|█▍        | 103/728 [00:01<00:04, 125.58it/s]
+Batches:  16%|█▌        | 117/728 [00:01<00:04, 129.02it/s]
+Batches:  18%|█▊        | 132/728 [00:01<00:04, 133.08it/s]
+Batches:  20%|██        | 146/728 [00:01<00:04, 134.63it/s]
+Batches:  22%|██▏       | 160/728 [00:01<00:04, 135.51it/s]
+Batches:  24%|██▍       | 174/728 [00:01<00:04, 135.82it/s]
+Batches:  26%|██▌       | 189/728 [00:01<00:03, 136.04it/s]
+Batches:  28%|██▊       | 203/728 [00:01<00:03, 136.47it/s]
+Batches:  30%|██▉       | 218/728 [00:01<00:03, 139.10it/s]
+Batches:  32%|███▏      | 232/728 [00:01<00:03, 137.76it/s]
+Batches:  34%|███▍      | 247/728 [00:02<00:03, 139.82it/s]
+Batches:  36%|███▌      | 263/728 [00:02<00:03, 143.12it/s]
+Batches:  38%|███▊      | 278/728 [00:02<00:03, 144.86it/s]
+Batches:  40%|████      | 293/728 [00:02<00:03, 143.93it/s]
+Batches:  42%|████▏     | 309/728 [00:02<00:02, 146.86it/s]
+Batches:  45%|████▍     | 324/728 [00:02<00:02, 147.46it/s]
+Batches:  47%|████▋     | 340/728 [00:02<00:02, 148.36it/s]
+Batches:  49%|████▉     | 355/728 [00:02<00:02, 147.71it/s]
+Batches:  51%|█████     | 372/728 [00:02<00:02, 151.02it/s]
+Batches:  53%|█████▎    | 388/728 [00:02<00:02, 150.96it/s]
+Batches:  55%|█████▌    | 404/728 [00:03<00:02, 150.16it/s]
+Batches:  58%|█████▊    | 420/728 [00:03<00:02, 149.53it/s]
+Batches:  60%|██████    | 437/728 [00:03<00:01, 152.77it/s]
+Batches:  62%|██████▏   | 453/728 [00:03<00:01, 145.95it/s]
+Batches:  64%|██████▍   | 468/728 [00:03<00:01, 146.68it/s]
+Batches:  66%|██████▋   | 484/728 [00:03<00:01, 149.82it/s]
+Batches:  69%|██████▊   | 500/728 [00:03<00:01, 148.75it/s]
+Batches:  71%|███████   | 515/728 [00:03<00:01, 147.77it/s]
+Batches:  73%|███████▎  | 530/728 [00:04<00:01, 103.28it/s]
+Batches:  75%|███████▌  | 547/728 [00:04<00:01, 117.31it/s]
+Batches:  77%|███████▋  | 564/728 [00:04<00:01, 128.09it/s]
+Batches:  80%|███████▉  | 581/728 [00:04<00:01, 137.80it/s]
+Batches:  82%|████████▏ | 598/728 [00:04<00:00, 145.48it/s]
+Batches:  85%|████████▍ | 616/728 [00:04<00:00, 153.19it/s]
+Batches:  87%|████████▋ | 634/728 [00:04<00:00, 159.03it/s]
+Batches:  90%|████████▉ | 652/728 [00:04<00:00, 162.87it/s]
+Batches:  92%|█████████▏| 669/728 [00:04<00:00, 163.73it/s]
+Batches:  94%|█████████▍| 687/728 [00:05<00:00, 168.01it/s]
+Batches:  97%|█████████▋| 705/728 [00:05<00:00, 170.38it/s]
+Batches:  99%|█████████▉| 723/728 [00:05<00:00, 173.11it/s]
+Batches: 100%|██████████| 728/728 [00:05<00:00, 137.84it/s]
+
+Batches:   0%|          | 0/100 [00:00<?, ?it/s]
+Batches:   2%|▏         | 2/100 [00:00<00:05, 19.39it/s]
+Batches:   5%|▌         | 5/100 [00:00<00:04, 23.00it/s]
+Batches:   8%|▊         | 8/100 [00:00<00:03, 24.49it/s]
+Batches:  12%|█▏        | 12/100 [00:00<00:03, 27.04it/s]
+Batches:  16%|█▌        | 16/100 [00:00<00:02, 28.27it/s]
+Batches:  20%|██        | 20/100 [00:00<00:02, 30.64it/s]
+Batches:  25%|██▌       | 25/100 [00:00<00:02, 34.13it/s]
+Batches:  30%|███       | 30/100 [00:00<00:01, 37.35it/s]
+Batches:  35%|███▌      | 35/100 [00:01<00:01, 40.04it/s]
+Batches:  40%|████      | 40/100 [00:01<00:01, 42.04it/s]
+Batches:  46%|████▌     | 46/100 [00:01<00:01, 44.87it/s]
+Batches:  52%|█████▏    | 52/100 [00:01<00:00, 48.03it/s]
+Batches:  58%|█████▊    | 58/100 [00:01<00:00, 51.23it/s]
+Batches:  66%|██████▌   | 66/100 [00:01<00:00, 57.31it/s]
+Batches:  75%|███████▌  | 75/100 [00:01<00:00, 65.97it/s]
+Batches:  85%|████████▌ | 85/100 [00:01<00:00, 75.36it/s]
+Batches:  99%|█████████▉| 99/100 [00:01<00:00, 92.69it/s]
+Batches: 100%|██████████| 100/100 [00:01<00:00, 52.20it/s]
+  [10/500] last EM=0  latency=0.3s
+  [20/500] last EM=1  latency=0.3s
+  [30/500] last EM=1  latency=0.2s
+  [40/500] last EM=0  latency=0.2s
+  [50/500] last EM=1  latency=0.2s
+  [60/500] last EM=0  latency=0.3s
+  [70/500] last EM=0  latency=0.3s
+  [80/500] last EM=0  latency=0.3s
+  [90/500] last EM=1  latency=0.3s
+  [100/500] last EM=1  latency=0.3s
+  [110/500] last EM=0  latency=0.3s
+  [120/500] last EM=0  latency=0.3s
+  [130/500] last EM=1  latency=0.2s
+  [140/500] last EM=0  latency=0.3s
+  [150/500] last EM=0  latency=0.3s
+  [160/500] last EM=0  latency=0.5s
+  [170/500] last EM=0  latency=0.3s
+  [180/500] last EM=0  latency=0.2s
+  [190/500] last EM=1  latency=0.3s
+  [200/500] last EM=1  latency=0.3s
+  [210/500] last EM=0  latency=0.5s
+  [220/500] last EM=1  latency=0.3s
+  [230/500] last EM=1  latency=0.5s
+  [240/500] last EM=1  latency=0.4s
+  [250/500] last EM=1  latency=0.3s
+  [260/500] last EM=0  latency=0.3s
+  [270/500] last EM=0  latency=0.4s
+  [280/500] last EM=0  latency=0.3s
+  [290/500] last EM=1  latency=0.4s
+  [300/500] last EM=1  latency=0.3s
+  [310/500] last EM=0  latency=0.2s
+  [320/500] last EM=0  latency=0.3s
+  [330/500] last EM=1  latency=0.4s
+  [340/500] last EM=0  latency=0.2s
+  [350/500] last EM=0  latency=0.2s
+  [360/500] last EM=0  latency=0.3s
+  [370/500] last EM=1  latency=0.3s
+  [380/500] last EM=1  latency=0.3s
+  [390/500] last EM=0  latency=0.2s
+  [400/500] last EM=0  latency=0.3s
+  [410/500] last EM=0  latency=0.4s
+  [420/500] last EM=0  latency=0.3s
+  [430/500] last EM=0  latency=0.3s
+  [440/500] last EM=0  latency=0.2s
+  [450/500] last EM=1  latency=0.4s
+  [460/500] last EM=1  latency=0.3s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.2s
+  [490/500] last EM=0  latency=0.4s
+  [500/500] last EM=0  latency=0.3s
+{
+  "n": 500,
+  "em": 0.478,
+  "em_ci95": [
+    0.432,
+    0.52
+  ],
+  "f1": 0.5719689754689755,
+  "sent_recall@10": 0.8570333333333333,
+  "doc_recall@10": 0.917,
+  "ctx_all_gold_rate": 0.4,
+  "peak_prompt_tokens_max": 373,
+  "total_tokens_mean": 4647.066,
+  "latency_p50": 0.3036605640081689,
+  "latency_p95": 0.4528523340122774,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 33,
+    "CORRECT": 239,
+    "GENERATION_FAILURE": 80,
+    "RERANKING_FAILURE": 148
+  }
+}
+
+=== hotpot | B4 HLG-RAG (TopicGraphRAG)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15128.17it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 12748.28it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/hlg_hotpot_df6f23a7cd
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/728 [00:00<?, ?it/s]
+Batches:   0%|          | 1/728 [00:00<02:13,  5.46it/s]
+Batches:   2%|▏         | 11/728 [00:00<00:15, 46.24it/s]
+Batches:   3%|▎         | 24/728 [00:00<00:09, 76.44it/s]
+Batches:   5%|▍         | 36/728 [00:00<00:07, 91.24it/s]
+Batches:   7%|▋         | 49/728 [00:00<00:06, 102.54it/s]
+Batches:   9%|▊         | 62/728 [00:00<00:06, 110.75it/s]
+Batches:  10%|█         | 75/728 [00:00<00:05, 116.72it/s]
+Batches:  12%|█▏        | 88/728 [00:00<00:05, 120.28it/s]
+Batches:  14%|█▍        | 102/728 [00:01<00:05, 124.43it/s]
+Batches:  16%|█▌        | 116/728 [00:01<00:04, 127.79it/s]
+Batches:  18%|█▊        | 130/728 [00:01<00:04, 130.30it/s]
+Batches:  20%|█▉        | 144/728 [00:01<00:04, 132.26it/s]
+Batches:  22%|██▏       | 158/728 [00:01<00:04, 130.43it/s]
+Batches:  24%|██▍       | 173/728 [00:01<00:04, 134.19it/s]
+Batches:  26%|██▌       | 187/728 [00:01<00:04, 134.07it/s]
+Batches:  28%|██▊       | 202/728 [00:01<00:03, 135.29it/s]
+Batches:  30%|██▉       | 217/728 [00:01<00:03, 138.11it/s]
+Batches:  32%|███▏      | 231/728 [00:01<00:03, 137.91it/s]
+Batches:  34%|███▎      | 245/728 [00:02<00:03, 137.23it/s]
+Batches:  36%|███▌      | 259/728 [00:02<00:03, 135.62it/s]
+Batches:  38%|███▊      | 273/728 [00:02<00:03, 136.89it/s]
+Batches:  40%|███▉      | 288/728 [00:02<00:03, 137.92it/s]
+Batches:  41%|████▏     | 302/728 [00:02<00:03, 137.87it/s]
+Batches:  44%|████▎     | 318/728 [00:02<00:02, 141.77it/s]
+Batches:  46%|████▌     | 333/728 [00:02<00:02, 143.60it/s]
+Batches:  48%|████▊     | 349/728 [00:02<00:02, 146.56it/s]
+Batches:  50%|█████     | 366/728 [00:02<00:02, 151.01it/s]
+Batches:  52%|█████▏    | 382/728 [00:02<00:02, 152.73it/s]
+Batches:  55%|█████▍    | 398/728 [00:03<00:02, 151.58it/s]
+Batches:  57%|█████▋    | 414/728 [00:03<00:02, 149.78it/s]
+Batches:  59%|█████▉    | 429/728 [00:03<00:02, 149.27it/s]
+Batches:  61%|██████    | 445/728 [00:03<00:01, 149.88it/s]
+Batches:  63%|██████▎   | 461/728 [00:03<00:01, 152.03it/s]
+Batches:  66%|██████▌   | 477/728 [00:03<00:01, 153.78it/s]
+Batches:  68%|██████▊   | 493/728 [00:03<00:01, 154.98it/s]
+Batches:  70%|██████▉   | 509/728 [00:03<00:01, 154.14it/s]
+Batches:  72%|███████▏  | 525/728 [00:03<00:01, 155.62it/s]
+Batches:  74%|███████▍  | 541/728 [00:04<00:01, 104.93it/s]
+Batches:  77%|███████▋  | 557/728 [00:04<00:01, 115.65it/s]
+Batches:  79%|███████▊  | 573/728 [00:04<00:01, 125.53it/s]
+Batches:  81%|████████  | 589/728 [00:04<00:01, 133.17it/s]
+Batches:  83%|████████▎ | 606/728 [00:04<00:00, 141.08it/s]
+Batches:  86%|████████▌ | 624/728 [00:04<00:00, 149.74it/s]
+Batches:  88%|████████▊ | 641/728 [00:04<00:00, 155.27it/s]
+Batches:  91%|█████████ | 659/728 [00:04<00:00, 160.90it/s]
+Batches:  93%|█████████▎| 677/728 [00:05<00:00, 163.75it/s]
+Batches:  95%|█████████▌| 695/728 [00:05<00:00, 166.58it/s]
+Batches:  98%|█████████▊| 715/728 [00:05<00:00, 174.03it/s]
+Batches: 100%|██████████| 728/728 [00:05<00:00, 136.63it/s]
+
+Batches:   0%|          | 0/100 [00:00<?, ?it/s]
+Batches:   3%|▎         | 3/100 [00:00<00:04, 21.79it/s]
+Batches:   6%|▌         | 6/100 [00:00<00:04, 23.50it/s]
+Batches:   9%|▉         | 9/100 [00:00<00:03, 25.14it/s]
+Batches:  13%|█▎        | 13/100 [00:00<00:03, 27.29it/s]
+Batches:  17%|█▋        | 17/100 [00:00<00:02, 28.56it/s]
+Batches:  22%|██▏       | 22/100 [00:00<00:02, 32.45it/s]
+Batches:  27%|██▋       | 27/100 [00:00<00:02, 35.46it/s]
+Batches:  32%|███▏      | 32/100 [00:00<00:01, 38.51it/s]
+Batches:  37%|███▋      | 37/100 [00:01<00:01, 41.20it/s]
+Batches:  42%|████▏     | 42/100 [00:01<00:01, 43.01it/s]
+Batches:  48%|████▊     | 48/100 [00:01<00:01, 46.12it/s]
+Batches:  54%|█████▍    | 54/100 [00:01<00:00, 49.42it/s]
+Batches:  61%|██████    | 61/100 [00:01<00:00, 53.68it/s]
+Batches:  69%|██████▉   | 69/100 [00:01<00:00, 60.28it/s]
+Batches:  78%|███████▊  | 78/100 [00:01<00:00, 67.33it/s]
+Batches:  89%|████████▉ | 89/100 [00:01<00:00, 78.60it/s]
+Batches: 100%|██████████| 100/100 [00:01<00:00, 52.02it/s]
+  [10/500] last EM=0  latency=0.5s
+  [20/500] last EM=1  latency=1.0s
+  [30/500] last EM=1  latency=1.0s
+  [40/500] last EM=0  latency=0.7s
+  [50/500] last EM=1  latency=0.6s
+  [60/500] last EM=0  latency=1.0s
+  [70/500] last EM=0  latency=0.7s
+  [80/500] last EM=0  latency=0.8s
+  [90/500] last EM=1  latency=1.1s
+  [100/500] last EM=1  latency=0.8s
+  [110/500] last EM=0  latency=0.6s
+  [120/500] last EM=0  latency=0.9s
+  [130/500] last EM=1  latency=1.0s
+  [140/500] last EM=0  latency=1.4s
+  [150/500] last EM=0  latency=1.1s
+  [160/500] last EM=0  latency=1.3s
+  [170/500] last EM=0  latency=1.2s
+  [180/500] last EM=0  latency=0.8s
+  [190/500] last EM=1  latency=1.1s
+  [200/500] last EM=1  latency=0.8s
+  [210/500] last EM=0  latency=0.9s
+  [220/500] last EM=1  latency=0.7s
+  [230/500] last EM=1  latency=2.1s
+  [240/500] last EM=1  latency=1.3s
+  [250/500] last EM=1  latency=0.9s
+  [260/500] last EM=0  latency=1.0s
+  [270/500] last EM=0  latency=0.8s
+  [280/500] last EM=0  latency=0.7s
+  [290/500] last EM=1  latency=0.7s
+  [300/500] last EM=1  latency=0.6s
+  [310/500] last EM=0  latency=1.4s
+  [320/500] last EM=0  latency=0.8s
+  [330/500] last EM=1  latency=1.3s
+  [340/500] last EM=0  latency=0.8s
+  [350/500] last EM=0  latency=0.8s
+  [360/500] last EM=0  latency=1.0s
+  [370/500] last EM=1  latency=1.1s
+  [380/500] last EM=1  latency=0.9s
+  [390/500] last EM=0  latency=1.1s
+  [400/500] last EM=0  latency=1.4s
+  [410/500] last EM=0  latency=1.0s
+  [420/500] last EM=0  latency=0.6s
+  [430/500] last EM=0  latency=0.7s
+  [440/500] last EM=0  latency=0.9s
+  [450/500] last EM=1  latency=1.1s
+  [460/500] last EM=1  latency=0.6s
+  [470/500] last EM=0  latency=0.6s
+Fatal Python error: Segmentation fault
+
+Thread 0x00007f7d665dc6c0 [tqdm_monitor] (most recent call first):
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 373 in wait
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 670 in wait
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Thread 0x00007f7d6a9fb6c0 [tqdm_monitor] (most recent call first):
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 373 in wait
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 670 in wait
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/home/aura/miniconda3/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Current thread 0x00007f8058f6e740 [python] (most recent call first):
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/transformers/tokenization_utils_base.py", line 1320 in __getattr__
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/transformers/tokenization_utils_tokenizers.py", line 964 in set_truncation_and_padding
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/transformers/tokenization_utils_tokenizers.py", line 1057 in _encode_plus
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/transformers/tokenization_utils_base.py", line 2543 in __call__
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/base/modules/transformer.py", line 1902 in _call_single_modality_processor
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/base/modules/transformer.py", line 1829 in _call_processor
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/base/modules/transformer.py", line 1442 in preprocess
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/base/model.py", line 703 in preprocess
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/cross_encoder/model.py", line 696 in _inference
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/torch/utils/_contextlib.py", line 158 in inference_mode
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/cross_encoder/model.py", line 655 in predict
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/util/decorators.py", line 220 in wrapper
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/sentence_transformers/util/decorators.py", line 46 in wrapper
+  File "/home/aura/Desktop/Register_RAG/venv/lib/python3.14/site-packages/torch/utils/_contextlib.py", line 158 in inference_mode
+  File "/home/aura/Desktop/Register_RAG/registerrag/rerank.py", line 27 in rerank
+  File "/home/aura/Desktop/Register_RAG/baselines/b4_hlg_rag/hlg.py", line 348 in _rerank
+  File "/home/aura/Desktop/Register_RAG/baselines/b4_hlg_rag/hlg.py", line 386 in rs
+  File "/home/aura/Desktop/Register_RAG/baselines/b4_hlg_rag/hlg.py", line 315 in path_score
+  File "/home/aura/Desktop/Register_RAG/baselines/b4_hlg_rag/hlg.py", line 330 in _beam
+  File "/home/aura/Desktop/Register_RAG/baselines/b4_hlg_rag/hlg.py", line 390 in run
+  File "/home/aura/Desktop/Register_RAG/registerrag/runner.py", line 88 in run_system
+  File "/home/aura/Desktop/Register_RAG/registerrag/cli.py", line 87 in cmd_run
+  File "/home/aura/Desktop/Register_RAG/registerrag/cli.py", line 181 in main
+  File "/home/aura/Desktop/Register_RAG/registerrag/cli.py", line 185 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 203 in _run_module_as_main
+
+Current thread's C stack trace (most recent call first):
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _Py_DumpStack+0x4a [0x5c7efc192f2a]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x193398 [0x5c7efc193398]
+  Binary file "/lib/x86_64-linux-gnu/libc.so.6", at +0x45330 [0x7f8058c45330]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0xbd6 [0x5c7efc1dcc76]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x20c4a5 [0x5c7efc20c4a5]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at PyObject_Vectorcall+0x2e [0x5c7efc1cbc5e]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x317095 [0x5c7efc317095]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x277095 [0x5c7efc277095]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at PyObject_GetAttr+0x52 [0x5c7efc1cbd12]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x1970 [0x5c7efc1dda10]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x20c4a5 [0x5c7efc20c4a5]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x24a5e3 [0x5c7efc24a5e3]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2cce0c [0x5c7efc2cce0c]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x4a87 [0x5c7efc1e0b27]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x1d9be8 [0x5c7efc1d9be8]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2b822f [0x5c7efc2b822f]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x3193ff [0x5c7efc3193ff]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2ccd6f [0x5c7efc2ccd6f]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x4a87 [0x5c7efc1e0b27]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x20c4a5 [0x5c7efc20c4a5]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x24a5e3 [0x5c7efc24a5e3]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2cce0c [0x5c7efc2cce0c]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x4a87 [0x5c7efc1e0b27]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x20c4a5 [0x5c7efc20c4a5]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x24a5e3 [0x5c7efc24a5e3]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2cce0c [0x5c7efc2cce0c]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x4a87 [0x5c7efc1e0b27]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x20c4a5 [0x5c7efc20c4a5]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x24a5e3 [0x5c7efc24a5e3]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x2cce0c [0x5c7efc2cce0c]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at _PyEval_EvalFrameDefault+0x4a87 [0x5c7efc1e0b27]
+  Binary file "/home/aura/Desktop/Register_RAG/venv/bin/python", at +0x1d9be8 [0x5c7efc1d9be8]
+  <truncated rest of calls>
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, regex._regex, markupsafe._speedups, yaml._yaml, torch._C, torch._C._dynamo.autograd_compiler, torch._C._dynamo.eval_frame, torch._C._dynamo.guards, torch._C._dynamo.utils, torch._C._fft, torch._C._linalg, torch._C._nested, torch._C._nn, torch._C._sparse, torch._C._special, cuda.bindings._internal.utils, cuda.bindings._internal.driver, cuda.bindings.cydriver, cuda.bindings.driver, cuda.bindings._internal.runtime_ptds, cuda.bindings._internal.runtime, cuda.bindings.cyruntime, cuda.bindings.runtime, _cyutility, scipy._cyutility, scipy._lib._ccallback_c, scipy.sparse._sparsetools, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._pcg64, numpy.random._generator, numpy.random._mt19937, numpy.random._philox, numpy.random._sfc64, numpy.random.mtrand, charset_normalizer.md, charset_normalizer.cd, _csparsetools, scipy.sparse._csparsetools, sklearn.__check_build._check_build, scipy.special._ufuncs_cxx, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg._batched_linalg, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._internal_matfuncs, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg.cython_lapack, scipy.linalg._decomp_update, scipy.special._ellip_harm_2, scipy.special._special_ufuncs, scipy.special._gufuncs, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpacklib, scipy.sparse.linalg._propack, scipy.spatial._ckdtree, scipy.spatial._hausdorff, scipy.spatial._distance_wrap, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial.transform._rotation_cy, scipy.spatial.transform._rigid_transform_cy, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._slsqplib, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, scipy.integrate._odepack, scipy.integrate._quadpack, scipy.integrate._vode, scipy.integrate._dop, scipy.interpolate._fitpack, scipy.interpolate._dierckx, scipy.interpolate._ppoly, scipy.interpolate._interpnd, scipy.interpolate._rbfinterp_pythran, scipy.interpolate._rgi_cython, scipy.special.cython_special, scipy.stats._stats, scipy.stats._biasedurn, scipy.stats._levy_stable.levyst, scipy.stats._stats_pythran, scipy.stats._ansari_swilk_statistics, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.stats._sobol, scipy.stats._qmc_cy, scipy.stats._rcont.rcont, scipy.stats._qmvnt_cy, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, sklearn._cyutility, sklearn.utils._isfinite, sklearn.utils.sparsefuncs_fast, sklearn.utils.murmurhash, sklearn.utils._openmp_helpers, sklearn.metrics.cluster._expected_mutual_info_fast, sklearn.metrics._dist_metrics, sklearn.metrics._pairwise_distances_reduction._datasets_pair, sklearn.utils._cython_blas, sklearn.metrics._pairwise_distances_reduction._base, sklearn.metrics._pairwise_distances_reduction._middle_term_computer, sklearn.utils._heap, sklearn.utils._sorting, sklearn.metrics._pairwise_distances_reduction._argkmin, sklearn.metrics._pairwise_distances_reduction._argkmin_classmode, sklearn.utils._vector_sentinel, sklearn.metrics._pairwise_distances_reduction._radius_neighbors, sklearn.metrics._pairwise_distances_reduction._radius_neighbors_classmode, sklearn.metrics._pairwise_fast, sklearn.preprocessing._csr_polynomial_expansion, sklearn.preprocessing._target_encoder_fast, requests.packages.charset_normalizer.md, requests.packages.chardet.md, requests.packages.charset_normalizer.cd, requests.packages.chardet.cd (total: 140)
+/home/aura/miniconda3/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-1490566-iexjqzy6'}
+  warnings.warn(
+attempt 1 of 5 failed; finished questions are kept, retrying...
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15041.20it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14418.61it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/hlg_hotpot_df6f23a7cd
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/728 [00:00<?, ?it/s]
+Batches:   0%|          | 1/728 [00:00<02:14,  5.41it/s]
+Batches:   2%|▏         | 12/728 [00:00<00:14, 50.07it/s]
+Batches:   3%|▎         | 25/728 [00:00<00:08, 79.64it/s]
+Batches:   5%|▌         | 38/728 [00:00<00:07, 96.37it/s]
+Batches:   7%|▋         | 51/728 [00:00<00:06, 105.87it/s]
+Batches:   9%|▉         | 65/728 [00:00<00:05, 114.67it/s]
+Batches:  11%|█         | 79/728 [00:00<00:05, 121.13it/s]
+Batches:  13%|█▎        | 93/728 [00:00<00:05, 124.76it/s]
+Batches:  15%|█▍        | 108/728 [00:01<00:04, 130.58it/s]
+Batches:  17%|█▋        | 122/728 [00:01<00:04, 132.02it/s]
+Batches:  19%|█▊        | 136/728 [00:01<00:04, 134.32it/s]
+Batches:  21%|██        | 151/728 [00:01<00:04, 136.87it/s]
+Batches:  23%|██▎       | 165/728 [00:01<00:04, 136.89it/s]
+Batches:  25%|██▍       | 179/728 [00:01<00:03, 137.50it/s]
+Batches:  27%|██▋       | 193/728 [00:01<00:03, 138.14it/s]
+Batches:  29%|██▊       | 208/728 [00:01<00:03, 140.13it/s]
+Batches:  31%|███       | 223/728 [00:01<00:03, 139.79it/s]
+Batches:  33%|███▎      | 238/728 [00:01<00:03, 141.87it/s]
+Batches:  35%|███▍      | 253/728 [00:02<00:03, 142.91it/s]
+Batches:  37%|███▋      | 268/728 [00:02<00:03, 141.17it/s]
+Batches:  39%|███▉      | 283/728 [00:02<00:03, 141.77it/s]
+Batches:  41%|████      | 298/728 [00:02<00:03, 141.95it/s]
+Batches:  43%|████▎     | 313/728 [00:02<00:02, 142.29it/s]
+Batches:  45%|████▌     | 328/728 [00:02<00:02, 143.83it/s]
+Batches:  47%|████▋     | 343/728 [00:02<00:02, 144.45it/s]
+Batches:  49%|████▉     | 359/728 [00:02<00:02, 146.02it/s]
+Batches:  51%|█████▏    | 374/728 [00:02<00:02, 145.03it/s]
+Batches:  53%|█████▎    | 389/728 [00:03<00:02, 140.42it/s]
+Batches:  56%|█████▌    | 405/728 [00:03<00:02, 144.93it/s]
+Batches:  58%|█████▊    | 420/728 [00:03<00:02, 142.30it/s]
+Batches:  60%|█████▉    | 436/728 [00:03<00:01, 146.55it/s]
+Batches:  62%|██████▏   | 451/728 [00:03<00:01, 147.33it/s]
+Batches:  64%|██████▍   | 466/728 [00:03<00:01, 146.33it/s]
+Batches:  66%|██████▋   | 483/728 [00:03<00:01, 152.19it/s]
+Batches:  69%|██████▊   | 499/728 [00:03<00:01, 153.43it/s]
+Batches:  71%|███████   | 515/728 [00:03<00:01, 153.15it/s]
+Batches:  73%|███████▎  | 531/728 [00:04<00:01, 103.21it/s]
+Batches:  75%|███████▌  | 547/728 [00:04<00:01, 115.11it/s]
+Batches:  77%|███████▋  | 561/728 [00:04<00:01, 120.59it/s]
+Batches:  79%|███████▉  | 577/728 [00:04<00:01, 129.96it/s]
+Batches:  82%|████████▏ | 594/728 [00:04<00:00, 138.84it/s]
+Batches:  84%|████████▍ | 610/728 [00:04<00:00, 144.30it/s]
+Batches:  86%|████████▌ | 626/728 [00:04<00:00, 148.31it/s]
+Batches:  88%|████████▊ | 643/728 [00:04<00:00, 153.91it/s]
+Batches:  91%|█████████ | 661/728 [00:04<00:00, 159.84it/s]
+Batches:  93%|█████████▎| 680/728 [00:05<00:00, 165.34it/s]
+Batches:  96%|█████████▌| 699/728 [00:05<00:00, 171.91it/s]
+Batches:  99%|█████████▊| 718/728 [00:05<00:00, 176.17it/s]
+Batches: 100%|██████████| 728/728 [00:05<00:00, 136.95it/s]
+
+Batches:   0%|          | 0/100 [00:00<?, ?it/s]
+Batches:   3%|▎         | 3/100 [00:00<00:04, 22.07it/s]
+Batches:   6%|▌         | 6/100 [00:00<00:03, 24.26it/s]
+Batches:   9%|▉         | 9/100 [00:00<00:03, 25.58it/s]
+Batches:  13%|█▎        | 13/100 [00:00<00:03, 27.91it/s]
+Batches:  17%|█▋        | 17/100 [00:00<00:02, 29.14it/s]
+Batches:  21%|██        | 21/100 [00:00<00:02, 32.23it/s]
+Batches:  26%|██▌       | 26/100 [00:00<00:02, 35.77it/s]
+Batches:  31%|███       | 31/100 [00:00<00:01, 38.55it/s]
+Batches:  36%|███▌      | 36/100 [00:01<00:01, 40.88it/s]
+Batches:  41%|████      | 41/100 [00:01<00:01, 42.91it/s]
+Batches:  47%|████▋     | 47/100 [00:01<00:01, 45.82it/s]
+Batches:  53%|█████▎    | 53/100 [00:01<00:00, 48.69it/s]
+Batches:  60%|██████    | 60/100 [00:01<00:00, 52.95it/s]
+Batches:  68%|██████▊   | 68/100 [00:01<00:00, 59.41it/s]
+Batches:  78%|███████▊  | 78/100 [00:01<00:00, 68.82it/s]
+Batches:  90%|█████████ | 90/100 [00:01<00:00, 81.94it/s]
+Batches: 100%|██████████| 100/100 [00:01<00:00, 53.14it/s]
+  [480/500] last EM=0  latency=0.8s
+  [483/500] ERROR on 5a867089554299211dda2b30: ValueError('training mode is expected to be boolean')
+  [490/500] last EM=0  latency=0.9s
+  [500/500] last EM=0  latency=0.8s
+{
+  "n": 500,
+  "em": 0.472,
+  "em_ci95": [
+    0.426,
+    0.516
+  ],
+  "f1": 0.5665023088023088,
+  "sent_recall@10": 0.8614228456913828,
+  "doc_recall@10": 0.9178356713426854,
+  "ctx_all_gold_rate": 0.4028056112224449,
+  "peak_prompt_tokens_max": 343,
+  "total_tokens_mean": 13355.95,
+  "latency_p50": 0.8765620249323547,
+  "latency_p95": 1.417977684061043,
+  "failure_counts": {
+    "RERANKING_FAILURE": 161,
+    "CORRECT": 236,
+    "GENERATION_FAILURE": 80,
+    "RETRIEVAL_FAILURE": 22,
+    "SYSTEM_ERROR": 1
+  }
+}
+
+=== hotpot | prebuilding the b7_lycheememory index (cached, resumable) ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16667.99it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 13898.50it/s]
+b7_lycheememory: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+b7_lycheememory: building index over 4866 documents ...
+  [Lychee memory] 20/4861 docs (50s)
+  [Lychee memory] 40/4861 docs (74s)
+  [Lychee memory] 60/4861 docs (102s)
+  [Lychee memory] 80/4861 docs (148s)
+  [Lychee memory] 100/4861 docs (188s)
+  [Lychee memory] 120/4861 docs (231s)
+  [Lychee memory] 140/4861 docs (264s)
+  [Lychee memory] 160/4861 docs (331s)
+  [Lychee memory] 180/4861 docs (377s)
+  [Lychee memory] 200/4861 docs (413s)
+  [Lychee memory] 220/4861 docs (457s)
+  [Lychee memory] 240/4861 docs (506s)
+  [Lychee memory] 260/4861 docs (560s)
+  [Lychee memory] 280/4861 docs (610s)
+  [Lychee memory] 300/4861 docs (664s)
+  [Lychee memory] 320/4861 docs (700s)
+  [Lychee memory] 340/4861 docs (737s)
+  [Lychee memory] 360/4861 docs (770s)
+  [Lychee memory] 380/4861 docs (804s)
+  [Lychee memory] 400/4861 docs (845s)
+  [Lychee memory] 420/4861 docs (874s)
+  [Lychee memory] 440/4861 docs (917s)
+  [Lychee memory] 460/4861 docs (948s)
+  [Lychee memory] 480/4861 docs (982s)
+  [Lychee memory] 500/4861 docs (1021s)
+  [Lychee memory] 520/4861 docs (1065s)
+  [Lychee memory] 540/4861 docs (1112s)
+  [Lychee memory] 560/4861 docs (1192s)
+  [Lychee memory] 580/4861 docs (1219s)
+  [Lychee memory] 600/4861 docs (1260s)
+  [Lychee memory] 620/4861 docs (1300s)
+  [Lychee memory] 640/4861 docs (1329s)
+  [Lychee memory] 660/4861 docs (1386s)
+  [Lychee memory] 680/4861 docs (1429s)
+  [Lychee memory] 700/4861 docs (1463s)
+  [Lychee memory] 720/4861 docs (1516s)
+  [Lychee memory] 740/4861 docs (1555s)
+  [Lychee memory] 760/4861 docs (1586s)
+  [Lychee memory] 780/4861 docs (1651s)
+  [Lychee memory] 800/4861 docs (1683s)
+  [Lychee memory] 820/4861 docs (1708s)
+  [Lychee memory] 840/4861 docs (1733s)
+  [Lychee memory] 860/4861 docs (1774s)
+  [Lychee memory] 880/4861 docs (1808s)
+  [Lychee memory] 900/4861 docs (1848s)
+  [Lychee memory] 920/4861 docs (1891s)
+  [Lychee memory] 940/4861 docs (1931s)
+  [Lychee memory] 960/4861 docs (1980s)
+  [Lychee memory] 980/4861 docs (2019s)
+  [Lychee memory] 1000/4861 docs (2052s)
+  [Lychee memory] 1020/4861 docs (2098s)
+  [Lychee memory] 1040/4861 docs (2142s)
+  [Lychee memory] 1060/4861 docs (2172s)
+  [Lychee memory] 1080/4861 docs (2206s)
+  [Lychee memory] 1100/4861 docs (2234s)
+  [Lychee memory] 1120/4861 docs (2264s)
+  [Lychee memory] 1140/4861 docs (2305s)
+  [Lychee memory] 1160/4861 docs (2352s)
+  [Lychee memory] 1180/4861 docs (2381s)
+  [Lychee memory] 1200/4861 docs (2431s)
+  [Lychee memory] 1220/4861 docs (2464s)
+  [Lychee memory] 1240/4861 docs (2500s)
+  [Lychee memory] 1260/4861 docs (2547s)
+  [Lychee memory] 1280/4861 docs (2580s)
+  [Lychee memory] 1300/4861 docs (2616s)
+  [Lychee memory] 1320/4861 docs (2658s)
+  [Lychee memory] 1340/4861 docs (2701s)
+  [Lychee memory] 1360/4861 docs (2722s)
+  [Lychee memory] 1380/4861 docs (2762s)
+  [Lychee memory] 1400/4861 docs (2806s)
+  [Lychee memory] 1420/4861 docs (2851s)
+  [Lychee memory] 1440/4861 docs (2879s)
+  [Lychee memory] 1460/4861 docs (2926s)
+  [Lychee memory] 1480/4861 docs (2954s)
+  [Lychee memory] 1500/4861 docs (3010s)
+  [Lychee memory] 1520/4861 docs (3053s)
+  [Lychee memory] 1540/4861 docs (3100s)
+  [Lychee memory] 1560/4861 docs (3138s)
+  [Lychee memory] 1580/4861 docs (3173s)
+  [Lychee memory] 1600/4861 docs (3216s)
+  [Lychee memory] 1620/4861 docs (3270s)
+  [Lychee memory] 1640/4861 docs (3305s)
+  [Lychee memory] 1660/4861 docs (3351s)
+  [Lychee memory] 1680/4861 docs (3382s)
+  [Lychee memory] 1700/4861 docs (3412s)
+  [Lychee memory] 1720/4861 docs (3467s)
+  [Lychee memory] 1740/4861 docs (3515s)
+  [Lychee memory] 1760/4861 docs (3557s)
+  [Lychee memory] 1780/4861 docs (3595s)
+  [Lychee memory] 1800/4861 docs (3645s)
+  [Lychee memory] 1820/4861 docs (3679s)
+  [Lychee memory] 1840/4861 docs (3720s)
+  [Lychee memory] 1860/4861 docs (3750s)
+  [Lychee memory] 1880/4861 docs (3806s)
+  [Lychee memory] 1900/4861 docs (3839s)
+  [Lychee memory] 1920/4861 docs (3877s)
+  [Lychee memory] 1940/4861 docs (3914s)
+  [Lychee memory] 1960/4861 docs (3979s)
+  [Lychee memory] 1980/4861 docs (4019s)
+  [Lychee memory] 2000/4861 docs (4062s)
+  [Lychee memory] 2020/4861 docs (4101s)
+  [Lychee memory] 2040/4861 docs (4133s)
+  [Lychee memory] 2060/4861 docs (4186s)
+  [Lychee memory] 2080/4861 docs (4236s)
+  [Lychee memory] 2100/4861 docs (4299s)
+  [Lychee memory] 2120/4861 docs (4337s)
+  [Lychee memory] 2140/4861 docs (4396s)
+  [Lychee memory] 2160/4861 docs (4445s)
+  [Lychee memory] 2180/4861 docs (4470s)
+  [Lychee memory] 2200/4861 docs (4516s)
+  [Lychee memory] 2220/4861 docs (4570s)
+  [Lychee memory] 2240/4861 docs (4618s)
+  [Lychee memory] 2260/4861 docs (4653s)
+  [Lychee memory] 2280/4861 docs (4703s)
+  [Lychee memory] 2300/4861 docs (4751s)
+  [Lychee memory] 2320/4861 docs (4796s)
+  [Lychee memory] 2340/4861 docs (4839s)
+  [Lychee memory] 2360/4861 docs (4889s)
+  [Lychee memory] 2380/4861 docs (4927s)
+  [Lychee memory] 2400/4861 docs (4964s)
+  [Lychee memory] 2420/4861 docs (5011s)
+  [Lychee memory] 2440/4861 docs (5076s)
+  [Lychee memory] 2460/4861 docs (5114s)
+  [Lychee memory] 2480/4861 docs (5159s)
+  [Lychee memory] 2500/4861 docs (5199s)
+  [Lychee memory] 2520/4861 docs (5234s)
+  [Lychee memory] 2540/4861 docs (5262s)
+  [Lychee memory] 2560/4861 docs (5289s)
+  [Lychee memory] 2580/4861 docs (5323s)
+  [Lychee memory] 2600/4861 docs (5367s)
+  [Lychee memory] 2620/4861 docs (5409s)
+  [Lychee memory] 2640/4861 docs (5454s)
+  [Lychee memory] 2660/4861 docs (5491s)
+  [Lychee memory] 2680/4861 docs (5527s)
+  [Lychee memory] 2700/4861 docs (5573s)
+  [Lychee memory] 2720/4861 docs (5614s)
+  [Lychee memory] 2740/4861 docs (5678s)
+  [Lychee memory] 2760/4861 docs (5720s)
+  [Lychee memory] 2780/4861 docs (5764s)
+  [Lychee memory] 2800/4861 docs (5794s)
+  [Lychee memory] 2820/4861 docs (5850s)
+  [Lychee memory] 2840/4861 docs (5901s)
+  [Lychee memory] 2860/4861 docs (5938s)
+  [Lychee memory] 2880/4861 docs (5965s)
+  [Lychee memory] 2900/4861 docs (6005s)
+  [Lychee memory] 2920/4861 docs (6049s)
+  [Lychee memory] 2940/4861 docs (6081s)
+  [Lychee memory] 2960/4861 docs (6111s)
+  [Lychee memory] 2980/4861 docs (6152s)
+  [Lychee memory] 3000/4861 docs (6189s)
+  [Lychee memory] 3020/4861 docs (6221s)
+  [Lychee memory] 3040/4861 docs (6262s)
+  [Lychee memory] 3060/4861 docs (6317s)
+  [Lychee memory] 3080/4861 docs (6346s)
+  [Lychee memory] 3100/4861 docs (6377s)
+  [Lychee memory] 3120/4861 docs (6425s)
+  [Lychee memory] 3140/4861 docs (6461s)
+  [Lychee memory] 3160/4861 docs (6519s)
+  [Lychee memory] 3180/4861 docs (6555s)
+  [Lychee memory] 3200/4861 docs (6580s)
+  [Lychee memory] 3220/4861 docs (6613s)
+  [Lychee memory] 3240/4861 docs (6655s)
+  [Lychee memory] 3260/4861 docs (6689s)
+  [Lychee memory] 3280/4861 docs (6726s)
+  [Lychee memory] 3300/4861 docs (6765s)
+  [Lychee memory] 3320/4861 docs (6795s)
+  [Lychee memory] 3340/4861 docs (6827s)
+  [Lychee memory] 3360/4861 docs (6856s)
+  [Lychee memory] 3380/4861 docs (6884s)
+  [Lychee memory] 3400/4861 docs (6936s)
+  [Lychee memory] 3420/4861 docs (6975s)
+  [Lychee memory] 3440/4861 docs (7008s)
+  [Lychee memory] 3460/4861 docs (7063s)
+  [Lychee memory] 3480/4861 docs (7105s)
+  [Lychee memory] 3500/4861 docs (7144s)
+  [Lychee memory] 3520/4861 docs (7192s)
+  [Lychee memory] 3540/4861 docs (7245s)
+  [Lychee memory] 3560/4861 docs (7287s)
+  [Lychee memory] 3580/4861 docs (7339s)
+  [Lychee memory] 3600/4861 docs (7372s)
+  [Lychee memory] 3620/4861 docs (7405s)
+  [Lychee memory] 3640/4861 docs (7437s)
+  [Lychee memory] 3660/4861 docs (7472s)
+  [Lychee memory] 3680/4861 docs (7516s)
+  [Lychee memory] 3700/4861 docs (7546s)
+  [Lychee memory] 3720/4861 docs (7592s)
+  [Lychee memory] 3740/4861 docs (7637s)
+  [Lychee memory] 3760/4861 docs (7686s)
+  [Lychee memory] 3780/4861 docs (7727s)
+  [Lychee memory] 3800/4861 docs (7763s)
+  [Lychee memory] 3820/4861 docs (7801s)
+  [Lychee memory] 3840/4861 docs (7824s)
+  [Lychee memory] 3860/4861 docs (7850s)
+  [Lychee memory] 3880/4861 docs (7911s)
+  [Lychee memory] 3900/4861 docs (7947s)
+  [Lychee memory] 3920/4861 docs (7981s)
+  [Lychee memory] 3940/4861 docs (8020s)
+  [Lychee memory] 3960/4861 docs (8053s)
+  [Lychee memory] 3980/4861 docs (8090s)
+  [Lychee memory] 4000/4861 docs (8145s)
+  [Lychee memory] 4020/4861 docs (8185s)
+  [Lychee memory] 4040/4861 docs (8239s)
+  [Lychee memory] 4060/4861 docs (8278s)
+  [Lychee memory] 4080/4861 docs (8315s)
+  [Lychee memory] 4100/4861 docs (8358s)
+  [Lychee memory] 4120/4861 docs (8398s)
+  [Lychee memory] 4140/4861 docs (8448s)
+  [Lychee memory] 4160/4861 docs (8493s)
+  [Lychee memory] 4180/4861 docs (8534s)
+  [Lychee memory] 4200/4861 docs (8576s)
+  [Lychee memory] 4220/4861 docs (8627s)
+  [Lychee memory] 4240/4861 docs (8666s)
+  [Lychee memory] 4260/4861 docs (8702s)
+  [Lychee memory] 4280/4861 docs (8736s)
+  [Lychee memory] 4300/4861 docs (8780s)
+  [Lychee memory] 4320/4861 docs (8817s)
+  [Lychee memory] 4340/4861 docs (8856s)
+  [Lychee memory] 4360/4861 docs (8887s)
+  [Lychee memory] 4380/4861 docs (8924s)
+  [Lychee memory] 4400/4861 docs (8958s)
+  [Lychee memory] 4420/4861 docs (8996s)
+  [Lychee memory] 4440/4861 docs (9043s)
+  [Lychee memory] 4460/4861 docs (9091s)
+  [Lychee memory] 4480/4861 docs (9134s)
+  [Lychee memory] 4500/4861 docs (9184s)
+  [Lychee memory] 4520/4861 docs (9232s)
+  [Lychee memory] 4540/4861 docs (9271s)
+  [Lychee memory] 4560/4861 docs (9313s)
+  [Lychee memory] 4580/4861 docs (9350s)
+  [Lychee memory] 4600/4861 docs (9407s)
+  [Lychee memory] 4620/4861 docs (9445s)
+  [Lychee memory] 4640/4861 docs (9482s)
+  [Lychee memory] 4660/4861 docs (9514s)
+  [Lychee memory] 4680/4861 docs (9555s)
+  [Lychee memory] 4700/4861 docs (9606s)
+  [Lychee memory] 4720/4861 docs (9658s)
+  [Lychee memory] 4740/4861 docs (9694s)
+  [Lychee memory] 4760/4861 docs (9753s)
+  [Lychee memory] 4780/4861 docs (9812s)
+  [Lychee memory] 4800/4861 docs (9867s)
+  [Lychee memory] 4820/4861 docs (9902s)
+  [Lychee memory] 4840/4861 docs (9948s)
+  [Lychee memory] 4860/4861 docs (9972s)
+  [Lychee memory] 4861/4861 docs (9974s)
+
+Batches:   0%|          | 0/336 [00:00<?, ?it/s]
+Batches:   0%|          | 1/336 [00:00<01:06,  5.02it/s]
+Batches:   3%|▎         | 10/336 [00:00<00:08, 40.29it/s]
+Batches:   6%|▋         | 21/336 [00:00<00:04, 66.04it/s]
+Batches:  10%|▉         | 33/336 [00:00<00:03, 83.53it/s]
+Batches:  14%|█▎        | 46/336 [00:00<00:02, 97.74it/s]
+Batches:  18%|█▊        | 60/336 [00:00<00:02, 109.54it/s]
+Batches:  22%|██▏       | 73/336 [00:00<00:02, 114.24it/s]
+Batches:  26%|██▌       | 87/336 [00:00<00:02, 121.58it/s]
+Batches:  30%|███       | 101/336 [00:01<00:01, 127.10it/s]
+Batches:  34%|███▍      | 114/336 [00:01<00:01, 127.08it/s]
+Batches:  38%|███▊      | 129/336 [00:01<00:01, 130.93it/s]
+Batches:  43%|████▎     | 144/336 [00:01<00:01, 135.76it/s]
+Batches:  47%|████▋     | 159/336 [00:01<00:01, 139.40it/s]
+Batches:  52%|█████▏    | 174/336 [00:01<00:01, 140.16it/s]
+Batches:  56%|█████▋    | 189/336 [00:01<00:01, 142.38it/s]
+Batches:  61%|██████    | 204/336 [00:01<00:00, 143.97it/s]
+Batches:  66%|██████▌   | 221/336 [00:01<00:00, 149.50it/s]
+Batches:  71%|███████   | 237/336 [00:01<00:00, 150.15it/s]
+Batches:  75%|███████▌  | 253/336 [00:02<00:00, 152.87it/s]
+Batches:  81%|████████  | 271/336 [00:02<00:00, 159.71it/s]
+Batches:  86%|████████▌ | 289/336 [00:02<00:00, 165.62it/s]
+Batches:  92%|█████████▏| 308/336 [00:02<00:00, 171.38it/s]
+Batches:  97%|█████████▋| 326/336 [00:02<00:00, 156.47it/s]
+Batches: 100%|██████████| 336/336 [00:02<00:00, 131.96it/s]
+b7_lycheememory: done {'docs': 14355, 'segments': 4965, 'records': 21494, 'fallback_segments': 293}
+
+=== hotpot | B7 LycheeMemory V2 (planner + 4 channels + RRF + MMR)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14962.20it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14270.04it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/lychee_hotpot_546cf4b066
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/336 [00:00<?, ?it/s]
+Batches:   0%|          | 1/336 [00:00<01:06,  5.03it/s]
+Batches:   3%|▎         | 10/336 [00:00<00:08, 39.72it/s]
+Batches:   6%|▌         | 20/336 [00:00<00:05, 61.74it/s]
+Batches:  10%|▉         | 32/336 [00:00<00:03, 80.53it/s]
+Batches:  13%|█▎        | 45/336 [00:00<00:03, 94.03it/s]
+Batches:  17%|█▋        | 58/336 [00:00<00:02, 104.03it/s]
+Batches:  21%|██        | 71/336 [00:00<00:02, 111.70it/s]
+Batches:  25%|██▌       | 85/336 [00:00<00:02, 118.39it/s]
+Batches:  29%|██▉       | 99/336 [00:01<00:01, 124.32it/s]
+Batches:  34%|███▎      | 113/336 [00:01<00:01, 128.84it/s]
+Batches:  38%|███▊      | 127/336 [00:01<00:01, 131.48it/s]
+Batches:  42%|████▏     | 141/336 [00:01<00:01, 127.42it/s]
+Batches:  46%|████▌     | 155/336 [00:01<00:01, 129.40it/s]
+Batches:  51%|█████     | 170/336 [00:01<00:01, 135.08it/s]
+Batches:  55%|█████▍    | 184/336 [00:01<00:01, 123.80it/s]
+Batches:  60%|█████▉    | 200/336 [00:01<00:01, 131.88it/s]
+Batches:  64%|██████▍   | 215/336 [00:01<00:00, 135.05it/s]
+Batches:  69%|██████▉   | 231/336 [00:02<00:00, 141.58it/s]
+Batches:  73%|███████▎  | 246/336 [00:02<00:00, 141.94it/s]
+Batches:  78%|███████▊  | 263/336 [00:02<00:00, 148.08it/s]
+Batches:  84%|████████▎ | 281/336 [00:02<00:00, 155.04it/s]
+Batches:  89%|████████▊ | 298/336 [00:02<00:00, 158.35it/s]
+Batches:  94%|█████████▍| 315/336 [00:02<00:00, 160.81it/s]
+Batches:  99%|█████████▉| 332/336 [00:02<00:00, 150.87it/s]
+Batches: 100%|██████████| 336/336 [00:02<00:00, 125.98it/s]
+  [10/500] last EM=0  latency=0.6s
+  [20/500] last EM=1  latency=0.7s
+  [30/500] last EM=1  latency=0.8s
+  [40/500] last EM=1  latency=0.8s
+  [50/500] last EM=0  latency=0.5s
+  [60/500] last EM=0  latency=0.7s
+  [70/500] last EM=0  latency=0.7s
+  [80/500] last EM=0  latency=0.7s
+  [90/500] last EM=1  latency=0.7s
+  [100/500] last EM=0  latency=0.6s
+  [110/500] last EM=0  latency=1.1s
+  [120/500] last EM=1  latency=0.9s
+  [130/500] last EM=1  latency=0.7s
+  [140/500] last EM=0  latency=0.6s
+  [150/500] last EM=0  latency=0.7s
+  [160/500] last EM=0  latency=0.9s
+  [170/500] last EM=0  latency=0.7s
+  [180/500] last EM=0  latency=0.7s
+  [190/500] last EM=1  latency=0.7s
+  [200/500] last EM=0  latency=0.7s
+  [210/500] last EM=0  latency=0.8s
+  [220/500] last EM=1  latency=1.0s
+  [230/500] last EM=1  latency=1.4s
+  [240/500] last EM=1  latency=1.5s
+  [250/500] last EM=1  latency=0.7s
+  [260/500] last EM=1  latency=0.6s
+  [270/500] last EM=0  latency=0.8s
+  [280/500] last EM=1  latency=0.8s
+  [290/500] last EM=0  latency=0.7s
+  [300/500] last EM=1  latency=0.9s
+  [310/500] last EM=1  latency=1.1s
+  [320/500] last EM=0  latency=1.0s
+  [330/500] last EM=1  latency=0.8s
+  [340/500] last EM=0  latency=0.7s
+  [350/500] last EM=0  latency=0.7s
+  [360/500] last EM=0  latency=0.9s
+  [370/500] last EM=1  latency=0.7s
+  [380/500] last EM=0  latency=0.9s
+  [390/500] last EM=0  latency=0.7s
+  [400/500] last EM=0  latency=0.9s
+  [410/500] last EM=0  latency=1.0s
+  [420/500] last EM=0  latency=0.9s
+  [430/500] last EM=0  latency=0.8s
+  [440/500] last EM=1  latency=0.8s
+  [450/500] last EM=1  latency=1.0s
+  [460/500] last EM=1  latency=1.0s
+  [470/500] last EM=0  latency=0.6s
+  [480/500] last EM=0  latency=0.7s
+  [490/500] last EM=0  latency=1.3s
+  [500/500] last EM=0  latency=0.6s
+{
+  "n": 500,
+  "em": 0.528,
+  "em_ci95": [
+    0.484,
+    0.572
+  ],
+  "f1": 0.6384593073593073,
+  "sent_recall@10": 0.807,
+  "doc_recall@10": 0.856,
+  "ctx_all_gold_rate": 0.724,
+  "peak_prompt_tokens_max": 1643,
+  "total_tokens_mean": 1427.894,
+  "latency_p50": 0.7901582410559058,
+  "latency_p95": 1.2200654809130356,
+  "failure_counts": {
+    "RETRIEVAL_FAILURE": 37,
+    "CORRECT": 264,
+    "GENERATION_FAILURE": 143,
+    "RERANKING_FAILURE": 56
+  }
+}
+
+=== hotpot | B7 LycheeMemory V2 (no planner: single query)  [qwen2.5:7b] ===
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 21809.37it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 19830.78it/s]
+preflight[generator]: ollama ok: qwen2.5:7b answered 'OK' in 0.0s
+run dir: runs_progressive/lychee_hotpot_c6e2e9c292
+units: {'unit_mode': 'sentence', 'native_sentence_docs': 4866, 'n_units': 19690, 'n_docs': 4866, 'units_fingerprint': '86515aaab39b443b36d294a79f84f54606416ec8c6be4c359b6288930cff72a2'}
+
+Batches:   0%|          | 0/336 [00:00<?, ?it/s]
+Batches:   0%|          | 1/336 [00:00<01:08,  4.86it/s]
+Batches:   3%|▎         | 10/336 [00:00<00:08, 39.51it/s]
+Batches:   6%|▋         | 21/336 [00:00<00:04, 65.33it/s]
+Batches:  10%|▉         | 33/336 [00:00<00:03, 83.72it/s]
+Batches:  14%|█▎        | 46/336 [00:00<00:02, 98.02it/s]
+Batches:  18%|█▊        | 59/336 [00:00<00:02, 107.68it/s]
+Batches:  22%|██▏       | 74/336 [00:00<00:02, 118.81it/s]
+Batches:  26%|██▌       | 88/336 [00:00<00:01, 124.91it/s]
+Batches:  30%|███       | 102/336 [00:01<00:01, 128.10it/s]
+Batches:  35%|███▍      | 116/336 [00:01<00:01, 129.83it/s]
+Batches:  39%|███▊      | 130/336 [00:01<00:01, 131.67it/s]
+Batches:  43%|████▎     | 145/336 [00:01<00:01, 135.24it/s]
+Batches:  48%|████▊     | 161/336 [00:01<00:01, 139.88it/s]
+Batches:  53%|█████▎    | 177/336 [00:01<00:01, 145.24it/s]
+Batches:  57%|█████▋    | 192/336 [00:01<00:00, 145.67it/s]
+Batches:  62%|██████▏   | 207/336 [00:01<00:00, 146.27it/s]
+Batches:  67%|██████▋   | 224/336 [00:01<00:00, 151.08it/s]
+Batches:  71%|███████▏  | 240/336 [00:01<00:00, 152.48it/s]
+Batches:  76%|███████▋  | 257/336 [00:02<00:00, 156.54it/s]
+Batches:  82%|████████▏ | 274/336 [00:02<00:00, 160.27it/s]
+Batches:  87%|████████▋ | 291/336 [00:02<00:00, 160.22it/s]
+Batches:  93%|█████████▎| 312/336 [00:02<00:00, 171.63it/s]
+Batches:  98%|█████████▊| 330/336 [00:02<00:00, 157.68it/s]
+Batches: 100%|██████████| 336/336 [00:02<00:00, 132.70it/s]
+  [10/500] last EM=0  latency=0.2s
+  [20/500] last EM=1  latency=0.2s
+  [30/500] last EM=1  latency=0.2s
+  [40/500] last EM=1  latency=0.2s
+  [50/500] last EM=0  latency=0.2s
+  [60/500] last EM=0  latency=0.2s
+  [70/500] last EM=0  latency=0.2s
+  [80/500] last EM=0  latency=0.2s
+  [90/500] last EM=1  latency=0.2s
+  [100/500] last EM=0  latency=0.2s
+  [110/500] last EM=0  latency=0.2s
+  [120/500] last EM=1  latency=0.2s
+  [130/500] last EM=1  latency=0.2s
+  [140/500] last EM=0  latency=0.2s
+  [150/500] last EM=0  latency=0.1s
+  [160/500] last EM=0  latency=0.2s
+  [170/500] last EM=1  latency=0.2s
+  [180/500] last EM=0  latency=0.2s
+  [190/500] last EM=1  latency=0.2s
+  [200/500] last EM=1  latency=0.2s
+  [210/500] last EM=0  latency=0.2s
+  [220/500] last EM=1  latency=0.2s
+  [230/500] last EM=0  latency=0.2s
+  [240/500] last EM=1  latency=0.2s
+  [250/500] last EM=1  latency=0.2s
+  [260/500] last EM=1  latency=0.2s
+  [270/500] last EM=0  latency=0.3s
+  [280/500] last EM=1  latency=0.3s
+  [290/500] last EM=0  latency=0.3s
+  [300/500] last EM=1  latency=0.2s
+  [310/500] last EM=1  latency=0.2s
+  [320/500] last EM=0  latency=0.2s
+  [330/500] last EM=1  latency=0.2s
+  [340/500] last EM=0  latency=0.2s
+  [350/500] last EM=0  latency=0.2s
+  [360/500] last EM=0  latency=0.2s
+  [370/500] last EM=1  latency=0.2s
+  [380/500] last EM=0  latency=0.2s
+  [390/500] last EM=0  latency=0.2s
+  [400/500] last EM=0  latency=0.2s
+  [410/500] last EM=0  latency=0.3s
+  [420/500] last EM=0  latency=0.2s
+  [430/500] last EM=0  latency=0.2s
+  [440/500] last EM=1  latency=0.2s
+  [450/500] last EM=1  latency=0.2s
+  [460/500] last EM=1  latency=0.2s
+  [470/500] last EM=0  latency=0.2s
+  [480/500] last EM=0  latency=0.2s
+  [490/500] last EM=0  latency=0.2s
+  [500/500] last EM=0  latency=0.2s
+{
+  "n": 500,
+  "em": 0.526,
+  "em_ci95": [
+    0.482,
+    0.57
+  ],
+  "f1": 0.6358847041847042,
+  "sent_recall@10": 0.8118333333333334,
+  "doc_recall@10": 0.864,
+  "ctx_all_gold_rate": 0.734,
+  "peak_prompt_tokens_max": 1689,
+  "total_tokens_mean": 1131.454,
+  "latency_p50": 0.20429203496314585,
+  "latency_p95": 0.2606293869903311,
+  "failure_counts": {
+    "RERANKING_FAILURE": 58,
+    "CORRECT": 263,
+    "GENERATION_FAILURE": 146,
+    "RETRIEVAL_FAILURE": 33
+  }
+}
+settings that differ between runs: ['system', 'dataset', 'prepend_title', 'prompt_version', 'generator', 'top_k', 'budget_tokens', 'unit_mode', 'method_args']
+constant: {'limit': None, 'lam': 0.5, 'corpus_scope': 'pooled', 'embedder': 'BAAI/bge-small-en-v1.5', 'reranker': 'cross-encoder/ms-marco-MiniLM-L-6-v2', 'tokenizer': 'tiktoken_cl100k'}
+
+run                              system      dataset prepend_titl prompt_versi    generator        top_k budget_token    unit_mode  method_args    n     EM     EM 95% CI     F1 sentR@10 allGold peakTok  failures
+chunk_2wiki_1e8ef39c7a            chunk        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.28,0.46]  0.461    0.835   0.530    1443  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+chunk_2wiki_214817796c            chunk        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.400   [0.30,0.50]  0.449    0.835   0.350     505  {'CONTEXT_OVERFLOW': 30, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 40, 'GENERATION_FAILURE': 11, 'RERANKING_FAILURE': 2}
+chunk_2wiki_abdc596e68            chunk        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.44]  0.419    0.835   0.530    1443  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 35, 'RERANKING_FAILURE': 16}
+chunk_2wiki_d5d410254c            chunk        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.410   [0.32,0.50]  0.496    0.835   0.560    1010  {'GENERATION_FAILURE': 33, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 41, 'CONTEXT_OVERFLOW': 9, 'RERANKING_FAILURE': 3}
+chunk_2wiki_ddcb70df26            chunk        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.450   [0.36,0.54]  0.519    0.835   0.650    2029  {'GENERATION_FAILURE': 37, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 45, 'RERANKING_FAILURE': 3, 'CONTEXT_OVERFLOW': 1}
+chunk_dsire_582933042a            chunk        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.380   [0.28,0.48]  0.546        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+chunk_dsire_95dca64e52            chunk        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.477        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+chunk_musique_5d86dd4bba          chunk      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.150   [0.09,0.22]  0.252        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 15}
+chunk_musique_df1040a2ff          chunk      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.090   [0.04,0.15]  0.144        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+sentence_2wiki_245fbcab4d      sentence        2wiki         True           v1   qwen2.5:3b            5         None         None         None  100  0.150   [0.09,0.23]  0.182    0.705   0.290     500  {'GENERATION_FAILURE': 22, 'RETRIEVAL_FAILURE': 37, 'RERANKING_FAILURE': 26, 'CORRECT': 15}
+sentence_2wiki_3dda92fe5e      sentence        2wiki         True           v2   qwen2.5:3b           20         1024         None         None  100  0.370   [0.28,0.46]  0.429    0.705   0.480     996  {'GENERATION_FAILURE': 29, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 2}
+sentence_2wiki_43999629bb      sentence        2wiki         True           v2   qwen2.5:3b           20         None         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_45603b394d      sentence        2wiki         True           v2   qwen2.5:3b           20          512         None         None  100  0.300   [0.21,0.39]  0.358    0.705   0.380     501  {'GENERATION_FAILURE': 24, 'RETRIEVAL_FAILURE': 29, 'CORRECT': 30, 'RERANKING_FAILURE': 6, 'CONTEXT_OVERFLOW': 11}
+sentence_2wiki_650b13b7a9      sentence        2wiki         True           v2   qwen2.5:3b           20         2048         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_7eb0ce0e4e      sentence        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.49]  0.455    0.705   0.290     499  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 39, 'RERANKING_FAILURE': 26}
+sentence_2wiki_94230cb875      sentence        2wiki         True           v2   qwen2.5:3b           20         4096         None         None  100  0.370   [0.28,0.46]  0.433    0.705   0.500    1631  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 26, 'CORRECT': 37, 'RERANKING_FAILURE': 6}
+sentence_2wiki_a44b7c7deb      sentence        2wiki        False           v1   qwen2.5:3b            5         None         None         None  100  0.170   [0.10,0.24]  0.201    0.675   0.280     505  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 45, 'CORRECT': 17, 'GENERATION_FAILURE': 16}
+sentence_2wiki_ac1a2d0b75      sentence        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.350   [0.26,0.45]  0.416    0.705   0.290     499  {'GENERATION_FAILURE': 14, 'RETRIEVAL_FAILURE': 25, 'RERANKING_FAILURE': 26, 'CORRECT': 35}
+sentence_2wiki_dbaf8d21ef      sentence        2wiki         True           v2   qwen2.5:3b           10         None         None         None  100  0.340   [0.25,0.43]  0.388    0.705   0.400     924  {'GENERATION_FAILURE': 23, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 34, 'RERANKING_FAILURE': 15}
+sentence_2wiki_e3d4ba2a98      sentence        2wiki        False           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.409    0.675   0.280     504  {'RERANKING_FAILURE': 22, 'RETRIEVAL_FAILURE': 28, 'CORRECT': 36, 'GENERATION_FAILURE': 14}
+sentence_dsire_0b994b65a4      sentence        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.320   [0.23,0.41]  0.420        -   0.950    1191  {'GENERATION_FAILURE': 65, 'CORRECT': 32, 'RERANKING_FAILURE': 3}
+sentence_dsire_e25b391f30      sentence        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.45]  0.508        -   0.950    1191  {'GENERATION_FAILURE': 61, 'CORRECT': 36, 'RERANKING_FAILURE': 3}
+sentence_musique_0d935103be     sentence      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.140   [0.08,0.21]  0.194        -   0.160     572  {'RERANKING_FAILURE': 27, 'GENERATION_FAILURE': 11, 'RETRIEVAL_FAILURE': 48, 'CORRECT': 14}
+sentence_musique_89620719f1     sentence      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.190   [0.12,0.27]  0.307        -   0.160     572  {'RERANKING_FAILURE': 26, 'GENERATION_FAILURE': 8, 'RETRIEVAL_FAILURE': 47, 'CORRECT': 19}
+georag_2wiki_24f766fc74          georag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.230   [0.15,0.31]  0.301    0.782   0.040    1564  {'RERANKING_FAILURE': 68, 'CORRECT': 23, 'RETRIEVAL_FAILURE': 5, 'GENERATION_FAILURE': 4}
+georag_2wiki_68349c53d9          georag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.20,0.37]  0.339    0.782   0.050    1564  {'RERANKING_FAILURE': 66, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 4, 'GENERATION_FAILURE': 2}
+georag_2wiki_6ea09457b9          georag        2wiki         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.260   [0.18,0.34]  0.308    0.632   0.000     388  {'RERANKING_FAILURE': 55, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 26}
+georag_2wiki_d7dd56c6e1          georag        2wiki         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.260   [0.17,0.35]  0.289    0.630   0.000     372  {'RERANKING_FAILURE': 54, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 26}
+georag_dsire_32ac9a6795          georag        dsire         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.280   [0.20,0.37]  0.337        -   0.950    1196  {'GENERATION_FAILURE': 68, 'CORRECT': 28, 'RERANKING_FAILURE': 4}
+georag_dsire_726a2d71dd          georag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.418        -   0.900    2427  {'GENERATION_FAILURE': 62, 'CORRECT': 30, 'RERANKING_FAILURE': 8}
+georag_dsire_a39b3f149d          georag        dsire         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.300   [0.21,0.39]  0.387        -   0.940    1178  {'GENERATION_FAILURE': 66, 'CORRECT': 30, 'RERANKING_FAILURE': 4}
+georag_dsire_a655b4dc04          georag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.464        -   0.900    2427  {'GENERATION_FAILURE': 59, 'CORRECT': 33, 'RERANKING_FAILURE': 8}
+georag_musique_4b61181368        georag      musique         True           v2   qwen2.5:3b            5         None     sentence         None  100  0.050   [0.01,0.10]  0.089        -   0.020     378  {'RERANKING_FAILURE': 70, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 5}
+georag_musique_88953daad9        georag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.050   [0.01,0.09]  0.068        -   0.010    1266  {'RERANKING_FAILURE': 78, 'RETRIEVAL_FAILURE': 17, 'CORRECT': 5}
+georag_musique_b6639ab9a7        georag      musique         True           v2   qwen2.5:7b            5         None     sentence         None  100  0.090   [0.04,0.15]  0.162        -   0.020     378  {'RERANKING_FAILURE': 67, 'GENERATION_FAILURE': 1, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 9}
+georag_musique_d7fd4e8c2e        georag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.070   [0.03,0.12]  0.133        -   0.010    1365  {'RERANKING_FAILURE': 77, 'RETRIEVAL_FAILURE': 15, 'GENERATION_FAILURE': 1, 'CORRECT': 7}
+hlg_2wiki_0c2dbbc355                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.370   [0.28,0.46]  0.423    0.700   0.220     346  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 32, 'CORRECT': 37, 'GENERATION_FAILURE': 6}
+hlg_2wiki_70ab86bfea                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.270   [0.19,0.36]  0.350    0.690   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 18, 'RERANKING_FAILURE': 46, 'CORRECT': 27}
+hlg_2wiki_ca340d310f                hlg        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.428    0.713   0.240     346  {'RERANKING_FAILURE': 37, 'RETRIEVAL_FAILURE': 19, 'CORRECT': 36, 'GENERATION_FAILURE': 8}
+hlg_2wiki_e1e5fd151b                hlg        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.270   [0.19,0.36]  0.350    0.695   0.210     369  {'GENERATION_FAILURE': 9, 'RETRIEVAL_FAILURE': 20, 'RERANKING_FAILURE': 44, 'CORRECT': 27}
+hlg_dsire_00f06c1451                hlg        dsire         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.370   [0.27,0.47]  0.513        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_bcf6402575                hlg        dsire         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.280   [0.20,0.37]  0.373        -   0.930     598  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 4, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 2}
+hlg_dsire_dc387f6e53                hlg        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.517        -   0.960     733  {'GENERATION_FAILURE': 61, 'CORRECT': 37, 'RERANKING_FAILURE': 2}
+hlg_dsire_e0837982d4                hlg        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.300   [0.21,0.39]  0.393        -   0.970     573  {'GENERATION_FAILURE': 68, 'CORRECT': 30, 'RERANKING_FAILURE': 2}
+hlg_musique_0c482f9c36              hlg      musique         True           v2   qwen2.5:3b            5         None         None {'retriever'  100  0.100   [0.04,0.16]  0.150        -   0.070     329  {'RERANKING_FAILURE': 42, 'CORRECT': 10, 'GENERATION_FAILURE': 6, 'RETRIEVAL_FAILURE': 42}
+hlg_musique_8228debad1              hlg      musique         True           v2   qwen2.5:7b            5         None         None {'retriever'  100  0.170   [0.10,0.24]  0.277        -   0.060     298  {'RERANKING_FAILURE': 54, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 26}
+hlg_musique_c501e4b372              hlg      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.170   [0.10,0.24]  0.282        -   0.060     298  {'RERANKING_FAILURE': 55, 'CORRECT': 17, 'GENERATION_FAILURE': 3, 'RETRIEVAL_FAILURE': 25}
+hlg_musique_ec76328fd2              hlg      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.110   [0.05,0.17]  0.158        -   0.080     324  {'RERANKING_FAILURE': 59, 'CORRECT': 11, 'GENERATION_FAILURE': 5, 'RETRIEVAL_FAILURE': 25}
+surerag_2wiki_08b0a060f1        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_2wiki_88571b8855        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.435    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_9ad1b85c0a        surerag        2wiki         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.370   [0.28,0.46]  0.437    0.835   0.530    1443  {'GENERATION_FAILURE': 31, 'RETRIEVAL_FAILURE': 16, 'CORRECT': 37, 'RERANKING_FAILURE': 16}
+surerag_2wiki_bb3fccf333        surerag        2wiki         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.29,0.47]  0.466    0.835   0.530    1443  {'GENERATION_FAILURE': 28, 'RETRIEVAL_FAILURE': 18, 'CORRECT': 38, 'RERANKING_FAILURE': 16}
+surerag_dsire_9e94186550        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.478        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_dsire_c85555f229        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_e0c2d0f6d4        surerag        dsire         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.380   [0.28,0.48]  0.547        -   1.000    2355  {'GENERATION_FAILURE': 62, 'CORRECT': 38}
+surerag_dsire_fbc6e1c8b0        surerag        dsire         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.340   [0.25,0.43]  0.476        -   1.000    2355  {'GENERATION_FAILURE': 66, 'CORRECT': 34}
+surerag_musique_1883594d09      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_4367c64c2c      surerag      musique         True           v2   qwen2.5:3b            5         None         None {'gate': Fal  100  0.090   [0.04,0.15]  0.141        -   0.160    1286  {'RERANKING_FAILURE': 43, 'GENERATION_FAILURE': 13, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 9}
+surerag_musique_539ac2910e      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.241        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+surerag_musique_a8a911e1d1      surerag      musique         True           v2   qwen2.5:7b            5         None         None {'gate': Fal  100  0.140   [0.08,0.21]  0.232        -   0.160    1286  {'RERANKING_FAILURE': 41, 'GENERATION_FAILURE': 10, 'RETRIEVAL_FAILURE': 35, 'CORRECT': 14}
+evimem_2wiki_4c317ff90e          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.380   [0.29,0.48]  0.455    0.690   0.400    1113  {'GENERATION_FAILURE': 21, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 38, 'RERANKING_FAILURE': 18}
+evimem_2wiki_82b289f04a          evimem        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.330   [0.24,0.42]  0.419    0.718   0.570    1196  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 30, 'CORRECT': 33, 'RERANKING_FAILURE': 2}
+evimem_2wiki_f2c48d736b          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.410   [0.31,0.51]  0.520    0.782   0.520    1157  {'GENERATION_FAILURE': 26, 'RETRIEVAL_FAILURE': 20, 'CORRECT': 41, 'RERANKING_FAILURE': 13}
+evimem_2wiki_f3c1045a0d          evimem        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.470    0.782   0.650    1312  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 24, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+evimem_dsire_0f4365acf4          evimem        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.429        -   1.000    2754  {'GENERATION_FAILURE': 67, 'CORRECT': 33}
+evimem_dsire_28717b1d0e          evimem        dsire         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.503        -   0.960    3130  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 3, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_ac158aa9c5          evimem        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.535        -   0.990    3518  {'GENERATION_FAILURE': 62, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 1}
+evimem_dsire_db88cb13c2          evimem        dsire         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.340   [0.25,0.43]  0.489        -   0.980    2686  {'GENERATION_FAILURE': 64, 'CORRECT': 34, 'RERANKING_FAILURE': 2}
+evimem_musique_7575dac5d3        evimem      musique         True           v2   qwen2.5:3b            5         None         None {'answer_con  100  0.100   [0.05,0.16]  0.147        -   0.240    1159  {'RETRIEVAL_FAILURE': 58, 'GENERATION_FAILURE': 17, 'RERANKING_FAILURE': 15, 'CORRECT': 10}
+evimem_musique_778bec6c37        evimem      musique         True           v2   qwen2.5:7b            5         None         None {'answer_con  100  0.200   [0.13,0.28]  0.283        -   0.250    1193  {'RERANKING_FAILURE': 20, 'RETRIEVAL_FAILURE': 43, 'GENERATION_FAILURE': 17, 'CORRECT': 20}
+evimem_musique_916f199499        evimem      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.03,0.12]  0.146        -   0.330    1151  {'RETRIEVAL_FAILURE': 59, 'GENERATION_FAILURE': 27, 'RERANKING_FAILURE': 7, 'CORRECT': 7}
+evimem_musique_a5b17687df        evimem      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.220   [0.14,0.31]  0.291        -   0.380    1255  {'RERANKING_FAILURE': 6, 'RETRIEVAL_FAILURE': 47, 'GENERATION_FAILURE': 25, 'CORRECT': 22}
+lychee_2wiki_31b713ea89          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.370   [0.28,0.47]  0.430    0.565   0.320    1928  {'GENERATION_FAILURE': 16, 'RERANKING_FAILURE': 16, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 31}
+lychee_2wiki_5fc9a7b175          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.430   [0.33,0.53]  0.510    0.675   0.450    1695  {'GENERATION_FAILURE': 19, 'RERANKING_FAILURE': 14, 'CORRECT': 43, 'RETRIEVAL_FAILURE': 24}
+lychee_2wiki_9946152374          lychee        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.390   [0.30,0.48]  0.468    0.667   0.430    1667  {'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 18, 'RETRIEVAL_FAILURE': 23, 'CORRECT': 39}
+lychee_2wiki_d9ff2238e4          lychee        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.370   [0.28,0.46]  0.426    0.578   0.380    1928  {'GENERATION_FAILURE': 18, 'RERANKING_FAILURE': 12, 'CORRECT': 37, 'RETRIEVAL_FAILURE': 33}
+lychee_dsire_51e390b512          lychee        dsire         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.270   [0.19,0.36]  0.350        -   0.790    4191  {'GENERATION_FAILURE': 56, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 15, 'RERANKING_FAILURE': 2}
+lychee_dsire_5648abb7e1          lychee        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.370        -   0.810    4146  {'GENERATION_FAILURE': 56, 'CORRECT': 28, 'RETRIEVAL_FAILURE': 14, 'RERANKING_FAILURE': 2}
+lychee_dsire_6978fa62e2          lychee        dsire         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.350   [0.26,0.44]  0.454        -   0.990    3810  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+lychee_dsire_ab5b81138f          lychee        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.330   [0.24,0.42]  0.438        -   0.970    3760  {'GENERATION_FAILURE': 64, 'CORRECT': 33, 'RERANKING_FAILURE': 3}
+lychee_musique_37a76c435b        lychee      musique         True           v2   qwen2.5:3b            5         None         None {'plan': Fal  100  0.140   [0.08,0.21]  0.264        -   0.290    1652  {'RETRIEVAL_FAILURE': 35, 'CORRECT': 14, 'GENERATION_FAILURE': 20, 'RERANKING_FAILURE': 31}
+lychee_musique_7a94fcd277        lychee      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.234        -   0.210    1652  {'RERANKING_FAILURE': 36, 'CORRECT': 13, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 36}
+lychee_musique_7da640a3c4        lychee      musique         True           v2   qwen2.5:7b            5         None         None {'plan': Fal  100  0.230   [0.15,0.31]  0.360        -   0.280    1904  {'RERANKING_FAILURE': 31, 'CORRECT': 23, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 31}
+lychee_musique_ff32896580        lychee      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.210   [0.13,0.29]  0.344        -   0.280    1892  {'RERANKING_FAILURE': 26, 'CORRECT': 21, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+lycheeacl_2wiki_0bda7466e7    lycheeacl        2wiki         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.144    0.000   0.000    2372  {'RETRIEVAL_FAILURE': 100}
+lycheeacl_musique_3d1bd68197    lycheeacl      musique         True           v2   qwen2.5:3b            5         None         None {'timeout_s'  100  0.000   [0.00,0.00]  0.068        -   0.000    3945  {'RETRIEVAL_FAILURE': 100}
+pyrag_2wiki_64f650128d            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.420   [0.32,0.52]  0.500    0.877   0.640    3236  {'GENERATION_FAILURE': 35, 'CORRECT': 42, 'RERANKING_FAILURE': 13, 'RETRIEVAL_FAILURE': 10}
+pyrag_2wiki_7aafdc3d11            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.400   [0.31,0.49]  0.479    0.860   0.670    4626  {'GENERATION_FAILURE': 39, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 40, 'RERANKING_FAILURE': 10}
+pyrag_2wiki_a8030ce3b1            pyrag        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.440   [0.34,0.54]  0.508    0.868   0.680    4672  {'GENERATION_FAILURE': 36, 'RETRIEVAL_FAILURE': 11, 'CORRECT': 44, 'RERANKING_FAILURE': 9}
+pyrag_2wiki_c44791bf80            pyrag        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.370   [0.27,0.47]  0.451    0.873   0.630    3043  {'GENERATION_FAILURE': 38, 'RETRIEVAL_FAILURE': 12, 'RERANKING_FAILURE': 13, 'CORRECT': 37}
+pyrag_dsire_a3aee4d4af            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.310   [0.22,0.41]  0.455        -   0.990    8143  {'GENERATION_FAILURE': 68, 'CORRECT': 31, 'RERANKING_FAILURE': 1}
+pyrag_dsire_b1a41176b1            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.360   [0.27,0.46]  0.520        -   0.980    8143  {'GENERATION_FAILURE': 63, 'CORRECT': 36, 'RERANKING_FAILURE': 1}
+pyrag_dsire_d76446e8f8            pyrag        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.280   [0.19,0.37]  0.449        -   1.000    6567  {'GENERATION_FAILURE': 72, 'CORRECT': 28}
+pyrag_dsire_f054b904ab            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.220   [0.14,0.31]  0.367        -   0.830    9429  {'GENERATION_FAILURE': 66, 'RERANKING_FAILURE': 12, 'CORRECT': 22}
+pyrag_dsire_fbad56a568            pyrag        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.220   [0.14,0.30]  0.358        -   0.870    9391  {'GENERATION_FAILURE': 68, 'CORRECT': 22, 'RERANKING_FAILURE': 8, 'RETRIEVAL_FAILURE': 2}
+pyrag_musique_88a2a0d19e          pyrag      musique         True           v2   qwen2.5:3b            5         None         None {'plan_gener  100  0.100   [0.05,0.16]  0.148        -   0.460    5304  {'GENERATION_FAILURE': 41, 'RERANKING_FAILURE': 27, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 10}
+pyrag_musique_c4b125dcb9          pyrag      musique         True           v2   qwen2.5:7b            5         None         None {'plan_gener  100  0.200   [0.12,0.28]  0.281        -   0.500    4734  {'GENERATION_FAILURE': 34, 'RERANKING_FAILURE': 28, 'CORRECT': 20, 'RETRIEVAL_FAILURE': 18}
+pyrag_musique_cdb729a73a          pyrag      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.160   [0.09,0.23]  0.265        -   0.530    5405  {'GENERATION_FAILURE': 42, 'CORRECT': 16, 'RERANKING_FAILURE': 23, 'RETRIEVAL_FAILURE': 19}
+pyrag_musique_ed703f84ed          pyrag      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.220        -   0.410    4989  {'GENERATION_FAILURE': 32, 'RERANKING_FAILURE': 32, 'RETRIEVAL_FAILURE': 21, 'CORRECT': 15}
+liveledger_2wiki_02323980dc   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.290   [0.21,0.38]  0.388    0.845   0.640    2463  {'GENERATION_FAILURE': 41, 'RETRIEVAL_FAILURE': 14, 'CORRECT': 29, 'RERANKING_FAILURE': 16}
+liveledger_2wiki_6b02197e52   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.440   [0.34,0.54]  0.530    0.882   0.700    1855  {'GENERATION_FAILURE': 32, 'RETRIEVAL_FAILURE': 10, 'CORRECT': 44, 'RERANKING_FAILURE': 14}
+liveledger_2wiki_974c112e7e   liveledger        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.270   [0.19,0.36]  0.355    0.800   0.540    2754  {'GENERATION_FAILURE': 33, 'RERANKING_FAILURE': 17, 'CORRECT': 27, 'RETRIEVAL_FAILURE': 23}
+liveledger_2wiki_e4ca67a421   liveledger        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.490   [0.39,0.59]  0.602    0.917   0.790    2378  {'GENERATION_FAILURE': 35, 'RETRIEVAL_FAILURE': 5, 'CORRECT': 49, 'RERANKING_FAILURE': 11}
+liveledger_dsire_0f5ac11ccb   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.340   [0.25,0.43]  0.465        -   0.940    2640  {'GENERATION_FAILURE': 62, 'CORRECT': 34, 'RERANKING_FAILURE': 4}
+liveledger_dsire_68586668fe   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.280   [0.19,0.37]  0.387        -   0.930    2326  {'GENERATION_FAILURE': 66, 'RETRIEVAL_FAILURE': 3, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_dsire_6bb79ffcb1   liveledger        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.350   [0.26,0.44]  0.491        -   0.970    2818  {'GENERATION_FAILURE': 64, 'CORRECT': 35, 'RERANKING_FAILURE': 1}
+liveledger_dsire_b425c671de   liveledger        dsire         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.280   [0.19,0.37]  0.417        -   0.960    2070  {'GENERATION_FAILURE': 69, 'CORRECT': 28, 'RERANKING_FAILURE': 3}
+liveledger_musique_28a83496f0   liveledger      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.150   [0.08,0.22]  0.210        -   0.260    2135  {'RERANKING_FAILURE': 32, 'CORRECT': 15, 'GENERATION_FAILURE': 15, 'RETRIEVAL_FAILURE': 38}
+liveledger_musique_4412435e9e   liveledger      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.20,0.38]  0.401        -   0.410    3141  {'RERANKING_FAILURE': 29, 'GENERATION_FAILURE': 20, 'RETRIEVAL_FAILURE': 22, 'CORRECT': 29}
+liveledger_musique_950ff6e262   liveledger      musique         True           v2   qwen2.5:3b            5         None         None {'ledger': F  100  0.220   [0.14,0.31]  0.280        -   0.300    2438  {'RERANKING_FAILURE': 26, 'RETRIEVAL_FAILURE': 34, 'GENERATION_FAILURE': 18, 'CORRECT': 22}
+liveledger_musique_f00cb18167   liveledger      musique         True           v2   qwen2.5:7b            5         None         None {'ledger': F  100  0.300   [0.21,0.39]  0.416        -   0.450    2435  {'RERANKING_FAILURE': 26, 'CORRECT': 30, 'RETRIEVAL_FAILURE': 18, 'GENERATION_FAILURE': 26}
+iterative_2wiki_0993722dcd    iterative        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.290   [0.21,0.38]  0.370    0.690   0.300     797  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 31, 'CORRECT': 29, 'GENERATION_FAILURE': 15}
+iterative_2wiki_d75cbcefcb    iterative        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.360   [0.27,0.45]  0.420    0.700   0.330     767  {'RERANKING_FAILURE': 25, 'RETRIEVAL_FAILURE': 26, 'GENERATION_FAILURE': 13, 'CORRECT': 36}
+iterative_dsire_4e0e8a0095    iterative        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.360   [0.27,0.46]  0.522        -   0.980    1918  {'GENERATION_FAILURE': 62, 'CORRECT': 36, 'RERANKING_FAILURE': 2}
+iterative_dsire_675a0325f5    iterative        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.340   [0.25,0.43]  0.427        -   0.930    2296  {'GENERATION_FAILURE': 61, 'CORRECT': 34, 'RERANKING_FAILURE': 4, 'RETRIEVAL_FAILURE': 1}
+iterative_musique_0a6293fd27    iterative      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.130   [0.07,0.20]  0.211        -   0.210     890  {'RERANKING_FAILURE': 31, 'RETRIEVAL_FAILURE': 45, 'GENERATION_FAILURE': 11, 'CORRECT': 13}
+iterative_musique_c08c0f0d74    iterative      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.180   [0.11,0.25]  0.276        -   0.260     973  {'GENERATION_FAILURE': 16, 'RETRIEVAL_FAILURE': 44, 'CORRECT': 18, 'RERANKING_FAILURE': 22}
+none_2wiki_7679ff0061              none        2wiki         True           v2   qwen2.5:3b            5         None         None         None  100  0.200   [0.13,0.28]  0.202    0.000   0.000      85  {'NO_RETRIEVAL': 80, 'CORRECT': 20}
+none_2wiki_fd1aa63fca              none        2wiki         True           v2   qwen2.5:7b            5         None         None         None  100  0.140   [0.08,0.21]  0.160    0.000   0.000      85  {'NO_RETRIEVAL': 86, 'CORRECT': 14}
+none_dsire_205af03414              none        dsire         True           v2   qwen2.5:7b            5         None         None         None  100  0.110   [0.05,0.17]  0.120        -   0.000     120  {'NO_RETRIEVAL': 89, 'CORRECT': 11}
+none_dsire_8c328cd9a0              none        dsire         True           v2   qwen2.5:3b            5         None         None         None  100  0.070   [0.02,0.12]  0.080        -   0.000     120  {'NO_RETRIEVAL': 93, 'CORRECT': 7}
+none_musique_2b4457a8b1            none      musique         True           v2   qwen2.5:7b            5         None         None         None  100  0.000   [0.00,0.00]  0.028        -   0.000      89  {'NO_RETRIEVAL': 100}
+none_musique_f51860b62f            none      musique         True           v2   qwen2.5:3b            5         None         None         None  100  0.000   [0.00,0.00]  0.024        -   0.000      89  {'NO_RETRIEVAL': 100}
+
+method_args per run:
+  hlg_2wiki_0c2dbbc355: {'retriever': 'topic'}
+  hlg_2wiki_70ab86bfea: {'retriever': 'topic'}
+  hlg_dsire_00f06c1451: {'retriever': 'topic'}
+  hlg_dsire_bcf6402575: {'retriever': 'topic'}
+  hlg_musique_0c482f9c36: {'retriever': 'topic'}
+  hlg_musique_8228debad1: {'retriever': 'topic'}
+  surerag_2wiki_08b0a060f1: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_88571b8855: {'gate': False, 'premise': 'concat'}
+  surerag_2wiki_9ad1b85c0a: {'gate': False}
+  surerag_2wiki_bb3fccf333: {'gate': False}
+  surerag_dsire_9e94186550: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_c85555f229: {'gate': False, 'premise': 'concat'}
+  surerag_dsire_e0c2d0f6d4: {'gate': False}
+  surerag_dsire_fbc6e1c8b0: {'gate': False}
+  surerag_musique_1883594d09: {'gate': False}
+  surerag_musique_4367c64c2c: {'gate': False, 'premise': 'concat'}
+  surerag_musique_539ac2910e: {'gate': False}
+  surerag_musique_a8a911e1d1: {'gate': False, 'premise': 'concat'}
+  evimem_2wiki_4c317ff90e: {'answer_context': 'raw'}
+  evimem_2wiki_f2c48d736b: {'answer_context': 'raw'}
+  evimem_dsire_28717b1d0e: {'answer_context': 'raw'}
+  evimem_dsire_db88cb13c2: {'answer_context': 'raw'}
+  evimem_musique_7575dac5d3: {'answer_context': 'raw'}
+  evimem_musique_778bec6c37: {'answer_context': 'raw'}
+  lychee_2wiki_5fc9a7b175: {'plan': False}
+  lychee_2wiki_d9ff2238e4: {'plan': False}
+  lychee_dsire_51e390b512: {'plan': False}
+  lychee_dsire_6978fa62e2: {'plan': False}
+  lychee_musique_37a76c435b: {'plan': False}
+  lychee_musique_7da640a3c4: {'plan': False}
+  lycheeacl_2wiki_0bda7466e7: {'timeout_s': 3600}
+  lycheeacl_musique_3d1bd68197: {'timeout_s': 3600}
+  pyrag_2wiki_64f650128d: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_2wiki_7aafdc3d11: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_dsire_b1a41176b1: {'plan_generator': 'qwen2.5-coder:7b'}
+  pyrag_dsire_f054b904ab: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_88a2a0d19e: {'plan_generator': 'qwen2.5-coder:3b'}
+  pyrag_musique_c4b125dcb9: {'plan_generator': 'qwen2.5-coder:7b'}
+  liveledger_2wiki_02323980dc: {'ledger': False}
+  liveledger_2wiki_6b02197e52: {'ledger': False}
+  liveledger_dsire_0f5ac11ccb: {'ledger': False}
+  liveledger_dsire_b425c671de: {'ledger': False}
+  liveledger_musique_950ff6e262: {'ledger': False}
+  liveledger_musique_f00cb18167: {'ledger': False}
+
+EM by number of hops (n in brackets):
+run                                 1-hop          2-hop          3-hop          4-hop          5-hop
+chunk_2wiki_1e8ef39c7a                  -    0.31 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+chunk_2wiki_214817796c                  -    0.32 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+chunk_2wiki_abdc596e68                  -    0.26 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+chunk_2wiki_d5d410254c                  -    0.29 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_2wiki_ddcb70df26                  -    0.35 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+chunk_dsire_582933042a       0.38 (n=100)              -              -              -              -
+chunk_dsire_95dca64e52       0.34 (n=100)              -              -              -              -
+chunk_musique_5d86dd4bba                -    0.21 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+chunk_musique_df1040a2ff                -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+sentence_2wiki_245fbcab4d               -    0.11 (n=72)              -    0.27 (n=26)     0.00 (n=2)
+sentence_2wiki_3dda92fe5e               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_43999629bb               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_45603b394d               -    0.19 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+sentence_2wiki_650b13b7a9               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_7eb0ce0e4e               -    0.28 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+sentence_2wiki_94230cb875               -    0.24 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_a44b7c7deb               -    0.19 (n=72)              -    0.12 (n=26)     0.00 (n=2)
+sentence_2wiki_ac1a2d0b75               -    0.21 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_2wiki_dbaf8d21ef               -    0.24 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+sentence_2wiki_e3d4ba2a98               -    0.22 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+sentence_dsire_0b994b65a4    0.32 (n=100)              -              -              -              -
+sentence_dsire_e25b391f30    0.36 (n=100)              -              -              -              -
+sentence_musique_0d935103be              -    0.21 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+sentence_musique_89620719f1              -    0.18 (n=34)    0.27 (n=33)    0.12 (n=33)              -
+georag_2wiki_24f766fc74                 -    0.08 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+georag_2wiki_68349c53d9                 -    0.12 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+georag_2wiki_6ea09457b9                 -    0.11 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+georag_2wiki_d7dd56c6e1                 -    0.14 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+georag_dsire_32ac9a6795      0.28 (n=100)              -              -              -              -
+georag_dsire_726a2d71dd      0.30 (n=100)              -              -              -              -
+georag_dsire_a39b3f149d      0.30 (n=100)              -              -              -              -
+georag_dsire_a655b4dc04      0.33 (n=100)              -              -              -              -
+georag_musique_4b61181368               -    0.12 (n=34)    0.00 (n=33)    0.03 (n=33)              -
+georag_musique_88953daad9               -    0.12 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+georag_musique_b6639ab9a7               -    0.15 (n=34)    0.06 (n=33)    0.06 (n=33)              -
+georag_musique_d7fd4e8c2e               -    0.12 (n=34)    0.06 (n=33)    0.03 (n=33)              -
+hlg_2wiki_0c2dbbc355                    -    0.25 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_70ab86bfea                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_2wiki_ca340d310f                    -    0.24 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+hlg_2wiki_e1e5fd151b                    -    0.19 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+hlg_dsire_00f06c1451         0.37 (n=100)              -              -              -              -
+hlg_dsire_bcf6402575         0.28 (n=100)              -              -              -              -
+hlg_dsire_dc387f6e53         0.37 (n=100)              -              -              -              -
+hlg_dsire_e0837982d4         0.30 (n=100)              -              -              -              -
+hlg_musique_0c482f9c36                  -    0.09 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+hlg_musique_8228debad1                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_c501e4b372                  -    0.18 (n=34)    0.18 (n=33)    0.15 (n=33)              -
+hlg_musique_ec76328fd2                  -    0.12 (n=34)    0.06 (n=33)    0.15 (n=33)              -
+surerag_2wiki_08b0a060f1                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_2wiki_88571b8855                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_9ad1b85c0a                -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+surerag_2wiki_bb3fccf333                -    0.32 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+surerag_dsire_9e94186550     0.34 (n=100)              -              -              -              -
+surerag_dsire_c85555f229     0.38 (n=100)              -              -              -              -
+surerag_dsire_e0c2d0f6d4     0.38 (n=100)              -              -              -              -
+surerag_dsire_fbc6e1c8b0     0.34 (n=100)              -              -              -              -
+surerag_musique_1883594d09              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_4367c64c2c              -    0.12 (n=34)    0.09 (n=33)    0.06 (n=33)              -
+surerag_musique_539ac2910e              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+surerag_musique_a8a911e1d1              -    0.18 (n=34)    0.15 (n=33)    0.09 (n=33)              -
+evimem_2wiki_4c317ff90e                 -    0.25 (n=72)              -    0.73 (n=26)     0.50 (n=2)
+evimem_2wiki_82b289f04a                 -    0.29 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+evimem_2wiki_f2c48d736b                 -    0.39 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+evimem_2wiki_f3c1045a0d                 -    0.36 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+evimem_dsire_0f4365acf4      0.33 (n=100)              -              -              -              -
+evimem_dsire_28717b1d0e      0.34 (n=100)              -              -              -              -
+evimem_dsire_ac158aa9c5      0.37 (n=100)              -              -              -              -
+evimem_dsire_db88cb13c2      0.34 (n=100)              -              -              -              -
+evimem_musique_7575dac5d3               -    0.21 (n=34)    0.00 (n=33)    0.09 (n=33)              -
+evimem_musique_778bec6c37               -    0.21 (n=34)    0.18 (n=33)    0.21 (n=33)              -
+evimem_musique_916f199499               -    0.18 (n=34)    0.03 (n=33)    0.00 (n=33)              -
+evimem_musique_a5b17687df               -    0.29 (n=34)    0.09 (n=33)    0.27 (n=33)              -
+lychee_2wiki_31b713ea89                 -    0.26 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_5fc9a7b175                 -    0.35 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+lychee_2wiki_9946152374                 -    0.31 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_2wiki_d9ff2238e4                 -    0.28 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+lychee_dsire_51e390b512      0.27 (n=100)              -              -              -              -
+lychee_dsire_5648abb7e1      0.28 (n=100)              -              -              -              -
+lychee_dsire_6978fa62e2      0.35 (n=100)              -              -              -              -
+lychee_dsire_ab5b81138f      0.33 (n=100)              -              -              -              -
+lychee_musique_37a76c435b               -    0.18 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7a94fcd277               -    0.15 (n=34)    0.12 (n=33)    0.12 (n=33)              -
+lychee_musique_7da640a3c4               -    0.26 (n=34)    0.21 (n=33)    0.21 (n=33)              -
+lychee_musique_ff32896580               -    0.26 (n=34)    0.18 (n=33)    0.18 (n=33)              -
+lycheeacl_2wiki_0bda7466e7              -    0.00 (n=72)              -    0.00 (n=26)     0.00 (n=2)
+lycheeacl_musique_3d1bd68197              -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+pyrag_2wiki_64f650128d                  -    0.38 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+pyrag_2wiki_7aafdc3d11                  -    0.33 (n=72)              -    0.58 (n=26)     0.50 (n=2)
+pyrag_2wiki_a8030ce3b1                  -    0.38 (n=72)              -    0.62 (n=26)     0.50 (n=2)
+pyrag_2wiki_c44791bf80                  -    0.32 (n=72)              -    0.50 (n=26)     0.50 (n=2)
+pyrag_dsire_a3aee4d4af       0.31 (n=100)              -              -              -              -
+pyrag_dsire_b1a41176b1       0.36 (n=100)              -              -              -              -
+pyrag_dsire_d76446e8f8       0.28 (n=100)              -              -              -              -
+pyrag_dsire_f054b904ab       0.22 (n=100)              -              -              -              -
+pyrag_dsire_fbad56a568       0.22 (n=100)              -              -              -              -
+pyrag_musique_88a2a0d19e                -    0.18 (n=34)    0.09 (n=33)    0.03 (n=33)              -
+pyrag_musique_c4b125dcb9                -    0.32 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+pyrag_musique_cdb729a73a                -    0.24 (n=34)    0.09 (n=33)    0.15 (n=33)              -
+pyrag_musique_ed703f84ed                -    0.24 (n=34)    0.12 (n=33)    0.09 (n=33)              -
+liveledger_2wiki_02323980dc              -    0.33 (n=72)              -    0.19 (n=26)     0.00 (n=2)
+liveledger_2wiki_6b02197e52              -    0.43 (n=72)              -    0.46 (n=26)     0.50 (n=2)
+liveledger_2wiki_974c112e7e              -    0.29 (n=72)              -    0.19 (n=26)     0.50 (n=2)
+liveledger_2wiki_e4ca67a421              -    0.42 (n=72)              -    0.69 (n=26)     0.50 (n=2)
+liveledger_dsire_0f5ac11ccb   0.34 (n=100)              -              -              -              -
+liveledger_dsire_68586668fe   0.28 (n=100)              -              -              -              -
+liveledger_dsire_6bb79ffcb1   0.35 (n=100)              -              -              -              -
+liveledger_dsire_b425c671de   0.28 (n=100)              -              -              -              -
+liveledger_musique_28a83496f0              -    0.18 (n=34)    0.12 (n=33)    0.15 (n=33)              -
+liveledger_musique_4412435e9e              -    0.53 (n=34)    0.21 (n=33)    0.12 (n=33)              -
+liveledger_musique_950ff6e262              -    0.32 (n=34)    0.09 (n=33)    0.24 (n=33)              -
+liveledger_musique_f00cb18167              -    0.38 (n=34)    0.27 (n=33)    0.24 (n=33)              -
+iterative_2wiki_0993722dcd              -    0.19 (n=72)              -    0.54 (n=26)     0.50 (n=2)
+iterative_2wiki_d75cbcefcb              -    0.25 (n=72)              -    0.65 (n=26)     0.50 (n=2)
+iterative_dsire_4e0e8a0095   0.36 (n=100)              -              -              -              -
+iterative_dsire_675a0325f5   0.34 (n=100)              -              -              -              -
+iterative_musique_0a6293fd27              -    0.21 (n=34)    0.12 (n=33)    0.06 (n=33)              -
+iterative_musique_c08c0f0d74              -    0.24 (n=34)    0.15 (n=33)    0.15 (n=33)              -
+none_2wiki_7679ff0061                   -    0.11 (n=72)              -    0.42 (n=26)     0.50 (n=2)
+none_2wiki_fd1aa63fca                   -    0.06 (n=72)              -    0.35 (n=26)     0.50 (n=2)
+none_dsire_205af03414        0.11 (n=100)              -              -              -              -
+none_dsire_8c328cd9a0        0.07 (n=100)              -              -              -              -
+none_musique_2b4457a8b1                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+none_musique_f51860b62f                 -    0.00 (n=34)    0.00 (n=33)    0.00 (n=33)              -
+# Progressive results: score vs number of questions
+
+One full run per configuration; the first N questions of that run form the N-question experiment (nested sets, so systems are compared on the same questions). Steps appear once all N questions are answered. Primary metric: **EM** for 2Wiki/MuSiQue, **token-F1** for DSIRE (free-text answers). Cells: `value [95% bootstrap CI]`.
+
+*Caveat:* the corpus is pooled over all questions of the 600-question file, so retrieval difficulty is the same at every N (the curve shows sampling stability, not a growing corpus). The first 100 questions are the set used in the 100-question table, but its numbers are not identical to it (bigger pool, fresh run).
+
+## 2wiki | qwen2.5:3b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.350 [0.260, 0.450] | 0.320 [0.255, 0.390] | 0.320 [0.267, 0.373] | 0.315 [0.270, 0.357] | 0.322 [0.282, 0.366] |
+| B2 vanilla RAG (sentence) | 0.360 [0.260, 0.450] | 0.345 [0.275, 0.420] | 0.343 [0.293, 0.393] | 0.335 [0.292, 0.380] | 0.328 [0.286, 0.368] |
+| B3 GeoRAG | 0.250 [0.160, 0.340] | 0.235 [0.185, 0.290] | 0.237 [0.190, 0.283] | 0.233 [0.190, 0.278] | 0.242 [0.208, 0.280] |
+| B3 GeoRAG [unit=sentence] | 0.280 [0.190, 0.370] | 0.235 [0.180, 0.290] | 0.237 [0.190, 0.287] | 0.223 [0.185, 0.265] | 0.224 [0.186, 0.260] |
+| B4 HLG-RAG | 0.320 [0.230, 0.420] | 0.300 [0.240, 0.360] | 0.303 [0.250, 0.353] | 0.290 [0.245, 0.335] | 0.290 [0.254, 0.332] |
+| B4 HLG-RAG [retriever=topic] | 0.340 [0.250, 0.440] | 0.305 [0.245, 0.370] | 0.303 [0.253, 0.357] | 0.295 [0.250, 0.340] | 0.292 [0.250, 0.332] |
+| B5 SURE-RAG [gate=False] | 0.350 [0.260, 0.440] | 0.310 [0.250, 0.375] | 0.323 [0.273, 0.377] | 0.315 [0.270, 0.360] | 0.322 [0.280, 0.364] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.350 [0.260, 0.450] | 0.310 [0.245, 0.375] | 0.323 [0.273, 0.373] | 0.315 [0.270, 0.360] | 0.322 [0.284, 0.360] |
+| B6 EviMem | 0.330 [0.240, 0.420] | 0.325 [0.265, 0.390] | 0.323 [0.270, 0.377] | 0.310 [0.265, 0.355] | 0.304 [0.264, 0.344] |
+| B6 EviMem [answer_context=raw] | 0.340 [0.250, 0.430] | 0.335 [0.270, 0.405] | 0.343 [0.290, 0.397] | 0.325 [0.280, 0.368] | 0.324 [0.286, 0.366] |
+| B7 LycheeMemory V2 | 0.310 [0.220, 0.400] | 0.320 [0.260, 0.385] | 0.323 [0.273, 0.377] | 0.312 [0.268, 0.360] | 0.308 [0.270, 0.348] |
+| B7 LycheeMemory V2 [plan=False] | 0.320 [0.230, 0.410] | 0.325 [0.260, 0.390] | 0.337 [0.283, 0.390] | 0.328 [0.282, 0.373] | 0.322 [0.280, 0.366] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.010 [0.000, 0.030] | 0.005 [0.000, 0.015] | 0.003 [0.000, 0.010] | 0.003 [0.000, 0.007] | 0.006 [0.000, 0.014] |
+| B8 PyRAG | 0.370 [0.270, 0.460] | 0.365 [0.295, 0.430] | 0.363 [0.307, 0.417] | 0.335 [0.287, 0.378] | 0.346 [0.304, 0.388] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.360 [0.260, 0.460] | 0.350 [0.290, 0.415] | 0.363 [0.310, 0.417] | 0.333 [0.287, 0.380] | 0.348 [0.304, 0.390] |
+| B9 LiveLedger | 0.310 [0.220, 0.400] | 0.285 [0.225, 0.345] | 0.290 [0.237, 0.343] | 0.300 [0.258, 0.343] | 0.298 [0.256, 0.340] |
+| B9 LiveLedger [ledger=False] | 0.260 [0.180, 0.350] | 0.250 [0.195, 0.305] | 0.263 [0.217, 0.317] | 0.268 [0.228, 0.310] | 0.276 [0.238, 0.318] |
+| ref: iterative refinement | 0.340 [0.250, 0.420] | 0.275 [0.215, 0.340] | 0.283 [0.230, 0.333] | 0.280 [0.235, 0.325] | 0.294 [0.252, 0.334] |
+| ref: no retrieval (floor) | 0.170 [0.100, 0.240] | 0.160 [0.110, 0.210] | 0.160 [0.123, 0.203] | 0.150 [0.117, 0.185] | 0.150 [0.120, 0.182] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | +0.010 [-0.080, +0.100] | +0.025 [-0.035, +0.085] | +0.023 [-0.027, +0.070] | +0.020 [-0.022, +0.062] | +0.006 [-0.026, +0.042] |
+| B3 GeoRAG | -0.100 [-0.190, -0.010]* | -0.085 [-0.155, -0.010]* | -0.083 [-0.137, -0.030]* | -0.083 [-0.130, -0.035]* | -0.080 [-0.122, -0.038]* |
+| B3 GeoRAG [unit=sentence] | -0.070 [-0.160, +0.020] | -0.085 [-0.155, -0.015]* | -0.083 [-0.137, -0.027]* | -0.092 [-0.142, -0.048]* | -0.098 [-0.138, -0.060]* |
+| B4 HLG-RAG | -0.030 [-0.120, +0.060] | -0.020 [-0.085, +0.050] | -0.017 [-0.070, +0.037] | -0.025 [-0.068, +0.015] | -0.032 [-0.068, +0.002] |
+| B4 HLG-RAG [retriever=topic] | -0.010 [-0.110, +0.080] | -0.015 [-0.085, +0.055] | -0.017 [-0.067, +0.033] | -0.020 [-0.065, +0.025] | -0.030 [-0.068, +0.008] |
+| B5 SURE-RAG [gate=False] | +0.000 [-0.040, +0.040] | -0.010 [-0.035, +0.020] | +0.003 [-0.020, +0.030] | +0.000 [-0.020, +0.018] | +0.000 [-0.016, +0.016] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.000 [-0.040, +0.040] | -0.010 [-0.040, +0.015] | +0.003 [-0.020, +0.027] | +0.000 [-0.020, +0.022] | +0.000 [-0.016, +0.016] |
+| B6 EviMem | -0.020 [-0.120, +0.080] | +0.005 [-0.075, +0.075] | +0.003 [-0.057, +0.060] | -0.005 [-0.058, +0.043] | -0.018 [-0.064, +0.022] |
+| B6 EviMem [answer_context=raw] | -0.010 [-0.110, +0.100] | +0.015 [-0.050, +0.085] | +0.023 [-0.033, +0.077] | +0.010 [-0.033, +0.060] | +0.002 [-0.040, +0.044] |
+| B7 LycheeMemory V2 | -0.040 [-0.140, +0.060] | +0.000 [-0.070, +0.065] | +0.003 [-0.050, +0.057] | -0.003 [-0.048, +0.040] | -0.014 [-0.050, +0.026] |
+| B7 LycheeMemory V2 [plan=False] | -0.030 [-0.130, +0.070] | +0.005 [-0.070, +0.070] | +0.017 [-0.033, +0.070] | +0.013 [-0.030, +0.058] | +0.000 [-0.038, +0.040] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | -0.340 [-0.450, -0.250]* | -0.315 [-0.385, -0.250]* | -0.317 [-0.370, -0.263]* | -0.312 [-0.357, -0.265]* | -0.316 [-0.356, -0.274]* |
+| B8 PyRAG | +0.020 [-0.070, +0.130] | +0.045 [-0.025, +0.120] | +0.043 [-0.010, +0.107] | +0.020 [-0.030, +0.068] | +0.024 [-0.024, +0.068] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | +0.010 [-0.090, +0.110] | +0.030 [-0.045, +0.100] | +0.043 [-0.017, +0.103] | +0.018 [-0.030, +0.070] | +0.026 [-0.022, +0.070] |
+| B9 LiveLedger | -0.040 [-0.140, +0.070] | -0.035 [-0.110, +0.035] | -0.030 [-0.093, +0.033] | -0.015 [-0.065, +0.040] | -0.024 [-0.076, +0.020] |
+| B9 LiveLedger [ledger=False] | -0.090 [-0.220, +0.040] | -0.070 [-0.150, +0.005] | -0.057 [-0.123, +0.010] | -0.048 [-0.105, +0.010] | -0.046 [-0.098, +0.006] |
+| ref: iterative refinement | -0.010 [-0.100, +0.080] | -0.045 [-0.105, +0.020] | -0.037 [-0.087, +0.013] | -0.035 [-0.075, +0.005] | -0.028 [-0.066, +0.010] |
+| ref: no retrieval (floor) | -0.180 [-0.270, -0.090]* | -0.160 [-0.225, -0.095]* | -0.160 [-0.213, -0.107]* | -0.165 [-0.210, -0.122]* | -0.172 [-0.210, -0.132]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.416 | 0.401 | 0.396 | 0.390 | 0.392 |
+| B2 vanilla RAG (sentence) | 0.438 | 0.427 | 0.412 | 0.398 | 0.386 |
+| B3 GeoRAG | 0.299 | 0.298 | 0.294 | 0.287 | 0.289 |
+| B3 GeoRAG [unit=sentence] | 0.316 | 0.282 | 0.282 | 0.267 | 0.262 |
+| B4 HLG-RAG | 0.393 | 0.371 | 0.368 | 0.352 | 0.345 |
+| B4 HLG-RAG [retriever=topic] | 0.412 | 0.377 | 0.368 | 0.356 | 0.348 |
+| B5 SURE-RAG [gate=False] | 0.425 | 0.395 | 0.402 | 0.391 | 0.395 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.425 | 0.395 | 0.402 | 0.391 | 0.395 |
+| B6 EviMem | 0.414 | 0.418 | 0.411 | 0.392 | 0.379 |
+| B6 EviMem [answer_context=raw] | 0.435 | 0.440 | 0.430 | 0.412 | 0.400 |
+| B7 LycheeMemory V2 | 0.390 | 0.400 | 0.389 | 0.378 | 0.365 |
+| B7 LycheeMemory V2 [plan=False] | 0.384 | 0.391 | 0.394 | 0.383 | 0.372 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.140 | 0.157 | 0.152 | 0.157 | 0.154 |
+| B8 PyRAG | 0.434 | 0.447 | 0.449 | 0.420 | 0.421 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.448 | 0.426 | 0.438 | 0.411 | 0.422 |
+| B9 LiveLedger | 0.398 | 0.374 | 0.373 | 0.376 | 0.365 |
+| B9 LiveLedger [ledger=False] | 0.362 | 0.356 | 0.362 | 0.368 | 0.367 |
+| ref: iterative refinement | 0.403 | 0.347 | 0.352 | 0.344 | 0.354 |
+| ref: no retrieval (floor) | 0.180 | 0.165 | 0.163 | 0.155 | 0.154 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B2 vanilla RAG (sentence) | 0.735 | 0.744 | 0.729 | 0.719 | 0.716 |
+| B3 GeoRAG | 0.743 | 0.741 | 0.733 | 0.726 | 0.727 |
+| B3 GeoRAG [unit=sentence] | 0.695 | 0.686 | 0.675 | 0.664 | 0.660 |
+| B4 HLG-RAG | 0.748 | 0.749 | 0.730 | 0.729 | 0.726 |
+| B4 HLG-RAG [retriever=topic] | 0.705 | 0.718 | 0.705 | 0.698 | 0.694 |
+| B5 SURE-RAG [gate=False] | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B6 EviMem | 0.752 | 0.759 | 0.752 | 0.746 | 0.741 |
+| B6 EviMem [answer_context=raw] | 0.752 | 0.759 | 0.752 | 0.746 | 0.741 |
+| B7 LycheeMemory V2 | 0.733 | 0.719 | 0.702 | 0.698 | 0.693 |
+| B7 LycheeMemory V2 [plan=False] | 0.730 | 0.729 | 0.713 | 0.709 | 0.703 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B8 PyRAG | 0.843 | 0.841 | 0.843 | 0.844 | 0.843 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.843 | 0.835 | 0.843 | 0.838 | 0.839 |
+| B9 LiveLedger | 0.818 | 0.795 | 0.782 | 0.777 | 0.771 |
+| B9 LiveLedger [ledger=False] | 0.863 | 0.848 | 0.853 | 0.846 | 0.842 |
+| ref: iterative refinement | 0.725 | 0.729 | 0.710 | 0.704 | 0.705 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## 2wiki | qwen2.5:7b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.380 [0.280, 0.470] | 0.355 [0.290, 0.425] | 0.357 [0.300, 0.410] | 0.350 [0.305, 0.398] | 0.338 [0.298, 0.384] |
+| B2 vanilla RAG (sentence) | 0.380 [0.280, 0.480] | 0.350 [0.280, 0.420] | 0.353 [0.297, 0.407] | 0.352 [0.307, 0.403] | 0.344 [0.304, 0.384] |
+| B3 GeoRAG | 0.240 [0.160, 0.320] | 0.225 [0.170, 0.280] | 0.227 [0.180, 0.273] | 0.230 [0.190, 0.275] | 0.230 [0.194, 0.264] |
+| B3 GeoRAG [unit=sentence] | 0.270 [0.180, 0.360] | 0.250 [0.190, 0.310] | 0.247 [0.203, 0.297] | 0.253 [0.207, 0.295] | 0.242 [0.204, 0.282] |
+| B4 HLG-RAG | 0.290 [0.210, 0.380] | 0.290 [0.225, 0.355] | 0.320 [0.263, 0.373] | 0.310 [0.267, 0.357] | 0.308 [0.266, 0.350] |
+| B4 HLG-RAG [retriever=topic] | 0.300 [0.210, 0.400] | 0.295 [0.235, 0.360] | 0.323 [0.273, 0.380] | 0.310 [0.268, 0.357] | 0.310 [0.272, 0.348] |
+| B5 SURE-RAG [gate=False] | 0.380 [0.290, 0.470] | 0.350 [0.290, 0.415] | 0.357 [0.303, 0.410] | 0.345 [0.295, 0.390] | 0.334 [0.292, 0.376] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.380 [0.290, 0.470] | 0.350 [0.285, 0.415] | 0.357 [0.303, 0.407] | 0.345 [0.295, 0.390] | 0.334 [0.294, 0.374] |
+| B6 EviMem | 0.380 [0.280, 0.470] | 0.375 [0.310, 0.450] | 0.367 [0.317, 0.420] | 0.347 [0.305, 0.393] | 0.342 [0.302, 0.382] |
+| B6 EviMem [answer_context=raw] | 0.380 [0.280, 0.470] | 0.345 [0.280, 0.415] | 0.350 [0.300, 0.403] | 0.343 [0.295, 0.390] | 0.344 [0.302, 0.384] |
+| B7 LycheeMemory V2 | 0.420 [0.330, 0.510] | 0.420 [0.350, 0.495] | 0.400 [0.340, 0.460] | 0.380 [0.328, 0.425] | 0.384 [0.344, 0.426] |
+| B7 LycheeMemory V2 [plan=False] | 0.400 [0.310, 0.500] | 0.390 [0.325, 0.460] | 0.393 [0.340, 0.443] | 0.370 [0.325, 0.415] | 0.372 [0.330, 0.416] |
+| B8 PyRAG | 0.380 [0.280, 0.480] | 0.390 [0.320, 0.460] | 0.393 [0.340, 0.447] | 0.393 [0.347, 0.443] | 0.408 [0.368, 0.448] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.460 [0.360, 0.560] | 0.440 [0.370, 0.510] | 0.423 [0.367, 0.483] | 0.415 [0.370, 0.463] | 0.436 [0.394, 0.478] |
+| B9 LiveLedger | 0.460 [0.370, 0.560] | 0.490 [0.420, 0.560] | 0.490 [0.430, 0.547] | 0.477 [0.427, 0.523] | 0.500 [0.460, 0.544] |
+| B9 LiveLedger [ledger=False] | 0.390 [0.290, 0.480] | 0.420 [0.350, 0.485] | 0.400 [0.343, 0.460] | 0.395 [0.347, 0.445] | 0.412 [0.370, 0.454] |
+| ref: iterative refinement | 0.300 [0.210, 0.390] | 0.310 [0.245, 0.380] | 0.320 [0.270, 0.370] | 0.320 [0.275, 0.365] | 0.318 [0.278, 0.360] |
+| ref: no retrieval (floor) | 0.130 [0.070, 0.200] | 0.110 [0.070, 0.150] | 0.110 [0.077, 0.147] | 0.105 [0.077, 0.135] | 0.108 [0.082, 0.138] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | +0.000 [-0.070, +0.070] | -0.005 [-0.065, +0.050] | -0.003 [-0.053, +0.043] | +0.003 [-0.037, +0.043] | +0.006 [-0.030, +0.040] |
+| B3 GeoRAG | -0.140 [-0.240, -0.040]* | -0.130 [-0.200, -0.065]* | -0.130 [-0.183, -0.077]* | -0.120 [-0.165, -0.075]* | -0.108 [-0.146, -0.068]* |
+| B3 GeoRAG [unit=sentence] | -0.110 [-0.210, -0.010]* | -0.105 [-0.170, -0.035]* | -0.110 [-0.163, -0.053]* | -0.098 [-0.140, -0.052]* | -0.096 [-0.140, -0.058]* |
+| B4 HLG-RAG | -0.090 [-0.190, +0.000] | -0.065 [-0.135, +0.000] | -0.037 [-0.090, +0.020] | -0.040 [-0.085, +0.005] | -0.030 [-0.072, +0.012] |
+| B4 HLG-RAG [retriever=topic] | -0.080 [-0.170, +0.000] | -0.060 [-0.130, +0.005] | -0.033 [-0.087, +0.020] | -0.040 [-0.083, +0.003] | -0.028 [-0.068, +0.008] |
+| B5 SURE-RAG [gate=False] | +0.000 [-0.030, +0.030] | -0.005 [-0.025, +0.010] | +0.000 [-0.017, +0.017] | -0.005 [-0.018, +0.007] | -0.004 [-0.016, +0.008] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.000 [-0.030, +0.030] | -0.005 [-0.025, +0.010] | +0.000 [-0.017, +0.017] | -0.005 [-0.018, +0.007] | -0.004 [-0.016, +0.008] |
+| B6 EviMem | +0.000 [-0.100, +0.100] | +0.020 [-0.060, +0.100] | +0.010 [-0.050, +0.073] | -0.003 [-0.058, +0.050] | +0.004 [-0.044, +0.052] |
+| B6 EviMem [answer_context=raw] | +0.000 [-0.100, +0.100] | -0.010 [-0.080, +0.065] | -0.007 [-0.067, +0.053] | -0.007 [-0.058, +0.045] | +0.006 [-0.040, +0.050] |
+| B7 LycheeMemory V2 | +0.040 [-0.050, +0.130] | +0.065 [+0.000, +0.135] | +0.043 [-0.003, +0.090] | +0.030 [-0.013, +0.068] | +0.046 [+0.010, +0.084]* |
+| B7 LycheeMemory V2 [plan=False] | +0.020 [-0.060, +0.100] | +0.035 [-0.025, +0.100] | +0.037 [-0.007, +0.083] | +0.020 [-0.018, +0.058] | +0.034 [-0.004, +0.072] |
+| B8 PyRAG | +0.000 [-0.110, +0.110] | +0.035 [-0.040, +0.110] | +0.037 [-0.027, +0.090] | +0.043 [-0.007, +0.095] | +0.070 [+0.022, +0.114]* |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | +0.080 [-0.030, +0.190] | +0.085 [+0.005, +0.165]* | +0.067 [+0.007, +0.130]* | +0.065 [+0.015, +0.115]* | +0.098 [+0.052, +0.142]* |
+| B9 LiveLedger | +0.080 [-0.010, +0.170] | +0.135 [+0.070, +0.200]* | +0.133 [+0.077, +0.190]* | +0.128 [+0.075, +0.175]* | +0.162 [+0.114, +0.208]* |
+| B9 LiveLedger [ledger=False] | +0.010 [-0.090, +0.110] | +0.065 [-0.010, +0.145] | +0.043 [-0.023, +0.113] | +0.045 [-0.013, +0.100] | +0.074 [+0.026, +0.126]* |
+| ref: iterative refinement | -0.080 [-0.160, +0.000] | -0.045 [-0.100, +0.015] | -0.037 [-0.087, +0.017] | -0.030 [-0.070, +0.013] | -0.020 [-0.058, +0.020] |
+| ref: no retrieval (floor) | -0.250 [-0.350, -0.150]* | -0.245 [-0.315, -0.180]* | -0.247 [-0.303, -0.193]* | -0.245 [-0.290, -0.200]* | -0.230 [-0.272, -0.192]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.472 | 0.466 | 0.457 | 0.443 | 0.421 |
+| B2 vanilla RAG (sentence) | 0.454 | 0.442 | 0.439 | 0.431 | 0.414 |
+| B3 GeoRAG | 0.310 | 0.314 | 0.315 | 0.310 | 0.302 |
+| B3 GeoRAG [unit=sentence] | 0.309 | 0.303 | 0.305 | 0.306 | 0.288 |
+| B4 HLG-RAG | 0.365 | 0.394 | 0.410 | 0.394 | 0.386 |
+| B4 HLG-RAG [retriever=topic] | 0.375 | 0.399 | 0.413 | 0.394 | 0.388 |
+| B5 SURE-RAG [gate=False] | 0.468 | 0.463 | 0.458 | 0.438 | 0.418 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.468 | 0.463 | 0.458 | 0.438 | 0.418 |
+| B6 EviMem | 0.486 | 0.492 | 0.472 | 0.444 | 0.430 |
+| B6 EviMem [answer_context=raw] | 0.479 | 0.455 | 0.453 | 0.441 | 0.432 |
+| B7 LycheeMemory V2 | 0.491 | 0.512 | 0.485 | 0.463 | 0.457 |
+| B7 LycheeMemory V2 [plan=False] | 0.486 | 0.493 | 0.484 | 0.455 | 0.448 |
+| B8 PyRAG | 0.451 | 0.479 | 0.477 | 0.477 | 0.482 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.528 | 0.523 | 0.504 | 0.496 | 0.509 |
+| B9 LiveLedger | 0.579 | 0.607 | 0.602 | 0.587 | 0.601 |
+| B9 LiveLedger [ledger=False] | 0.494 | 0.521 | 0.495 | 0.493 | 0.502 |
+| ref: iterative refinement | 0.385 | 0.410 | 0.414 | 0.407 | 0.398 |
+| ref: no retrieval (floor) | 0.148 | 0.131 | 0.131 | 0.123 | 0.125 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B2 vanilla RAG (sentence) | 0.735 | 0.744 | 0.729 | 0.719 | 0.716 |
+| B3 GeoRAG | 0.743 | 0.741 | 0.733 | 0.726 | 0.727 |
+| B3 GeoRAG [unit=sentence] | 0.690 | 0.685 | 0.676 | 0.666 | 0.663 |
+| B4 HLG-RAG | 0.760 | 0.766 | 0.748 | 0.738 | 0.733 |
+| B4 HLG-RAG [retriever=topic] | 0.745 | 0.756 | 0.738 | 0.731 | 0.726 |
+| B5 SURE-RAG [gate=False] | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.792 | 0.799 | 0.780 | 0.772 | 0.773 |
+| B6 EviMem | 0.810 | 0.830 | 0.825 | 0.808 | 0.803 |
+| B6 EviMem [answer_context=raw] | 0.810 | 0.830 | 0.825 | 0.808 | 0.803 |
+| B7 LycheeMemory V2 | 0.698 | 0.708 | 0.702 | 0.693 | 0.693 |
+| B7 LycheeMemory V2 [plan=False] | 0.713 | 0.715 | 0.706 | 0.695 | 0.695 |
+| B8 PyRAG | 0.843 | 0.860 | 0.860 | 0.863 | 0.865 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.865 | 0.871 | 0.876 | 0.881 | 0.884 |
+| B9 LiveLedger | 0.940 | 0.924 | 0.934 | 0.925 | 0.930 |
+| B9 LiveLedger [ledger=False] | 0.917 | 0.905 | 0.913 | 0.911 | 0.909 |
+| ref: iterative refinement | 0.723 | 0.740 | 0.728 | 0.721 | 0.718 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## dsire | qwen2.5:3b | primary metric: F1 | 500 questions in the set
+
+**F1 (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.465 [0.387, 0.550] | 0.447 [0.384, 0.506] | 0.474 [0.425, 0.521] | 0.486 [0.447, 0.525] | 0.485 [0.447, 0.522] |
+| B2 vanilla RAG (sentence) | 0.412 [0.333, 0.494] | 0.438 [0.377, 0.500] | 0.440 [0.389, 0.492] | 0.456 [0.415, 0.500] | 0.450 [0.412, 0.490] |
+| B3 GeoRAG | 0.398 [0.313, 0.479] | 0.419 [0.362, 0.485] | 0.431 [0.382, 0.481] | 0.433 [0.389, 0.474] | 0.428 [0.389, 0.466] |
+| B3 GeoRAG [unit=sentence] | 0.340 [0.257, 0.425] | 0.337 [0.279, 0.397] | 0.342 [0.295, 0.393] | 0.350 [0.311, 0.392] | 0.350 [0.312, 0.389] |
+| B4 HLG-RAG | 0.392 [0.308, 0.473] | 0.355 [0.299, 0.416] | 0.350 [0.300, 0.400] | 0.351 [0.311, 0.395] | 0.358 [0.320, 0.397] |
+| B4 HLG-RAG [retriever=topic] | 0.401 [0.325, 0.484] | 0.358 [0.299, 0.419] | 0.340 [0.291, 0.395] | 0.337 [0.294, 0.381] | 0.343 [0.308, 0.383] |
+| B5 SURE-RAG [gate=False] | 0.463 [0.374, 0.548] | 0.449 [0.392, 0.512] | 0.474 [0.428, 0.523] | 0.485 [0.441, 0.528] | 0.483 [0.445, 0.525] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.463 [0.382, 0.546] | 0.449 [0.396, 0.515] | 0.474 [0.424, 0.523] | 0.485 [0.444, 0.528] | 0.483 [0.444, 0.520] |
+| B6 EviMem | 0.464 [0.379, 0.549] | 0.465 [0.411, 0.525] | 0.457 [0.411, 0.500] | 0.458 [0.414, 0.503] | 0.453 [0.420, 0.487] |
+| B6 EviMem [answer_context=raw] | 0.485 [0.404, 0.567] | 0.488 [0.435, 0.547] | 0.492 [0.442, 0.539] | 0.511 [0.471, 0.550] | 0.497 [0.459, 0.532] |
+| B7 LycheeMemory V2 | 0.404 [0.319, 0.488] | 0.410 [0.349, 0.473] | 0.419 [0.367, 0.468] | 0.409 [0.365, 0.449] | 0.406 [0.367, 0.440] |
+| B7 LycheeMemory V2 [plan=False] | 0.411 [0.330, 0.499] | 0.413 [0.355, 0.474] | 0.421 [0.371, 0.471] | 0.413 [0.371, 0.457] | 0.408 [0.366, 0.448] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.263 [0.215, 0.317] | 0.232 [0.201, 0.263] | 0.220 [0.194, 0.246] | 0.222 [0.201, 0.246] | 0.225 [0.205, 0.244] |
+| B8 PyRAG | 0.386 [0.309, 0.473] | 0.382 [0.327, 0.443] | 0.373 [0.323, 0.420] | 0.361 [0.321, 0.402] | 0.368 [0.333, 0.403] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.325 [0.255, 0.408] | 0.346 [0.293, 0.408] | 0.358 [0.311, 0.406] | 0.348 [0.309, 0.389] | 0.360 [0.324, 0.396] |
+| B9 LiveLedger | 0.372 [0.294, 0.455] | 0.372 [0.315, 0.432] | 0.388 [0.341, 0.436] | 0.409 [0.367, 0.454] | 0.406 [0.369, 0.441] |
+| B9 LiveLedger [ledger=False] | 0.440 [0.360, 0.523] | 0.441 [0.385, 0.499] | 0.441 [0.391, 0.489] | 0.441 [0.403, 0.487] | 0.446 [0.409, 0.485] |
+| ref: iterative refinement | 0.456 [0.366, 0.541] | 0.455 [0.399, 0.519] | 0.453 [0.405, 0.508] | 0.465 [0.422, 0.508] | 0.470 [0.432, 0.508] |
+| ref: no retrieval (floor) | 0.085 [0.037, 0.143] | 0.094 [0.054, 0.134] | 0.084 [0.056, 0.115] | 0.078 [0.054, 0.103] | 0.089 [0.066, 0.115] |
+
+**paired difference vs B1 chunk RAG in F1 (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | -0.053 [-0.110, -0.000]* | -0.009 [-0.055, +0.031] | -0.035 [-0.073, +0.002] | -0.030 [-0.062, +0.003] | -0.034 [-0.065, -0.005]* |
+| B3 GeoRAG | -0.067 [-0.126, -0.010]* | -0.028 [-0.075, +0.016] | -0.043 [-0.080, -0.009]* | -0.053 [-0.087, -0.022]* | -0.056 [-0.086, -0.028]* |
+| B3 GeoRAG [unit=sentence] | -0.125 [-0.199, -0.046]* | -0.110 [-0.162, -0.059]* | -0.132 [-0.179, -0.088]* | -0.135 [-0.170, -0.097]* | -0.135 [-0.169, -0.101]* |
+| B4 HLG-RAG | -0.073 [-0.146, -0.009]* | -0.092 [-0.140, -0.041]* | -0.124 [-0.169, -0.080]* | -0.135 [-0.177, -0.095]* | -0.127 [-0.166, -0.091]* |
+| B4 HLG-RAG [retriever=topic] | -0.064 [-0.136, +0.004] | -0.089 [-0.150, -0.032]* | -0.134 [-0.179, -0.089]* | -0.149 [-0.190, -0.106]* | -0.141 [-0.180, -0.103]* |
+| B5 SURE-RAG [gate=False] | -0.002 [-0.026, +0.021] | +0.003 [-0.012, +0.019] | -0.001 [-0.018, +0.015] | -0.001 [-0.016, +0.014] | -0.002 [-0.014, +0.011] |
+| B5 SURE-RAG [gate=False, premise=concat] | -0.002 [-0.025, +0.019] | +0.003 [-0.012, +0.020] | -0.001 [-0.018, +0.015] | -0.001 [-0.017, +0.015] | -0.002 [-0.014, +0.010] |
+| B6 EviMem | -0.001 [-0.088, +0.079] | +0.019 [-0.039, +0.078] | -0.017 [-0.067, +0.032] | -0.027 [-0.070, +0.017] | -0.032 [-0.072, +0.009] |
+| B6 EviMem [answer_context=raw] | +0.020 [-0.064, +0.096] | +0.041 [-0.011, +0.099] | +0.018 [-0.030, +0.059] | +0.025 [-0.013, +0.065] | +0.012 [-0.026, +0.048] |
+| B7 LycheeMemory V2 | -0.061 [-0.137, +0.010] | -0.037 [-0.087, +0.015] | -0.055 [-0.098, -0.013]* | -0.077 [-0.119, -0.038]* | -0.079 [-0.113, -0.044]* |
+| B7 LycheeMemory V2 [plan=False] | -0.054 [-0.121, +0.007] | -0.034 [-0.082, +0.013] | -0.053 [-0.097, -0.014]* | -0.073 [-0.113, -0.039]* | -0.077 [-0.112, -0.041]* |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | -0.202 [-0.306, -0.093]* | -0.215 [-0.287, -0.138]* | -0.255 [-0.310, -0.191]* | -0.264 [-0.320, -0.209]* | -0.259 [-0.308, -0.212]* |
+| B8 PyRAG | -0.079 [-0.158, -0.002]* | -0.065 [-0.122, -0.010]* | -0.102 [-0.151, -0.058]* | -0.125 [-0.168, -0.086]* | -0.116 [-0.156, -0.078]* |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | -0.140 [-0.229, -0.045]* | -0.100 [-0.161, -0.046]* | -0.116 [-0.165, -0.067]* | -0.137 [-0.181, -0.097]* | -0.125 [-0.166, -0.085]* |
+| B9 LiveLedger | -0.093 [-0.176, -0.015]* | -0.075 [-0.133, -0.022]* | -0.086 [-0.132, -0.040]* | -0.076 [-0.116, -0.037]* | -0.079 [-0.117, -0.043]* |
+| B9 LiveLedger [ledger=False] | -0.025 [-0.087, +0.037] | -0.006 [-0.058, +0.041] | -0.034 [-0.076, +0.009] | -0.044 [-0.078, -0.011]* | -0.039 [-0.073, -0.004]* |
+| ref: iterative refinement | -0.009 [-0.073, +0.048] | +0.008 [-0.038, +0.050] | -0.021 [-0.057, +0.016] | -0.021 [-0.051, +0.012] | -0.015 [-0.041, +0.011] |
+| ref: no retrieval (floor) | -0.380 [-0.465, -0.302]* | -0.353 [-0.409, -0.291]* | -0.390 [-0.437, -0.338]* | -0.408 [-0.448, -0.364]* | -0.395 [-0.435, -0.355]* |
+
+**EM**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.330 | 0.325 | 0.357 | 0.362 | 0.360 |
+| B2 vanilla RAG (sentence) | 0.310 | 0.340 | 0.347 | 0.347 | 0.340 |
+| B3 GeoRAG | 0.300 | 0.320 | 0.333 | 0.325 | 0.324 |
+| B3 GeoRAG [unit=sentence] | 0.280 | 0.280 | 0.290 | 0.285 | 0.284 |
+| B4 HLG-RAG | 0.310 | 0.280 | 0.283 | 0.278 | 0.282 |
+| B4 HLG-RAG [retriever=topic] | 0.320 | 0.285 | 0.277 | 0.268 | 0.270 |
+| B5 SURE-RAG [gate=False] | 0.340 | 0.335 | 0.357 | 0.362 | 0.360 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.340 | 0.335 | 0.357 | 0.362 | 0.360 |
+| B6 EviMem | 0.310 | 0.335 | 0.330 | 0.312 | 0.308 |
+| B6 EviMem [answer_context=raw] | 0.320 | 0.340 | 0.347 | 0.350 | 0.332 |
+| B7 LycheeMemory V2 | 0.310 | 0.325 | 0.340 | 0.325 | 0.322 |
+| B7 LycheeMemory V2 [plan=False] | 0.320 | 0.330 | 0.343 | 0.330 | 0.324 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.010 | 0.005 | 0.003 | 0.005 | 0.006 |
+| B8 PyRAG | 0.250 | 0.260 | 0.260 | 0.245 | 0.254 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.200 | 0.235 | 0.253 | 0.240 | 0.246 |
+| B9 LiveLedger | 0.260 | 0.275 | 0.300 | 0.310 | 0.304 |
+| B9 LiveLedger [ledger=False] | 0.300 | 0.320 | 0.333 | 0.325 | 0.324 |
+| ref: iterative refinement | 0.340 | 0.345 | 0.353 | 0.350 | 0.354 |
+| ref: no retrieval (floor) | 0.080 | 0.090 | 0.080 | 0.072 | 0.084 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B2 vanilla RAG (sentence) | 0.980 | 0.960 | 0.957 | 0.960 | 0.964 |
+| B3 GeoRAG | 0.990 | 0.990 | 0.987 | 0.985 | 0.980 |
+| B3 GeoRAG [unit=sentence] | 0.980 | 0.960 | 0.953 | 0.953 | 0.952 |
+| B4 HLG-RAG | 0.960 | 0.935 | 0.917 | 0.917 | 0.918 |
+| B4 HLG-RAG [retriever=topic] | 0.910 | 0.890 | 0.883 | 0.875 | 0.872 |
+| B5 SURE-RAG [gate=False] | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B5 SURE-RAG [gate=False, premise=concat] | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B6 EviMem | 0.870 | 0.880 | 0.883 | 0.892 | 0.900 |
+| B6 EviMem [answer_context=raw] | 0.870 | 0.880 | 0.883 | 0.892 | 0.900 |
+| B7 LycheeMemory V2 | 0.780 | 0.810 | 0.797 | 0.800 | 0.806 |
+| B7 LycheeMemory V2 [plan=False] | 0.780 | 0.810 | 0.810 | 0.805 | 0.810 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B8 PyRAG | 0.950 | 0.960 | 0.953 | 0.955 | 0.948 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.960 | 0.970 | 0.970 | 0.970 | 0.964 |
+| B9 LiveLedger | 0.930 | 0.935 | 0.907 | 0.900 | 0.908 |
+| B9 LiveLedger [ledger=False] | 0.980 | 0.960 | 0.943 | 0.940 | 0.942 |
+| ref: iterative refinement | 0.950 | 0.960 | 0.950 | 0.948 | 0.952 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## dsire | qwen2.5:7b | primary metric: F1 | 500 questions in the set
+
+**F1 (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.526 [0.448, 0.605] | 0.523 [0.468, 0.581] | 0.536 [0.492, 0.585] | 0.539 [0.494, 0.580] | 0.541 [0.504, 0.579] |
+| B2 vanilla RAG (sentence) | 0.474 [0.394, 0.561] | 0.496 [0.440, 0.558] | 0.510 [0.460, 0.562] | 0.517 [0.477, 0.560] | 0.516 [0.480, 0.553] |
+| B3 GeoRAG | 0.459 [0.379, 0.541] | 0.475 [0.411, 0.540] | 0.476 [0.433, 0.521] | 0.493 [0.452, 0.536] | 0.491 [0.455, 0.527] |
+| B3 GeoRAG [unit=sentence] | 0.424 [0.339, 0.508] | 0.404 [0.341, 0.467] | 0.400 [0.352, 0.447] | 0.401 [0.356, 0.445] | 0.390 [0.355, 0.428] |
+| B4 HLG-RAG | 0.482 [0.399, 0.564] | 0.494 [0.437, 0.551] | 0.504 [0.456, 0.555] | 0.507 [0.465, 0.550] | 0.507 [0.472, 0.544] |
+| B4 HLG-RAG [retriever=topic] | 0.457 [0.383, 0.536] | 0.468 [0.412, 0.530] | 0.482 [0.433, 0.532] | 0.489 [0.449, 0.530] | 0.495 [0.457, 0.533] |
+| B5 SURE-RAG [gate=False] | 0.527 [0.446, 0.616] | 0.518 [0.457, 0.578] | 0.535 [0.484, 0.582] | 0.537 [0.497, 0.577] | 0.536 [0.500, 0.575] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.527 [0.444, 0.602] | 0.518 [0.460, 0.577] | 0.535 [0.483, 0.583] | 0.537 [0.496, 0.579] | 0.536 [0.499, 0.572] |
+| B6 EviMem | 0.448 [0.368, 0.532] | 0.408 [0.354, 0.469] | 0.436 [0.387, 0.486] | 0.440 [0.397, 0.480] | 0.441 [0.405, 0.479] |
+| B6 EviMem [answer_context=raw] | 0.434 [0.358, 0.520] | 0.436 [0.379, 0.495] | 0.456 [0.408, 0.506] | 0.469 [0.430, 0.510] | 0.478 [0.441, 0.515] |
+| B7 LycheeMemory V2 | 0.425 [0.340, 0.518] | 0.418 [0.358, 0.481] | 0.404 [0.356, 0.455] | 0.394 [0.353, 0.437] | 0.389 [0.353, 0.424] |
+| B7 LycheeMemory V2 [plan=False] | 0.414 [0.329, 0.500] | 0.416 [0.356, 0.480] | 0.412 [0.360, 0.463] | 0.400 [0.359, 0.441] | 0.396 [0.361, 0.437] |
+| B8 PyRAG | 0.458 [0.381, 0.537] | 0.479 [0.422, 0.538] | 0.469 [0.422, 0.519] | 0.491 [0.449, 0.532] | 0.494 [0.457, 0.531] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.502 [0.419, 0.579] | 0.515 [0.457, 0.573] | 0.511 [0.463, 0.559] | 0.506 [0.464, 0.548] | 0.504 [0.469, 0.542] |
+| B9 LiveLedger | 0.455 [0.373, 0.532] | 0.470 [0.411, 0.528] | 0.466 [0.416, 0.517] | 0.482 [0.441, 0.526] | 0.486 [0.448, 0.527] |
+| B9 LiveLedger [ledger=False] | 0.446 [0.362, 0.528] | 0.452 [0.393, 0.512] | 0.455 [0.407, 0.503] | 0.472 [0.432, 0.514] | 0.476 [0.440, 0.514] |
+| ref: iterative refinement | 0.513 [0.427, 0.592] | 0.520 [0.460, 0.585] | 0.514 [0.469, 0.566] | 0.529 [0.493, 0.570] | 0.527 [0.487, 0.564] |
+| ref: no retrieval (floor) | 0.118 [0.059, 0.184] | 0.136 [0.092, 0.187] | 0.130 [0.092, 0.167] | 0.122 [0.093, 0.152] | 0.137 [0.109, 0.168] |
+
+**paired difference vs B1 chunk RAG in F1 (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | -0.052 [-0.104, -0.000]* | -0.027 [-0.064, +0.015] | -0.026 [-0.062, +0.008] | -0.022 [-0.050, +0.009] | -0.026 [-0.051, +0.000] |
+| B3 GeoRAG | -0.067 [-0.134, -0.002]* | -0.048 [-0.091, -0.003]* | -0.060 [-0.099, -0.026]* | -0.045 [-0.078, -0.014]* | -0.050 [-0.079, -0.024]* |
+| B3 GeoRAG [unit=sentence] | -0.102 [-0.172, -0.037]* | -0.119 [-0.175, -0.067]* | -0.137 [-0.181, -0.091]* | -0.138 [-0.173, -0.099]* | -0.151 [-0.186, -0.120]* |
+| B4 HLG-RAG | -0.044 [-0.098, +0.011] | -0.028 [-0.075, +0.015] | -0.032 [-0.071, +0.007] | -0.031 [-0.065, +0.005] | -0.034 [-0.068, -0.001]* |
+| B4 HLG-RAG [retriever=topic] | -0.069 [-0.129, -0.011]* | -0.055 [-0.099, -0.011]* | -0.055 [-0.088, -0.017]* | -0.050 [-0.083, -0.017]* | -0.046 [-0.074, -0.018]* |
+| B5 SURE-RAG [gate=False] | +0.001 [-0.021, +0.030] | -0.005 [-0.023, +0.012] | -0.001 [-0.013, +0.010] | -0.002 [-0.011, +0.006] | -0.005 [-0.013, +0.003] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.001 [-0.017, +0.030] | -0.005 [-0.023, +0.012] | -0.001 [-0.013, +0.011] | -0.002 [-0.011, +0.007] | -0.005 [-0.013, +0.003] |
+| B6 EviMem | -0.078 [-0.156, -0.004]* | -0.114 [-0.178, -0.056]* | -0.101 [-0.147, -0.053]* | -0.099 [-0.140, -0.057]* | -0.100 [-0.136, -0.059]* |
+| B6 EviMem [answer_context=raw] | -0.092 [-0.160, -0.024]* | -0.086 [-0.145, -0.031]* | -0.081 [-0.127, -0.035]* | -0.070 [-0.108, -0.028]* | -0.063 [-0.099, -0.027]* |
+| B7 LycheeMemory V2 | -0.101 [-0.171, -0.030]* | -0.105 [-0.163, -0.048]* | -0.132 [-0.177, -0.083]* | -0.145 [-0.187, -0.105]* | -0.153 [-0.189, -0.114]* |
+| B7 LycheeMemory V2 [plan=False] | -0.112 [-0.187, -0.045]* | -0.107 [-0.165, -0.057]* | -0.125 [-0.175, -0.081]* | -0.139 [-0.181, -0.099]* | -0.145 [-0.180, -0.109]* |
+| B8 PyRAG | -0.068 [-0.143, -0.000]* | -0.044 [-0.102, +0.012] | -0.068 [-0.114, -0.019]* | -0.048 [-0.089, -0.008]* | -0.047 [-0.082, -0.012]* |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | -0.024 [-0.093, +0.043] | -0.007 [-0.062, +0.049] | -0.026 [-0.073, +0.019] | -0.033 [-0.071, +0.008] | -0.037 [-0.073, +0.003] |
+| B9 LiveLedger | -0.071 [-0.132, -0.020]* | -0.053 [-0.101, -0.011]* | -0.071 [-0.111, -0.031]* | -0.057 [-0.092, -0.021]* | -0.055 [-0.086, -0.024]* |
+| B9 LiveLedger [ledger=False] | -0.080 [-0.141, -0.027]* | -0.070 [-0.111, -0.031]* | -0.082 [-0.118, -0.046]* | -0.067 [-0.099, -0.036]* | -0.065 [-0.094, -0.035]* |
+| ref: iterative refinement | -0.013 [-0.059, +0.029] | -0.002 [-0.039, +0.035] | -0.022 [-0.058, +0.015] | -0.010 [-0.040, +0.022] | -0.014 [-0.042, +0.013] |
+| ref: no retrieval (floor) | -0.408 [-0.489, -0.327]* | -0.387 [-0.446, -0.327]* | -0.407 [-0.455, -0.357]* | -0.417 [-0.457, -0.375]* | -0.404 [-0.442, -0.367]* |
+
+**EM**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.360 | 0.380 | 0.403 | 0.398 | 0.392 |
+| B2 vanilla RAG (sentence) | 0.330 | 0.365 | 0.383 | 0.375 | 0.372 |
+| B3 GeoRAG | 0.330 | 0.355 | 0.363 | 0.370 | 0.364 |
+| B3 GeoRAG [unit=sentence] | 0.320 | 0.310 | 0.317 | 0.310 | 0.300 |
+| B4 HLG-RAG | 0.330 | 0.350 | 0.377 | 0.372 | 0.364 |
+| B4 HLG-RAG [retriever=topic] | 0.310 | 0.330 | 0.360 | 0.357 | 0.356 |
+| B5 SURE-RAG [gate=False] | 0.370 | 0.380 | 0.403 | 0.398 | 0.392 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.370 | 0.380 | 0.403 | 0.398 | 0.392 |
+| B6 EviMem | 0.320 | 0.290 | 0.327 | 0.323 | 0.320 |
+| B6 EviMem [answer_context=raw] | 0.300 | 0.310 | 0.330 | 0.325 | 0.330 |
+| B7 LycheeMemory V2 | 0.330 | 0.330 | 0.320 | 0.300 | 0.298 |
+| B7 LycheeMemory V2 [plan=False] | 0.320 | 0.325 | 0.323 | 0.305 | 0.302 |
+| B8 PyRAG | 0.290 | 0.325 | 0.320 | 0.333 | 0.330 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.330 | 0.360 | 0.360 | 0.352 | 0.342 |
+| B9 LiveLedger | 0.320 | 0.350 | 0.360 | 0.365 | 0.360 |
+| B9 LiveLedger [ledger=False] | 0.320 | 0.330 | 0.347 | 0.355 | 0.352 |
+| ref: iterative refinement | 0.350 | 0.375 | 0.387 | 0.390 | 0.386 |
+| ref: no retrieval (floor) | 0.110 | 0.130 | 0.123 | 0.113 | 0.128 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B2 vanilla RAG (sentence) | 0.980 | 0.960 | 0.957 | 0.960 | 0.964 |
+| B3 GeoRAG | 0.990 | 0.990 | 0.987 | 0.985 | 0.980 |
+| B3 GeoRAG [unit=sentence] | 0.980 | 0.960 | 0.953 | 0.953 | 0.952 |
+| B4 HLG-RAG | 0.990 | 0.970 | 0.953 | 0.955 | 0.954 |
+| B4 HLG-RAG [retriever=topic] | 0.990 | 0.950 | 0.933 | 0.940 | 0.940 |
+| B5 SURE-RAG [gate=False] | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B5 SURE-RAG [gate=False, premise=concat] | 1.000 | 0.995 | 0.990 | 0.985 | 0.980 |
+| B6 EviMem | 0.890 | 0.910 | 0.900 | 0.912 | 0.918 |
+| B6 EviMem [answer_context=raw] | 0.890 | 0.910 | 0.900 | 0.912 | 0.918 |
+| B7 LycheeMemory V2 | 0.790 | 0.800 | 0.777 | 0.777 | 0.776 |
+| B7 LycheeMemory V2 [plan=False] | 0.790 | 0.805 | 0.780 | 0.777 | 0.774 |
+| B8 PyRAG | 0.980 | 0.985 | 0.987 | 0.983 | 0.978 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.980 | 0.985 | 0.983 | 0.978 | 0.974 |
+| B9 LiveLedger | 0.980 | 0.970 | 0.953 | 0.948 | 0.946 |
+| B9 LiveLedger [ledger=False] | 0.980 | 0.970 | 0.953 | 0.950 | 0.948 |
+| ref: iterative refinement | 0.920 | 0.935 | 0.933 | 0.935 | 0.940 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## hotpot | qwen2.5:3b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.450 [0.350, 0.540] | 0.440 [0.370, 0.505] | 0.477 [0.423, 0.540] | 0.475 [0.427, 0.525] | 0.472 [0.432, 0.514] |
+| B2 vanilla RAG (sentence) | 0.480 [0.380, 0.580] | 0.465 [0.400, 0.535] | 0.473 [0.417, 0.530] | 0.465 [0.420, 0.512] | 0.462 [0.418, 0.506] |
+| B3 GeoRAG | 0.330 [0.240, 0.420] | 0.305 [0.240, 0.375] | 0.317 [0.263, 0.370] | 0.318 [0.273, 0.367] | 0.326 [0.286, 0.366] |
+| B3 GeoRAG [unit=sentence] | 0.320 [0.230, 0.410] | 0.310 [0.245, 0.370] | 0.290 [0.240, 0.343] | 0.292 [0.247, 0.338] | 0.300 [0.262, 0.340] |
+| B4 HLG-RAG | 0.390 [0.300, 0.490] | 0.370 [0.300, 0.435] | 0.380 [0.330, 0.433] | 0.388 [0.345, 0.432] | 0.396 [0.352, 0.438] |
+| B4 HLG-RAG [retriever=topic] | 0.350 [0.260, 0.440] | 0.340 [0.275, 0.400] | 0.343 [0.290, 0.397] | 0.357 [0.307, 0.403] | 0.366 [0.326, 0.406] |
+| B5 SURE-RAG [gate=False] | 0.430 [0.330, 0.520] | 0.430 [0.360, 0.500] | 0.460 [0.403, 0.520] | 0.463 [0.415, 0.510] | 0.464 [0.424, 0.510] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.430 [0.330, 0.530] | 0.430 [0.365, 0.495] | 0.460 [0.403, 0.517] | 0.463 [0.415, 0.512] | 0.464 [0.424, 0.508] |
+| B6 EviMem | 0.440 [0.350, 0.540] | 0.430 [0.365, 0.495] | 0.423 [0.367, 0.477] | 0.417 [0.370, 0.470] | 0.422 [0.378, 0.466] |
+| B6 EviMem [answer_context=raw] | 0.450 [0.360, 0.540] | 0.455 [0.385, 0.525] | 0.423 [0.367, 0.483] | 0.422 [0.375, 0.472] | 0.422 [0.378, 0.464] |
+| B7 LycheeMemory V2 | 0.410 [0.320, 0.510] | 0.465 [0.400, 0.535] | 0.460 [0.407, 0.517] | 0.450 [0.403, 0.498] | 0.450 [0.406, 0.490] |
+| B7 LycheeMemory V2 [plan=False] | 0.440 [0.340, 0.530] | 0.470 [0.405, 0.535] | 0.460 [0.400, 0.517] | 0.455 [0.407, 0.505] | 0.456 [0.418, 0.498] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.070 [0.020, 0.130] | 0.045 [0.020, 0.075] | 0.037 [0.017, 0.060] | 0.040 [0.022, 0.060] | 0.034 [0.018, 0.050] |
+| B8 PyRAG | 0.450 [0.350, 0.540] | 0.430 [0.365, 0.500] | 0.423 [0.370, 0.480] | 0.438 [0.390, 0.487] | 0.444 [0.400, 0.490] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.420 [0.330, 0.510] | 0.405 [0.345, 0.480] | 0.430 [0.380, 0.487] | 0.432 [0.383, 0.480] | 0.444 [0.402, 0.490] |
+| B9 LiveLedger | 0.480 [0.380, 0.580] | 0.450 [0.385, 0.525] | 0.457 [0.400, 0.513] | 0.455 [0.405, 0.500] | 0.450 [0.406, 0.496] |
+| B9 LiveLedger [ledger=False] | 0.500 [0.400, 0.600] | 0.515 [0.445, 0.585] | 0.533 [0.483, 0.587] | 0.500 [0.453, 0.542] | 0.504 [0.462, 0.546] |
+| ref: iterative refinement | 0.460 [0.360, 0.550] | 0.460 [0.390, 0.525] | 0.467 [0.417, 0.527] | 0.448 [0.398, 0.495] | 0.452 [0.410, 0.494] |
+| ref: no retrieval (floor) | 0.150 [0.090, 0.230] | 0.160 [0.110, 0.210] | 0.180 [0.137, 0.223] | 0.195 [0.158, 0.235] | 0.202 [0.166, 0.240] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | +0.030 [-0.040, +0.110] | +0.025 [-0.030, +0.085] | -0.003 [-0.053, +0.050] | -0.010 [-0.055, +0.033] | -0.010 [-0.048, +0.028] |
+| B3 GeoRAG | -0.120 [-0.200, -0.030]* | -0.135 [-0.205, -0.070]* | -0.160 [-0.217, -0.103]* | -0.158 [-0.203, -0.107]* | -0.146 [-0.190, -0.100]* |
+| B3 GeoRAG [unit=sentence] | -0.130 [-0.210, -0.040]* | -0.130 [-0.195, -0.065]* | -0.187 [-0.243, -0.133]* | -0.182 [-0.233, -0.135]* | -0.172 [-0.214, -0.132]* |
+| B4 HLG-RAG | -0.060 [-0.150, +0.030] | -0.070 [-0.135, -0.010]* | -0.097 [-0.153, -0.040]* | -0.087 [-0.135, -0.040]* | -0.076 [-0.114, -0.034]* |
+| B4 HLG-RAG [retriever=topic] | -0.100 [-0.200, +0.000] | -0.100 [-0.165, -0.035]* | -0.133 [-0.190, -0.077]* | -0.117 [-0.168, -0.068]* | -0.106 [-0.150, -0.066]* |
+| B5 SURE-RAG [gate=False] | -0.020 [-0.070, +0.030] | -0.010 [-0.040, +0.015] | -0.017 [-0.040, +0.003] | -0.013 [-0.030, +0.003] | -0.008 [-0.022, +0.004] |
+| B5 SURE-RAG [gate=False, premise=concat] | -0.020 [-0.070, +0.020] | -0.010 [-0.035, +0.015] | -0.017 [-0.040, +0.003] | -0.013 [-0.028, +0.005] | -0.008 [-0.022, +0.006] |
+| B6 EviMem | -0.010 [-0.110, +0.090] | -0.010 [-0.085, +0.065] | -0.053 [-0.110, +0.007] | -0.058 [-0.105, -0.010]* | -0.050 [-0.094, -0.010]* |
+| B6 EviMem [answer_context=raw] | +0.000 [-0.090, +0.080] | +0.015 [-0.050, +0.080] | -0.053 [-0.117, +0.003] | -0.052 [-0.102, -0.005]* | -0.050 [-0.094, -0.008]* |
+| B7 LycheeMemory V2 | -0.040 [-0.150, +0.050] | +0.025 [-0.050, +0.100] | -0.017 [-0.073, +0.040] | -0.025 [-0.072, +0.022] | -0.022 [-0.064, +0.022] |
+| B7 LycheeMemory V2 [plan=False] | -0.010 [-0.100, +0.090] | +0.030 [-0.035, +0.100] | -0.017 [-0.077, +0.037] | -0.020 [-0.065, +0.028] | -0.016 [-0.060, +0.024] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | -0.380 [-0.490, -0.260]* | -0.395 [-0.460, -0.315]* | -0.440 [-0.500, -0.380]* | -0.435 [-0.487, -0.383]* | -0.438 [-0.482, -0.390]* |
+| B8 PyRAG | +0.000 [-0.090, +0.080] | -0.010 [-0.080, +0.055] | -0.053 [-0.113, +0.003] | -0.037 [-0.085, +0.008] | -0.028 [-0.072, +0.020] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | -0.030 [-0.120, +0.060] | -0.035 [-0.100, +0.025] | -0.047 [-0.103, +0.010] | -0.043 [-0.090, +0.005] | -0.028 [-0.070, +0.014] |
+| B9 LiveLedger | +0.030 [-0.050, +0.120] | +0.010 [-0.055, +0.075] | -0.020 [-0.080, +0.043] | -0.020 [-0.072, +0.030] | -0.022 [-0.068, +0.026] |
+| B9 LiveLedger [ledger=False] | +0.050 [-0.040, +0.140] | +0.075 [+0.005, +0.145]* | +0.057 [-0.003, +0.117] | +0.025 [-0.028, +0.075] | +0.032 [-0.012, +0.080] |
+| ref: iterative refinement | +0.010 [-0.070, +0.090] | +0.020 [-0.040, +0.080] | -0.010 [-0.063, +0.043] | -0.028 [-0.072, +0.022] | -0.020 [-0.058, +0.022] |
+| ref: no retrieval (floor) | -0.300 [-0.390, -0.210]* | -0.280 [-0.345, -0.210]* | -0.297 [-0.357, -0.243]* | -0.280 [-0.330, -0.230]* | -0.270 [-0.316, -0.228]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.528 | 0.506 | 0.539 | 0.554 | 0.551 |
+| B2 vanilla RAG (sentence) | 0.558 | 0.532 | 0.542 | 0.539 | 0.539 |
+| B3 GeoRAG | 0.397 | 0.363 | 0.376 | 0.383 | 0.389 |
+| B3 GeoRAG [unit=sentence] | 0.378 | 0.356 | 0.338 | 0.346 | 0.353 |
+| B4 HLG-RAG | 0.468 | 0.432 | 0.444 | 0.458 | 0.464 |
+| B4 HLG-RAG [retriever=topic] | 0.429 | 0.403 | 0.409 | 0.433 | 0.440 |
+| B5 SURE-RAG [gate=False] | 0.512 | 0.501 | 0.523 | 0.540 | 0.544 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.512 | 0.501 | 0.523 | 0.540 | 0.544 |
+| B6 EviMem | 0.575 | 0.529 | 0.507 | 0.506 | 0.507 |
+| B6 EviMem [answer_context=raw] | 0.575 | 0.544 | 0.507 | 0.512 | 0.514 |
+| B7 LycheeMemory V2 | 0.497 | 0.536 | 0.526 | 0.520 | 0.522 |
+| B7 LycheeMemory V2 [plan=False] | 0.532 | 0.540 | 0.535 | 0.539 | 0.536 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.232 | 0.200 | 0.189 | 0.191 | 0.188 |
+| B8 PyRAG | 0.537 | 0.498 | 0.493 | 0.514 | 0.521 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.519 | 0.477 | 0.498 | 0.514 | 0.521 |
+| B9 LiveLedger | 0.571 | 0.519 | 0.534 | 0.537 | 0.536 |
+| B9 LiveLedger [ledger=False] | 0.604 | 0.608 | 0.617 | 0.590 | 0.599 |
+| ref: iterative refinement | 0.557 | 0.540 | 0.542 | 0.530 | 0.530 |
+| ref: no retrieval (floor) | 0.181 | 0.188 | 0.208 | 0.222 | 0.232 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B2 vanilla RAG (sentence) | 0.930 | 0.925 | 0.928 | 0.929 | 0.920 |
+| B3 GeoRAG | 0.910 | 0.920 | 0.928 | 0.929 | 0.923 |
+| B3 GeoRAG [unit=sentence] | 0.865 | 0.874 | 0.888 | 0.888 | 0.884 |
+| B4 HLG-RAG | 0.900 | 0.910 | 0.922 | 0.922 | 0.909 |
+| B4 HLG-RAG [retriever=topic] | 0.870 | 0.880 | 0.885 | 0.889 | 0.877 |
+| B5 SURE-RAG [gate=False] | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B6 EviMem | 0.895 | 0.880 | 0.895 | 0.897 | 0.891 |
+| B6 EviMem [answer_context=raw] | 0.895 | 0.880 | 0.895 | 0.897 | 0.891 |
+| B7 LycheeMemory V2 | 0.825 | 0.835 | 0.840 | 0.835 | 0.829 |
+| B7 LycheeMemory V2 [plan=False] | 0.860 | 0.870 | 0.885 | 0.890 | 0.879 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B8 PyRAG | 0.940 | 0.940 | 0.947 | 0.945 | 0.941 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.940 | 0.945 | 0.955 | 0.950 | 0.945 |
+| B9 LiveLedger | 0.845 | 0.873 | 0.882 | 0.896 | 0.895 |
+| B9 LiveLedger [ledger=False] | 0.910 | 0.917 | 0.930 | 0.930 | 0.928 |
+| ref: iterative refinement | 0.930 | 0.910 | 0.918 | 0.920 | 0.914 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## hotpot | qwen2.5:7b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.560 [0.460, 0.650] | 0.560 [0.490, 0.625] | 0.580 [0.527, 0.637] | 0.575 [0.525, 0.620] | 0.566 [0.524, 0.610] |
+| B2 vanilla RAG (sentence) | 0.540 [0.440, 0.630] | 0.550 [0.485, 0.620] | 0.553 [0.500, 0.607] | 0.540 [0.490, 0.590] | 0.536 [0.494, 0.576] |
+| B3 GeoRAG | 0.350 [0.260, 0.450] | 0.385 [0.320, 0.455] | 0.417 [0.360, 0.473] | 0.410 [0.362, 0.463] | 0.412 [0.370, 0.454] |
+| B3 GeoRAG [unit=sentence] | 0.340 [0.240, 0.430] | 0.410 [0.340, 0.480] | 0.397 [0.340, 0.453] | 0.390 [0.343, 0.440] | 0.388 [0.344, 0.432] |
+| B4 HLG-RAG | 0.450 [0.360, 0.540] | 0.480 [0.405, 0.555] | 0.500 [0.447, 0.553] | 0.490 [0.440, 0.540] | 0.478 [0.434, 0.522] |
+| B4 HLG-RAG [retriever=topic] | 0.450 [0.350, 0.550] | 0.470 [0.405, 0.540] | 0.490 [0.430, 0.543] | 0.480 [0.432, 0.530] | 0.472 [0.430, 0.516] |
+| B5 SURE-RAG [gate=False] | 0.560 [0.470, 0.660] | 0.560 [0.490, 0.635] | 0.580 [0.527, 0.633] | 0.575 [0.527, 0.623] | 0.566 [0.524, 0.608] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.560 [0.450, 0.650] | 0.560 [0.490, 0.630] | 0.580 [0.523, 0.637] | 0.575 [0.525, 0.623] | 0.566 [0.522, 0.610] |
+| B6 EviMem | 0.530 [0.440, 0.620] | 0.545 [0.475, 0.610] | 0.570 [0.517, 0.627] | 0.545 [0.495, 0.595] | 0.544 [0.500, 0.586] |
+| B6 EviMem [answer_context=raw] | 0.450 [0.350, 0.540] | 0.485 [0.415, 0.555] | 0.507 [0.453, 0.563] | 0.495 [0.445, 0.540] | 0.510 [0.468, 0.554] |
+| B7 LycheeMemory V2 | 0.460 [0.360, 0.560] | 0.525 [0.455, 0.590] | 0.557 [0.500, 0.613] | 0.537 [0.485, 0.580] | 0.528 [0.486, 0.570] |
+| B7 LycheeMemory V2 [plan=False] | 0.480 [0.380, 0.580] | 0.550 [0.485, 0.620] | 0.560 [0.503, 0.617] | 0.547 [0.497, 0.595] | 0.526 [0.482, 0.568] |
+| B8 PyRAG | 0.500 [0.410, 0.600] | 0.530 [0.460, 0.595] | 0.553 [0.500, 0.610] | 0.532 [0.482, 0.583] | 0.526 [0.486, 0.570] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.500 [0.400, 0.600] | 0.515 [0.440, 0.585] | 0.543 [0.487, 0.597] | 0.517 [0.470, 0.570] | 0.514 [0.470, 0.554] |
+| B9 LiveLedger | 0.620 [0.520, 0.720] | 0.610 [0.545, 0.675] | 0.603 [0.550, 0.653] | 0.580 [0.530, 0.625] | 0.584 [0.540, 0.628] |
+| B9 LiveLedger [ledger=False] | 0.600 [0.500, 0.700] | 0.610 [0.540, 0.675] | 0.617 [0.560, 0.670] | 0.575 [0.527, 0.623] | 0.584 [0.542, 0.630] |
+| ref: iterative refinement | 0.520 [0.420, 0.620] | 0.530 [0.460, 0.595] | 0.543 [0.480, 0.600] | 0.535 [0.487, 0.588] | 0.520 [0.478, 0.564] |
+| ref: no retrieval (floor) | 0.180 [0.110, 0.260] | 0.220 [0.165, 0.275] | 0.243 [0.190, 0.290] | 0.245 [0.205, 0.290] | 0.252 [0.216, 0.290] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | -0.020 [-0.100, +0.050] | -0.010 [-0.060, +0.040] | -0.027 [-0.067, +0.013] | -0.035 [-0.072, +0.003] | -0.030 [-0.062, +0.002] |
+| B3 GeoRAG | -0.210 [-0.300, -0.120]* | -0.175 [-0.245, -0.110]* | -0.163 [-0.220, -0.107]* | -0.165 [-0.210, -0.117]* | -0.154 [-0.196, -0.112]* |
+| B3 GeoRAG [unit=sentence] | -0.220 [-0.310, -0.120]* | -0.150 [-0.225, -0.075]* | -0.183 [-0.240, -0.123]* | -0.185 [-0.235, -0.140]* | -0.178 [-0.220, -0.134]* |
+| B4 HLG-RAG | -0.110 [-0.210, -0.020]* | -0.080 [-0.140, -0.015]* | -0.080 [-0.130, -0.027]* | -0.085 [-0.128, -0.043]* | -0.088 [-0.126, -0.050]* |
+| B4 HLG-RAG [retriever=topic] | -0.110 [-0.200, -0.020]* | -0.090 [-0.155, -0.025]* | -0.090 [-0.147, -0.037]* | -0.095 [-0.135, -0.050]* | -0.094 [-0.132, -0.056]* |
+| B5 SURE-RAG [gate=False] | +0.000 [+0.000, +0.000] | +0.000 [+0.000, +0.000] | +0.000 [-0.010, +0.010] | +0.000 [-0.007, +0.007] | +0.000 [-0.008, +0.008] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.000 [+0.000, +0.000] | +0.000 [+0.000, +0.000] | +0.000 [-0.010, +0.010] | +0.000 [-0.007, +0.007] | +0.000 [-0.008, +0.006] |
+| B6 EviMem | -0.030 [-0.130, +0.070] | -0.015 [-0.080, +0.055] | -0.010 [-0.067, +0.047] | -0.030 [-0.077, +0.018] | -0.022 [-0.066, +0.018] |
+| B6 EviMem [answer_context=raw] | -0.110 [-0.190, -0.030]* | -0.075 [-0.135, -0.015]* | -0.073 [-0.127, -0.023]* | -0.080 [-0.128, -0.033]* | -0.056 [-0.102, -0.016]* |
+| B7 LycheeMemory V2 | -0.100 [-0.180, -0.020]* | -0.035 [-0.095, +0.025] | -0.023 [-0.070, +0.020] | -0.037 [-0.075, +0.003] | -0.038 [-0.076, +0.002] |
+| B7 LycheeMemory V2 [plan=False] | -0.080 [-0.170, +0.010] | -0.010 [-0.070, +0.050] | -0.020 [-0.070, +0.027] | -0.028 [-0.070, +0.015] | -0.040 [-0.076, -0.002]* |
+| B8 PyRAG | -0.060 [-0.150, +0.030] | -0.030 [-0.090, +0.030] | -0.027 [-0.077, +0.027] | -0.043 [-0.087, +0.000] | -0.040 [-0.080, +0.002] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | -0.060 [-0.150, +0.020] | -0.045 [-0.105, +0.020] | -0.037 [-0.093, +0.023] | -0.058 [-0.102, -0.013]* | -0.052 [-0.096, -0.008]* |
+| B9 LiveLedger | +0.060 [-0.020, +0.140] | +0.050 [-0.005, +0.110] | +0.023 [-0.033, +0.070] | +0.005 [-0.045, +0.048] | +0.018 [-0.022, +0.058] |
+| B9 LiveLedger [ledger=False] | +0.040 [-0.040, +0.120] | +0.050 [-0.010, +0.105] | +0.037 [-0.010, +0.087] | +0.000 [-0.043, +0.040] | +0.018 [-0.020, +0.060] |
+| ref: iterative refinement | -0.040 [-0.110, +0.020] | -0.030 [-0.080, +0.020] | -0.037 [-0.083, +0.007] | -0.040 [-0.077, -0.005]* | -0.046 [-0.084, -0.010]* |
+| ref: no retrieval (floor) | -0.380 [-0.480, -0.280]* | -0.340 [-0.410, -0.270]* | -0.337 [-0.397, -0.280]* | -0.330 [-0.383, -0.280]* | -0.314 [-0.356, -0.266]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.676 | 0.643 | 0.660 | 0.665 | 0.652 |
+| B2 vanilla RAG (sentence) | 0.653 | 0.631 | 0.637 | 0.632 | 0.623 |
+| B3 GeoRAG | 0.450 | 0.462 | 0.489 | 0.494 | 0.496 |
+| B3 GeoRAG [unit=sentence] | 0.421 | 0.465 | 0.459 | 0.460 | 0.456 |
+| B4 HLG-RAG | 0.570 | 0.567 | 0.590 | 0.590 | 0.572 |
+| B4 HLG-RAG [retriever=topic] | 0.570 | 0.557 | 0.583 | 0.582 | 0.567 |
+| B5 SURE-RAG [gate=False] | 0.683 | 0.647 | 0.661 | 0.666 | 0.656 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.683 | 0.647 | 0.661 | 0.666 | 0.656 |
+| B6 EviMem | 0.633 | 0.629 | 0.651 | 0.635 | 0.634 |
+| B6 EviMem [answer_context=raw] | 0.583 | 0.575 | 0.599 | 0.591 | 0.608 |
+| B7 LycheeMemory V2 | 0.617 | 0.631 | 0.660 | 0.652 | 0.638 |
+| B7 LycheeMemory V2 [plan=False] | 0.623 | 0.652 | 0.666 | 0.661 | 0.636 |
+| B8 PyRAG | 0.632 | 0.621 | 0.641 | 0.633 | 0.628 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.617 | 0.600 | 0.617 | 0.610 | 0.613 |
+| B9 LiveLedger | 0.762 | 0.712 | 0.706 | 0.680 | 0.678 |
+| B9 LiveLedger [ledger=False] | 0.736 | 0.716 | 0.722 | 0.687 | 0.692 |
+| ref: iterative refinement | 0.638 | 0.614 | 0.631 | 0.625 | 0.608 |
+| ref: no retrieval (floor) | 0.233 | 0.266 | 0.287 | 0.290 | 0.298 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B2 vanilla RAG (sentence) | 0.930 | 0.925 | 0.928 | 0.929 | 0.920 |
+| B3 GeoRAG | 0.910 | 0.920 | 0.928 | 0.929 | 0.923 |
+| B3 GeoRAG [unit=sentence] | 0.865 | 0.875 | 0.890 | 0.892 | 0.887 |
+| B4 HLG-RAG | 0.920 | 0.925 | 0.927 | 0.926 | 0.917 |
+| B4 HLG-RAG [retriever=topic] | 0.920 | 0.927 | 0.930 | 0.927 | 0.918 |
+| B5 SURE-RAG [gate=False] | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.950 | 0.963 | 0.965 | 0.968 | 0.960 |
+| B6 EviMem | 0.890 | 0.887 | 0.905 | 0.906 | 0.907 |
+| B6 EviMem [answer_context=raw] | 0.890 | 0.887 | 0.905 | 0.906 | 0.907 |
+| B7 LycheeMemory V2 | 0.860 | 0.855 | 0.858 | 0.865 | 0.856 |
+| B7 LycheeMemory V2 [plan=False] | 0.865 | 0.863 | 0.867 | 0.874 | 0.864 |
+| B8 PyRAG | 0.960 | 0.965 | 0.972 | 0.971 | 0.967 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.945 | 0.958 | 0.963 | 0.963 | 0.959 |
+| B9 LiveLedger | 0.930 | 0.943 | 0.948 | 0.943 | 0.943 |
+| B9 LiveLedger [ledger=False] | 0.920 | 0.938 | 0.945 | 0.944 | 0.941 |
+| ref: iterative refinement | 0.920 | 0.920 | 0.928 | 0.927 | 0.917 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## musique | qwen2.5:3b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.100 [0.050, 0.160] | 0.100 [0.060, 0.145] | 0.107 [0.073, 0.140] | 0.098 [0.070, 0.128] | 0.096 [0.070, 0.122] |
+| B2 vanilla RAG (sentence) | 0.140 [0.080, 0.210] | 0.115 [0.075, 0.160] | 0.123 [0.087, 0.160] | 0.113 [0.083, 0.145] | 0.114 [0.088, 0.142] |
+| B3 GeoRAG | 0.020 [0.000, 0.050] | 0.030 [0.010, 0.055] | 0.037 [0.017, 0.057] | 0.033 [0.018, 0.050] | 0.042 [0.026, 0.060] |
+| B3 GeoRAG [unit=sentence] | 0.050 [0.010, 0.090] | 0.055 [0.025, 0.090] | 0.053 [0.030, 0.080] | 0.050 [0.030, 0.072] | 0.048 [0.030, 0.068] |
+| B4 HLG-RAG | 0.100 [0.050, 0.160] | 0.085 [0.050, 0.125] | 0.083 [0.053, 0.113] | 0.072 [0.050, 0.100] | 0.072 [0.050, 0.094] |
+| B4 HLG-RAG [retriever=topic] | 0.110 [0.050, 0.170] | 0.100 [0.060, 0.145] | 0.100 [0.070, 0.133] | 0.087 [0.062, 0.117] | 0.086 [0.062, 0.112] |
+| B5 SURE-RAG [gate=False] | 0.110 [0.050, 0.170] | 0.110 [0.070, 0.155] | 0.110 [0.077, 0.147] | 0.100 [0.070, 0.130] | 0.098 [0.072, 0.126] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.110 [0.050, 0.170] | 0.110 [0.070, 0.155] | 0.110 [0.070, 0.143] | 0.100 [0.070, 0.130] | 0.098 [0.070, 0.126] |
+| B6 EviMem | 0.060 [0.020, 0.110] | 0.080 [0.045, 0.120] | 0.070 [0.040, 0.103] | 0.065 [0.040, 0.090] | 0.068 [0.048, 0.090] |
+| B6 EviMem [answer_context=raw] | 0.110 [0.050, 0.170] | 0.105 [0.065, 0.150] | 0.090 [0.060, 0.123] | 0.085 [0.060, 0.113] | 0.080 [0.058, 0.106] |
+| B7 LycheeMemory V2 | 0.110 [0.060, 0.180] | 0.090 [0.050, 0.130] | 0.090 [0.060, 0.123] | 0.080 [0.055, 0.110] | 0.078 [0.056, 0.102] |
+| B7 LycheeMemory V2 [plan=False] | 0.150 [0.080, 0.220] | 0.125 [0.080, 0.170] | 0.130 [0.093, 0.170] | 0.120 [0.087, 0.152] | 0.114 [0.086, 0.144] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.003 [0.000, 0.010] | 0.003 [0.000, 0.007] | 0.004 [0.000, 0.010] |
+| B8 PyRAG | 0.110 [0.050, 0.170] | 0.110 [0.070, 0.150] | 0.107 [0.073, 0.140] | 0.100 [0.070, 0.130] | 0.104 [0.078, 0.132] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.090 [0.040, 0.150] | 0.075 [0.040, 0.115] | 0.080 [0.050, 0.113] | 0.075 [0.052, 0.102] | 0.074 [0.050, 0.096] |
+| B9 LiveLedger | 0.190 [0.120, 0.260] | 0.140 [0.095, 0.195] | 0.143 [0.103, 0.183] | 0.120 [0.087, 0.155] | 0.124 [0.096, 0.154] |
+| B9 LiveLedger [ledger=False] | 0.210 [0.130, 0.290] | 0.175 [0.120, 0.225] | 0.173 [0.133, 0.217] | 0.165 [0.128, 0.203] | 0.158 [0.130, 0.192] |
+| ref: iterative refinement | 0.130 [0.070, 0.200] | 0.115 [0.075, 0.155] | 0.113 [0.080, 0.150] | 0.115 [0.085, 0.145] | 0.110 [0.082, 0.138] |
+| ref: no retrieval (floor) | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] | 0.000 [0.000, 0.000] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | +0.040 [-0.040, +0.110] | +0.015 [-0.035, +0.065] | +0.017 [-0.020, +0.057] | +0.015 [-0.018, +0.048] | +0.018 [-0.008, +0.046] |
+| B3 GeoRAG | -0.080 [-0.140, -0.010]* | -0.070 [-0.115, -0.025]* | -0.070 [-0.103, -0.033]* | -0.065 [-0.095, -0.037]* | -0.054 [-0.080, -0.030]* |
+| B3 GeoRAG [unit=sentence] | -0.050 [-0.110, +0.010] | -0.045 [-0.085, -0.005]* | -0.053 [-0.087, -0.020]* | -0.048 [-0.077, -0.020]* | -0.048 [-0.072, -0.022]* |
+| B4 HLG-RAG | +0.000 [-0.080, +0.080] | -0.015 [-0.060, +0.030] | -0.023 [-0.063, +0.013] | -0.025 [-0.058, +0.007] | -0.024 [-0.050, +0.004] |
+| B4 HLG-RAG [retriever=topic] | +0.010 [-0.060, +0.090] | +0.000 [-0.045, +0.045] | -0.007 [-0.047, +0.030] | -0.010 [-0.043, +0.025] | -0.010 [-0.040, +0.018] |
+| B5 SURE-RAG [gate=False] | +0.010 [+0.000, +0.030] | +0.010 [+0.000, +0.025] | +0.003 [-0.010, +0.013] | +0.003 [-0.005, +0.013] | +0.002 [-0.006, +0.010] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.010 [+0.000, +0.030] | +0.010 [+0.000, +0.025] | +0.003 [-0.007, +0.017] | +0.003 [-0.005, +0.010] | +0.002 [-0.006, +0.012] |
+| B6 EviMem | -0.040 [-0.090, +0.000] | -0.020 [-0.065, +0.020] | -0.037 [-0.070, -0.003]* | -0.033 [-0.062, -0.005]* | -0.028 [-0.054, -0.004]* |
+| B6 EviMem [answer_context=raw] | +0.010 [-0.050, +0.080] | +0.005 [-0.035, +0.045] | -0.017 [-0.053, +0.020] | -0.013 [-0.040, +0.020] | -0.016 [-0.042, +0.012] |
+| B7 LycheeMemory V2 | +0.010 [-0.060, +0.080] | -0.010 [-0.065, +0.040] | -0.017 [-0.060, +0.027] | -0.018 [-0.052, +0.020] | -0.018 [-0.050, +0.016] |
+| B7 LycheeMemory V2 [plan=False] | +0.050 [-0.020, +0.120] | +0.025 [-0.030, +0.080] | +0.023 [-0.020, +0.067] | +0.022 [-0.015, +0.060] | +0.018 [-0.014, +0.052] |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | -0.100 [-0.160, -0.050]* | -0.100 [-0.145, -0.060]* | -0.103 [-0.143, -0.070]* | -0.095 [-0.123, -0.065]* | -0.092 [-0.120, -0.066]* |
+| B8 PyRAG | +0.010 [-0.050, +0.070] | +0.010 [-0.035, +0.055] | +0.000 [-0.037, +0.037] | +0.003 [-0.028, +0.035] | +0.008 [-0.020, +0.036] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | -0.010 [-0.070, +0.060] | -0.025 [-0.065, +0.015] | -0.027 [-0.063, +0.010] | -0.022 [-0.052, +0.007] | -0.022 [-0.046, +0.000] |
+| B9 LiveLedger | +0.090 [+0.020, +0.160]* | +0.040 [-0.005, +0.085] | +0.037 [-0.007, +0.080] | +0.022 [-0.013, +0.060] | +0.028 [-0.006, +0.060] |
+| B9 LiveLedger [ledger=False] | +0.110 [+0.030, +0.190]* | +0.075 [+0.025, +0.125]* | +0.067 [+0.023, +0.110]* | +0.068 [+0.030, +0.102]* | +0.062 [+0.028, +0.098]* |
+| ref: iterative refinement | +0.030 [-0.030, +0.090] | +0.015 [-0.025, +0.055] | +0.007 [-0.023, +0.037] | +0.018 [-0.010, +0.045] | +0.014 [-0.010, +0.040] |
+| ref: no retrieval (floor) | -0.100 [-0.160, -0.040]* | -0.100 [-0.140, -0.060]* | -0.107 [-0.140, -0.073]* | -0.098 [-0.128, -0.070]* | -0.096 [-0.124, -0.072]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.158 | 0.158 | 0.166 | 0.163 | 0.170 |
+| B2 vanilla RAG (sentence) | 0.180 | 0.152 | 0.163 | 0.150 | 0.160 |
+| B3 GeoRAG | 0.071 | 0.080 | 0.095 | 0.091 | 0.100 |
+| B3 GeoRAG [unit=sentence] | 0.070 | 0.093 | 0.098 | 0.103 | 0.102 |
+| B4 HLG-RAG | 0.139 | 0.128 | 0.139 | 0.125 | 0.129 |
+| B4 HLG-RAG [retriever=topic] | 0.145 | 0.140 | 0.150 | 0.141 | 0.142 |
+| B5 SURE-RAG [gate=False] | 0.161 | 0.164 | 0.167 | 0.161 | 0.166 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.161 | 0.163 | 0.166 | 0.160 | 0.166 |
+| B6 EviMem | 0.125 | 0.135 | 0.142 | 0.142 | 0.152 |
+| B6 EviMem [answer_context=raw] | 0.173 | 0.160 | 0.157 | 0.148 | 0.144 |
+| B7 LycheeMemory V2 | 0.189 | 0.157 | 0.167 | 0.159 | 0.158 |
+| B7 LycheeMemory V2 [plan=False] | 0.239 | 0.203 | 0.219 | 0.216 | 0.206 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.073 | 0.067 | 0.073 | 0.071 | 0.072 |
+| B8 PyRAG | 0.190 | 0.176 | 0.183 | 0.177 | 0.178 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.134 | 0.126 | 0.148 | 0.149 | 0.151 |
+| B9 LiveLedger | 0.248 | 0.208 | 0.220 | 0.192 | 0.199 |
+| B9 LiveLedger [ledger=False] | 0.278 | 0.251 | 0.256 | 0.243 | 0.240 |
+| ref: iterative refinement | 0.203 | 0.175 | 0.181 | 0.183 | 0.179 |
+| ref: no retrieval (floor) | 0.018 | 0.012 | 0.020 | 0.022 | 0.021 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B2 vanilla RAG (sentence) | 0.618 | 0.580 | 0.576 | 0.560 | 0.558 |
+| B3 GeoRAG | 0.556 | 0.534 | 0.536 | 0.515 | 0.518 |
+| B3 GeoRAG [unit=sentence] | 0.541 | 0.524 | 0.528 | 0.511 | 0.510 |
+| B4 HLG-RAG | 0.613 | 0.590 | 0.591 | 0.586 | 0.581 |
+| B4 HLG-RAG [retriever=topic] | 0.578 | 0.557 | 0.562 | 0.552 | 0.544 |
+| B5 SURE-RAG [gate=False] | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B6 EviMem | 0.562 | 0.544 | 0.520 | 0.504 | 0.506 |
+| B6 EviMem [answer_context=raw] | 0.565 | 0.545 | 0.521 | 0.505 | 0.507 |
+| B7 LycheeMemory V2 | 0.480 | 0.482 | 0.489 | 0.474 | 0.472 |
+| B7 LycheeMemory V2 [plan=False] | 0.528 | 0.525 | 0.534 | 0.518 | 0.513 |
+| B7b LycheeMemory (ACL 2026, released 7B checkpoint) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| B8 PyRAG | 0.691 | 0.665 | 0.649 | 0.634 | 0.641 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:3b] | 0.691 | 0.664 | 0.646 | 0.639 | 0.649 |
+| B9 LiveLedger | 0.645 | 0.627 | 0.617 | 0.603 | 0.604 |
+| B9 LiveLedger [ledger=False] | 0.667 | 0.645 | 0.642 | 0.631 | 0.622 |
+| ref: iterative refinement | 0.616 | 0.586 | 0.583 | 0.567 | 0.570 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## musique | qwen2.5:7b | primary metric: EM | 500 questions in the set
+
+**EM (primary)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.150 [0.080, 0.230] | 0.155 [0.110, 0.210] | 0.143 [0.107, 0.187] | 0.138 [0.105, 0.172] | 0.142 [0.114, 0.172] |
+| B2 vanilla RAG (sentence) | 0.180 [0.110, 0.260] | 0.165 [0.115, 0.220] | 0.160 [0.120, 0.200] | 0.155 [0.120, 0.193] | 0.164 [0.134, 0.194] |
+| B3 GeoRAG | 0.080 [0.030, 0.140] | 0.075 [0.040, 0.115] | 0.077 [0.047, 0.107] | 0.072 [0.050, 0.100] | 0.076 [0.056, 0.100] |
+| B3 GeoRAG [unit=sentence] | 0.060 [0.020, 0.110] | 0.070 [0.040, 0.105] | 0.083 [0.053, 0.113] | 0.077 [0.052, 0.105] | 0.076 [0.054, 0.100] |
+| B4 HLG-RAG | 0.180 [0.110, 0.260] | 0.170 [0.120, 0.225] | 0.160 [0.120, 0.200] | 0.145 [0.113, 0.180] | 0.150 [0.122, 0.182] |
+| B4 HLG-RAG [retriever=topic] | 0.190 [0.120, 0.270] | 0.175 [0.125, 0.230] | 0.160 [0.120, 0.207] | 0.150 [0.115, 0.188] | 0.154 [0.120, 0.184] |
+| B5 SURE-RAG [gate=False] | 0.180 [0.110, 0.260] | 0.175 [0.125, 0.225] | 0.157 [0.117, 0.197] | 0.147 [0.115, 0.182] | 0.148 [0.118, 0.180] |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.180 [0.110, 0.260] | 0.175 [0.125, 0.220] | 0.157 [0.120, 0.197] | 0.147 [0.113, 0.182] | 0.148 [0.116, 0.180] |
+| B6 EviMem | 0.180 [0.110, 0.260] | 0.190 [0.140, 0.245] | 0.207 [0.160, 0.250] | 0.188 [0.150, 0.228] | 0.184 [0.150, 0.220] |
+| B6 EviMem [answer_context=raw] | 0.160 [0.090, 0.240] | 0.170 [0.125, 0.220] | 0.157 [0.117, 0.200] | 0.150 [0.115, 0.185] | 0.158 [0.126, 0.188] |
+| B7 LycheeMemory V2 | 0.200 [0.130, 0.290] | 0.195 [0.140, 0.250] | 0.177 [0.137, 0.217] | 0.172 [0.138, 0.210] | 0.176 [0.144, 0.210] |
+| B7 LycheeMemory V2 [plan=False] | 0.200 [0.120, 0.280] | 0.200 [0.145, 0.255] | 0.187 [0.143, 0.230] | 0.177 [0.140, 0.215] | 0.178 [0.144, 0.210] |
+| B8 PyRAG | 0.200 [0.130, 0.290] | 0.170 [0.120, 0.220] | 0.150 [0.110, 0.190] | 0.133 [0.100, 0.168] | 0.130 [0.102, 0.162] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.190 [0.120, 0.270] | 0.160 [0.110, 0.210] | 0.140 [0.103, 0.180] | 0.122 [0.092, 0.155] | 0.120 [0.094, 0.148] |
+| B9 LiveLedger | 0.270 [0.190, 0.360] | 0.275 [0.215, 0.335] | 0.243 [0.197, 0.290] | 0.237 [0.198, 0.282] | 0.240 [0.204, 0.278] |
+| B9 LiveLedger [ledger=False] | 0.320 [0.230, 0.410] | 0.300 [0.235, 0.360] | 0.277 [0.230, 0.327] | 0.275 [0.228, 0.320] | 0.278 [0.238, 0.318] |
+| ref: iterative refinement | 0.190 [0.120, 0.260] | 0.175 [0.120, 0.230] | 0.183 [0.140, 0.223] | 0.180 [0.142, 0.218] | 0.178 [0.146, 0.212] |
+| ref: no retrieval (floor) | 0.000 [0.000, 0.000] | 0.010 [0.000, 0.025] | 0.010 [0.000, 0.020] | 0.007 [0.000, 0.018] | 0.006 [0.000, 0.014] |
+
+**paired difference vs B1 chunk RAG in EM (* = interval excludes 0)**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | - | - | - | - | - |
+| B2 vanilla RAG (sentence) | +0.030 [-0.040, +0.100] | +0.010 [-0.035, +0.055] | +0.017 [-0.023, +0.053] | +0.018 [-0.018, +0.048] | +0.022 [-0.008, +0.052] |
+| B3 GeoRAG | -0.070 [-0.140, +0.010] | -0.080 [-0.130, -0.030]* | -0.067 [-0.107, -0.027]* | -0.065 [-0.098, -0.030]* | -0.066 [-0.098, -0.038]* |
+| B3 GeoRAG [unit=sentence] | -0.090 [-0.160, -0.020]* | -0.085 [-0.135, -0.035]* | -0.060 [-0.100, -0.020]* | -0.060 [-0.095, -0.025]* | -0.066 [-0.100, -0.034]* |
+| B4 HLG-RAG | +0.030 [-0.050, +0.120] | +0.015 [-0.040, +0.075] | +0.017 [-0.023, +0.057] | +0.007 [-0.030, +0.043] | +0.008 [-0.024, +0.040] |
+| B4 HLG-RAG [retriever=topic] | +0.040 [-0.050, +0.130] | +0.020 [-0.030, +0.070] | +0.017 [-0.023, +0.060] | +0.013 [-0.022, +0.048] | +0.012 [-0.020, +0.046] |
+| B5 SURE-RAG [gate=False] | +0.030 [+0.000, +0.070] | +0.020 [+0.005, +0.040]* | +0.013 [+0.003, +0.027]* | +0.010 [+0.003, +0.020]* | +0.006 [-0.002, +0.014] |
+| B5 SURE-RAG [gate=False, premise=concat] | +0.030 [+0.000, +0.060] | +0.020 [+0.005, +0.040]* | +0.013 [+0.000, +0.030] | +0.010 [+0.003, +0.022]* | +0.006 [-0.002, +0.016] |
+| B6 EviMem | +0.030 [-0.060, +0.110] | +0.035 [-0.025, +0.100] | +0.063 [+0.013, +0.117]* | +0.050 [+0.007, +0.090]* | +0.042 [+0.004, +0.080]* |
+| B6 EviMem [answer_context=raw] | +0.010 [-0.070, +0.090] | +0.015 [-0.040, +0.075] | +0.013 [-0.037, +0.057] | +0.013 [-0.028, +0.052] | +0.016 [-0.018, +0.052] |
+| B7 LycheeMemory V2 | +0.050 [-0.030, +0.130] | +0.040 [-0.010, +0.095] | +0.033 [-0.013, +0.077] | +0.035 [+0.000, +0.072] | +0.034 [+0.004, +0.068]* |
+| B7 LycheeMemory V2 [plan=False] | +0.050 [-0.030, +0.140] | +0.045 [-0.005, +0.105] | +0.043 [+0.000, +0.087] | +0.040 [+0.003, +0.075]* | +0.036 [+0.002, +0.070]* |
+| B8 PyRAG | +0.050 [-0.040, +0.140] | +0.015 [-0.045, +0.085] | +0.007 [-0.040, +0.053] | -0.005 [-0.040, +0.035] | -0.012 [-0.046, +0.024] |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | +0.040 [-0.040, +0.120] | +0.005 [-0.050, +0.060] | -0.003 [-0.050, +0.040] | -0.015 [-0.052, +0.022] | -0.022 [-0.056, +0.016] |
+| B9 LiveLedger | +0.120 [+0.050, +0.200]* | +0.120 [+0.055, +0.185]* | +0.100 [+0.053, +0.150]* | +0.100 [+0.055, +0.145]* | +0.098 [+0.058, +0.136]* |
+| B9 LiveLedger [ledger=False] | +0.170 [+0.080, +0.260]* | +0.145 [+0.075, +0.215]* | +0.133 [+0.080, +0.187]* | +0.138 [+0.090, +0.182]* | +0.136 [+0.096, +0.176]* |
+| ref: iterative refinement | +0.040 [-0.020, +0.100] | +0.020 [-0.020, +0.065] | +0.040 [+0.003, +0.080]* | +0.043 [+0.007, +0.077]* | +0.036 [+0.006, +0.068]* |
+| ref: no retrieval (floor) | -0.150 [-0.220, -0.080]* | -0.145 [-0.205, -0.095]* | -0.133 [-0.177, -0.093]* | -0.130 [-0.163, -0.098]* | -0.136 [-0.170, -0.106]* |
+
+**F1**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.237 | 0.234 | 0.219 | 0.212 | 0.227 |
+| B2 vanilla RAG (sentence) | 0.288 | 0.252 | 0.249 | 0.242 | 0.250 |
+| B3 GeoRAG | 0.142 | 0.131 | 0.134 | 0.132 | 0.141 |
+| B3 GeoRAG [unit=sentence] | 0.137 | 0.139 | 0.158 | 0.151 | 0.150 |
+| B4 HLG-RAG | 0.281 | 0.249 | 0.244 | 0.224 | 0.231 |
+| B4 HLG-RAG [retriever=topic] | 0.285 | 0.251 | 0.239 | 0.230 | 0.236 |
+| B5 SURE-RAG [gate=False] | 0.253 | 0.244 | 0.224 | 0.215 | 0.226 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.253 | 0.244 | 0.224 | 0.215 | 0.226 |
+| B6 EviMem | 0.276 | 0.269 | 0.279 | 0.261 | 0.260 |
+| B6 EviMem [answer_context=raw] | 0.254 | 0.255 | 0.243 | 0.236 | 0.244 |
+| B7 LycheeMemory V2 | 0.335 | 0.309 | 0.295 | 0.282 | 0.286 |
+| B7 LycheeMemory V2 [plan=False] | 0.337 | 0.316 | 0.308 | 0.297 | 0.296 |
+| B8 PyRAG | 0.282 | 0.251 | 0.240 | 0.226 | 0.235 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.282 | 0.248 | 0.230 | 0.218 | 0.218 |
+| B9 LiveLedger | 0.361 | 0.374 | 0.364 | 0.352 | 0.355 |
+| B9 LiveLedger [ledger=False] | 0.412 | 0.382 | 0.377 | 0.373 | 0.379 |
+| ref: iterative refinement | 0.286 | 0.265 | 0.283 | 0.272 | 0.269 |
+| ref: no retrieval (floor) | 0.021 | 0.026 | 0.027 | 0.021 | 0.020 |
+
+**doc recall@10**
+
+| system | 100 | 200 | 300 | 400 | 500 |
+|---|---|---|---|---|---|
+| B1 vanilla RAG (chunk) | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B2 vanilla RAG (sentence) | 0.618 | 0.580 | 0.576 | 0.560 | 0.558 |
+| B3 GeoRAG | 0.552 | 0.534 | 0.536 | 0.515 | 0.518 |
+| B3 GeoRAG [unit=sentence] | 0.540 | 0.526 | 0.530 | 0.515 | 0.512 |
+| B4 HLG-RAG | 0.618 | 0.605 | 0.596 | 0.584 | 0.578 |
+| B4 HLG-RAG [retriever=topic] | 0.610 | 0.593 | 0.581 | 0.569 | 0.565 |
+| B5 SURE-RAG [gate=False] | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B5 SURE-RAG [gate=False, premise=concat] | 0.658 | 0.615 | 0.609 | 0.595 | 0.599 |
+| B6 EviMem | 0.582 | 0.577 | 0.561 | 0.549 | 0.551 |
+| B6 EviMem [answer_context=raw] | 0.582 | 0.577 | 0.561 | 0.549 | 0.551 |
+| B7 LycheeMemory V2 | 0.548 | 0.539 | 0.520 | 0.514 | 0.505 |
+| B7 LycheeMemory V2 [plan=False] | 0.560 | 0.548 | 0.535 | 0.529 | 0.520 |
+| B8 PyRAG | 0.708 | 0.677 | 0.675 | 0.666 | 0.676 |
+| B8 PyRAG [plan_generator=qwen2.5-coder:7b] | 0.711 | 0.676 | 0.666 | 0.658 | 0.668 |
+| B9 LiveLedger | 0.759 | 0.741 | 0.722 | 0.704 | 0.697 |
+| B9 LiveLedger [ledger=False] | 0.690 | 0.700 | 0.687 | 0.677 | 0.671 |
+| ref: iterative refinement | 0.613 | 0.602 | 0.600 | 0.585 | 0.589 |
+| ref: no retrieval (floor) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+
+Notes: B7b (LycheeMemory ACL) answers in sentences, so its strict EM/F1 are about 0 by construction; B5 SURE-RAG has its gate off (B1's answers). 'doc recall@10' is empty for systems without retrieval. See `baselines/FIDELITY_AUDIT.md`.
+
+written to runs_progressive/progressive_report.md and runs_progressive/progressive_report.csv
+##### ALL DONE Thu Nov 26 14:08:18 UTC 2026

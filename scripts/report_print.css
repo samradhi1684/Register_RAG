@@ -1,0 +1,22 @@
+@page{size:A4;margin:14mm 12mm}
+body{font-size:12px;background:#fff} .wrap{max-width:none} .figs{display:block} figure{margin-bottom:12px;break-inside:auto} nav.toc{display:none}
+.data{font-size:10px} .data th,.data td{padding:4px 6px;white-space:normal} .data thead th{position:static}
+svg.chart{max-width:600px;margin:0 auto}
+svg .band{fill:#eef2f5;opacity:1} svg .grid{stroke:#d9e0e6} svg .zero{stroke:#72808d}
+svg text{font-family:"DejaVu Sans",sans-serif} svg .tick{fill:#72808d;font-size:9px} svg .rowlab{fill:#4a5866;font-size:9.5px} svg .axlab{fill:#72808d;font-size:9px} svg .vlab{fill:#16202b;font-size:10px;font-weight:600} svg .rowlab.hl{fill:#16202b;font-weight:700}
+svg .ci{stroke-width:2} svg .ci.pos{stroke:#1e7a46} svg .ci.neg{stroke:#b3363a} svg .ci.nul{stroke:#72808d}
+svg .dot{stroke:#fff;stroke-width:1.5} svg .dot.pos{fill:#1e7a46} svg .dot.neg{fill:#b3363a} svg .dot.nul{fill:#fff;stroke:#72808d;stroke-width:2}
+svg .dot.s7{fill:#257de0} svg .dot.s3{fill:#f47230} svg .bar7{fill:#257de0} svg .bar3{fill:#f47230} svg .link{stroke:#72808d;stroke-width:2}
+.data .em{display:block;font-size:8px;color:#72808d}
+.tablewrap{overflow:visible;border:0}
+.data{table-layout:fixed;width:100%;font-size:8.5px}
+.data th,.data td{padding:3px 4px;word-break:break-word}
+.data td.num{font-size:8.5px}
+.data.cmt td.cm-ok{background:#e3f3e9;color:#1e7a46} .data.cmt td.cm-bad{background:#fbe7e7;color:#b3363a}
+.figs4{display:flex;flex-wrap:wrap;gap:8px} .figs4>figure{width:48%;break-inside:avoid} .figs4>.col{width:100%}
+svg .seg.pos{fill:#e3f3e9;stroke:#1e7a46} svg .seg.nul{fill:#eef2f5;stroke:#72808d} svg .seg.neg{fill:#fbe7e7;stroke:#b3363a}
+svg .ln{fill:none;stroke-width:2} svg .ln.s7{stroke:#257de0} svg .ln.s3{stroke:#f47230} svg .ln.g{stroke:#72808d} svg .dot.g{fill:#72808d}
+.legend i.segpos{background:#e3f3e9;border:1px solid #1e7a46} .legend i.segnul{background:#eef2f5;border:1px solid #72808d} .legend i.segneg{background:#fbe7e7;border:1px solid #b3363a}
+.data td.wrapcell{white-space:normal;min-width:0;max-width:none}
+figure.keep{break-inside:avoid}
+.data.ex th:nth-child(1){width:10%} .data.ex th:nth-child(2){width:10%} .data.ex th:nth-child(3){width:30%} .data.ex th:nth-child(7){width:6%} .data.ex th:nth-child(8){width:12%}
