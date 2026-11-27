@@ -1,0 +1,68 @@
+{
+  "total_questions": 500,
+  "em": 0.546,
+  "f1": 0.6336,
+  "doc_recall": 0.9095,
+  "correct": 273,
+  "retrieval_failures": 0,
+  "generation_failures": 95,
+  "partial_retrieval": 57,
+  "evidence_selection_failures": 75,
+  "mean_latency_s": 11.55,
+  "p95_latency_s": 16.63,
+  "mean_llm_calls": 3.4,
+  "mean_requirements": 2.49,
+  "mean_proof_units": 2.21,
+  "failure_analysis": {
+    "none": {
+      "count": 273,
+      "fraction": 0.546,
+      "example_ids": [
+        "233efc9208d311ebbd96ac1f6bf848b6",
+        "207788f1084a11ebbd55ac1f6bf848b6",
+        "6c1516100bb011ebab90acde48001122",
+        "fb879dde091911ebbdaeac1f6bf848b6",
+        "b0985e760bda11eba7f7acde48001122"
+      ]
+    },
+    "retrieval": {
+      "count": 0,
+      "fraction": 0.0,
+      "example_ids": []
+    },
+    "evidence_selection": {
+      "count": 75,
+      "fraction": 0.15,
+      "example_ids": [
+        "9e0009f60baf11ebab90acde48001122",
+        "548d8436089b11ebbd78ac1f6bf848b6",
+        "505a63d40bd911eba7f7acde48001122",
+        "16a4a1960bb011ebab90acde48001122",
+        "1c92cdf40bdc11eba7f7acde48001122"
+      ]
+    },
+    "partial_retrieval": {
+      "count": 57,
+      "fraction": 0.114,
+      "example_ids": [
+        "1a6b4170087e11ebbd6bac1f6bf848b6",
+        "8145e4de0baf11ebab90acde48001122",
+        "186e79700bb011ebab90acde48001122",
+        "fcb1a7f4086c11ebbd61ac1f6bf848b6",
+        "24d943ce0bde11eba7f7acde48001122"
+      ],
+      "mean_recall": 0.5
+    },
+    "generation": {
+      "count": 95,
+      "fraction": 0.19,
+      "example_ids": [
+        "ff243e0708e811ebbda7ac1f6bf848b6",
+        "cce5bb160bdd11eba7f7acde48001122",
+        "b7fc49ae0bdd11eba7f7acde48001122",
+        "6e5f2a2e085d11ebbd5cac1f6bf848b6",
+        "84798504087911ebbd67ac1f6bf848b6"
+      ]
+    }
+  }
+}

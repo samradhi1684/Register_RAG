@@ -1,0 +1,49 @@
+{
+ "failures": 251,
+ "subcauses": {
+  "retrieval: gold snippet not retrieved": 26,
+  "step_not_found: final answer guessed": 96,
+  "wrong_value: wrong entity / value": 35,
+  "reranking: retrieved, cut from top-10": 28,
+  "wrong_value: partial / granularity": 44,
+  "step_not_found: final answer refused": 8,
+  "wrong_value: gold bound, lost": 14
+ },
+ "flags": {
+  "yes/no flip (with missing step)": 39,
+  "yes/no flip: gold yes -> no": 51,
+  "yes/no flip": 14
+ },
+ "by_type": {
+  "Descriptive": {
+   "step_not_found": 33,
+   "wrong_value": 23,
+   "reranking": 8,
+   "retrieval": 6
+  },
+  "Factual": {
+   "retrieval": 3,
+   "step_not_found": 10,
+   "wrong_value": 31,
+   "reranking": 5
+  },
+  "Legal-Obligation": {
+   "reranking": 9,
+   "step_not_found": 30,
+   "wrong_value": 24,
+   "retrieval": 8
+  },
+  "Yes-No": {
+   "step_not_found": 19,
+   "wrong_value": 6,
+   "reranking": 2,
+   "retrieval": 5
+  },
+  "Yes-No-cond": {
+   "retrieval": 4,
+   "step_not_found": 12,
+   "wrong_value": 9,
+   "reranking": 4
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "overall": {
+    "n": 100,
+    "em": 0.49,
+    "f1": 0.5924,
+    "rouge_l": 0.5924,
+    "yesno_n": 7,
+    "yesno_acc": 0.7143,
+    "yesno_majority_rate": 0.7143,
+    "doc_recall": 0.8575,
+    "evidence_recall": null,
+    "evidence_hit": null,
+    "answer_evidence_hit": null
+  },
+  "by_type": {
+    "bridge_comparison": {
+      "n": 25,
+      "em": 0.48,
+      "f1": 0.48,
+      "rouge_l": 0.48,
+      "yesno_n": 4,
+      "yesno_acc": 0.5,
+      "yesno_majority_rate": 0.75,
+      "doc_recall": 0.67,
+      "evidence_recall": null,
+      "evidence_hit": null,
+      "answer_evidence_hit": null
+    },
+    "comparison": {
+      "n": 25,
+      "em": 0.96,
+      "f1": 0.96,
+      "rouge_l": 0.96,
+      "yesno_n": 3,
+      "yesno_acc": 1.0,
+      "yesno_majority_rate": 0.6667,
+      "doc_recall": 1.0,
+      "evidence_recall": null,
+      "evidence_hit": null,
+      "answer_evidence_hit": null
+    },
+    "compositional": {
+      "n": 25,
+      "em": 0.28,
+      "f1": 0.4315,
+      "rouge_l": 0.4315,
+      "yesno_n": 0,
+      "yesno_acc": null,
+      "yesno_majority_rate": null,
+      "doc_recall": 0.96,
+      "evidence_recall": null,
+      "evidence_hit": null,
+      "answer_evidence_hit": null
+    },
+    "inference": {
+      "n": 25,
+      "em": 0.24,
+      "f1": 0.498,
+      "rouge_l": 0.498,
+      "yesno_n": 0,
+      "yesno_acc": null,
+      "yesno_majority_rate": null,
+      "doc_recall": 0.8,
+      "evidence_recall": null,
+      "evidence_hit": null,
+      "answer_evidence_hit": null
+    }
+  },
+  "missing_questions": 0
+}

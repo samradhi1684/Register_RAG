@@ -1,0 +1,36 @@
+{
+ "failures": 304,
+ "subcauses": {
+  "reranking: retrieved, cut from top-10": 37,
+  "wrong_value: wrong entity / value": 39,
+  "retrieval: later hop (cascade)": 163,
+  "wrong_value: gold bound, lost": 11,
+  "step_not_found: final answer guessed": 38,
+  "step_not_found: final answer refused": 4,
+  "wrong_value: partial / granularity": 9,
+  "retrieval: first hop missed": 3
+ },
+ "flags": {
+  "planner: fewer steps than gold evidence": 126
+ },
+ "by_type": {
+  "2hop": {
+   "wrong_value": 32,
+   "retrieval": 29,
+   "reranking": 8,
+   "step_not_found": 15
+  },
+  "3hop": {
+   "retrieval": 48,
+   "reranking": 10,
+   "wrong_value": 25,
+   "step_not_found": 21
+  },
+  "4hop": {
+   "reranking": 19,
+   "retrieval": 89,
+   "step_not_found": 6,
+   "wrong_value": 2
+  }
+ }
+}

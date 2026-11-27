@@ -1,0 +1,73 @@
+{
+  "total_questions": 500,
+  "em": 0.228,
+  "f1": 0.3308,
+  "doc_recall": 0.8313,
+  "correct": 114,
+  "retrieval_failures": 4,
+  "generation_failures": 69,
+  "partial_retrieval": 96,
+  "evidence_selection_failures": 217,
+  "mean_latency_s": 9.88,
+  "p95_latency_s": 14.44,
+  "mean_llm_calls": 2.28,
+  "mean_requirements": 2.64,
+  "mean_proof_units": 2.07,
+  "failure_analysis": {
+    "none": {
+      "count": 114,
+      "fraction": 0.228,
+      "example_ids": [
+        "2hop__91667_67223",
+        "4hop1__39871_314549_131976_90181",
+        "2hop__30905_213732",
+        "4hop3__387712_132409_146285_35031",
+        "3hop2__326964_7719_7713"
+      ]
+    },
+    "retrieval": {
+      "count": 4,
+      "fraction": 0.008,
+      "example_ids": [
+        "2hop__85596_807969",
+        "2hop__159903_419949",
+        "2hop__56307_604644",
+        "4hop3__175072_88460_30152_20999"
+      ]
+    },
+    "evidence_selection": {
+      "count": 217,
+      "fraction": 0.434,
+      "example_ids": [
+        "4hop1__690653_378185_282674_759393",
+        "2hop__62020_158262",
+        "3hop2__326964_811351_7713",
+        "4hop1__749065_698949_157828_162309",
+        "2hop__89460_75184"
+      ]
+    },
+    "partial_retrieval": {
+      "count": 96,
+      "fraction": 0.192,
+      "example_ids": [
+        "2hop__342746_679190",
+        "2hop__747894_135844",
+        "4hop1__264443_49925_13759_736921",
+        "4hop1__131820_59747_211319_557671",
+        "4hop2__161602_474028_88460_21062"
+      ],
+      "mean_recall": 0.48
+    },
+    "generation": {
+      "count": 69,
+      "fraction": 0.138,
+      "example_ids": [
+        "2hop__35137_22932",
+        "3hop1__140786_2053_52946",
+        "3hop1__68802_89752_49923",
+        "3hop1__751782_2053_52946",
+        "3hop1__109185_720914_27537"
+      ]
+    }
+  }
+}

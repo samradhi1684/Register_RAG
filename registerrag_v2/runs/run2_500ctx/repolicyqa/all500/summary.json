@@ -1,0 +1,65 @@
+{
+  "total_questions": 500,
+  "em": 0.328,
+  "f1": 0.4855,
+  "doc_recall": 0.994,
+  "correct": 164,
+  "retrieval_failures": 3,
+  "generation_failures": 146,
+  "partial_retrieval": 0,
+  "evidence_selection_failures": 187,
+  "mean_latency_s": 11.85,
+  "p95_latency_s": 17.27,
+  "mean_llm_calls": 2.97,
+  "mean_requirements": 1.99,
+  "mean_proof_units": 1.29,
+  "failure_analysis": {
+    "none": {
+      "count": 164,
+      "fraction": 0.328,
+      "example_ids": [
+        "22418_0",
+        "22725_0",
+        "22434_0",
+        "22301_0",
+        "22538_0"
+      ]
+    },
+    "retrieval": {
+      "count": 3,
+      "fraction": 0.006,
+      "example_ids": [
+        "22493_2",
+        "22405_4",
+        "22736_3"
+      ]
+    },
+    "evidence_selection": {
+      "count": 187,
+      "fraction": 0.374,
+      "example_ids": [
+        "22405_0",
+        "22618_0",
+        "22694_0",
+        "22493_0",
+        "22451_0"
+      ]
+    },
+    "partial_retrieval": {
+      "count": 0,
+      "fraction": 0.0,
+      "example_ids": []
+    },
+    "generation": {
+      "count": 146,
+      "fraction": 0.292,
+      "example_ids": [
+        "22429_0",
+        "22543_0",
+        "22664_0",
+        "22576_0",
+        "22678_0"
+      ]
+    }
+  }
+}

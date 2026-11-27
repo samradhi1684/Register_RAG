@@ -49,17 +49,9 @@ tracing/
 .vscode/
 .idea/
 
-# Exclude generated files inside the copied project
-registerrag_clean copy/cache/
-registerrag_clean copy/registerrag/data/
-registerrag_clean copy/registerrag/corpus/
-registerrag_clean copy/registerrag/__pycache__/
-registerrag_clean copy/**/__pycache__/
-registerrag_clean copy/logs/
-registerrag_clean copy/runs/
-registerrag_clean copy/outputs/
-registerrag_clean copy/results/
+# Rules for the copied project live in "registerrag_v2/.gitignore"
 
-cache/
-*.sqlite
-*.db
+# Local MuSiQue-30 LiveLedger experiment (not committed)
+musique_30_sample.json
+runs_musique30/
+runs_musique30_liveledger.log

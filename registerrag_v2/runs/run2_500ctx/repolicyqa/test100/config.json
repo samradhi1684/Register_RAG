@@ -1,0 +1,128 @@
+{
+  "llm_provider": "ollama",
+  "llm_model": "qwen2.5:7b",
+  "llm_temperature": 0.0,
+  "ollama_base_url": "http://localhost:11434",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_device": "cpu",
+  "embedding_batch_size": 256,
+  "top_k_initial": 20,
+  "top_k_final": 10,
+  "hybrid_lambda": 0.5,
+  "graph_max_entity_units": 50,
+  "graph_entity_link_k": 5,
+  "graph_semantic_top_k": 5,
+  "graph_semantic_threshold": 0.7,
+  "graph_expansion_hops": 1,
+  "graph_expansion_top_n": 5,
+  "verifier_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "verifier_batch_size": 32,
+  "register_token_budget": 600,
+  "max_requirements": 6,
+  "answer_type_to_ner": {
+    "person": [
+      "PERSON"
+    ],
+    "place": [
+      "GPE",
+      "LOC",
+      "FAC",
+      "NORP"
+    ],
+    "movie": [
+      "WORK_OF_ART",
+      "ORG"
+    ],
+    "film": [
+      "WORK_OF_ART",
+      "ORG"
+    ],
+    "university": [
+      "ORG",
+      "GPE"
+    ],
+    "org": [
+      "ORG"
+    ],
+    "date": [
+      "DATE"
+    ],
+    "year": [
+      "DATE"
+    ],
+    "number": [
+      "CARDINAL",
+      "ORDINAL",
+      "QUANTITY"
+    ],
+    "amount": [
+      "MONEY",
+      "QUANTITY",
+      "CARDINAL"
+    ]
+  },
+  "spacy_model": "en_core_web_sm",
+  "retrieval_unit": "sentence",
+  "index_dir": "runs\\run2_500ctx\\repolicyqa\\index",
+  "runs_dir": "runs\\run2_500ctx\\repolicyqa",
+  "multi_query_enabled": true,
+  "multi_query_max_variants": 3,
+  "top_k_multi_query": 30,
+  "title_boost_enabled": true,
+  "title_boost_weight": 0.2,
+  "entity_anchor_enabled": true,
+  "root_title_anchor_enabled": true,
+  "title_step_collapse_enabled": false,
+  "hub_filter_enabled": false,
+  "answer_kind_router_enabled": true,
+  "answer_normalize_enabled": false,
+  "yesno_compare_enabled": false,
+  "kinship_templates_enabled": false,
+  "anchor_v1_fallback_enabled": true,
+  "date_compare_enabled": false,
+  "refusal_fallback_enabled": true,
+  "v1_article_title": true,
+  "llm_binding_extraction": true,
+  "self_consistency_enabled": true,
+  "self_consistency_k": 3,
+  "self_consistency_temperature": 0.35,
+  "gap_fill_enabled": true,
+  "gap_fill_max_iter": 2,
+  "gap_fill_confidence_threshold": 0.5,
+  "gap_fill_top_k_boost": 10,
+  "register_eviction_enabled": true,
+  "answer_verify_enabled": true,
+  "answer_verify_threshold": -2.0,
+  "answer_verify_max_retries": 1,
+  "max_questions": -1,
+  "seed": 42,
+  "scope_anchor_enabled": true,
+  "scope_min_coverage": 0.5,
+  "anchor_inject_all_max": 40,
+  "anchor_scope_top_n": 30,
+  "missing_step_evidence_enabled": true,
+  "missing_step_evidence_k": 3,
+  "planner_nested_rules_enabled": false,
+  "joint_binding_fallback_enabled": true,
+  "joint_binding_k": 5,
+  "joint_binding_first": false,
+  "answer_minimal_span_enabled": false,
+  "compare_operator_enabled": true,
+  "choice_snap_enabled": true,
+  "answer_type_check_enabled": true,
+  "description_complete_enabled": false,
+  "binding_answer_first": true,
+  "binding_answer_check": false,
+  "binding_type_check": true,
+  "backtrack_enabled": true,
+  "backtrack_width": 3,
+  "backtrack_extract_calls": 3,
+  "nli_verify_enabled": false,
+  "nli_model": "cross-encoder/nli-deberta-v3-base",
+  "nli_lookahead": 0,
+  "nli_contradiction_min": 0.5,
+  "replan_enabled": false,
+  "replan_max_steps": 2,
+  "replan_max_per_question": 2,
+  "llm_cache_path": "cache\\run2_500ctx-dsire92-qwen2.5-7b.sqlite"
+}

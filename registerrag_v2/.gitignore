@@ -1,0 +1,12 @@
+# Generated files in this folder (paths are relative to this folder)
+cache/
+registerrag/data/
+registerrag/corpus/
+**/__pycache__/
+logs/
+outputs/
+results/
+
+# Runs: keep scores, summaries, reports and plots; never commit indexes or traces
+runs/**/index/
+runs/**/traces/

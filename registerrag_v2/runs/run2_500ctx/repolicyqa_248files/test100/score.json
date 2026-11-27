@@ -1,0 +1,83 @@
+{
+  "overall": {
+    "n": 100,
+    "em": 0.32,
+    "f1": 0.4985,
+    "rouge_l": 0.4785,
+    "yesno_n": 42,
+    "yesno_acc": 0.7619,
+    "yesno_majority_rate": 0.7143,
+    "doc_recall": 1.0,
+    "evidence_recall": 0.4882,
+    "evidence_hit": 0.47,
+    "answer_evidence_hit": 0.71
+  },
+  "by_type": {
+    "Descriptive": {
+      "n": 20,
+      "em": 0.0,
+      "f1": 0.347,
+      "rouge_l": 0.2927,
+      "yesno_n": 0,
+      "yesno_acc": null,
+      "yesno_majority_rate": null,
+      "doc_recall": 1.0,
+      "evidence_recall": 0.4681,
+      "evidence_hit": 0.55,
+      "answer_evidence_hit": 0.75
+    },
+    "Factual": {
+      "n": 20,
+      "em": 0.2,
+      "f1": 0.4063,
+      "rouge_l": 0.394,
+      "yesno_n": 1,
+      "yesno_acc": 1.0,
+      "yesno_majority_rate": 1.0,
+      "doc_recall": 1.0,
+      "evidence_recall": 0.4797,
+      "evidence_hit": 0.35,
+      "answer_evidence_hit": 0.6
+    },
+    "Legal-Obligation": {
+      "n": 20,
+      "em": 0.0,
+      "f1": 0.3331,
+      "rouge_l": 0.2995,
+      "yesno_n": 2,
+      "yesno_acc": 1.0,
+      "yesno_majority_rate": 0.5,
+      "doc_recall": 1.0,
+      "evidence_recall": 0.376,
+      "evidence_hit": 0.35,
+      "answer_evidence_hit": 0.6
+    },
+    "Yes-No": {
+      "n": 20,
+      "em": 0.75,
+      "f1": 0.75,
+      "rouge_l": 0.75,
+      "yesno_n": 20,
+      "yesno_acc": 0.75,
+      "yesno_majority_rate": 0.75,
+      "doc_recall": 1.0,
+      "evidence_recall": 0.4807,
+      "evidence_hit": 0.45,
+      "answer_evidence_hit": 0.85
+    },
+    "Yes-No-cond": {
+      "n": 20,
+      "em": 0.65,
+      "f1": 0.6562,
+      "rouge_l": 0.6562,
+      "yesno_n": 19,
+      "yesno_acc": 0.7368,
+      "yesno_majority_rate": 0.6842,
+      "doc_recall": 1.0,
+      "evidence_recall": 0.6365,
+      "evidence_hit": 0.65,
+      "answer_evidence_hit": 0.75
+    }
+  },
+  "missing_questions": 0
+}
